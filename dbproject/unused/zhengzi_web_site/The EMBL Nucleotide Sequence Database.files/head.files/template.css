@@ -1,0 +1,204 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: hidden; WIDTH: 100%; PADDING-TOP: 0px
+}
+.footer {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 8pt; RIGHT: 0px; LEFT: 0px; PADDING-BOTTOM: 5px; MARGIN: 0px; WIDTH: 99.8%; COLOR: #000000; PADDING-TOP: 4px; WHITE-SPACE: nowrap; POSITION: absolute; HEIGHT: 17px; BACKGROUND-COLOR: #dedede; TEXT-ALIGN: left
+}
+.headerlayer {
+	BORDER-TOP-WIDTH: 0px; CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; LEFT: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px; POSITION: absolute; TOP: 0px; HEIGHT: 800px; BORDER-RIGHT-WIDTH: 0px
+}
+.header {
+	BORDER-TOP-WIDTH: 0px; CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: url(http://www.ebi.ac.uk/inc/images/embl_green.gif) #dedede left top; LEFT: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: #000000; PADDING-TOP: 0px; POSITION: absolute; TOP: 0px; HEIGHT: 57px; BORDER-RIGHT-WIDTH: 0px
+}
+.headerleft {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; LEFT: 0px; FLOAT: left; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 126px; PADDING-TOP: 0px; POSITION: absolute; TOP: 0px; HEIGHT: 35px; BORDER-RIGHT-WIDTH: 0px
+}
+.headerleft IMG {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: 120px; PADDING-TOP: 2px; HEIGHT: 32px; BORDER-RIGHT-WIDTH: 0px
+}
+.headerright {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; RIGHT: 0px; LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; POSITION: absolute; TOP: 0px; HEIGHT: 35px
+}
+.headerbotrow {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; RIGHT: 0px; LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; POSITION: absolute; TOP: 20px; HEIGHT: 20px
+}
+.headertoprow {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; RIGHT: 0px; LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: auto; PADDING-TOP: 0px; POSITION: relative; TOP: 0px; HEIGHT: 15px
+}
+.headermenurow {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: #404040; LEFT: 0px; FLOAT: left; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: #000000; PADDING-TOP: 0px; WHITE-SPACE: nowrap; POSITION: absolute; TOP: 35px; HEIGHT: 22px; BORDER-RIGHT-WIDTH: 0px
+}
+.icons {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.search {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 130px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 6px 0px 0px; VERTICAL-ALIGN: top; PADDING-TOP: 2px; HEIGHT: 35px; min-width: 640px
+}
+.div_searchtext {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(http://www.ebi.ac.uk/inc/images/header_search_revised.gif) no-repeat left top; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 2px 0px 0px; WIDTH: 50px; PADDING-TOP: 0px; POSITION: relative; HEIGHT: 20px
+}
+.headerform {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.headertextinput {
+	BORDER-RIGHT: #a5acb2 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #a5acb2 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #a5acb2 1px solid; WIDTH: 255px; COLOR: #404040; PADDING-TOP: 2px; BORDER-BOTTOM: #a5acb2 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.headerselect {
+	BORDER-RIGHT: #a5acb2 1px solid; BORDER-TOP: #a5acb2 1px solid; PADDING-BOTTOM: 1px; MARGIN: 0px; BORDER-LEFT: #a5acb2 1px solid; WIDTH: 150px; COLOR: #404040; PADDING-TOP: 1px; BORDER-BOTTOM: #a5acb2 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.div_headertextinput {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 259px; PADDING-TOP: 0px; POSITION: relative
+}
+.div_headerselect {
+	PADDING-RIGHT: 2px; FLOAT: left; WIDTH: 150px; POSITION: relative
+}
+.headerbutton {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 9px; BACKGROUND: #e33e3e; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: text-bottom; COLOR: #ffffff; PADDING-TOP: 0px; BORDER-COLLAPSE: collapse; HEIGHT: 20px; TEXT-ALIGN: center; BORDER-RIGHT-WIDTH: 0px
+}
+.headerbuttonreset {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 9px; BACKGROUND: #e33e3e; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: text-bottom; COLOR: #ffffff; PADDING-TOP: 0px; BORDER-COLLAPSE: collapse; HEIGHT: 20px; TEXT-ALIGN: center; BORDER-RIGHT-WIDTH: 0px
+}
+.headerbutton {
+	WIDTH: 20px
+}
+.headerbuttonreset {
+	WIDTH: 37px
+}
+.div_headerbutton {
+	BORDER-TOP-WIDTH: 0px; MARGIN-TOP: 0px; BORDER-LEFT-WIDTH: 0px; FLOAT: left; BORDER-BOTTOM-WIDTH: 0px; MARGIN-LEFT: 2px; POSITION: relative; HEIGHT: 20px; BORDER-RIGHT-WIDTH: 0px
+}
+.div_cancel_button {
+	BORDER-TOP-WIDTH: 0px; MARGIN-TOP: 0px; BORDER-LEFT-WIDTH: 0px; FLOAT: left; BORDER-BOTTOM-WIDTH: 0px; MARGIN-LEFT: 2px; POSITION: relative; HEIGHT: 20px; BORDER-RIGHT-WIDTH: 0px
+}
+.div_headerbutton {
+	WIDTH: 20px
+}
+.div_feedback {
+	BORDER-TOP-WIDTH: 0px; MARGIN-TOP: 0px; BORDER-LEFT-WIDTH: 0px; FLOAT: left; BORDER-BOTTOM-WIDTH: 0px; MARGIN-LEFT: 2px; WIDTH: 152px; POSITION: relative; HEIGHT: 24px; BORDER-RIGHT-WIDTH: 0px
+}
+.div_cancel_button {
+	WIDTH: 37px
+}
+.headerbutton:hover {
+	CURSOR: pointer
+}
+.headerbuttonreset:hover {
+	CURSOR: pointer
+}
+.reset_button_image {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 152px; HEIGHT: 24px; BORDER-RIGHT-WIDTH: 0px
+}
+.help_button_image {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 20px; HEIGHT: 20px; BORDER-RIGHT-WIDTH: 0px
+}
+.div_help_button {
+	BORDER-TOP-WIDTH: 0px; MARGIN-TOP: 0px; BORDER-LEFT-WIDTH: 0px; FLOAT: left; BORDER-BOTTOM-WIDTH: 0px; MARGIN-LEFT: 2px; WIDTH: 20px; POSITION: relative; HEIGHT: 20px; BORDER-RIGHT-WIDTH: 0px
+}
+.odd {
+	COLOR: #000000; BACKGROUND-COLOR: #e9effd
+}
+.maincat {
+	FONT-WEIGHT: bold; COLOR: #000000; BACKGROUND-COLOR: #dddddd
+}
+.headertextinput {
+	FONT-SIZE: 9pt; FONT-FAMILY: helvetica, "trebuchet MS", arial, sans-serif
+}
+.headerselect {
+	FONT-SIZE: 9pt; FONT-FAMILY: helvetica, "trebuchet MS", arial, sans-serif
+}
+.headerbutton {
+	FONT-SIZE: 9pt; FONT-FAMILY: helvetica, "trebuchet MS", arial, sans-serif
+}
+.headerbuttonreset {
+	FONT-SIZE: 9pt; FONT-FAMILY: helvetica, "trebuchet MS", arial, sans-serif
+}
+.maincat {
+	FONT-SIZE: 9pt; FONT-FAMILY: helvetica, "trebuchet MS", arial, sans-serif
+}
+.search {
+	FONT-SIZE: 9pt; FONT-FAMILY: helvetica, "trebuchet MS", arial, sans-serif
+}
+.icons {
+	FONT-SIZE: 9pt; FONT-FAMILY: helvetica, "trebuchet MS", arial, sans-serif
+}
+.menu {
+	FONT-SIZE: 9pt; FONT-FAMILY: helvetica, "trebuchet MS", arial, sans-serif
+}
+.breadcrumbs {
+	FONT-SIZE: 9pt; FONT-FAMILY: helvetica, "trebuchet MS", arial, sans-serif
+}
+#menubar {
+	FONT-SIZE: 9pt; FONT-FAMILY: helvetica, "trebuchet MS", arial, sans-serif
+}
+.therightstuff {
+	FONT-SIZE: 9pt; FONT-FAMILY: helvetica, "trebuchet MS", arial, sans-serif
+}
+.headermenurow {
+	FONT-SIZE: 9pt; FONT-FAMILY: helvetica, "trebuchet MS", arial, sans-serif
+}
+.search {
+	FONT-SIZE: 9pt; FONT-FAMILY: helvetica, "trebuchet MS", arial, sans-serif
+}
+.therighticons {
+	FONT-SIZE: 9pt; FONT-FAMILY: helvetica, "trebuchet MS", arial, sans-serif
+}
+.icons IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 18px; HEIGHT: 18px; BORDER-RIGHT-WIDTH: 0px
+}
+.icons IMG.rss {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 35px; HEIGHT: 18px; BORDER-RIGHT-WIDTH: 0px
+}
+.therightstuff A {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 1px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #dedede; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #207a7a; BORDER-RIGHT-WIDTH: 0px; TEXT-DECORATION: underline
+}
+.therightstuff A IMG {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 94px; PADDING-TOP: 0px; HEIGHT: 13px; BORDER-RIGHT-WIDTH: 0px
+}
+.therighticons {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; LEFT: 666px; FLOAT: right; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100px; PADDING-TOP: 0px; WHITE-SPACE: nowrap; POSITION: absolute; TOP: 35px; HEIGHT: 15px; TEXT-ALIGN: right
+}
+.therighticons IMG.rssicon {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 22px; HEIGHT: 16px; BORDER-RIGHT-WIDTH: 0px
+}
+.therighticons IMG.print {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 16px; HEIGHT: 19px; BORDER-RIGHT-WIDTH: 0px
+}
+.therighticons IMG.sitemap {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 45px; HEIGHT: 19px; BORDER-RIGHT-WIDTH: 0px
+}
+.therighticons A {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.footer {
+	FONT-SIZE: 8pt; FONT-FAMILY: helvetica, "trebuchet MS", arial, sans-serif
+}
+.footer A {
+	COLOR: #404040; BACKGROUND-COLOR: #dedede; TEXT-DECORATION: underline
+}
+.footer A:link {
+	TEXT-DECORATION: underline
+}
+.footer A:visited {
+	TEXT-DECORATION: underline
+}
+.footer A:active {
+	TEXT-DECORATION: none
+}
+.footer A:hover {
+	TEXT-DECORATION: none
+}
+.footer_text {
+	WIDTH: 500px; POSITION: relative; TOP: 2px; TEXT-ALIGN: center
+}
+.footerdiv IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 11px; HEIGHT: 7px; BORDER-RIGHT-WIDTH: 0px
+}
+.headermenurowtable {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px; POSITION: relative; BORDER-COLLAPSE: collapse; BORDER-RIGHT-WIDTH: 0px
+}
+.headermenurowtable TD {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.spacer {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; WIDTH: 1px; PADDING-TOP: 0px; HEIGHT: 5px; BORDER-RIGHT-WIDTH: 0px
+}

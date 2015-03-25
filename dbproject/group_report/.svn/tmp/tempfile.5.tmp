@@ -1,0 +1,265 @@
+\section{Outcomes}
+The KiPhoDB project had a lot of positive outcomes both for the members of the group and the scientific community.
+In the following list, the benefits for the scientific community are discussed in more detail.
+Later in this chapter we will also provide more details about the benefits for the group members, too.
+
+\begin{itemize}
+\item \textbf{KiPhoDB - A Unified Resource} \\
+After the development of KiPhoDB, the scientific community has the opportunity to use a new data resource that contains valuable information about kinases, phosphatases, substrates, reactions, pathways, etc.
+We have developed the database and the website in such a way that KiPhoDB has now become a one-stop-shop for every researcher interested in this kind of information.
+All data stored in our database comes from a wide variety of data sources and therefore we managed to combine the positive aspects of every source that we used, while at the same time reject all negative characteristics.
+
+\item \textbf{Kinase - Phosphatase Pairs} \\
+One of the main innovations of KiPhoDB is that it provides its users the opportunity to search the database and identify potential kinase and phosphatase pairs that act on the same substrate.
+Subsequently users can utilize this information to gain a deeper understanding and shed light on the various pathways that exist in living cells and involve this kind of molecules.
+Additionally, this information can be used to pinpoint potential drug targets, design new drugs and offer treatment to common diseases.
+
+\item \textbf{High Quality Data} \\
+During the development of KiPhoDB we paid close attention to the quality of data entering the database.
+We constantly monitored the quality of information that we used in order to populate the tables of KiPhoDB and we managed to prevent low quality, automatically generated data from entering our database.
+This fact is very important because it offers users the guarantee that each piece of information extracted from the database is manually curated.
+
+\item \textbf{Data Extraction} \\
+The past three months we have worked hard not only to build the database and find the data to store in it, but also develop all necessary software tools that will enable users to easily and effectively extract valuable information from it.
+We firmly believe that a database is not very useful to end users if it does not offer these possibilities.
+Therefore we tried our best to develop a wide range of software tools that would offer the opportunity to exploit the data contained inside the database in every possible way.
+At the end we managed to create seven distinct data extraction tools, each one of which was specifically designed for a purpose.
+For a more detailed description of the function of each tool, its advantages and its disadvantages, we refer the reader to previous chapters of this report. 
+\end{itemize}
+
+In Table \ref{table:KiPhoDBContents} the current contents of our database are summarized.
+Of course the population of each object in the database will change over time as more proteins, reactions and pathways are added.
+Tables \ref{table:reactions_per_organism}, \ref{table:pathways_per_organism} and \ref{table:top_pathways} present further information about the contents of our database.
+Table \ref{table:reactions_per_organism} shows the number of phosphorylation and dephosphorylation reactions available in the database for every organism, whereas Table \ref{table:pathways_per_organism} presents the number of pathways in the database for every organism.
+Finally, Table \ref{table:top_pathways} includes information about the phosphorylation and desphosphorylation reactions of the top ten pathways that the KiPhoDB database has the most reactions in human. 
+It is immediately obvious from these tables that the scientific community has identified much less dephosphorylation reactions in comparison to phosphorylation reactions.
+
+\begin{table}[h]
+\vspace{1cm}
+\begin{center}
+\begin{tabular}{ | l | r | }
+\hline
+\textbf{Object} & \textbf{Population} \\
+\hline
+\hline
+Proteins & 9263\\
+\hline
+Protein Domains & 1741\\
+\hline
+Protein - Domain Relationships & 11762\\
+\hline
+Domain - Domain Relationships & 0\\
+\hline
+Phosphorylation Sites & 39968\\
+\hline
+GO Terms & 4257\\
+\hline
+Protein - GO Term Relationships & 45801\\
+\hline
+Reactions & 4387\\
+\hline
+Pathways & 382\\
+\hline
+Reaction - Pathway Relationships & 10384\\
+\hline
+Trees & 0 \\
+\hline
+Organisms & 1141\\
+\hline
+Gene Families & 121 \\
+\hline
+External IDs & 23733 \\
+\hline
+References & 25807\\
+\hline
+Files & 0 \\
+\hline
+\end{tabular}
+\end{center}
+\caption{The current contents of KiPhoDB.}
+\label{table:KiPhoDBContents}
+\vspace{1cm}
+\end{table}
+
+\begin{table}[h]
+\vspace{1cm}
+\begin{center}
+\begin{tabular} {|l|c|c|c|}
+\hline
+\textbf{Organism Name} & \textbf{Phosphorylation} & \textbf{Dephosphorylation} & \textbf{Total} \\
+& \textbf{Reactions} & \textbf{Reactions} &  \\
+\hline
+Homo sapiens  & 2946 & 75 & 3021 \\
+Mus musculus  & 1205 & 131 & 1336 \\
+Rattus norvegicus & 11 & 13 & 24 \\
+Drosophila melanogaster & 5 & 0 & 5\\
+Oryctolagus cuniculus & 1 & 0 & 1\\
+\hline
+Total & 4168 & 219 & 4387 \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Reactions per organism.}
+\label{table:reactions_per_organism}
+\vspace{1cm}
+\end{table}
+
+\begin{table}[h]
+\vspace{1cm}
+\begin{center}
+\begin{tabular} {|l|c|}
+\hline
+\textbf{Organism Name}          & \textbf{Number of Pathways} \\
+\hline
+Homo sapiens            &      251 \\
+Mus musculus            &       95 \\
+Rattus norvegicus       &       30 \\
+Drosophila melanogaster &        4 \\
+Oryctolagus cuniculus   &        3 \\
+\hline
+Total & 382 \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Pathways per organism.}
+\label{table:pathways_per_organism}
+\vspace{1cm}
+\end{table}
+
+\begin{table}[h]
+\vspace{1cm}
+\begin{center}
+\begin{tabular} {|l|c|c|c|}
+\hline
+\textbf{Pathway} & \textbf{Phosphorylation} & \textbf{Dephosphorylation} & \textbf{Total} \\
+ & \textbf{Reactions} & \textbf{Reactions} &  \\
+\hline
+Cell Cycle, Mitotic  &  238 & 15 & 253  \\
+Signalling by NGF  &  218 &  1 & 219\\
+MAPK signaling pathway & 201 & 0 & 201\\
+Insulin signaling pathway & 134 & 0 & 134\\
+Cell cycle  & 121 & 9 & 130 \\
+Signaling in Immune system  & 118 & 9 & 127\\
+Focal adhesion & 126 & 0 & 126 \\
+Prostate cancer & 106 & 0 & 106 \\
+ErbB signaling pathway & 105 & 0 & 105\\
+BCR signaling pathway  & 92 & 0 &  92\\
+\hline
+\end{tabular}
+\end{center}
+\caption{10 top pathways for which we have the most reactions in human}
+\label{table:top_pathways}
+\vspace{1cm}
+\end{table}
+
+In the following we will provide the reader with a list of the benefits that the involvement with this project has offered the members of the group.
+
+\begin{itemize}
+\item \textbf{Biological Knowledge} \\
+This project gave all members of the KiPhoDB team the opportunity to explore new scientific areas and acquire a lot of knowledge about phosphorylation, kinases, phosphatases, substrates, signalling pathways and many more.
+Furthermore we read many scientific publications and reviews, which enabled us to obtain a solid understanding about the challenges in the field of Bioinformatics and more specifically in the field of reactions and pathways.
+Reading many scientific papers and reviews gave us a clear understanding about many of the challenges in biology and how Bioinformatics can help solving them.
+The significance of kinases and phosphatases in various biological pathways and their association with diseases is one such example.
+
+\item \textbf{Databases} \\
+Building databases is an important aspect for any Bioinformatician. Being involved in creating a database from scratch gave every member of the group valuable exposure about the whole process of building databases.
+Different members of the group were involved in creating different parts of the database, but in the end we all got a clear understanding of the whole process.
+This project also provided all the members an overview of the large number of existing biological public databases available today.
+It gave us an idea how bioinformatics tools are used to create such kind of databases. 
+
+\item \textbf{Scripts} \\
+For populating the database we utilized several python scripts for inputting of data.
+Each member was involved in writing scripts for extracting data from various sources which we had divided amongst ourselves.
+We learned about new libraries and functions like BeautifulSoup, minidom parser, etc for parsing data from various different types of format like CSV, BioPAX, Excel Sheets etc.
+We also learned how to fetch remote web pages on the fly, and parse data from them.
+
+\item \textbf{Undertaking Large Projects} \\
+This group project was constructed from scratch in a span of only three months, which is relatively short time for building a high quality database.
+However we feel that KiPhoDB is a success and provides high quality and reliable data.
+This would not have been possible without close team work and strategic planning.
+In the end this has given all the members of the group the confidence to handle any large project of this sort.
+
+\end{itemize}
+
+
+\section{Have we met the requirements?}
+
+Below is a list of some of the queries initially presented by our supervisors to try and guide us in the design of the project
+and the current status in our system.
+
+\begin{itemize}
+
+\item What is the evolutionary distance between kinase x and kinase y?\\
+We have provided a tool to display phylogenetic trees.
+
+\item What is the evolutionary distance between human kinase x and its orthologue in mouse?\\
+
+\item Which is the closest paralogue of phosphatase x?\\
+We haven't really included paralogue information.
+
+\item What are the other members of the protein family to which kinase x belongs?\\
+There is information about kinase and phosphatase families in our database provided by Treefam \cite{treefam2}.
+
+\item What is the substrate(s)of kinase x?\\
+For each protein we display the phosphorylation and dephosphorylation reactions it is involved in.
+
+\item What is the phosphorlyation site of kinase x?\\
+This information is retrieved from Phosphosite \cite{phosphosite} to which the Uniprot \cite{uniprot} links.
+
+\item What is the kinase counter-part to phospatase x?\\
+There is a search tool to get kinase-phosphatase pairs.
+
+\item Show the pre-computed evolutionary tree to the substrate of kinase x?\\
+We don't precompute evolutionary trees.
+
+\item Which kinases/phosphatases belong to pathway x?\\
+Viewing a particular pathway will tell you which kinases and phosphatases belong to that given pathway.
+
+\item Which human kinases activate other kinases?\\
+Yes a search can be limited to other kinases.
+
+\item Which phophatases activate enzymes?\\
+Yes we store EC numbers.
+
+\item Which kinases have known phosphate counter-parts?\\
+
+\item Which phosphatases have GO annotation x?\\
+Yes it is possible to by GO annotation.
+
+\item What is the EC classification the substrates of kinase x?\\
+If the EC classification is given on Uniprot \cite{uniprot} then it is stored in our database.
+
+\end{itemize}
+
+As you can see most of the requirements have been.
+The evolutionary data still leaves some room for improvement but as we store sequences and domains it is
+possible to infer that information from our data.
+
+\section{Future Plans}
+
+\begin{itemize}
+\item
+Populate Domain-Domain interaction table.
+We have not been able to integrate data for the domain-domain interaction of any particular kinase substrate or phosphatase substrate pairs.
+%We've got the data to determine if a particular domain 
+
+\item
+Improve the interface.
+We have started using Ajax to make the website more interactive and user friendly and to display information with less latency.
+However one of the issues with Ajax is cross browser compatability especially between Internet Explorer and other browsers.
+The information can also be presented better i.e. perhaps more concisely and with more emphasis on the important bits.
+%There also quite a few improvements we can make at the level of our html.
+
+\item
+Improve the search tools.
+Again Ajax can be used to to provide suggestions as the user types in a search field.
+This would be implemented by using what the user has typed so far to make search partial matches.
+
+%\item
+%Provide more links to external websites.
+%The data in our website needs to be more easy to trace back to its source.
+%We know exactly where we got the data from but users of our website need to be able to find that out too.
+%At the moment we provide the source for all the data we have in our database and some direct links for KEGG pathways
+
+
+\end{itemize}

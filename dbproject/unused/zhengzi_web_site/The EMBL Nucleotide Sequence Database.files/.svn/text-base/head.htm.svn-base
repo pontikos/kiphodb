@@ -1,0 +1,572 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0034)http://www.ebi.ac.uk/inc/head.html -->
+<!--#set var="decor" value="none"--><HTML lang=eng xml:lang="en" 
+xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>EBI Header</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META 
+content="human genome, 2can, gene, rna, dna, protein, EBI, European Bioinformatics Institute, EMBL, bioinformatics, molecular, genetics, software, databases, genomics, sequencing, protein, computational biology, nucleotide, FASTA, BLAST, SRS, ClustalW2, DNA, RNA, BioInformer, science, leading edge, SD, PDB, Bioinformatics industry, Genomes, Proteomes, Embl-bank, Swissprot+swiss-prot, Trembl, Sptr, Webin, Autodep, Microarray, Pandit, Ensembl, Intact, Integr8, Intenz, Taxonomy, Interpro., Interproscan, Protein, nucleotide, Sequences" 
+name=Keywords>
+<META content="The European Bioinformatics Institute" name=Description>
+<META content=FOLLOW,INDEX name=robots><!--  VERSION 2 MARCH 22 7007 // -->
+<SCRIPT type=text/javascript>
+<!--
+function do_return(){
+	//window.frames['head'].document.forms['Text1293FORM'].elements['query'].value='Enter Text Here';
+	document.forms['Text1293FORM'].elements['query'].value='Enter Text Here';
+	//return false;
+}
+// -->
+</SCRIPT>
+
+<SCRIPT src="head.files/newmenu.js" type=text/javascript></SCRIPT>
+<LINK href="head.files/template.css" type=text/css rel=stylesheet><LINK 
+href="head.files/newmenu.css" type=text/css 
+rel=stylesheet><!--[if lt IE 8]><LINK href="head.files/IE_6.css" type=text/css 
+rel=stylesheet><![endif]--><!--[if gte IE 7]>
+	<link rel="stylesheet"  href="http://www.ebi.ac.uk/inc/css/IE_7.css"   type="text/css" />
+<![endif]-->
+<SCRIPT src="head.files/functions.js" type=text/javascript></SCRIPT>
+
+<SCRIPT type=text/javascript>
+<!--
+if ( (navigator.userAgent.indexOf("Windows") != -1) && ( (navigator.userAgent.indexOf("Safari") != -1)  )   ){
+	document.write('<link rel="stylesheet" href="http://www.ebi.ac.uk/inc/css/windows_safari.css" type="text/css" />');
+}
+// -->
+</SCRIPT>
+<LINK title="EBI News RSS" 
+href="http://www.ebi.ac.uk/Information/News/rss/ebinews.xml" 
+type=application/rss+xml rel=alternate>
+<META content="MSHTML 6.00.2900.5726" name=GENERATOR></HEAD>
+<BODY style="BACKGROUND-COLOR: transparent">
+<DIV class=header id=header style="POSITION: fixed">
+<DIV class=headerright>
+<DIV class=search id=search>
+<FORM class=headerform id=Text1293FORM name=Text1293FORM 
+action=http://www.ebi.ac.uk/ebisearch/search.ebi method=get target=_top>
+<DIV class=div_searchtext></DIV>
+<DIV class=div_headerselect><LABEL accessKey=d for=FormsComboBox2><SELECT 
+class=headerselect id=FormsComboBox2 title="Choose a search option here" 
+  name=db> <OPTION value=allebi selected>All Databases</OPTION> <OPTION 
+  value=ebiweb>Website</OPTION> <OPTION 
+value=literature>Literature</OPTION></SELECT></LABEL> </DIV>
+<DIV class=div_headertextinput><LABEL for=sf><INPUT class=headertextinput id=sf 
+title="Enter your query here" accessKey=q 
+onclick="if(this.value==='Enter Text Here'){this.value=''}" 
+alt="Enter your query here" maxLength=256 size=11 value="Enter Text Here" 
+name=query></LABEL></DIV>
+<DIV class=div_headerbutton><LABEL for=FormsButton3><INPUT class=headerbutton id=FormsButton3 title="Submit Search Query" accessKey=g onclick="if(  (document.Text1293FORM.query.value=='') || (document.Text1293FORM.query.value=='Enter Text Here')  ){alert('Please Enter Text'); document.Text1293FORM.query.focus(); document.Text1293FORM.query.select(); return false;}" type=submit alt="Submit Search Query" value=Go name=FormsButton3></LABEL> 
+</DIV>
+<DIV class=div_feedback><IMG class=reset_button_image alt=imagemap 
+src="head.files/reset_button_feedback2.gif" useMap=#resetMap border=0 
+name=reset> <MAP id=resetMap name=resetMap><AREA id=reset 
+  title="Clear Search Terms" accessKey=r shape=RECT alt="Clear Search Terms" 
+  coords=2,2,39,12 href="javascript:do_return();"><AREA id=help 
+  title="Help With Searches" accessKey=h shape=RECT target=_top 
+  alt="Help With Searches" coords=40,1,59,14 
+  href="http://www.ebi.ac.uk/inc/help/search_help.html"><AREA 
+  title="Advanced Search" shape=RECT target=_top alt="Advanced Search" 
+  coords=2,15,71,25 
+  href="http://www.ebi.ac.uk/ebisearch/advancedsearch.ebi"><AREA 
+  title="Give us feedback" shape=RECT target=_top alt="Give us feedback" 
+  coords=102,1,151,22 href="http://www.ebi.ac.uk/support/"></MAP></DIV><!--<div  class="div_help_button">
+					  	&nbsp;
+					  </div>--></FORM></DIV><!--[if lt IE 8]><IFRAME 
+class=level_1 id=level_1 
+style="LEFT: -100px; WIDTH: 1px; POSITION: absolute; TOP: 54px; HEIGHT: 1px" 
+src="head.files/empty.htm" frameBorder=no scrolling=no></IFRAME><IFRAME 
+class=level_2 id=level_2 
+style="LEFT: -100px; WIDTH: 1px; POSITION: absolute; TOP: 54px; HEIGHT: 1px" 
+src="head.files/empty2.htm" frameBorder=no scrolling=no></IFRAME><![endif]--><!--  do not mess up layout of menu lists as it effects the object model! -->
+<DIV class=headermenurow>
+<DIV id=menucontainer>
+<UL class=mainmenu id=nav onmouseover="bringtotop();  return false;" 
+onmouseout="if (navigator.userAgent.indexOf('Safari') == -1) {bringtobottom(); return false;}">
+  <LI class=willopen id=tab_01><A accessKey=1 onclick="return false;" 
+  href="http://www.ebi.ac.uk/Databases/" target=_top>&nbsp;&nbsp;Databases</A> 
+  <UL>
+    <LI class=willnotopen><A href="http://www.ebi.ac.uk/Databases/" 
+    target=_top>Databases Index</A> </LI>
+    <LI class=willopen><A class=arrow 
+    href="http://www.ebi.ac.uk/Databases/service.html" target=_top>Database 
+    Browsing</A> 
+    <UL>
+      <LI><A href="http://www.biomart.org/biomart/martview" 
+      target=_top>BioMart</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/ebisearch/advancedsearch.ebi" 
+      target=_top>EB-eye</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/embl/sva/" target=_top>EMBL-SVA</A> 
+</LI>
+      <LI><A href="http://www.ebi.ac.uk/Databases/service.html#fetch" 
+      target=_top>Fetch Tools</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/integr8/" target=_top>Integr8</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/ego/index.html" target=_top>QuickGO</A> 
+      </LI>
+      <LI><A href="http://srs.ebi.ac.uk/" target=_top>SRS</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/uniprot-das/" target=_top>UniProt 
+      DAS</A> </LI>
+      <LI><A href="http://www.uniprot.org/" target=_top>UniProt Search</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/Tools/webservices/WSDbfetch.html" 
+      target=_top>WSDbfetch</A> </LI></UL></LI>
+    <LI class=willopen><A class=arrow 
+    href="http://www.ebi.ac.uk/Databases/ontology.html" target=_top>Biological 
+    Ontologies</A> 
+    <UL>
+      <LI><A href="http://www.ebi.ac.uk/chebi/" target=_top>ChEBI</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/GO/" target=_top>GO</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/GOA/" target=_top>GOA</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/newt/" target=_top>NEWT</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/ontology-lookup/" target=_top>Ontology 
+      Lookup</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/ego/" target=_top>QuickGO</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/sbo/" target=_top>SBO</A> </LI>
+      <LI><A 
+      href="http://srs.ebi.ac.uk/srsbin/cgi-bin/wgetz?-page+query+-libList+TAXONOMY" 
+      target=_top>Taxonomy</A> </LI></UL></LI>
+    <LI class=willopen><A class=arrow 
+    href="http://www.ebi.ac.uk/Databases/literature.html" 
+    target=_top>Literature</A> 
+    <UL>
+      <LI><A href="http://www.ebi.ac.uk/citexplore/" target=_top>CiteXplore</A> 
+      </LI>
+      <LI><A 
+      href="http://srs.ebi.ac.uk/srsbin/cgi-bin/wgetz?-page+query+-libList+OMIM" 
+      target=_top>OMIM</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/Databases/MEDLINE/medline.html" 
+      target=_top>MEDLINE</A> </LI>
+      <LI><A 
+      href="http://srs.ebi.ac.uk/srsbin/cgi-bin/wgetz?-page+query+-libList+PATABS" 
+      target=_top>Patent Abstracts</A> </LI></UL></LI>
+    <LI class=willopen><A class=arrow 
+    href="http://www.ebi.ac.uk/Databases/microarray.html" 
+    target=_top>Microarray</A> 
+    <UL>
+      <LI><A href="http://www.ebi.ac.uk/arrayexpress/" 
+      target=_top>ArrayExpress</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/microarray-as/aew" 
+      target=_top>ArrayExpress Warehouse</A> </LI></UL></LI>
+    <LI class=willopen><A class=arrow 
+    href="http://www.ebi.ac.uk/Databases/nucleotide.html" 
+    target=_top>Nucleotide</A> 
+    <UL>
+      <LI><A href="http://www.ebi.ac.uk/astd/" target=_top>ASTD</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/ega/" target=_top>EGA</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/embl/Submission/alignment.html" 
+      target=_top>EMBL-Align</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/embl/" target=_top>EMBL-Bank</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/embl/cds/" target=_top>EMBL-CDS</A> 
+</LI>
+      <LI><A href="http://www.ebi.ac.uk/ensembl/" target=_top>Ensembl</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/GenomeReviews/" target=_top>Genome 
+      Reviews</A> </LI>
+      <LI><A href="http://www.genenames.org/" target=_blank>HGNC</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/genomes/" target=_top>Genomes Server</A> 
+      </LI>
+      <LI><A href="http://www.ebi.ac.uk/imgt/hla/" target=_top>IMGT/HLA</A> 
+</LI>
+      <LI><A href="http://imgt.cines.fr/" target=_top>IMGT/LIGM</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/ipd/" target=_top>IPD</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/compneur-srv/LGICdb/" 
+      target=_top>LGICdb</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/parasites/parasite-genome.html" 
+      target=_top>Parasites</A> </LI></UL></LI>
+    <LI class=willopen><A class=arrow 
+    href="http://www.ebi.ac.uk/Databases/pathways.html" target=_top>Pathways 
+    &amp; Networks</A> 
+    <UL>
+      <LI><A href="http://www.ebi.ac.uk/biomodels/" target=_top>BioModels</A> 
+      </LI>
+      <LI><A href="http://www.ebi.ac.uk/intact/" target=_top>IntAct</A> </LI>
+      <LI><A href="http://www.reactome.org/" target=_top>Reactome</A> 
+    </LI></UL></LI>
+    <LI class=willopen><A class=arrow 
+    href="http://www.ebi.ac.uk/Databases/protein.html" target=_top>Protein</A> 
+    <UL>
+      <LI><A href="http://www.ebi.ac.uk/clustr/" target=_top>CluSTr</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/thornton-srv/databases/CSA/" 
+      target=_top>CSA</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/GOA/" target=_top>GOA</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/swissprot/hpi/hpi.html" 
+      target=_top>HPI</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/IntEnz/" target=_top>IntEnz</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/interpro/" target=_top>InterPro</A> 
+</LI>
+      <LI><A href="http://www.ebi.ac.uk/IPI/IPIhelp.html" target=_top>IPI</A> 
+      </LI>
+      <LI><A href="http://www.ebi.ac.uk/compneur-srv/LGICdb/" 
+      target=_top>LGICdb</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/goldman-srv/pandit/" 
+      target=_top>PANDIT</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/uniprot/" target=_top>UniProt</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/swissprot/" 
+      target=_top>UniProtKB/Swiss-Prot</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/trembl/" 
+      target=_top>UniProtKB/TrEMBL</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/uniprot/unisave/" 
+      target=_top>UniSave</A> </LI></UL></LI>
+    <LI class=willopen><A class=arrow 
+    href="http://www.ebi.ac.uk/Databases/proteomic.html" 
+    target=_top>Proteomic</A> 
+    <UL>
+      <LI><A href="http://www.ebi.ac.uk/pride/" target=_top>PRIDE</A> 
+    </LI></UL></LI>
+    <LI class=willopen><A class=arrow 
+    href="http://www.ebi.ac.uk/Databases/structure.html" 
+    target=_top>Structure</A> 
+    <UL>
+      <LI><A href="http://www.ebi.ac.uk/thornton-srv/databases/CSA/" 
+      target=_top>CSA</A> </LI>
+      <LI><A 
+      href="http://srs.ebi.ac.uk/srsbin/cgi-bin/wgetz?-page+LibInfo+-lib+DSSP" 
+      target=_top>DSSP</A> </LI>
+      <LI><A 
+      href="http://srs.ebi.ac.uk/srsbin/cgi-bin/wgetz?-page+LibInfo+-lib+FSSP" 
+      target=_top>FSSP</A> </LI>
+      <LI><A 
+      href="http://srs.ebi.ac.uk/srsbin/cgi-bin/wgetz?-page+LibInfo+-lib+HSSP" 
+      target=_top>HSSP</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/msd-srv/chempdb/" 
+      target=_top>MSDchem</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/msd-srv/msdlite/" 
+      target=_top>MSDlite</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/pdbe/" target=_top>PDBe</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/thornton-srv/databases/pdbsum/" 
+      target=_top>PDBsum</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/thornton-srv/databases/ProFunc/" 
+      target=_top>ProFunc</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/RESID/" target=_top>RESID</A> 
+    </LI></UL></LI>
+    <LI class=willnotopen><A href="http://www.ebi.ac.uk/Submissions/" 
+    target=_top>Submissions</A> </LI>
+    <LI class=willnotopen><A href="http://www.ebi.ac.uk/FTP/" 
+    target=_top>Downloads</A> </LI></UL></LI>
+  <LI class=willopen id=tab_02><A accessKey=2 onclick="return false;" 
+  href="http://www.ebi.ac.uk/Tools/" target=_top>&nbsp;&nbsp;Tools</A> 
+  <UL>
+    <LI class=willnotopen><A href="http://www.ebi.ac.uk/Tools/" 
+    target=_top>Tools Index</A> </LI>
+    <LI class=willopen><A class=arrow 
+    href="http://www.ebi.ac.uk/Tools/idmapping.html" target=_top>ID Mapping</A> 
+    <UL>
+      <LI><A href="http://www.ebi.ac.uk/Tools/picr/" target=_top>PICR</A> 
+    </LI></UL></LI>
+    <LI class=willopen><A class=arrow 
+    href="http://www.ebi.ac.uk/Tools/literature.html" target=_top>Literature</A> 
+
+    <UL>
+      <LI><A href="http://www.ebi.ac.uk/Rebholz-srv/ebimed/index.jsp" 
+      target=_top>EBIMed</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/Rebholz-srv/pcorral/index.jsp" 
+      target=_top>Protein Corral</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/webservices/whatizit/info.jsf" 
+      target=_top>Whatizit</A> </LI></UL></LI>
+    <LI class=willopen><A class=arrow 
+    href="http://www.ebi.ac.uk/Tools/microarrayanalysis.html" 
+    target=_top>Microarray Analysis</A> 
+    <UL>
+      <LI><A href="http://www.bioconductor.org/" target=_top>Bioconductor</A> 
+      </LI>
+      <LI><A href="http://www.ebi.ac.uk/expressionprofiler/" 
+      target=_top>Expression Profiler</A> </LI></UL></LI>
+    <LI class=willopen><A class=arrow 
+    href="http://www.ebi.ac.uk/Tools/protein.html" target=_top>Protein 
+    Functional Analysis</A> 
+    <UL>
+      <LI><A href="http://www.ebi.ac.uk/clustr/search.html" 
+      target=_top>CluSTr</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/Tools/printsscan/" 
+      target=_top>FingerPRINTScan</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/Tools/InterProScan/" 
+      target=_top>InterProScan</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/integr8/InquisitorPage.do" 
+      target=_top>Inquisitor</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/Tools/phobius/" target=_top>Phobius</A> 
+      </LI>
+      <LI><A href="http://www.ebi.ac.uk/Tools/ppsearch/" 
+      target=_top>PPSearch</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/Tools/pratt/" target=_top>Pratt</A> 
+</LI>
+      <LI><A href="http://www.ebi.ac.uk/Tools/Radar/" target=_top>Radar</A> 
+    </LI></UL></LI>
+    <LI class=willopen><A class=arrow 
+    href="http://www.ebi.ac.uk/Tools/proteomic.html" target=_top>Proteomic 
+    Services</A> 
+    <UL>
+      <LI><A href="http://www.ebi.ac.uk/dasty/" target=_top>Dasty</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/IntEnz/" target=_top>IntEnz</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/pride/" target=_top>PRIDE</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/uniprot-das/" target=_top>UniProt DAS 
+      Distributed<BR>Annotation System</A> </LI></UL></LI>
+    <LI class=willopen><A class=arrow 
+    href="http://www.ebi.ac.uk/Tools/sequence.html" target=_top>Sequence 
+    Analysis</A> 
+    <UL>
+      <LI><A href="http://www.ebi.ac.uk/Tools/emboss/align/" 
+      target=_top>Align</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/Tools/censor/" target=_top>CENSOR</A> 
+      </LI>
+      <LI><A href="http://www.ebi.ac.uk/Tools/clustalw2/" 
+      target=_top>ClustalW2</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/Tools/emboss/cpgplot/" target=_top>CpG 
+      Plot/ CpGreport</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/Tools/Wise2/dbaform.html" 
+      target=_top>Dna Block Aligner Form</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/Tools/Wise2/" target=_top>GeneWise</A> 
+      </LI>
+      <LI><A href="http://www.ebi.ac.uk/Tools/kalign/" target=_top>Kalign</A> 
+      </LI>
+      <LI><A href="http://www.ebi.ac.uk/Tools/mafft/" target=_top>MAFFT</A> 
+</LI>
+      <LI><A href="http://www.ebi.ac.uk/Tools/muscle/" target=_top>MUSCLE</A> 
+      </LI>
+      <LI><A href="http://www.ebi.ac.uk/Tools/emboss/pepinfo/" 
+      target=_top>Pepstats/ Pepwindow/ Pepinfo</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/Tools/Wise2/promoterwise.html" 
+      target=_top>PromoterWise</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/Tools/saps/" target=_top>SAPS</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/Tools/t-coffee/" 
+      target=_top>T-Coffee</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/Tools/emboss/transeq/" 
+      target=_top>Transeq</A> </LI></UL></LI>
+    <LI class=willopen><A class=arrow 
+    href="http://www.ebi.ac.uk/Tools/similarity.html" target=_top>Similarity 
+    &amp; Homology</A> 
+    <UL>
+      <LI><A href="http://www.ebi.ac.uk/Tools/blast/" target=_top>BLAST</A> 
+</LI>
+      <LI><A href="http://www.ebi.ac.uk/searches/blitz.html" 
+      target=_top>Blitz</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/Tools/fasta/" target=_top>FASTA</A> 
+</LI>
+      <LI><A href="http://www.ebi.ac.uk/Tools/MPsrch/" target=_top>MPsrch</A> 
+      </LI>
+      <LI><A href="http://www.ebi.ac.uk/Tools/psisearch/" 
+      target=_top>PSI-Search</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/Tools/scanps/" target=_top>ScanPS</A> 
+      </LI>
+      <LI><A href="http://www.ebi.ac.uk/Tools/ssearch/" target=_top>SSEARCH</A> 
+      </LI></UL></LI>
+    <LI class=willopen><A class=arrow 
+    href="http://www.ebi.ac.uk/Tools/structural.html" target=_top>Structural 
+    Analysis</A> 
+    <UL>
+      <LI><A href="http://www.ebi.ac.uk/Tools/dalilite/" 
+      target=_top>DaliLite</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/Tools/maxsprout/" 
+      target=_top>MaxSprout</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/pdbe/docs/Services.html" 
+      target=_top>PDBe Services</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/thornton-srv/databases/procognate/" 
+      target=_top>PROCOGNATE</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/thornton-srv/databases/tempura/" 
+      target=_top>Tempura</A> </LI></UL></LI>
+    <LI class=willopen><A class=arrow 
+    href="http://www.ebi.ac.uk/Tools/misc.html" target=_top>Tools - 
+    Miscellaneous</A> 
+    <UL>
+      <LI><A href="http://www.ebi.ac.uk/embl_services/" target=_top>EMBL 
+      Computational Services</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/cgi-bin/readseq.cgi" 
+      target=_top>Readseq</A> </LI></UL></LI>
+    <LI class=willnotopen><A href="http://www.ebi.ac.uk/Tools/webservices/" 
+    target=_top>Web Services</A> </LI>
+    <LI class=willnotopen><A href="http://www.ebi.ac.uk/FTP/" 
+    target=_top>Downloads</A> </LI></UL></LI>
+  <LI class=willopen id=tab_03><A accessKey=3 onclick="return false;" 
+  href="http://www.ebi.ac.uk/Groups/" target=_top>&nbsp;&nbsp;EBI Groups</A> 
+  <UL>
+    <LI><A href="http://www.ebi.ac.uk/Groups/" target=_top>Groups Index</A> 
+</LI>
+    <LI><A href="http://www.ebi.ac.uk/panda/" target=_top>Rolf Apweiler</A> 
+</LI>
+    <LI><A href="http://www.ebi.ac.uk/bertone/" target=_top>Paul Bertone</A> 
+    </LI>
+    <LI><A href="http://www.ebi.ac.uk/panda/" target=_top>Ewan Birney</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/microarray/" target=_top>Alvis Brazma</A> 
+    </LI>
+    <LI><A href="http://www.ebi.ac.uk/ott/" target=_top>Cath Brooksbank</A> 
+</LI>
+    <LI><A href="http://www.ebi.ac.uk/Groups/index.html#Cameron" 
+    target=_top>Graham Cameron</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/industry/" target=_top>Dominic Clark</A> 
+    </LI>
+    <LI><A href="http://www.ebi.ac.uk/enright/" target=_top>Anton Enright</A> 
+    </LI>
+    <LI><A href="http://www.ebi.ac.uk/vg/" target=_top>Paul Flicek</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/Groups/index.html#Gardner" 
+    target=_top>Phil Gardner</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/goldman/" target=_top>Nick Goldman</A> 
+    </LI>
+    <LI><A href="http://www.ebi.ac.uk/Information/local-only/" target=_top>Mark 
+    Green</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/GO/" target=_top>Midori Harris</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/proteomics/" target=_top>Henning 
+    Hermjakob</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/huber/" target=_top>Wolfgang Huber</A> 
+    </LI>
+    <LI><A href="http://www.ebi.ac.uk/ipt/" target=_top>Sarah Hunter</A> </LI>
+    <LI><A href="http://systems.ebi.ac.uk/" target=_top>Petteri Jokinen</A> 
+</LI>
+    <LI><A href="http://www.ebi.ac.uk/egt/" target=_top>Paul Kersey</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/pdbe/" target=_top>Gerard Kleywegt</A> 
+    </LI>
+    <LI><A href="http://www.ebi.ac.uk/compneur/" target=_top>Nicolas Le 
+    Novère</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/es/" target=_top>Rodrigo Lopez</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/chembl/" target=_top>John Overington</A> 
+    </LI>
+    <LI><A href="http://www.ebi.ac.uk/luscombe/" target=_top>Nick Luscombe</A> 
+    </LI>
+    <LI><A href="http://www.ebi.ac.uk/Groups/index.html#Nyberg" 
+    target=_top>Kirsten Nyberg</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/Rebholz/" target=_top>Dietrich 
+    Rebholz-Schuhmann</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/Rice/" target=_top>Peter Rice</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/Groups/index.html#Sarkans" 
+    target=_top>Ugis Sarkans</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/steinbeck/" target=_top>Christoph 
+    Steinbeck</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/literature/" target=_top>Peter Stoehr</A> 
+    </LI>
+    <LI><A href="http://www.ebi.ac.uk/Thornton/" target=_top>Janet Thornton</A> 
+    </LI>
+    <LI><A href="http://www.ebi.ac.uk/weimin/" target=_top>Weimin Zhu</A> 
+  </LI></UL></LI>
+  <LI class=willopen id=tab_04><A accessKey=4 onclick="return false;" 
+  href="http://www.ebi.ac.uk/training/" target=_top>&nbsp;&nbsp;Training</A> 
+  <UL>
+    <LI><A href="http://www.ebi.ac.uk/training/" target=_top>Training Home</A> 
+    </LI>
+    <LI><A href="http://www.ebi.ac.uk/Information/events/calendar/" 
+    target=_top>Courses, Conferences and Workshops</A> </LI>
+    <LI class=willopen><A class=arrow href="http://www.ebi.ac.uk/training/user/" 
+    target=_top>EBI User Training Programme</A> 
+    <UL>
+      <LI><A href="http://www.ebi.ac.uk/training/handson/" target=_top>Hands-on 
+      Training at the EBI</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/training/roadshow/" target=_top>The 
+      Bioinformatics Roadshow</A> </LI>
+      <LI><A href="http://www.ebi.ac.uk/training/elearningcentral/" 
+      target=_top>e-learning</A> </LI></UL></LI>
+    <LI><A href="http://www.ebi.ac.uk/training/schools/" target=_top>Science for 
+    Schools</A> </LI>
+    <LI><A href="http://www.embl.org/training/postdocs/" 
+    target=_top>Postdocs</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/training/Studentships/" target=_top>PhD 
+    Studies at EBI</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/training/otherpositions" target=_top>Other 
+    Early-Stage Training</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/training/Visitors_Programme/" 
+    target=_top>Visitors and Scholars</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/training/internal/" 
+    target=_top>Non-Scientific Training<BR>and Development</A> </LI>
+    <LI><A 
+    href="javascript:top.location='http://www.ebi.ac.uk/support/training.php?referrer=' + top.location;" 
+    target=_top>Contact Us</A> </LI>
+    <LI><A href="http://www-db.embl.de/jss/EmblGroupsOrg/g_286.html" 
+    target=_top>EICAT</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/2can/" target=_top>2can Support Portal</A> 
+    </LI></UL></LI>
+  <LI class=willopen id=tab_05><A accessKey=5 onclick="return false;" 
+  href="http://www.ebi.ac.uk/industry/" target=_top>&nbsp;&nbsp;Industry</A> 
+  <UL>
+    <LI><A href="http://www.ebi.ac.uk/industry/" target=_top>Industry Index</A> 
+    </LI>
+    <LI><A 
+    href="http://www.ebi.ac.uk/industry/about/about-industry-programme.html" 
+    target=_top>About the Industry Programme</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/industry/SME/about-the-forum.html" 
+    target=_top>About the SME Support</A> </LI>
+    <LI><A 
+    href="javascript:top.location='http://www.ebi.ac.uk/industry/contact.html?referrer=' + top.location;" 
+    target=_top>Contact Us</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/Groups/reports/current/matthews.pdf" 
+    target=_top>Latest Annual Report</A> </LI></UL></LI>
+  <LI class=willopen id=tab_06><A accessKey=6 onclick="return false;" 
+  href="http://www.ebi.ac.uk/Information/" target=_top>&nbsp;&nbsp;About Us</A> 
+  <UL>
+    <LI><A href="http://www.ebi.ac.uk/Information/" target=_top>About Us 
+    Index</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/Information/About_EBI/about_ebi.html" 
+    target=_top>About the EBI</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/Information/funding/" 
+    target=_top>Funding</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/training/Visitors_Programme/" 
+    target=_top>Visitors Programme</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/Information/News/news.html" 
+    target=_top>News and Press</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/Information/Staff/" target=_top>Staff</A> 
+    </LI>
+    <LI><A href="http://www.ebi.ac.uk/Information/local-only/" target=_top>EBI 
+    Staff Only</A> </LI>
+    <LI><A 
+    href="http://www.ebi.ac.uk/Information/Publications/publications.html" 
+    target=_top>Publications</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/Information/Jobs/jobs.html" 
+    target=_top>Jobs</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/Information/events/calendar/" 
+    target=_top>Events</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/Information/Travel/travel.html" 
+    target=_top>Travel</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/Information/Travel/accommodation.html" 
+    target=_top>Accomodation</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/Information/Site_Info/site_info.html" 
+    target=_top>EBI Campus Info</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/Information/ebi_bac/" target=_top>EBI's 
+    Bioinformatics<BR>Advisory Committee</A> </LI></UL></LI>
+  <LI class=willopen id=tab_07><A accessKey=7 onclick="return false;" 
+  href="http://www.ebi.ac.uk/help/" target=_top>&nbsp;&nbsp;Help</A> 
+  <UL>
+    <LI><A href="http://www.ebi.ac.uk/help/faq.html" target=_top>FAQ</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/inc/help/search_help.html" 
+    target=_top>EB-eye Search Help</A> </LI>
+    <LI><A href="http://www.ebi.ac.uk/2can/" target=_top>2can Support Portal</A> 
+    </LI>
+    <LI><A 
+    href="javascript:top.location='http://www.ebi.ac.uk/support/index.php?referrer=' + top.location;" 
+    target=_top>Contact Us</A> </LI></UL></LI>
+  <LI class=willopen id=tab_08> </LI></UL>
+<DIV class=menuzoom>&nbsp;</DIV></DIV></DIV></DIV>
+<DIV class=headerleft><A title="EBI Home Page" accessKey=0 
+href="http://www.ebi.ac.uk/" target=_top><IMG class=banner_left id=ebilogo 
+title="European Bioinformatics Institute Home Page" 
+alt="European Bioinformatics Institute Home Page" 
+src="head.files/ebi_logo.jpg"></A> </DIV>
+<DIV class=therightstuff> </DIV>
+<DIV class=therighticons id=therighticons><A id=sitemapiconhref 
+title="Site Index" href="http://www.ebi.ac.uk/Information/sitemap.html" 
+target=_top><IMG class=sitemap id=sitemapicon alt="Site Index" 
+src="head.files/sitemap_text.gif"></A> <A id=rssiconhref title="RSS News Feed" 
+href="http://www.ebi.ac.uk/Information/News/rss/ebinews.xml" target=_top><IMG 
+class=rssicon id=rssicon alt="RSS News Feed" src="head.files/xml_rss2.gif"></A> 
+<A id=printiconhref title="Go to printer-friendly view and print page" 
+onclick="hidetemplate(); return false;" 
+href="http://www.ebi.ac.uk/inc/head.html#" target=_self><IMG class=print 
+id=printicon alt="Go to printer-friendly view and print page" 
+src="head.files/print_icon.gif"></A> </DIV>
+<DIV id=home></DIV></DIV>
+<DIV 
+onmousemove="if (navigator.userAgent.indexOf('Safari') != -1) {bringtobottom();}" 
+style="WIDTH: 100%; TOP: 57px; HEIGHT: 543px; BACKGROUND-COLOR: transparent"></DIV>
+<SCRIPT type=text/javascript>
+<!--
+try{
+	var parentloc=parent.document.location.href;
+	if(parentloc.indexOf('db=ebiweb')!=-1){
+		document.Text1293FORM.FormsComboBox2.options[1].selected=true;
+	}
+	else if (parentloc.indexOf('db=literature')!=-1){
+		document.Text1293FORM.FormsComboBox2.options[2].selected=true;
+	}
+	else{}
+	var loc = ""  + parent.document.location.href;
+	if (loc.indexOf("docmode=printable")!= -1) {
+		minimimise();
+	}
+}
+catch(err){
+
+} 
+// -->
+</SCRIPT>
+</BODY></HTML>

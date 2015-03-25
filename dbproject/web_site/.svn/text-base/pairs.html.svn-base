@@ -1,0 +1,40 @@
+{% include "header.html" %}
+{% load kipho_filters %}
+
+			<div class="main">
+				<div class="bluebox">
+					{% if errors %}
+						<h1>ERROR!</h1><br/>
+						The following error occurred:
+						<i>{{errors}}</i>
+					{% else %}
+					       <h1>Protein Information</h1><br/>
+						<h2>Accession Number</h2>
+						<a href="protein?accession_number='{{proteins.accession_number}}'">{{proteins.accession_number}}</a><br/><br/>
+						<h2>Name</h2>
+						{{proteins.protein_name}}<br/><br/>
+                                         <h2>Type</h2>
+                                         	{%ifequal proteins.protein_type 'K'%}
+						This protein is a Kinase.
+						{%endifequal%}
+						{%ifequal proteins.protein_type 'P'%}
+						This protein is a Phosphatase.
+                                         {% endifequal %}
+						{%ifequal proteins.protein_type 'D'%}
+						This protein can act as both kinase and phosphatase.
+                                         {% endifequal %}<br/><br/><br/>
+                                         {% if pairs_substrates %}
+                                          	<h1>Kinase-Phosphatase Pairs</h1><br/> 
+                                           	{% for self_reac, pair_reac, self_id, pair_id in pairs_substrates %}
+                                                	<a href="protein?accession_number='{{proteins.accession_number}}'">{{proteins.accession_number}}</a> (reaction:<a href="reaction?reaction_id='{{self_reac.reaction_id}}'">{{self_id}}</a>) -- <a href="protein?accession_number='{{pair_reac.ki_pho_accession_number}}'">{{pair_reac.ki_pho_accession_number}}</a> (reaction:<a href="reaction?reaction_id='{{pair_reac.reaction_id}}'">{{ pair_id }}</a>) on substrate <a href="protein?accession_number='{{pair_reac.substrate_accession_number}}'">{{pair_reac.substrate_accession_number}}</a><br/>                                          
+                                                {% endfor %}
+                                         {% endif %}<br/>                 						
+					{% endif %}
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+			</div>
+
+{% include "footer.html" %}
+

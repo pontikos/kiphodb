@@ -1,0 +1,15 @@
+K 10
+svn:ignore
+V 50
+*.pdf
+*.aux
+*.log
+*.toc
+*.bbl
+*.blg
+*.lot
+*.lof
+
+
+
+END

@@ -1,0 +1,12 @@
+Cancer signaling pathways  	Pathway ID  		Immune signaling pathways  	Pathway ID
+
+EGFR1 				NetPath_4 		B Cell Receptor 		NetPath_12
+TGF beta receptor 		NetPath_7 		T Cell Receptor 		NetPath_11
+TNF alpha/NF-kB 		NetPath_9 		IL-1 				NetPath_13
+Alpha6 Beta4 Integrin 		NetPath_1 		IL-2 				NetPath_14
+ID 				NetPath_5 		IL-3 				NetPath_15
+Hedgehog 			NetPath_10 		IL-4 				NetPath_16
+Notch 				NetPath_3 		IL-5 				NetPath_17
+Wnt 				NetPath_8 		IL-6 				NetPath_18
+AR 				NetPath_2 		IL-7 				NetPath_19
+Kit Receptor 			NetPath_6 		IL-9 				NetPath_20

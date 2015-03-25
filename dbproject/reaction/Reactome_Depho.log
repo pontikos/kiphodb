@@ -1,0 +1,551 @@
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=69199&' (None, None)
+get_page: 10.4 sec
+Cdc25A dephosphorylates Cdk2 and activates cyclin E-Cdk2 and cyclin A-Cdk2 kinases (Blomberg  and Hoffmann, 1999). [Blomberg & Hoffmann 1999]
+Reactome: Dephosphorylation of Cyclin E:Cdk2 complexes by Cdc25A
+REACT_592.4
+Cdc25A dephosphorylates Cdk2 and activates cyclin E-Cdk2 and cyclin A-Cdk2 kinases (Blomberg  and Hoffmann, 1999). [Blomberg & Hoffmann 1999]
+['P30304']
+['P24864', 'O96020', 'P24941']
+{'accession_number__in': ['P24864']}
+Protein P24864 already in database.
+{'accession_number__in': ['P30304']}
+Protein P30304 already in database.
+{'accession_number__in': ['P30304']}
+{'accession_number__in': ['P24864']}
+Added reaction  REACT_592.4
+Added ID  REACT_592.4 P30304 -> P24864
+{'accession_number__in': ['O96020']}
+Protein O96020 already in database.
+{'accession_number__in': ['P30304']}
+Protein P30304 already in database.
+{'accession_number__in': ['P30304']}
+{'accession_number__in': ['O96020']}
+Added reaction  REACT_592.4
+Added ID  REACT_592.4 P30304 -> O96020
+{'accession_number__in': ['P24941']}
+Protein P24941 already in database.
+{'accession_number__in': ['P30304']}
+Protein P30304 already in database.
+{'accession_number__in': ['P30304']}
+{'accession_number__in': ['P24941']}
+Added reaction  REACT_592.4
+Added ID  REACT_592.4 P30304 -> P24941
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=69693&' (None, None)
+get_page: 5.9 sec
+At the beginning of this reaction, 1 molecule of 'Cyclin E1:phospho-Cdk2 complex', and 1 molecule of 'H2O' are present. At the end of this reaction, 1 molecule of 'Orthophosphate', and 1 molecule of 'Cyclin E1:Cdk2 complex' are present. This reaction takes place in the 'nucleoplasm' and  is mediated by the 'phosphoprotein phosphatase activity' of 'Cdc25A'.
+Reactome: Dephosphorylation of Cyclin E1:Cdk2 complexes by Cdc25A
+REACT_2145.3
+At the beginning of this reaction, 1 molecule of 'Cyclin E1:phospho-Cdk2 complex', and 1 molecule of 'H2O' are present. At the end of this reaction, 1 molecule of 'Orthophosphate', and 1 molecule of 'Cyclin E1:Cdk2 complex' are present. This reaction takes place in the 'nucleoplasm' and  is mediated by the 'phosphoprotein phosphatase activity' of 'Cdc25A'.
+['P30304']
+['P24941', 'P24864']
+{'accession_number__in': ['P24941']}
+Protein P24941 already in database.
+{'accession_number__in': ['P30304']}
+Protein P30304 already in database.
+Added ID  REACT_2145.3 P30304 -> P24941
+{'accession_number__in': ['P24864']}
+Protein P24864 already in database.
+{'accession_number__in': ['P30304']}
+Protein P30304 already in database.
+Added ID  REACT_2145.3 P30304 -> P24864
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=69694&' (None, None)
+get_page: 6.1 sec
+At the beginning of this reaction, 1 molecule of 'H2O', and 1 molecule of 'Cyclin E2:phospho-Cdk2 complex' are present. At the end of this reaction, 1 molecule of 'Cyclin E2:Cdk2 complex', and 1 molecule of 'Orthophosphate' are present. This reaction takes place in the 'nucleoplasm' and  is mediated by the 'phosphoprotein phosphatase activity' of 'Cdc25A'.
+Reactome: Dephosphorylation of Cyclin E2:Cdk2 complexes by Cdc25A
+REACT_131.3
+At the beginning of this reaction, 1 molecule of 'H2O', and 1 molecule of 'Cyclin E2:phospho-Cdk2 complex' are present. At the end of this reaction, 1 molecule of 'Cyclin E2:Cdk2 complex', and 1 molecule of 'Orthophosphate' are present. This reaction takes place in the 'nucleoplasm' and  is mediated by the 'phosphoprotein phosphatase activity' of 'Cdc25A'.
+['P30304']
+['P24941', 'O96020']
+{'accession_number__in': ['P24941']}
+Protein P24941 already in database.
+{'accession_number__in': ['P30304']}
+Protein P30304 already in database.
+Added ID  REACT_131.3 P30304 -> P24941
+{'accession_number__in': ['O96020']}
+Protein O96020 already in database.
+{'accession_number__in': ['P30304']}
+Protein P30304 already in database.
+Added ID  REACT_131.3 P30304 -> O96020
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=71803&' (None, None)
+get_page: 9.7 sec
+At the beginning of this reaction, 1 molecule of 'H2O', and 1 molecule of 'D-Fructose 2,6-bisphosphate' are present. At the end of this reaction, 1 molecule of 'Orthophosphate', and 1 molecule of 'D-Fructose 6-phosphate' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'fructose-2,6-bisphosphate 2-phosphatase activity' of 'pPF2K-Pase complex'.
+Reactome: D-fructose 2,6-bisphosphate + H2O =&gt; D-fructose 6-phosphate + orthophosphate [liver + muscle]
+REACT_1388.3
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=71825&' (None, None)
+get_page: 4.9 sec
+Glucose-6-phosphatase associated with the inner face of the endoplasmic reticulum membrane catalyzes the hydrolysis of glucose-6-phosphate to glucose and orthophosphate (reviewed by Van Scaftingen and Gerin 2002). This reaction is essentially irreversible. Defects in glucose-6-phosphatase are the cause of glycogen storage disease type 1a (Lei et al. 1995). [Van Schaftingen & Gerin 2002]
+Reactome: alpha-D-Glucose 6-phosphate + H2O =&gt; alpha-D-Glucose + Orthophosphate
+REACT_1682.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=74733&' (None, None)
+get_page: 4.6 sec
+With insulin dissociated from its receptor the signal to sustain the receptor kinase's activity is also removed. Thus endosomally-associated protein tyrosine phosphatases (PTPs) are able to dephosphorylate the receptor which now can not rephosphorylate themselves since insulin is removed and the receptor is in the inactive protein conformation. (The identity of these PTPs is not clearly established yet. A discussion of candidates will be added in the near future.)The dephosphorylation of the receptor is also a signal for the receptor to recycle back to the plasma membrane.
+Reactome: Insulin receptor de-phosphorylation
+REACT_453.2
+No UniProt information for catalyst
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=74747&' (None, None)
+get_page: 4.1 sec
+At the beginning of this reaction, 1 molecule of 'phospho-IRS' is present. At the end of this reaction, 1 molecule of 'Orthophosphate', and 1 molecule of 'IRS' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'protein tyrosine phosphatase activity' of 'protein tyrosine phosphatase'.
+Reactome: De-phosphorylation of IRS
+REACT_1810.2
+No UniProt information for catalyst
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=74748&' (None, None)
+get_page: 9.2 sec
+At the beginning of this reaction, 1 molecule of 'phospho-SHC' is present. At the end of this reaction, 1 molecule of 'Orthophosphate', and 1 molecule of 'SHC transforming protein' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'protein tyrosine phosphatase activity' of 'protein tyrosine phosphatase'.
+Reactome: De-phosphorylation of SHC
+REACT_1411.2
+No UniProt information for catalyst
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=75898&' (None, None)
+get_page: 18.5 sec
+At the beginning of this reaction, 1 molecule of 'Phosphatidic acid', and 1 molecule of 'H2O' are present. At the end of this reaction, 1 molecule of 'Diacylglycerol' is present. This reaction takes place in the 'cytosol' and  is mediated by the 'phosphatidate phosphatase activity' of 'Phosphatidate phosphatase (PPAP2A)'.
+Reactome: Phosphatidic acid + H2O &lt;=&gt; Diacylglycerol +  phosphate (1)
+REACT_385.3
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=76130&' (None, None)
+get_page: 4.9 sec
+At the beginning of this reaction, 1 molecule of 'Phosphatidic acid', and 1 molecule of 'H2O' are present. At the end of this reaction, 1 molecule of 'Diacylglycerol' is present. This reaction takes place in the 'cytosol' and  is mediated by the 'phosphatidate phosphatase activity' of 'Phosphatidate phosphatase (PPAP2C)'.
+Reactome: Phosphatidic acid + H2O &lt;=&gt; Diacylglycerol +  phosphate (3)
+REACT_1066.3
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=76134&' (None, None)
+get_page: 13.0 sec
+At the beginning of this reaction, 1 molecule of 'Phosphatidic acid', and 1 molecule of 'H2O' are present. At the end of this reaction, 1 molecule of 'Diacylglycerol' is present. This reaction takes place in the 'cytosol' and  is mediated by the 'phosphatidate phosphatase activity' of 'Phosphatidate phosphatase (PPAP2B)'.
+Reactome: Phosphatidic acid + H2O &lt;=&gt; Diacylglycerol +  phosphate (2)
+REACT_418.3
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=77078&' (None, None)
+get_page: 5.8 sec
+After the capping complex is formed, the RNA triphosphatase activity of the capping enzyme hydrolyzes the 5'-end phosphate group of the nascent mRNA transcript to a diphosphate.The RNA triphosphatase (RTP) domain of mammalian capping enzyme is a member of a superfamily of phosphatases that include the protein tyrosine phosphatases, some lipid phosphatases, and several nucleic acid phosphatases. This family uses a conserved nucleophilic cysteine residue to attack the target phosphate. A transient phospho-cysteinyl enzyme intermediate is then hydrolyzed to regenerate the enzyme active site. It should be noted that while higher eukaryotic capping enzymes use PTP-like triphosphatase domains, the yeast triphosphatases are a completely different class of enzymes. The yeast RTPs are metal-dependent phosphatases. RNA 5'-triphosphatase (RTP) catalyzed first reaction can be represented as:pppN(pN)n + GTP -> ppN(pN)n + Pi; (n=20-25)
+Reactome: Hydrolysis of the 5'-end of the nascent transcript by the capping enzyme
+REACT_1368.2
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110459&' (None, None)
+get_page: 2.7 sec
+DPTEN (a phosphoinositide phosphatase) catalyses the reversal of PIP3 to PIP2. This mechanism, together with Dp110 activity, regulates the levels of PIP3 which is the second messenger for controlling organism size.
+Reactome: PIP3 dephosphorylated to PIP2 by DPTEN
+REACT_6317.1
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=112383&' (None, None)
+get_page: 4.8 sec
+FCP1 dephosphorylates RNAP II in ternary elongation complexes as well as in solution and, therefore, is thought to function in the recycling of RNAP II during the transcription cycle. Biochemical experiments suggest that human FCP1 targets CTDs that are phosphorylated at serine 2 (CTD-serine 2) and/or CTD-serine 5. It is also observed to stimulate elongation independent of its catalytic activity. Dephosphorylation of Ser2 - phosphorylated Pol II results in hypophosphorylated form that disengages capping enzymes (CE). [Mandal et al 2002]
+Reactome: Hypophosphorylation of RNA Pol II CTD by FCP1P protein
+REACT_1251.1
+FCP1 dephosphorylates RNAP II in ternary elongation complexes as well as in solution and, therefore, is thought to function in the recycling of RNAP II during the transcription cycle. Biochemical experiments suggest that human FCP1 targets CTDs that are phosphorylated at serine 2 (CTD-serine 2) and/or CTD-serine 5. It is also observed to stimulate elongation independent of its catalytic activity. Dephosphorylation of Ser2 - phosphorylated Pol II results in hypophosphorylated form that disengages capping enzymes (CE). [Mandal et al 2002]
+['Q9Y5B0']
+['P52298', 'Q09161', 'P24928', 'P36954', 'P19387', 'P61218', 'P35269', 'P13984']
+{'accession_number__in': ['P52298']}
+Protein P52298 already in database.
+{'accession_number__in': ['Q9Y5B0']}
+Protein Q9Y5B0 already in database.
+{'accession_number__in': ['Q9Y5B0']}
+{'accession_number__in': ['P52298']}
+Added reaction  REACT_1251.1
+Added ID  REACT_1251.1 Q9Y5B0 -> P52298
+{'accession_number__in': ['Q09161']}
+Protein Q09161 already in database.
+{'accession_number__in': ['Q9Y5B0']}
+Protein Q9Y5B0 already in database.
+{'accession_number__in': ['Q9Y5B0']}
+{'accession_number__in': ['Q09161']}
+Added reaction  REACT_1251.1
+Added ID  REACT_1251.1 Q9Y5B0 -> Q09161
+{'accession_number__in': ['P24928']}
+Protein P24928 already in database.
+{'accession_number__in': ['Q9Y5B0']}
+Protein Q9Y5B0 already in database.
+{'accession_number__in': ['Q9Y5B0']}
+{'accession_number__in': ['P24928']}
+Added reaction  REACT_1251.1
+Added ID  REACT_1251.1 Q9Y5B0 -> P24928
+{'accession_number__in': ['P36954']}
+Protein P36954 already in database.
+{'accession_number__in': ['Q9Y5B0']}
+Protein Q9Y5B0 already in database.
+{'accession_number__in': ['Q9Y5B0']}
+{'accession_number__in': ['P36954']}
+Added reaction  REACT_1251.1
+Added ID  REACT_1251.1 Q9Y5B0 -> P36954
+{'accession_number__in': ['P19387']}
+Protein P19387 already in database.
+{'accession_number__in': ['Q9Y5B0']}
+Protein Q9Y5B0 already in database.
+{'accession_number__in': ['Q9Y5B0']}
+{'accession_number__in': ['P19387']}
+Added reaction  REACT_1251.1
+Added ID  REACT_1251.1 Q9Y5B0 -> P19387
+{'accession_number__in': ['P61218']}
+Protein P61218 already in database.
+{'accession_number__in': ['Q9Y5B0']}
+Protein Q9Y5B0 already in database.
+{'accession_number__in': ['Q9Y5B0']}
+{'accession_number__in': ['P61218']}
+Added reaction  REACT_1251.1
+Added ID  REACT_1251.1 Q9Y5B0 -> P61218
+{'accession_number__in': ['P35269']}
+Protein P35269 already in database.
+{'accession_number__in': ['Q9Y5B0']}
+Protein Q9Y5B0 already in database.
+{'accession_number__in': ['Q9Y5B0']}
+{'accession_number__in': ['P35269']}
+Added reaction  REACT_1251.1
+Added ID  REACT_1251.1 Q9Y5B0 -> P35269
+{'accession_number__in': ['P13984']}
+Protein P13984 already in database.
+{'accession_number__in': ['Q9Y5B0']}
+Protein Q9Y5B0 already in database.
+{'accession_number__in': ['Q9Y5B0']}
+{'accession_number__in': ['P13984']}
+Added reaction  REACT_1251.1
+Added ID  REACT_1251.1 Q9Y5B0 -> P13984
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=113503&' (None, None)
+get_page: 5.0 sec
+At the beginning of this reaction, 1 molecule of 'phospho-Retinoblastoma protein', and 1 molecule of 'RNA primer-DNA primer:origin duplex with DNA damage' are present. At the end of this reaction, 1 molecule of 'Rb1:RNA primer-DNA primer:origin duplex with DNA damage' is present. This reaction takes place in the 'nucleus' and  is mediated by the 'phosphoprotein phosphatase activity' of 'PP2A'.
+Reactome: Pp2a mediated localization of Rb protein in chromatin
+REACT_421.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=139906&' (None, None)
+get_page: 4.3 sec
+At the beginning of this reaction, 1 molecule of '143B:phospo-BAD complex' is present. At the end of this reaction, 1 molecule of 'BAD protein', and 1 molecule of '143B protein' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'calcium-dependent protein serine/threonine phosphatase regulator activity' of 'Calcineurin B complex'.
+Reactome: Activation of BAD by calcineurin
+REACT_1663.2
+At the beginning of this reaction, 1 molecule of '143B:phospo-BAD complex' is present. At the end of this reaction, 1 molecule of 'BAD protein', and 1 molecule of '143B protein' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'calcium-dependent protein serine/threonine phosphatase regulator activity' of 'Calcineurin B complex'.
+['P48454']
+['P31946', 'Q92934']
+{'accession_number__in': ['P31946']}
+Protein P31946 already in database.
+{'accession_number__in': ['P48454']}
+HTTP GET '/uniprot/P48454.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET u'/uniprotAccAction.do?id=P48454' (None, None)
+HTTP GET '/proteinAction.do?id=1369&showAllSites=true' (None, None)
+get_page: 1.4 sec
+Saved P48454
+{'accession_number__in': ['P48454']}
+{'accession_number__in': ['P31946']}
+Added reaction  REACT_1663.2
+Added ID  REACT_1663.2 P48454 -> P31946
+{'accession_number__in': ['Q92934']}
+Protein Q92934 already in database.
+{'accession_number__in': ['P48454']}
+Protein P48454 already in database.
+{'accession_number__in': ['P48454']}
+{'accession_number__in': ['Q92934']}
+Added reaction  REACT_1663.2
+Added ID  REACT_1663.2 P48454 -> Q92934
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=163568&' (None, None)
+get_page: 4.6 sec
+Rat perilipin is dephosphorylated by protein phosphatase 1 (Clifford et al. 1998). All three protein phosphatase 1 isoforms appear competent to carry out this reaction and there are no data to indicate which one preferentially acts on perilipin in vivo. Dephosphorylation of human perilipin has not been studied in detail, so the human reaction is inferred from the well-studied rat one. [Clifford et al 1998]
+Reactome: phosphorylated perilipin + H2O -&gt; perilipin + orthophosphate
+REACT_403.1
+Rat perilipin is dephosphorylated by protein phosphatase 1 (Clifford et al. 1998). All three protein phosphatase 1 isoforms appear competent to carry out this reaction and there are no data to indicate which one preferentially acts on perilipin in vivo. Dephosphorylation of human perilipin has not been studied in detail, so the human reaction is inferred from the well-studied rat one. [Clifford et al 1998]
+['P62136', 'P62140', 'P36873', 'P62136', 'P62140', 'P36873']
+['O60240']
+{'accession_number__in': ['O60240']}
+Protein O60240 already in database.
+{'accession_number__in': ['P62136']}
+Protein P62136 already in database.
+{'accession_number__in': ['P62136']}
+{'accession_number__in': ['O60240']}
+Added reaction  REACT_403.1
+Added ID  REACT_403.1 P62136 -> O60240
+{'accession_number__in': ['P62140']}
+Protein P62140 already in database.
+{'accession_number__in': ['P62140']}
+{'accession_number__in': ['O60240']}
+Added reaction  REACT_403.1
+Added ID  REACT_403.1 P62140 -> O60240
+{'accession_number__in': ['P36873']}
+Protein P36873 already in database.
+{'accession_number__in': ['P36873']}
+{'accession_number__in': ['O60240']}
+Added reaction  REACT_403.1
+Added ID  REACT_403.1 P36873 -> O60240
+{'accession_number__in': ['P62136']}
+Protein P62136 already in database.
+Reaction and ID REACT_403.1 REACT_403.1 P62136 -> O60240 already in database.
+{'accession_number__in': ['P62140']}
+Protein P62140 already in database.
+Reaction and ID REACT_403.1 REACT_403.1 P62140 -> O60240 already in database.
+{'accession_number__in': ['P36873']}
+Protein P36873 already in database.
+Reaction and ID REACT_403.1 REACT_403.1 P36873 -> O60240 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=163609&' (None, None)
+get_page: 5.9 sec
+Rat perilipin is dephosphorylated by protein phosphatase 1 (Clifford et al. 1998). All three protein phosphatase 1 isoforms appear competent to carry out this reaction and there are no data to indicate which one preferentially acts on perilipin in vivo. Dephosphorylation of human perilipin has not been studied in detail, so the human reaction is inferred from the well-studied rat one. [Clifford et al 1998]
+Reactome: phosphorylated perilipin + H2O -&gt; perilipin + orthophosphate
+REACT_1705.1
+Rat perilipin is dephosphorylated by protein phosphatase 1 (Clifford et al. 1998). All three protein phosphatase 1 isoforms appear competent to carry out this reaction and there are no data to indicate which one preferentially acts on perilipin in vivo. Dephosphorylation of human perilipin has not been studied in detail, so the human reaction is inferred from the well-studied rat one. [Clifford et al 1998]
+['P62138', 'P62142', 'P63088', 'P62138', 'P62142', 'P63088']
+['P43884']
+{'accession_number__in': ['P43884']}
+Protein P43884 already in database.
+{'accession_number__in': ['P62138']}
+HTTP GET '/uniprot/P62138.xml' (None, None)
+get_page: 0.7 sec
+HTTP GET u'/uniprotAccAction.do?id=P62138' (None, None)
+HTTP GET '/proteinAction.do?id=2406&showAllSites=true' (None, None)
+get_page: 39.5 sec
+HTTP GET u'/siteAction.do?id=5656' (None, None)
+get_page: 2.8 sec
+HTTP GET u'/siteAction.do?id=5215' (None, None)
+get_page: 1.7 sec
+HTTP GET u'/siteAction.do?id=5655' (None, None)
+get_page: 1.6 sec
+HTTP GET u'/siteAction.do?id=15334' (None, None)
+get_page: 1.2 sec
+HTTP GET u'/siteAction.do?id=14919' (None, None)
+get_page: 1.2 sec
+Saved P62138
+{'accession_number__in': ['P62138']}
+{'accession_number__in': ['P43884']}
+Added reaction  REACT_1705.1
+Added ID  REACT_1705.1 P62138 -> P43884
+{'accession_number__in': ['P62142']}
+HTTP GET '/uniprot/P62142.xml' (None, None)
+get_page: 0.3 sec
+<reference key="7">
+<citation type="journal article" date="1991" name="Jpn. J. Cancer Res." volume="82" first="873" last="873">
+<authorlist>
+<person name="Sasaki K.">
+</person><person name="Shima H.">
+</person><person name="Kitagawa Y.">
+</person><person name="Irino S.">
+</person><person name="Sugimura T.">
+</person><person name="Nagao M.">
+</person></authorlist>
+<dbreference type="MEDLINE" id="91365679" key="8">
+</dbreference><dbreference type="PubMed" id="1653777" key="9">
+</dbreference></citation>
+<scope>ERRATUM</scope>
+</reference>
+HTTP GET u'/uniprotAccAction.do?id=P62142' (None, None)
+HTTP GET '/proteinAction.do?id=7601&showAllSites=true' (None, None)
+get_page: 2.3 sec
+HTTP GET u'/siteAction.do?id=15793' (None, None)
+get_page: 1.8 sec
+HTTP GET u'/siteAction.do?id=15794' (None, None)
+get_page: 2.0 sec
+HTTP GET u'/siteAction.do?id=62163' (None, None)
+get_page: 1.7 sec
+HTTP GET u'/siteAction.do?id=31046' (None, None)
+get_page: 3.0 sec
+HTTP GET u'/siteAction.do?id=57475' (None, None)
+get_page: 2.4 sec
+HTTP GET u'/siteAction.do?id=57476' (None, None)
+get_page: 2.2 sec
+Saved P62142
+{'accession_number__in': ['P62142']}
+{'accession_number__in': ['P43884']}
+Added reaction  REACT_1705.1
+Added ID  REACT_1705.1 P62142 -> P43884
+{'accession_number__in': ['P63088']}
+HTTP GET '/uniprot/P63088.xml' (None, None)
+get_page: 0.7 sec
+<reference key="7">
+<citation type="journal article" date="1991" name="Jpn. J. Cancer Res." volume="82" first="873" last="873">
+<authorlist>
+<person name="Sasaki K.">
+</person><person name="Shima H.">
+</person><person name="Kitagawa Y.">
+</person><person name="Irino S.">
+</person><person name="Sugimura T.">
+</person><person name="Nagao M.">
+</person></authorlist>
+<dbreference type="MEDLINE" id="91365679" key="8">
+</dbreference><dbreference type="PubMed" id="1653777" key="9">
+</dbreference></citation>
+<scope>ERRATUM</scope>
+</reference>
+HTTP GET u'/uniprotAccAction.do?id=P63088' (None, None)
+get_page: 0.9 sec
+Saved P63088
+{'accession_number__in': ['P63088']}
+{'accession_number__in': ['P43884']}
+Added reaction  REACT_1705.1
+Added ID  REACT_1705.1 P63088 -> P43884
+{'accession_number__in': ['P62138']}
+Protein P62138 already in database.
+Reaction and ID REACT_1705.1 REACT_1705.1 P62138 -> P43884 already in database.
+{'accession_number__in': ['P62142']}
+Protein P62142 already in database.
+Reaction and ID REACT_1705.1 REACT_1705.1 P62142 -> P43884 already in database.
+{'accession_number__in': ['P63088']}
+Protein P63088 already in database.
+Reaction and ID REACT_1705.1 REACT_1705.1 P63088 -> P43884 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=163688&' (None, None)
+get_page: 9.0 sec
+At the beginning of this reaction, 1 molecule of 'pChREBP (Thr 666)' is present. At the end of this reaction, 1 molecule of 'Orthophosphate', and 1 molecule of 'ChREBP protein' are present. This reaction takes place in the 'nucleus' and  is mediated by the 'phosphatidate phosphatase activity' of 'PP2A-ABdeltaC complex'.
+Reactome: Dephosphorylation of pChREBP (Thr 666) by PP2A
+REACT_382.2
+At the beginning of this reaction, 1 molecule of 'pChREBP (Thr 666)' is present. At the end of this reaction, 1 molecule of 'Orthophosphate', and 1 molecule of 'ChREBP protein' are present. This reaction takes place in the 'nucleus' and  is mediated by the 'phosphatidate phosphatase activity' of 'PP2A-ABdeltaC complex'.
+['P67775', 'P62714', 'Q14738', 'Q14738', 'Q14738', 'P30153', 'P30154']
+['Q9NP71']
+{'accession_number__in': ['Q9NP71']}
+Protein Q9NP71 already in database.
+{'accession_number__in': ['P67775']}
+Protein P67775 already in database.
+{'accession_number__in': ['P67775']}
+{'accession_number__in': ['Q9NP71']}
+Added reaction  REACT_382.2
+Added ID  REACT_382.2 P67775 -> Q9NP71
+{'accession_number__in': ['P62714']}
+Protein P62714 already in database.
+{'accession_number__in': ['P62714']}
+{'accession_number__in': ['Q9NP71']}
+Added reaction  REACT_382.2
+Added ID  REACT_382.2 P62714 -> Q9NP71
+{'accession_number__in': ['Q14738']}
+Protein Q14738 already in database.
+{'accession_number__in': ['Q14738']}
+{'accession_number__in': ['Q9NP71']}
+Added reaction  REACT_382.2
+Added ID  REACT_382.2 Q14738 -> Q9NP71
+{'accession_number__in': ['Q14738']}
+Protein Q14738 already in database.
+Reaction and ID REACT_382.2 REACT_382.2 Q14738 -> Q9NP71 already in database.
+{'accession_number__in': ['Q14738']}
+Protein Q14738 already in database.
+Reaction and ID REACT_382.2 REACT_382.2 Q14738 -> Q9NP71 already in database.
+{'accession_number__in': ['P30153']}
+HTTP GET '/uniprot/P30153.xml' (None, None)
+get_page: 0.7 sec
+HTTP GET u'/uniprotAccAction.do?id=P30153' (None, None)
+HTTP GET '/proteinAction.do?id=14417&showAllSites=true' (None, None)
+get_page: 9.0 sec
+HTTP GET u'/siteAction.do?id=3072424' (None, None)
+get_page: 7.6 sec
+Saved P30153
+{'accession_number__in': ['P30153']}
+{'accession_number__in': ['Q9NP71']}
+Added reaction  REACT_382.2
+Added ID  REACT_382.2 P30153 -> Q9NP71
+{'accession_number__in': ['P30154']}
+HTTP GET '/uniprot/P30154.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET u'/uniprotAccAction.do?id=P30154' (None, None)
+HTTP GET '/proteinAction.do?id=20866&showAllSites=true' (None, None)
+get_page: 2.6 sec
+HTTP GET u'/siteAction.do?id=75050' (None, None)
+get_page: 0.9 sec
+Saved P30154
+{'accession_number__in': ['P30154']}
+{'accession_number__in': ['Q9NP71']}
+Added reaction  REACT_382.2
+Added ID  REACT_382.2 P30154 -> Q9NP71
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=163689&' (None, None)
+get_page: 5.2 sec
+At the beginning of this reaction, 1 molecule of 'pChREBP (Ser 196, Thr 666)' is present. At the end of this reaction, 1 molecule of 'Orthophosphate', and 1 molecule of 'pChREBP (Thr 666)' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'phosphatidate phosphatase activity' of 'PP2A-ABdeltaC complex'.
+Reactome: Dephosphorylation of pChREBP (Ser 196) by PP2A
+REACT_1416.2
+At the beginning of this reaction, 1 molecule of 'pChREBP (Ser 196, Thr 666)' is present. At the end of this reaction, 1 molecule of 'Orthophosphate', and 1 molecule of 'pChREBP (Thr 666)' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'phosphatidate phosphatase activity' of 'PP2A-ABdeltaC complex'.
+['P67775', 'P62714', 'Q14738', 'Q14738', 'Q14738', 'P30153', 'P30154']
+['Q9NP71']
+{'accession_number__in': ['Q9NP71']}
+Protein Q9NP71 already in database.
+{'accession_number__in': ['P67775']}
+Protein P67775 already in database.
+Added ID  REACT_1416.2 P67775 -> Q9NP71
+{'accession_number__in': ['P62714']}
+Protein P62714 already in database.
+Added ID  REACT_1416.2 P62714 -> Q9NP71
+{'accession_number__in': ['Q14738']}
+Protein Q14738 already in database.
+Added ID  REACT_1416.2 Q14738 -> Q9NP71
+{'accession_number__in': ['Q14738']}
+Protein Q14738 already in database.
+Reaction and ID REACT_1416.2 REACT_1416.2 Q14738 -> Q9NP71 already in database.
+{'accession_number__in': ['Q14738']}
+Protein Q14738 already in database.
+Reaction and ID REACT_1416.2 REACT_1416.2 Q14738 -> Q9NP71 already in database.
+{'accession_number__in': ['P30153']}
+Protein P30153 already in database.
+Added ID  REACT_1416.2 P30153 -> Q9NP71
+{'accession_number__in': ['P30154']}
+Protein P30154 already in database.
+Added ID  REACT_1416.2 P30154 -> Q9NP71
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=163750&' (None, None)
+get_page: 3.8 sec
+At the beginning of this reaction, 1 molecule of 'pPF2K-Pase complex' is present. At the end of this reaction, 1 molecule of 'Orthophosphate', and 1 molecule of 'PF2K-Pase1 homodimer' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'phosphatidate phosphatase activity' of 'PP2A-ABdeltaC complex'.
+Reactome: Dephosphorylation of PF2K-Pase by PP2A complex
+REACT_1347.2
+At the beginning of this reaction, 1 molecule of 'pPF2K-Pase complex' is present. At the end of this reaction, 1 molecule of 'Orthophosphate', and 1 molecule of 'PF2K-Pase1 homodimer' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'phosphatidate phosphatase activity' of 'PP2A-ABdeltaC complex'.
+['P67775', 'P62714', 'Q14738', 'Q14738', 'Q14738', 'P30153', 'P30154']
+['P16118']
+{'accession_number__in': ['P16118']}
+Protein P16118 already in database.
+{'accession_number__in': ['P67775']}
+Protein P67775 already in database.
+{'accession_number__in': ['P67775']}
+{'accession_number__in': ['P16118']}
+Added reaction  REACT_1347.2
+Added ID  REACT_1347.2 P67775 -> P16118
+{'accession_number__in': ['P62714']}
+Protein P62714 already in database.
+{'accession_number__in': ['P62714']}
+{'accession_number__in': ['P16118']}
+Added reaction  REACT_1347.2
+Added ID  REACT_1347.2 P62714 -> P16118
+{'accession_number__in': ['Q14738']}
+Protein Q14738 already in database.
+{'accession_number__in': ['Q14738']}
+{'accession_number__in': ['P16118']}
+Added reaction  REACT_1347.2
+Added ID  REACT_1347.2 Q14738 -> P16118
+{'accession_number__in': ['Q14738']}
+Protein Q14738 already in database.
+Reaction and ID REACT_1347.2 REACT_1347.2 Q14738 -> P16118 already in database.
+{'accession_number__in': ['Q14738']}
+Protein Q14738 already in database.
+Reaction and ID REACT_1347.2 REACT_1347.2 Q14738 -> P16118 already in database.
+{'accession_number__in': ['P30153']}
+Protein P30153 already in database.
+{'accession_number__in': ['P30153']}
+{'accession_number__in': ['P16118']}
+Added reaction  REACT_1347.2
+Added ID  REACT_1347.2 P30153 -> P16118
+{'accession_number__in': ['P30154']}
+Protein P30154 already in database.
+{'accession_number__in': ['P30154']}
+{'accession_number__in': ['P16118']}
+Added reaction  REACT_1347.2
+Added ID  REACT_1347.2 P30154 -> P16118
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=164056&' (None, None)
+get_page: 5.3 sec
+At the beginning of this reaction, 1 molecule of 'pChREBP(Ser 568)' is present. At the end of this reaction, 1 molecule of 'Orthophosphate', and 1 molecule of 'ChREBP protein' are present. This reaction takes place in the 'nucleus' and  is mediated by the 'phosphatidate phosphatase activity' of 'PP2A-ABdeltaC complex'.
+Reactome: Dephosphorylation of pChREBP (Ser 568) by PP2A
+REACT_814.2
+At the beginning of this reaction, 1 molecule of 'pChREBP(Ser 568)' is present. At the end of this reaction, 1 molecule of 'Orthophosphate', and 1 molecule of 'ChREBP protein' are present. This reaction takes place in the 'nucleus' and  is mediated by the 'phosphatidate phosphatase activity' of 'PP2A-ABdeltaC complex'.
+['P67775', 'P62714', 'Q14738', 'Q14738', 'Q14738', 'P30153', 'P30154']
+['Q9NP71']
+{'accession_number__in': ['Q9NP71']}
+Protein Q9NP71 already in database.
+{'accession_number__in': ['P67775']}
+Protein P67775 already in database.
+Added ID  REACT_814.2 P67775 -> Q9NP71
+{'accession_number__in': ['P62714']}
+Protein P62714 already in database.
+Added ID  REACT_814.2 P62714 -> Q9NP71
+{'accession_number__in': ['Q14738']}
+Protein Q14738 already in database.
+Added ID  REACT_814.2 Q14738 -> Q9NP71
+{'accession_number__in': ['Q14738']}
+Protein Q14738 already in database.
+Reaction and ID REACT_814.2 REACT_814.2 Q14738 -> Q9NP71 already in database.
+{'accession_number__in': ['Q14738']}
+Protein Q14738 already in database.
+Reaction and ID REACT_814.2 REACT_814.2 Q14738 -> Q9NP71 already in database.
+{'accession_number__in': ['P30153']}
+Protein P30153 already in database.
+Added ID  REACT_814.2 P30153 -> Q9NP71
+{'accession_number__in': ['P30154']}
+Protein P30154 already in database.
+Added ID  REACT_814.2 P30154 -> Q9NP71
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=164113&' (None, None)
+get_page: 3.4 sec
+At the beginning of this reaction, 1 molecule of 'prChREBP (Ser 196 Thr 666)' is present. At the end of this reaction, 1 molecule of 'prChREBP (Thr 666)' is present. This reaction takes place in the 'cytosol' and  is mediated by the 'phosphatidate phosphatase activity' of 'rPP2A-ABdeltaC complex'.
+Reactome: Dephosphorylation of prChREBP (Ser 196) by rPP2A
+REACT_1564.2
+Traceback (most recent call last):
+  File "Reactome_reac_parser2.py", line 145, in <module>
+    uniprot_name = cata_record.description.split("RecName: Full=")[1][0:cata_record.description.split("RecName: Full=")[1].index(";")]
+IndexError: list index out of range

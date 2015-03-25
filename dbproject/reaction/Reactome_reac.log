@@ -1,0 +1,2553 @@
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=68944&' (None, None)
+get_page: 6.0 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'pre-replicative complex' are present. At the end of this reaction, 1 molecule of 'phosphorylated Orc1', 1 molecule of 'pre-replicative complex (Orc1-minus)', and 1 molecule of 'ADP' are present. This reaction takes place in the 'nucleus' and  is mediated by the 'kinase activity' of 'Cyclin A:Cdk2 complex'.
+Reactome: Orc1 is phosphorylated by cyclin A/CDK2
+REACT_2111.2
+HTTP GET '/uniprot/Q9UBD5.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/O43913.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/Q9Y5N6.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/O43929.xml' (None, None)
+get_page: 0.2 sec
+HTTP GET '/uniprot/Q13415.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/Q13416.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/Q9UJA3.xml' (None, None)
+get_page: 1.1 sec
+HTTP GET '/uniprot/Q9UJA3.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/Q99741.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/Q9H211.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/P25205.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P33991.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P33992.xml' (None, None)
+get_page: 0.7 sec
+HTTP GET '/uniprot/Q14566.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/P33993.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P49736.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P78396.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P20248.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P24941.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/Q9UM11.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/P38936.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/Q5U0H2.xml' (None, None)
+HTTP GET '/uniprot/P46527.xml' (None, None)
+get_page: 1.3 sec
+HTTP GET '/uniprot/P06400.xml' (None, None)
+get_page: 0.9 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'pre-replicative complex' are present. At the end of this reaction, 1 molecule of 'phosphorylated Orc1', 1 molecule of 'pre-replicative complex (Orc1-minus)', and 1 molecule of 'ADP' are present. This reaction takes place in the 'nucleus' and  is mediated by the 'kinase activity' of 'Cyclin A:Cdk2 complex'.
+['P24941']
+['Q9UBD5', 'Q9Y5N6', 'Q13415', 'Q13416', 'Q99741', 'Q9H211', 'P25205', 'P33991', 'Q14566', 'P33993', 'P49736']
+{'accession_number__in': ['Q9UBD5']}
+Protein Q9UBD5 already in database.
+{'accession_number__in': ['P24941']}
+Protein P24941 already in database.
+Reaction and ID REACT_2111.2 REACT_2111.2 P24941 -> Q9UBD5 already in database.
+{'accession_number__in': ['Q9Y5N6']}
+Protein Q9Y5N6 already in database.
+{'accession_number__in': ['P24941']}
+Protein P24941 already in database.
+Reaction and ID REACT_2111.2 REACT_2111.2 P24941 -> Q9Y5N6 already in database.
+{'accession_number__in': ['Q13415']}
+Protein Q13415 already in database.
+{'accession_number__in': ['P24941']}
+Protein P24941 already in database.
+Reaction and ID REACT_2111.2 REACT_2111.2 P24941 -> Q13415 already in database.
+{'accession_number__in': ['Q13416']}
+Protein Q13416 already in database.
+{'accession_number__in': ['P24941']}
+Protein P24941 already in database.
+Reaction and ID REACT_2111.2 REACT_2111.2 P24941 -> Q13416 already in database.
+{'accession_number__in': ['Q99741']}
+Protein Q99741 already in database.
+{'accession_number__in': ['P24941']}
+Protein P24941 already in database.
+Reaction and ID REACT_2111.2 REACT_2111.2 P24941 -> Q99741 already in database.
+{'accession_number__in': ['Q9H211']}
+Protein Q9H211 already in database.
+{'accession_number__in': ['P24941']}
+Protein P24941 already in database.
+Reaction and ID REACT_2111.2 REACT_2111.2 P24941 -> Q9H211 already in database.
+{'accession_number__in': ['P25205']}
+Protein P25205 already in database.
+{'accession_number__in': ['P24941']}
+Protein P24941 already in database.
+Reaction and ID REACT_2111.2 REACT_2111.2 P24941 -> P25205 already in database.
+{'accession_number__in': ['P33991']}
+Protein P33991 already in database.
+{'accession_number__in': ['P24941']}
+Protein P24941 already in database.
+Reaction and ID REACT_2111.2 REACT_2111.2 P24941 -> P33991 already in database.
+{'accession_number__in': ['Q14566']}
+Protein Q14566 already in database.
+{'accession_number__in': ['P24941']}
+Protein P24941 already in database.
+Reaction and ID REACT_2111.2 REACT_2111.2 P24941 -> Q14566 already in database.
+{'accession_number__in': ['P33993']}
+Protein P33993 already in database.
+{'accession_number__in': ['P24941']}
+Protein P24941 already in database.
+Reaction and ID REACT_2111.2 REACT_2111.2 P24941 -> P33993 already in database.
+{'accession_number__in': ['P49736']}
+Protein P49736 already in database.
+{'accession_number__in': ['P24941']}
+Protein P24941 already in database.
+Reaction and ID REACT_2111.2 REACT_2111.2 P24941 -> P49736 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=68954&' (None, None)
+get_page: 4.5 sec
+At the beginning of this reaction, 1 molecule of 'Mcm2-7 complex', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'phosphorylated Mcm2-7 complex', and 1 molecule of 'ADP' are present. This reaction takes place in the 'nucleus' and  is mediated by the 'kinase activity' of 'DDK'.
+Reactome: Mcm2-7 is phosphorylated by DDK
+REACT_907.2
+HTTP GET '/uniprot/P25205.xml' (None, None)
+get_page: 1.5 sec
+HTTP GET '/uniprot/P33991.xml' (None, None)
+get_page: 1.3 sec
+HTTP GET '/uniprot/P33992.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/Q14566.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P33993.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P49736.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/O00311.xml' (None, None)
+get_page: 0.7 sec
+HTTP GET '/uniprot/Q9UBU7.xml' (None, None)
+get_page: 0.4 sec
+At the beginning of this reaction, 1 molecule of 'Mcm2-7 complex', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'phosphorylated Mcm2-7 complex', and 1 molecule of 'ADP' are present. This reaction takes place in the 'nucleus' and  is mediated by the 'kinase activity' of 'DDK'.
+['O00311']
+['P25205', 'P33991', 'Q14566', 'P33993', 'P49736']
+{'accession_number__in': ['P25205']}
+Protein P25205 already in database.
+{'accession_number__in': ['O00311']}
+Protein O00311 already in database.
+Reaction and ID REACT_907.2 REACT_907.2 O00311 -> P25205 already in database.
+{'accession_number__in': ['P33991']}
+Protein P33991 already in database.
+{'accession_number__in': ['O00311']}
+Protein O00311 already in database.
+Reaction and ID REACT_907.2 REACT_907.2 O00311 -> P33991 already in database.
+{'accession_number__in': ['Q14566']}
+Protein Q14566 already in database.
+{'accession_number__in': ['O00311']}
+Protein O00311 already in database.
+Reaction and ID REACT_907.2 REACT_907.2 O00311 -> Q14566 already in database.
+{'accession_number__in': ['P33993']}
+Protein P33993 already in database.
+{'accession_number__in': ['O00311']}
+Protein O00311 already in database.
+Reaction and ID REACT_907.2 REACT_907.2 O00311 -> P33993 already in database.
+{'accession_number__in': ['P49736']}
+Protein P49736 already in database.
+{'accession_number__in': ['O00311']}
+Protein O00311 already in database.
+Reaction and ID REACT_907.2 REACT_907.2 O00311 -> P49736 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=69005&' (None, None)
+get_page: 4.8 sec
+At the beginning of this reaction, 1 molecule of 'CDC6', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'phosphorylated Cdc6' are present. This reaction takes place in the 'nucleus' and  is mediated by the 'kinase activity' of 'CDK'.
+Reactome: Cdc6 protein is phosphorylated by CDK
+REACT_1279.2
+HTTP GET '/uniprot/P24941.xml' (None, None)
+get_page: 0.3 sec
+At the beginning of this reaction, 1 molecule of 'CDC6', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'phosphorylated Cdc6' are present. This reaction takes place in the 'nucleus' and  is mediated by the 'kinase activity' of 'CDK'.
+['P24941']
+['Q99741']
+{'accession_number__in': ['Q99741']}
+Protein Q99741 already in database.
+{'accession_number__in': ['P24941']}
+Protein P24941 already in database.
+Reaction and ID REACT_1279.2 REACT_1279.2 P24941 -> Q99741 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=69195&' (None, None)
+get_page: 4.2 sec
+Wee1  phosphorylates Cdk2, inhibiting entry into S-phase (Watanabe et al., 1995; Wu et al., 2001). [Wu et al 2001, Watanabe et al 1995]
+Reactome: Phosphorylation of Cyclin E:Cdk2 complexes
+REACT_773.3
+HTTP GET '/uniprot/P24941.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/O96020.xml' (None, None)
+get_page: 0.2 sec
+HTTP GET '/uniprot/P24864.xml' (None, None)
+get_page: 0.3 sec
+Wee1  phosphorylates Cdk2, inhibiting entry into S-phase (Watanabe et al., 1995; Wu et al., 2001). [Wu et al 2001, Watanabe et al 1995]
+['P30291']
+['P24941', 'O96020', 'P24864']
+{'accession_number__in': ['P24941']}
+Protein P24941 already in database.
+{'accession_number__in': ['P30291']}
+Protein P30291 already in database.
+Reaction and ID REACT_773.3 REACT_773.3 P30291 -> P24941 already in database.
+{'accession_number__in': ['O96020']}
+Protein O96020 already in database.
+{'accession_number__in': ['P30291']}
+Protein P30291 already in database.
+Reaction and ID REACT_773.3 REACT_773.3 P30291 -> O96020 already in database.
+{'accession_number__in': ['P24864']}
+Protein P24864 already in database.
+{'accession_number__in': ['P30291']}
+Protein P30291 already in database.
+Reaction and ID REACT_773.3 REACT_773.3 P30291 -> P24864 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=69223&' (None, None)
+get_page: 6.1 sec
+Phosphorylation of CDK4 on Thr172 depends on prior D-type cyclin binding (Bockstaele et al., 2006). [Bockstaele et al 2006]
+Reactome: Phosphorylation of Cyclin D:Cdk4/6 complexes
+REACT_96.4
+HTTP GET '/uniprot/P38936.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/Q5U0H2.xml' (None, None)
+HTTP GET '/uniprot/P46527.xml' (None, None)
+get_page: 0.8 sec
+HTTP GET '/uniprot/P24385.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/P30281.xml' (None, None)
+get_page: 0.9 sec
+HTTP GET '/uniprot/P30279.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/P11802.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/Q00534.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/P50613.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P51946.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P51948.xml' (None, None)
+get_page: 0.8 sec
+Phosphorylation of CDK4 on Thr172 depends on prior D-type cyclin binding (Bockstaele et al., 2006). [Bockstaele et al 2006]
+['P50613', 'P51948']
+['P38936', 'Q5U0H2', 'P24385', 'P11802', 'Q00534']
+{'accession_number__in': ['P38936']}
+Protein P38936 already in database.
+{'accession_number__in': ['P50613']}
+Protein P50613 already in database.
+Reaction and ID REACT_96.4 REACT_96.4 P50613 -> P38936 already in database.
+{'accession_number__in': ['P51948']}
+Protein P51948 already in database.
+Reaction and ID REACT_96.4 REACT_96.4 P51948 -> P38936 already in database.
+{'accession_number__in': ['Q5U0H2']}
+HTTP GET '/uniprot/Q5U0H2.xml' (None, None)
+HTTP GET '/uniprot/P46527.xml' (None, None)
+get_page: 0.6 sec
+ObjectId_Source (1062, "Duplicate entry 'P46527-Reactome' for key 2")
+{'time': '0.001', 'sql': u'INSERT INTO `objectid_source` (`object_id`, `source_id`) VALUES (P46527, Reactome)'}
+Uniprot save (1062, "Duplicate entry 'P46527-Reactome' for key 2")
+{'accession_number__in': ['P24385']}
+Protein P24385 already in database.
+{'accession_number__in': ['P50613']}
+Protein P50613 already in database.
+Reaction and ID REACT_96.4 REACT_96.4 P50613 -> P24385 already in database.
+{'accession_number__in': ['P51948']}
+Protein P51948 already in database.
+Reaction and ID REACT_96.4 REACT_96.4 P51948 -> P24385 already in database.
+{'accession_number__in': ['P11802']}
+Protein P11802 already in database.
+{'accession_number__in': ['P50613']}
+Protein P50613 already in database.
+Reaction and ID REACT_96.4 REACT_96.4 P50613 -> P11802 already in database.
+{'accession_number__in': ['P51948']}
+Protein P51948 already in database.
+Reaction and ID REACT_96.4 REACT_96.4 P51948 -> P11802 already in database.
+{'accession_number__in': ['Q00534']}
+Protein Q00534 already in database.
+{'accession_number__in': ['P50613']}
+Protein P50613 already in database.
+Reaction and ID REACT_96.4 REACT_96.4 P50613 -> Q00534 already in database.
+{'accession_number__in': ['P51948']}
+Protein P51948 already in database.
+Reaction and ID REACT_96.4 REACT_96.4 P51948 -> Q00534 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=69227&' (None, None)
+get_page: 4.6 sec
+Cyclin D:Cdk4 mediated phosphorylation of RB releases RB from the transcriptional regulator E2F and activates E2F function.
+Reactome: Cyclin D:Cdk4/6 mediated phosphorylation of Rb and dissociation of Rb from the Rb:E2F:DP-1 complexes
+REACT_1882.4
+HTTP GET '/uniprot/P06400.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/Q01094.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/Q14209.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/O00716.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/Q16254.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/Q15329.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/Q14186.xml' (None, None)
+get_page: 0.8 sec
+HTTP GET '/uniprot/P11802.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/Q00534.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/P38936.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/Q5U0H2.xml' (None, None)
+HTTP GET '/uniprot/P46527.xml' (None, None)
+get_page: 0.7 sec
+HTTP GET '/uniprot/P24385.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/P30281.xml' (None, None)
+get_page: 0.9 sec
+HTTP GET '/uniprot/P30279.xml' (None, None)
+get_page: 0.4 sec
+Cyclin D:Cdk4 mediated phosphorylation of RB releases RB from the transcriptional regulator E2F and activates E2F function.
+['P11802', 'Q00534']
+['P06400', 'Q01094', 'Q14209', 'Q16254', 'Q14186']
+{'accession_number__in': ['P06400']}
+Protein P06400 already in database.
+{'accession_number__in': ['P11802']}
+Protein P11802 already in database.
+Reaction and ID REACT_1882.4 REACT_1882.4 P11802 -> P06400 already in database.
+{'accession_number__in': ['Q00534']}
+Protein Q00534 already in database.
+Reaction and ID REACT_1882.4 REACT_1882.4 Q00534 -> P06400 already in database.
+{'accession_number__in': ['Q01094']}
+Protein Q01094 already in database.
+{'accession_number__in': ['P11802']}
+Protein P11802 already in database.
+Reaction and ID REACT_1882.4 REACT_1882.4 P11802 -> Q01094 already in database.
+{'accession_number__in': ['Q00534']}
+Protein Q00534 already in database.
+Reaction and ID REACT_1882.4 REACT_1882.4 Q00534 -> Q01094 already in database.
+{'accession_number__in': ['Q14209']}
+Protein Q14209 already in database.
+{'accession_number__in': ['P11802']}
+Protein P11802 already in database.
+Reaction and ID REACT_1882.4 REACT_1882.4 P11802 -> Q14209 already in database.
+{'accession_number__in': ['Q00534']}
+Protein Q00534 already in database.
+Reaction and ID REACT_1882.4 REACT_1882.4 Q00534 -> Q14209 already in database.
+{'accession_number__in': ['Q16254']}
+Protein Q16254 already in database.
+{'accession_number__in': ['P11802']}
+Protein P11802 already in database.
+Reaction and ID REACT_1882.4 REACT_1882.4 P11802 -> Q16254 already in database.
+{'accession_number__in': ['Q00534']}
+Protein Q00534 already in database.
+Reaction and ID REACT_1882.4 REACT_1882.4 Q00534 -> Q16254 already in database.
+{'accession_number__in': ['Q14186']}
+Protein Q14186 already in database.
+{'accession_number__in': ['P11802']}
+Protein P11802 already in database.
+Reaction and ID REACT_1882.4 REACT_1882.4 P11802 -> Q14186 already in database.
+{'accession_number__in': ['Q00534']}
+Protein Q00534 already in database.
+Reaction and ID REACT_1882.4 REACT_1882.4 Q00534 -> Q14186 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=69491&' (None, None)
+get_page: 4.3 sec
+At the beginning of this reaction, 1 molecule of 'Mdm2' is present. At the end of this reaction, 1 molecule of 'phospho-MDM2' is present. This reaction takes place in the 'nucleoplasm' and  is mediated by the 'kinase activity' of 'phospho-ATM (Ser 1981)'.
+Reactome: Phosphorylation of MDM2 at serine-395 by ATM kinase
+REACT_988.4
+At the beginning of this reaction, 1 molecule of 'Mdm2' is present. At the end of this reaction, 1 molecule of 'phospho-MDM2' is present. This reaction takes place in the 'nucleoplasm' and  is mediated by the 'kinase activity' of 'phospho-ATM (Ser 1981)'.
+['Q13315']
+['Q00987']
+{'accession_number__in': ['Q00987']}
+Protein Q00987 already in database.
+{'accession_number__in': ['Q13315']}
+Protein Q13315 already in database.
+Reaction and ID REACT_988.4 REACT_988.4 Q13315 -> Q00987 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=69511&' (None, None)
+get_page: 4.2 sec
+In response to DNA damage due to ionizing radiation, the serine at position 15 of the p53 tumor suppressor protein is rapidly phosphorylated by the ATM kinase.  This serves to stabilize the p53 protein.  A rise in the levels of the p53 protein induce the expression of the p21 cyclin-dependent kinase inhibitor.  This prevents the normal progression from G1 to S phase, thus providing a check on replication of damaged DNA.  
+Reactome: Phosphorylation of p53 at ser-15 by ATM kinase
+REACT_1756.2
+In response to DNA damage due to ionizing radiation, the serine at position 15 of the p53 tumor suppressor protein is rapidly phosphorylated by the ATM kinase.  This serves to stabilize the p53 protein.  A rise in the levels of the p53 protein induce the expression of the p21 cyclin-dependent kinase inhibitor.  This prevents the normal progression from G1 to S phase, thus providing a check on replication of damaged DNA.  
+['Q13315']
+['P04637']
+{'accession_number__in': ['P04637']}
+Protein P04637 already in database.
+{'accession_number__in': ['Q13315']}
+Protein Q13315 already in database.
+Reaction and ID REACT_1756.2 REACT_1756.2 Q13315 -> P04637 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=69562&' (None, None)
+get_page: 4.5 sec
+During G1, the activity of cyclin-dependent kinases (CDKs) is kept in check by the CDK inhibitors (CKIs) p27 and p21, thereby preventing premature entry into S phase (see Guardavaccaro and Pagano, 2006). The efficient recognition and ubiquitination of p27 by the SCF(Skp2) complex requires the formation of a trimeric complex containing p27 and cyclin E/A:Cdk2. [Guardavaccaro & Pagano 2006]
+Reactome: Inactivation of Cyclin E:Cdk2 complexes by p27/p21
+REACT_334.2
+HTTP GET '/uniprot/P24941.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/O96020.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P24864.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P38936.xml' (None, None)
+get_page: 0.7 sec
+HTTP GET '/uniprot/Q5U0H2.xml' (None, None)
+HTTP GET '/uniprot/P46527.xml' (None, None)
+get_page: 2.2 sec
+HTTP GET '/uniprot/P38936.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/Q5U0H2.xml' (None, None)
+HTTP GET '/uniprot/P46527.xml' (None, None)
+get_page: 1.2 sec
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=69591&' (None, None)
+get_page: 4.0 sec
+Chk1 directly phosphorylates Cdc25A at Ser-123. Chk1 phosphorylation  is required for cells to delay cell cycle progression in response to double-strand DNA breaks (Zhao et al., 2002). [Zhao et al 2002]
+Reactome: Phosphorylation of Cdc25A at Ser-123 in response to DNA damage
+REACT_1680.4
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=69604&' (None, None)
+get_page: 4.8 sec
+Detection of DNA damage caused by ionizing radiation results in the phosphorylation of Cdc25A at Ser-123 by Chk1, inhibiting Cdc25A.
+Reactome: Phosphorylation of Cdc25A at Ser-123 by Chk1
+REACT_845.3
+Detection of DNA damage caused by ionizing radiation results in the phosphorylation of Cdc25A at Ser-123 by Chk1, inhibiting Cdc25A.
+['O14757']
+['P30304']
+{'accession_number__in': ['P30304']}
+Protein P30304 already in database.
+{'accession_number__in': ['O14757']}
+Protein O14757 already in database.
+Reaction and ID REACT_845.3 REACT_845.3 O14757 -> P30304 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=69608&' (None, None)
+get_page: 3.8 sec
+Detection of DNA damage caused by ionizing radiation results in the phosphorylation of Cdc25A at Ser-123 by Chk2. 
+Reactome: Phosphorylation of Cdc25A at Ser-123 by Chk2
+REACT_43.1
+Detection of DNA damage caused by ionizing radiation results in the phosphorylation of Cdc25A at Ser-123 by Chk2. 
+['O96017']
+['P30304']
+{'accession_number__in': ['P30304']}
+Protein P30304 already in database.
+{'accession_number__in': ['O96017']}
+Protein O96017 already in database.
+Reaction and ID REACT_43.1 REACT_43.1 O96017 -> P30304 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=69634&' (None, None)
+get_page: 4.1 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'Cyclin E1:Cdk2 complex' are present. At the end of this reaction, 1 molecule of 'Cyclin E1:phospho-Cdk2 complex', and 1 molecule of 'ADP' are present. This reaction takes place in the 'nucleoplasm' and  is mediated by the 'kinase activity' of 'Wee1'.
+Reactome: Phosphorylation of Cyclin E1:Cdk2 complexes by Wee1
+REACT_157.2
+HTTP GET '/uniprot/P24941.xml' (None, None)
+get_page: 0.7 sec
+HTTP GET '/uniprot/P24864.xml' (None, None)
+get_page: 0.7 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'Cyclin E1:Cdk2 complex' are present. At the end of this reaction, 1 molecule of 'Cyclin E1:phospho-Cdk2 complex', and 1 molecule of 'ADP' are present. This reaction takes place in the 'nucleoplasm' and  is mediated by the 'kinase activity' of 'Wee1'.
+['P30291']
+['P24941', 'P24864']
+{'accession_number__in': ['P24941']}
+Protein P24941 already in database.
+{'accession_number__in': ['P30291']}
+Protein P30291 already in database.
+Reaction and ID REACT_157.2 REACT_157.2 P30291 -> P24941 already in database.
+{'accession_number__in': ['P24864']}
+Protein P24864 already in database.
+{'accession_number__in': ['P30291']}
+Protein P30291 already in database.
+Reaction and ID REACT_157.2 REACT_157.2 P30291 -> P24864 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=69636&' (None, None)
+get_page: 4.8 sec
+At the beginning of this reaction, 1 molecule of 'Cyclin E2:Cdk2 complex', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'Cyclin E2:phospho-Cdk2 complex', and 1 molecule of 'ADP' are present. This reaction takes place in the 'nucleoplasm' and  is mediated by the 'kinase activity' of 'Wee1'.
+Reactome: Phosphorylation of Cyclin E2:Cdk2 complexes by Wee1
+REACT_520.2
+HTTP GET '/uniprot/P24941.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/O96020.xml' (None, None)
+get_page: 0.5 sec
+At the beginning of this reaction, 1 molecule of 'Cyclin E2:Cdk2 complex', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'Cyclin E2:phospho-Cdk2 complex', and 1 molecule of 'ADP' are present. This reaction takes place in the 'nucleoplasm' and  is mediated by the 'kinase activity' of 'Wee1'.
+['P30291']
+['P24941', 'O96020']
+{'accession_number__in': ['P24941']}
+Protein P24941 already in database.
+{'accession_number__in': ['P30291']}
+Protein P30291 already in database.
+Reaction and ID REACT_520.2 REACT_520.2 P30291 -> P24941 already in database.
+{'accession_number__in': ['O96020']}
+Protein O96020 already in database.
+{'accession_number__in': ['P30291']}
+Protein P30291 already in database.
+Reaction and ID REACT_520.2 REACT_520.2 P30291 -> O96020 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=69690&' (None, None)
+get_page: 3.8 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'Cyclin E1:Cdk2 complex' are present. At the end of this reaction, 1 molecule of 'Cyclin E1:phospho-Cdk2 complex', and 1 molecule of 'ADP' are present. This reaction takes place in the 'nucleoplasm' and  is mediated by the 'kinase activity' of 'Myt1 kinase'.
+Reactome: Phosphorylation of Cyclin E1:Cdk2 complexes by Myt1
+REACT_1657.2
+HTTP GET '/uniprot/P24941.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/P24864.xml' (None, None)
+get_page: 0.3 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'Cyclin E1:Cdk2 complex' are present. At the end of this reaction, 1 molecule of 'Cyclin E1:phospho-Cdk2 complex', and 1 molecule of 'ADP' are present. This reaction takes place in the 'nucleoplasm' and  is mediated by the 'kinase activity' of 'Myt1 kinase'.
+['Q99640']
+['P24941', 'P24864']
+{'accession_number__in': ['P24941']}
+Protein P24941 already in database.
+{'accession_number__in': ['Q99640']}
+Protein Q99640 already in database.
+Reaction and ID REACT_1657.2 REACT_1657.2 Q99640 -> P24941 already in database.
+{'accession_number__in': ['P24864']}
+Protein P24864 already in database.
+{'accession_number__in': ['Q99640']}
+Protein Q99640 already in database.
+Reaction and ID REACT_1657.2 REACT_1657.2 Q99640 -> P24864 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=69691&' (None, None)
+get_page: 5.2 sec
+At the beginning of this reaction, 1 molecule of 'Cyclin E2:Cdk2 complex', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'Cyclin E2:phospho-Cdk2 complex', and 1 molecule of 'ADP' are present. This reaction takes place in the 'nucleoplasm' and  is mediated by the 'kinase activity' of 'Myt1 kinase'.
+Reactome: Phosphorylation of Cyclin E2:Cdk2 complexes by Myt1
+REACT_384.2
+HTTP GET '/uniprot/P24941.xml' (None, None)
+get_page: 0.8 sec
+HTTP GET '/uniprot/O96020.xml' (None, None)
+get_page: 0.2 sec
+At the beginning of this reaction, 1 molecule of 'Cyclin E2:Cdk2 complex', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'Cyclin E2:phospho-Cdk2 complex', and 1 molecule of 'ADP' are present. This reaction takes place in the 'nucleoplasm' and  is mediated by the 'kinase activity' of 'Myt1 kinase'.
+['Q99640']
+['P24941', 'O96020']
+{'accession_number__in': ['P24941']}
+Protein P24941 already in database.
+{'accession_number__in': ['Q99640']}
+Protein Q99640 already in database.
+Reaction and ID REACT_384.2 REACT_384.2 Q99640 -> P24941 already in database.
+{'accession_number__in': ['O96020']}
+Protein O96020 already in database.
+{'accession_number__in': ['Q99640']}
+Protein Q99640 already in database.
+Reaction and ID REACT_384.2 REACT_384.2 Q99640 -> O96020 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=69754&' (None, None)
+get_page: 4.4 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'G2/M transition protein' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'phospho-G2/M transition protein' are present. This reaction takes place in the 'nucleoplasm' and  is mediated by the 'cyclin-dependent protein kinase activity' of 'Cyclin A1:Cdc2'.
+Reactome: Phosphorylation of proteins involved in G2/M transition by active Cyclin A1:Cdc2 complexes
+REACT_406.3
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=69756&' (None, None)
+get_page: 4.5 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'G2/M transition protein' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'phospho-G2/M transition protein' are present. This reaction takes place in the 'nucleoplasm' and  is mediated by the 'cyclin-dependent protein kinase activity' of 'Cyclin A2:Cdc2'.
+Reactome: Phosphorylation of proteins involved in G2/M transition by active Cyclin A2:Cdc2 complexes
+REACT_1627.3
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=69759&' (None, None)
+get_page: 4.6 sec
+Substrate specificity of cyclin B:Cdk1 complexes is primarily conferred  by their subcellular localization (Draviam et al., 2001).Cyclin B1 is primarily cytoplasmic but  shuttles continuously between the nucleus and the cytoplasm during interphase (Hagting et al. 1998 Down; Toyoshima et al. 1998 Down; Yang et al. 1998 Down). At the end of prophase, it abruptly translocates into the nucleus (Furuno et al. 1999 Down; Hagting et al. 1999 Down) and then associates with mitotic apparatus (Pines and Hunter 1991 Down; Hagting et al. 1998 Down; Clute and Pines 1999 Down). Cyclin B2 is primarily associated with the Golgi apparatus during interphase and mitosis (Jackman et al. 1995 Down; Brandeis et al. 1998 Down). Cyclin B1–CDK1 promotes chromosome condensation, reorganization microtubule reorgnization, and   disassembly of the nuclear lamina and the Golgi apparatus. Cyclin B2–CDK1 functions in disassembly of the Golgi apparatus (Draviam et al., 2001). [Draviam et al 2001, Hagting et al 1998, Toyoshima et al 1998, Yang et al 1998, Hagting et al 1999, Pines & Hunter 1991, Clute & Pines 1999, Jackman et al 1995, Brandeis et al 1998]
+Reactome: Phosphorylation of proteins involved in G2/M transition by active Cyclin B2:Cdc2 complexes
+REACT_852.3
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=69889&' (None, None)
+get_page: 5.1 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'Chk1' are present. At the end of this reaction, 1 molecule of 'phospho-Chk1', and 1 molecule of 'ADP' are present. This reaction takes place in the 'nucleus' and  is mediated by the 'kinase activity' of 'phospho-ATM (Ser 1981)'.
+Reactome: Phosphorylation and activation of CHK1 by ATM
+REACT_302.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=69891&' (None, None)
+get_page: 10.1 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'Chk2' are present. At the end of this reaction, 1 molecule of 'phospho-Chk2', and 1 molecule of 'ADP' are present. This reaction takes place in the 'nucleus' and  is mediated by the 'kinase activity' of 'phospho-ATM (Ser 1981)'.
+Reactome: Phosphorylation and activation of CHK2 by ATM
+REACT_1603.3
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=70100&' (None, None)
+get_page: 4.5 sec
+The R/L isoform of pyruvate kinase is the major form of the enzyme in human red blood cells (R) and liver (L); deficiencies in the enzyme are associated with reduced pyruvate kinase activity in red blood cells and with hemolytic anemia (Tani et al. 1988; Miwa et al. 1993). [Tani et al 1988, Miwa et al 1993]
+Reactome: ADP + Phosphoenolpyruvate =&gt; ATP + Pyruvate (pyruvate kinase R/L)
+REACT_1294.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=70262&' (None, None)
+get_page: 5.1 sec
+The fructose 2,6-bisphosphatase activity of cytosolic phosphofructokinase 2/fructose-2,6-bisphosphatase catalyzes the hydrolysis of fructose 2,6 bisphosphate to form fructose 6-phosphate. Fructose 2,6 bisphosphate is a key allosteric regulator of PFK1. In its absence the activity of PFK1 is reduced while fructose 1,6-bisphosphatase is activated, thus inhibiting glycolysis and favoring gluconeogenesis (Pilkis et al. 1995).
+Reactome: Fructose 2,6-bisphosphate is hydrolyzed to form fructose-6-phosphate and orthophosphate
+REACT_1084.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=70486&' (None, None)
+get_page: 4.6 sec
+Cytosolic phosphoglycerate kinase complexed with magnesium catalyzes the reversible phosphorylation of 3-phosphoglycerate to form 1,3-bisphosphoglycerate (Huang et al. 1980a, 1980b).
+Reactome: ATP + 3-Phospho-D-glycerate &lt;=&gt; ADP + 1,3-bisphospho-D-glycerate
+REACT_432.3
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=71541&' (None, None)
+get_page: 5.0 sec
+At the beginning of this reaction, 1 molecule of 'glycogen phosphorylase, muscle form, tetramer b', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'glycogen phosphorylase, muscle form, tetramer a', and 1 molecule of 'ADP' are present. This reaction takes place in the 'glycogen granule' and  is mediated by the 'phosphorylase kinase activity' of 'phosphorylase kinase complex, muscle form'.
+Reactome: glycogen phosphorylase, muscle form, tetramer b + ATP =&gt; glycogen phosphorylase, muscle form, tetramer a + ADP
+REACT_848.3
+HTTP GET '/uniprot/P11217.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P46020.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/Q93100.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/Q16816.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P62158.xml' (None, None)
+get_page: 0.7 sec
+At the beginning of this reaction, 1 molecule of 'glycogen phosphorylase, muscle form, tetramer b', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'glycogen phosphorylase, muscle form, tetramer a', and 1 molecule of 'ADP' are present. This reaction takes place in the 'glycogen granule' and  is mediated by the 'phosphorylase kinase activity' of 'phosphorylase kinase complex, muscle form'.
+['P46020', 'Q93100', 'Q16816']
+['P11217']
+{'accession_number__in': ['P11217']}
+Protein P11217 already in database.
+{'accession_number__in': ['P46020']}
+Protein P46020 already in database.
+Reaction and ID REACT_848.3 REACT_848.3 P46020 -> P11217 already in database.
+{'accession_number__in': ['Q93100']}
+Protein Q93100 already in database.
+Reaction and ID REACT_848.3 REACT_848.3 Q93100 -> P11217 already in database.
+{'accession_number__in': ['Q16816']}
+Protein Q16816 already in database.
+Reaction and ID REACT_848.3 REACT_848.3 Q16816 -> P11217 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=71588&' (None, None)
+get_page: 4.5 sec
+At the beginning of this reaction, 1 molecule of 'glycogen phosphorylase, liver form, tetramer b', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'glycogen phosphorylase, liver form, tetramer a', and 1 molecule of 'ADP' are present. This reaction takes place in the 'glycogen granule' and  is mediated by the 'phosphorylase kinase activity' of 'phosphorylase kinase complex, liver form'.
+Reactome: glycogen phosphorylase, liver form, tetramer b + ATP =&gt; glycogen phosphorylase, liver form, tetramer a + ADP
+REACT_1623.3
+HTTP GET '/uniprot/P06737.xml' (None, None)
+get_page: 1.3 sec
+HTTP GET '/uniprot/P46019.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/Q93100.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P15735.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P62158.xml' (None, None)
+get_page: 0.7 sec
+At the beginning of this reaction, 1 molecule of 'glycogen phosphorylase, liver form, tetramer b', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'glycogen phosphorylase, liver form, tetramer a', and 1 molecule of 'ADP' are present. This reaction takes place in the 'glycogen granule' and  is mediated by the 'phosphorylase kinase activity' of 'phosphorylase kinase complex, liver form'.
+['P46019', 'Q93100', 'P15735']
+['P06737']
+{'accession_number__in': ['P06737']}
+Protein P06737 already in database.
+{'accession_number__in': ['P46019']}
+Protein P46019 already in database.
+Reaction and ID REACT_1623.3 REACT_1623.3 P46019 -> P06737 already in database.
+{'accession_number__in': ['Q93100']}
+Protein Q93100 already in database.
+Reaction and ID REACT_1623.3 REACT_1623.3 Q93100 -> P06737 already in database.
+{'accession_number__in': ['P15735']}
+Protein P15735 already in database.
+Reaction and ID REACT_1623.3 REACT_1623.3 P15735 -> P06737 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=71670&' (None, None)
+get_page: 4.3 sec
+The muscle (M) isoform of pyruvate kinase is expressed both in muscle and in a variety of other tissues in the normal human adult (Takenaka et al. 1991). [Takenaka et al 1991]
+Reactome: ADP + Phosphoenolpyruvate =&gt; ATP + Pyruvate (pyruvate kinase M2)
+REACT_1524.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=71802&' (None, None)
+get_page: 5.1 sec
+At the beginning of this reaction, 1 molecule of 'D-Fructose 6-phosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'D-Fructose 2,6-bisphosphate' are present. This reaction takes place in the 'cytosol' and  is mediated by the '6-phosphofructo-2-kinase activity' of 'PF2K-Pase1 homodimer'.
+Reactome: ATP + D-fructose 6-phosphate =&gt; ADP + D-fructose 2,6-bisphosphate [liver + muscle]
+REACT_291.3
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=71804&' (None, None)
+get_page: 3.9 sec
+At the beginning of this reaction, 1 molecule of 'D-Fructose 6-phosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'D-Fructose 2,6-bisphosphate' are present. This reaction takes place in the 'cytoplasm' and  is mediated by the '6-phosphofructo-2-kinase activity' of '6-phosphofructo-2-kinase/fructose-2,6-biphosphatase 2 homodimer'.
+Reactome: ATP + D-fructose 6-phosphate =&gt; ADP + D-fructose 2,6-bisphosphate [heart]
+REACT_1637.3
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=71806&' (None, None)
+get_page: 3.9 sec
+At the beginning of this reaction, 1 molecule of 'D-Fructose 6-phosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'D-Fructose 2,6-bisphosphate' are present. This reaction takes place in the 'cytoplasm' and  is mediated by the '6-phosphofructokinase activity' of '6-phosphofructo-2-kinase/fructose-2,6-biphosphatase 3 homodimer'.
+Reactome: ATP + D-fructose 6-phosphate =&gt; ADP + D-fructose 2,6-bisphosphate [brain + placenta]
+REACT_30.3
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=71808&' (None, None)
+get_page: 5.0 sec
+At the beginning of this reaction, 1 molecule of 'D-Fructose 6-phosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'D-Fructose 2,6-bisphosphate' are present. This reaction takes place in the 'cytoplasm' and  is mediated by the '6-phosphofructo-2-kinase activity' of '6-phosphofructo-2-kinase/fructose-2,6-biphosphatase 4 homodimer'.
+Reactome: ATP + D-fructose 6-phosphate =&gt; ADP + D-fructose 2,6-bisphosphate [testis]
+REACT_118.3
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=71850&' (None, None)
+get_page: 4.0 sec
+Cytosolic phosphoglycerate kinase catalyzes the reaction of ADP and 1,3-bisphosphoglycerate to form D-glyceraldehyde 3-phosphate and ATP. This is the first substrate-level phosphorylation reaction in glycolysis.
+Reactome: ADP + 3-Phospho-D-glyceroyl phosphate &lt;=&gt; ATP + 3-Phospho-D-glycerate
+REACT_1186.1
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=73547&' (None, None)
+get_page: 6.0 sec
+At the beginning of this reaction, 1 molecule of 'cytidine 5'-diphosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'CTP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase A,B heterohexamer'.
+Reactome: cytidine 5'-diphosphate + ATP &lt;=&gt; cytidine 5'-triphosphate + ADP
+REACT_1220.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=73548&' (None, None)
+get_page: 5.1 sec
+At the beginning of this reaction, 1 molecule of 'cytidine 5'-monophosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'cytidine 5'-diphosphate', and 1 molecule of 'ADP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'UMP-CMP kinase '.
+Reactome: cytidine 5'-monophosphate (CMP) + ATP &lt;=&gt; cytidine 5'-diphosphate (CDP) + ADP
+REACT_1618.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=73550&' (None, None)
+get_page: 13.2 sec
+At the beginning of this reaction, 1 molecule of 'cytidine', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'cytidine 5'-monophosphate' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'uridine-cytidine kinase 1 holoenzyme'.
+Reactome: cytidine + ATP =&gt; cytidine 5'-monophosphate (CMP) + ADP
+REACT_1339.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=73598&' (None, None)
+get_page: 5.4 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of '2'-deoxycytidine' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of '2'-deoxycytidine 5'-monophosphate' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'deoxycytidine kinase holoenzyme'.
+Reactome: 2'-deoxycytidine + ATP =&gt; 2'-deoxycytidine 5'-monophosphate (dCMP) + ADP
+REACT_1547.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=73599&' (None, None)
+get_page: 4.5 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'uridine' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'uridine 5'-monophosphate' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'uridine-cytidine kinase 1 holoenzyme'.
+Reactome: uridine + ATP =&gt; uridine 5'-monophosphate (UMP) + ADP
+REACT_2062.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=73623&' (None, None)
+get_page: 6.0 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'uridine 5'-monophosphate' are present. At the end of this reaction, 1 molecule of 'uridine 5'-diphosphate', and 1 molecule of 'ADP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'UMP-CMP kinase '.
+Reactome: uridine 5'-monophosphate (UMP) + ATP &lt;=&gt; uridine 5'-diphosphate (UDP) + ADP
+REACT_1122.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=73625&' (None, None)
+get_page: 6.0 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'uridine 5'-diphosphate' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'UTP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase A,B heterohexamer'.
+Reactome: uridine 5'-diphosphate (UDP) + ATP &lt;=&gt; uridine 5'-triphosphate (UTP) + ADP
+REACT_1197.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=73627&' (None, None)
+get_page: 4.4 sec
+At the beginning of this reaction, 1 molecule of '2'-deoxycytidine 5'-monophosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of '2'-deoxycytidine 5'-diphosphate' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'UMP-CMP kinase '.
+Reactome: 2'-deoxycytidine 5'-monophosphate (dCMP) + ATP &lt;=&gt; deoxycytidine 5'-diphosphate (dCDP) + ADP
+REACT_103.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=73629&' (None, None)
+get_page: 4.5 sec
+At the beginning of this reaction, 1 molecule of '2'-deoxycytidine 5'-diphosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dCTP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase A,B heterohexamer'.
+Reactome: 2'-deoxycytidine 5'-diphosphate (dCDP) + ATP &lt;=&gt; dCTP + adenosine 5'-diphosphate (ADP)
+REACT_1025.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=73631&' (None, None)
+get_page: 4.6 sec
+At the beginning of this reaction, 1 molecule of 'thymidine 5'-monophosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'thymidine 5'-diphosphate', and 1 molecule of 'ADP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'deoxythymidylate kinase (thymidylate kinase) holoenzyme'.
+Reactome: thymidine 5'-monophosphate (TMP) + ATP &lt;=&gt; thymidine 5'-diphosphate (TDP) + ADP
+REACT_489.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=73632&' (None, None)
+get_page: 4.9 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'thymidine' are present. At the end of this reaction, 1 molecule of 'thymidine 5'-monophosphate', and 1 molecule of 'ADP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'thymidine kinase 1, soluble holoenzyme'.
+Reactome: thymidine + ATP =&gt; thymidine 5'-monophosphate (dTMP) + ADP
+REACT_437.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=73634&' (None, None)
+get_page: 4.9 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'thymidine 5'-diphosphate' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'TTP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase A,B heterohexamer'.
+Reactome: thymidine 5'-diphosphate (TDP) + ATP &lt;=&gt; thymidine 5'-triphosphate (TTP) + ADP
+REACT_943.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=73635&' (None, None)
+get_page: 4.9 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of '2'-deoxyuridine 5'-monophosphate' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of '2'-deoxyuridine 5'-diphosphate' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'deoxythymidylate kinase (thymidylate kinase) holoenzyme'.
+Reactome: 2'-deoxyuridine 5'-monophosphate (dUMP) + ATP &lt;=&gt; 2'-deoxyuridine 5'-diphosphate (dUDP) + ADP
+REACT_273.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=73637&' (None, None)
+get_page: 5.0 sec
+At the beginning of this reaction, 1 molecule of '2'-deoxyuridine 5'-diphosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dUTP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase A,B heterohexamer'.
+Reactome: 2'-deoxyuridine 5'-diphosphate (dUDP) + ATP &lt;=&gt; deoxyuridine 5'-triphosphate (dUTP) + ADP
+REACT_1026.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=73722&' (None, None)
+get_page: 4.0 sec
+Phosphorylation of UBF-1, bound to the promoter, activates UBF-1 and recruits SL1, and eventually polymerase. This phosphorylation of UBF-1 by Erk1, has been shown to both weaken the binding of UBF-1 to DNA and to activate transcription (the authors of the paper showing these data suggest that loosening the binding of UBF-1 with the promoter may somehow promote transcription initiation). Though not definitively worked out phosphorylation of UBF-1 by Erk1 plays a role in the activation of the UBF-1:rDNA complex.
+Reactome: Phosphorylation of UBF-1:rDNA Promoter
+REACT_180.3
+HTTP GET '/uniprot/P17480.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P27361.xml' (None, None)
+get_page: 0.3 sec
+Phosphorylation of UBF-1, bound to the promoter, activates UBF-1 and recruits SL1, and eventually polymerase. This phosphorylation of UBF-1 by Erk1, has been shown to both weaken the binding of UBF-1 to DNA and to activate transcription (the authors of the paper showing these data suggest that loosening the binding of UBF-1 with the promoter may somehow promote transcription initiation). Though not definitively worked out phosphorylation of UBF-1 by Erk1 plays a role in the activation of the UBF-1:rDNA complex.
+['P27361']
+['P17480']
+{'accession_number__in': ['P17480']}
+Protein P17480 already in database.
+{'accession_number__in': ['P27361']}
+Protein P27361 already in database.
+Reaction and ID REACT_180.3 REACT_180.3 P27361 -> P17480 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=73788&' (None, None)
+get_page: 5.6 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'GMP' are present. At the end of this reaction, 1 molecule of 'GDP', and 1 molecule of 'ADP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'guanylate kinase 1'.
+Reactome: guanosine 5'-monophosphate (GMP) + ATP &lt;=&gt; guanosine 5'-diphosphate (GDP) + ADP
+REACT_1606.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=74203&' (None, None)
+get_page: 4.6 sec
+At the beginning of this reaction, 1 molecule of '2'-deoxyguanosine 5'-diphosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dGTP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase A,B heterohexamer'.
+Reactome: 2'-deoxyguanosine 5'-diphosphate (dGDP) + ATP &lt;=&gt; dGTP + adenosine 5'-diphosphate (ADP)
+REACT_1837.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=74204&' (None, None)
+get_page: 4.4 sec
+At the beginning of this reaction, 1 molecule of '2'-deoxyguanosine 5'-monophosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of '2'-deoxyguanosine 5'-diphosphate' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'guanylate kinase 1'.
+Reactome: 2'-deoxyguanosine 5'-monophosphate (dGMP) + ATP &lt;=&gt; 2'-deoxyguanosine 5'-diphosphate (dGDP) + ADP
+REACT_1093.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=74207&' (None, None)
+get_page: 4.9 sec
+At the beginning of this reaction, 1 molecule of '2'-deoxyguanosine', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of '2'-deoxyguanosine 5'-monophosphate' are present. This reaction takes place in the 'mitochondrial matrix' and  is mediated by the 'nucleoside kinase activity' of 'deoxyguanosine kinase holoenzyme'.
+Reactome: 2'-deoxyguanosine + ATP =&gt; 2'-deoxyguanosine 5'-monophosphate + ADP
+REACT_2223.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=74220&' (None, None)
+get_page: 4.6 sec
+Cytosolic adenylate kinase 1 catalyzes the reaction of ATP and AMP to form two molecules of ADP.
+Reactome: adenosine 5'-monophosphate (AMP) + ATP &lt;=&gt; adenosine 5'-diphosphate (ADP) + ADP
+REACT_643.3
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=74228&' (None, None)
+get_page: 5.3 sec
+At the beginning of this reaction, 1 molecule of '2'-deoxyadenosine 5'-diphosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase A,B heterohexamer'.
+Reactome: 2'-deoxyadenosine 5'-diphosphate (dADP) + ATP &lt;=&gt; dATP + adenosine 5'-diphosphate (ADP)
+REACT_130.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=74711&' (None, None)
+get_page: 4.1 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'IRS:activated insulin receptor' are present. At the end of this reaction, 1 molecule of 'phospho-IRS:activated insulin receptor', and 1 molecule of 'ADP' are present. This reaction takes place on the 'internal side of plasma membrane' and  is mediated by the 'transmembrane receptor protein tyrosine kinase activity' of 'IRS:activated insulin receptor'.
+Reactome: Phosphorylation of IRS
+REACT_342.3
+HTTP GET '/uniprot/P06213.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/P06213.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P01308.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P01308.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/Q9Y4H2.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/Q99704.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P35568.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P06213.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/P06213.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/P01308.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/P01308.xml' (None, None)
+get_page: 0.7 sec
+HTTP GET '/uniprot/Q9Y4H2.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/Q99704.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P35568.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=74715&' (None, None)
+get_page: 4.1 sec
+For the receptor to autophosphorylate requires a lysine at position 1030 to stabilize the gamma phosphate of ATP whilst the adenosine of ATP itself interacts with three glycines at residues 1003 - 1008. The first tyrosine residues to be autophosphorylated are 1158, 1162 and 1163 in the tyrosine kinase domain. This is shortly followed by tyrosine 972 in the juxtamembrane domain and tyrosines 1328 and 1330. These tyrosines fall into the three distinct tyrosine phosphorylation domains of the beta-subunit. In total there are 13 potential tyrosines that may be phosphorylated. The receptor phosphorylates itself in a trans rather than cis manner. That is one beta-subunit of the receptor phosphorylates the other rather than itself.
+Reactome: Autophosphorylation of insulin receptor
+REACT_2211.3
+HTTP GET '/uniprot/P06213.xml' (None, None)
+get_page: 0.8 sec
+HTTP GET '/uniprot/P06213.xml' (None, None)
+get_page: 0.9 sec
+HTTP GET '/uniprot/P01308.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/P01308.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P06213.xml' (None, None)
+get_page: 0.9 sec
+HTTP GET '/uniprot/P06213.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/P01308.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P01308.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=74742&' (None, None)
+get_page: 5.3 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'SHC:activated insulin receptor' are present. At the end of this reaction, 1 molecule of 'phospho-SHC: activated insulin receptor', and 1 molecule of 'ADP' are present. This reaction takes place on the 'internal side of plasma membrane' and  is mediated by the 'transmembrane receptor protein tyrosine kinase activity' of 'SHC:activated insulin receptor'.
+Reactome: Phosphorylation of SHC
+REACT_2015.2
+HTTP GET '/uniprot/P06213.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/P06213.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/P01308.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/P01308.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P29353.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P06213.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/P06213.xml' (None, None)
+get_page: 0.7 sec
+HTTP GET '/uniprot/P01308.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/P01308.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P29353.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=75010&' (None, None)
+get_page: 4.0 sec
+Phosphorylation of Cdc25C at Ser 216 results in both the inhibition of Cdc25C phosphatase activity and the creation of a 14-3-3 docking site (Peng et al. 1997). [Peng et al 1997]
+Reactome: Phosphorylation of Cdc25C at Ser 216 by Chk1
+REACT_1170.3
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=75014&' (None, None)
+get_page: 6.9 sec
+At the beginning of this reaction, 1 molecule of 'Cdc25C', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'phosph-Cdc25C (Ser 216)', and 1 molecule of 'ADP' are present. This reaction takes place in the 'nucleoplasm' and  is mediated by the 'kinase activity' of 'Chk2'.
+Reactome: Phosphorylation of Cdc25C at Ser 216 by Chk2(Cds1)
+REACT_640.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=75028&' (None, None)
+get_page: 5.0 sec
+Phosphorylation of Wee1 by Chk1 stimulates Wee1 kinase activity.
+Reactome: Phosphorylation of Wee1 kinase by Chk1
+REACT_264.1
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=75040&' (None, None)
+get_page: 2.7 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'Wee1 POMBE' are present. At the end of this reaction, 1 molecule of 'phospho-Wee1 Pombe', and 1 molecule of 'ADP' are present. This reaction takes place in the 'nucleoplasm' and  is mediated by the 'kinase activity' of 'CHK1 (POMBE)'.
+Reactome: Phosphorylation of Wee1 kinase by Chk1
+REACT_1063.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=75045&' (None, None)
+get_page: 3.9 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'Chk1 (MOUSE)' are present. At the end of this reaction, 1 molecule of 'phospho-Chk1 (MOUSE)', and 1 molecule of 'ADP' are present. This reaction takes place in the 'nucleus' and  is mediated by the 'kinase activity' of 'ATM MOUSE'.
+Reactome: Phosphorylation and activation of Chk1 by ATM kinase
+REACT_559.2
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'Chk1 (MOUSE)' are present. At the end of this reaction, 1 molecule of 'phospho-Chk1 (MOUSE)', and 1 molecule of 'ADP' are present. This reaction takes place in the 'nucleus' and  is mediated by the 'kinase activity' of 'ATM MOUSE'.
+['Q62388']
+['O35280']
+{'accession_number__in': ['O35280']}
+Protein O35280 already in database.
+{'accession_number__in': ['Q62388']}
+Protein Q62388 already in database.
+Reaction and ID REACT_559.2 REACT_559.2 Q62388 -> O35280 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=75120&' (None, None)
+get_page: 4.4 sec
+At the beginning of this reaction, 1 molecule of 'uridine 5'-diphosphate', and 1 molecule of 'ADP' are present. At the end of this reaction, 1 molecule of 'ATP', and 1 molecule of 'uridine 5'-monophosphate' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'UMP-CMP kinase '.
+Reactome: uridine 5'-diphosphate (UDP) + ADP &lt;=&gt; uridine 5'-monophosphate (UMP) + ATP
+REACT_1367.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=75121&' (None, None)
+get_page: 7.4 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of 'UTP' are present. At the end of this reaction, 1 molecule of 'uridine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase A,B heterohexamer'.
+Reactome: adenosine 5'-diphosphate (ADP) + UTP &lt;=&gt; ATP + uridine 5'-diphosphate (UDP)
+REACT_568.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=75122&' (None, None)
+get_page: 5.8 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of 'CTP' are present. At the end of this reaction, 1 molecule of 'cytidine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase A,B heterohexamer'.
+Reactome: adenosine 5'-diphosphate (ADP) + CTP &lt;=&gt; ATP + cytidine 5'-diphosphate (CDP)
+REACT_1403.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=75123&' (None, None)
+get_page: 5.2 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of '2'-deoxycytidine 5'-diphosphate' are present. At the end of this reaction, 1 molecule of '2'-deoxycytidine 5'-monophosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'UMP-CMP kinase '.
+Reactome: 2'-deoxycytidine 5'-diphosphate (dCDP) + ADP &lt;=&gt; deoxycytidine 5'-monophosphate (dCMP) + ATP
+REACT_699.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=75124&' (None, None)
+get_page: 9.7 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dCTP' are present. At the end of this reaction, 1 molecule of '2'-deoxycytidine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase A,B heterohexamer'.
+Reactome: adenosine 5'-diphosphate (ADP) + dCTP &lt;=&gt; ATP + 2'-deoxycytidine 5'-diphosphate (dCDP)
+REACT_1037.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=75125&' (None, None)
+get_page: 7.4 sec
+At the beginning of this reaction, 1 molecule of 'cytidine 5'-diphosphate', and 1 molecule of 'ADP' are present. At the end of this reaction, 1 molecule of 'cytidine 5'-monophosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'UMP-CMP kinase '.
+Reactome: cytidine 5'-diphosphate (CDP) + ADP &lt;=&gt; cytidine 5'-monophosphate (CMP) + ATP
+REACT_247.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=75126&' (None, None)
+get_page: 8.9 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of '2'-deoxyuridine 5'-diphosphate' are present. At the end of this reaction, 1 molecule of 'ATP', and 1 molecule of '2'-deoxyuridine 5'-monophosphate' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'deoxythymidylate kinase (thymidylate kinase) holoenzyme'.
+Reactome: 2'-deoxyuridine 5'-diphosphate (dUDP) + ADP &lt;=&gt; 2'deoxyuridine 5'-monophosphate (dUMP) + ATP
+REACT_636.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=75127&' (None, None)
+get_page: 5.9 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dUTP' are present. At the end of this reaction, 1 molecule of '2'-deoxyuridine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase A,B heterohexamer'.
+Reactome: 2'-deoxyuridine 5'-triphosphate (dUTP) + ADP &lt;=&gt; 2'-deoxyuridine 5'-diphosphate (dUDP) + ATP
+REACT_998.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=75128&' (None, None)
+get_page: 6.2 sec
+At the beginning of this reaction, 1 molecule of 'thymidine 5'-diphosphate', and 1 molecule of 'ADP' are present. At the end of this reaction, 1 molecule of 'thymidine 5'-monophosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'deoxythymidylate kinase (thymidylate kinase) holoenzyme'.
+Reactome: thymidine 5'-diphosphate (TDP) + ADP &lt;=&gt; thymidine 5'-monophosphate (TMP) + ATP
+REACT_586.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=75129&' (None, None)
+get_page: 8.5 sec
+At the beginning of this reaction, 1 molecule of 'TTP', and 1 molecule of 'ADP' are present. At the end of this reaction, 1 molecule of 'thymidine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase A,B heterohexamer'.
+Reactome: adenosine 5'-diphosphate (ADP) + TTP &lt;=&gt; ATP + thymidine 5'-diphosphate (TDP)
+REACT_2245.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=75147&' (None, None)
+get_page: 7.0 sec
+ATM is present in unirradiated cells as a dimer or higher-order multimer. Following irradiation, ATM undergoes rapid intermolecular autophosphorylation of serine 1981.
+Reactome: Intermolecular autophosphorylation of ATM within dimeric ATM complexes
+REACT_1116.1
+HTTP GET '/uniprot/Q13315.xml' (None, None)
+get_page: 0.7 sec
+ATM is present in unirradiated cells as a dimer or higher-order multimer. Following irradiation, ATM undergoes rapid intermolecular autophosphorylation of serine 1981.
+['Q13315']
+['Q13315']
+{'accession_number__in': ['Q13315']}
+Protein Q13315 already in database.
+{'accession_number__in': ['Q13315']}
+Protein Q13315 already in database.
+Reaction and ID REACT_1116.1 REACT_1116.1 Q13315 -> Q13315 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=75239&' (None, None)
+get_page: 5.1 sec
+ATM mediated phosphorylation of BRCA1 at Ser 1189, Ser 1542 and Ser 1524 (Cortez et al., 1999)  is regulated by MDC1 (Lou et al., 2003). BRCA1 plays an important role in the response to double-strand breaks, participating in genome surveillance, DNA repair, and cell cycle checkpoint arrests. BRCA1 is required for ATM-dependent phosphorylation of NBS1 following exposure to ionizing radiation (Foray et al., 2003). BRCA1 also interacts with the MRE11-RAD50-NBS1 complex which has been implicated early in HRR during resection of the double-strand break. [Cortez et al 1999, Foray et al 2003]
+Reactome: Phosphorylation of  BRCA1 at multiple sites by ATM
+REACT_937.1
+ATM mediated phosphorylation of BRCA1 at Ser 1189, Ser 1542 and Ser 1524 (Cortez et al., 1999)  is regulated by MDC1 (Lou et al., 2003). BRCA1 plays an important role in the response to double-strand breaks, participating in genome surveillance, DNA repair, and cell cycle checkpoint arrests. BRCA1 is required for ATM-dependent phosphorylation of NBS1 following exposure to ionizing radiation (Foray et al., 2003). BRCA1 also interacts with the MRE11-RAD50-NBS1 complex which has been implicated early in HRR during resection of the double-strand break. [Cortez et al 1999, Foray et al 2003]
+['Q13315']
+['P38398']
+{'accession_number__in': ['P38398']}
+Protein P38398 already in database.
+{'accession_number__in': ['Q13315']}
+Protein Q13315 already in database.
+Reaction and ID REACT_937.1 REACT_937.1 Q13315 -> P38398 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=75241&' (None, None)
+get_page: 7.9 sec
+NSB1 is a component of the MRE11/RAD50/NBS1 complex which acts early in HRR during resection of the double-strand break. In addition, NBS1 is required for activation of the S-phase checkpoint in response to ionizing radiation (IR), ATM-dependent activation of CHK2 and cell survival after exposure to IR. [Lee et al 2003]
+Reactome: Phosphorylation of  NBS1 by ATM
+REACT_2009.1
+NSB1 is a component of the MRE11/RAD50/NBS1 complex which acts early in HRR during resection of the double-strand break. In addition, NBS1 is required for activation of the S-phase checkpoint in response to ionizing radiation (IR), ATM-dependent activation of CHK2 and cell survival after exposure to IR. [Lee et al 2003]
+['Q13315']
+['O60934']
+{'accession_number__in': ['O60934']}
+Protein O60934 already in database.
+{'accession_number__in': ['Q13315']}
+Protein Q13315 already in database.
+Reaction and ID REACT_2009.1 REACT_2009.1 Q13315 -> O60934 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=75242&' (None, None)
+get_page: 4.7 sec
+H2AX phosphorylation (producing the  gamma-H2AX protein form) occurs within 1-3 minutes of DNA damage  (Rogakou et al,1998) and is promoted by MDC1/NFBD1 (Stewart et al., 2003). gamma H2AX is one of the first proteins to appear at the site of damage, localizing  to a region of about 2 Mbp surrounding the site of the double-strand break (Rogakou et al,1998). gamma-H2AX appears to play an essential role in recruiting other repair proteins including Rad50, Rad51 and BRCA1(Paull et al., 2000) (Stewart et al., 2003). [Rogakou et al 1998, Stewart et al 2003, Paull et al 2000]
+Reactome: Phosphorylation of histone H2AX at Serine-139 by ATM at the site of DSB
+REACT_1517.1
+H2AX phosphorylation (producing the  gamma-H2AX protein form) occurs within 1-3 minutes of DNA damage  (Rogakou et al,1998) and is promoted by MDC1/NFBD1 (Stewart et al., 2003). gamma H2AX is one of the first proteins to appear at the site of damage, localizing  to a region of about 2 Mbp surrounding the site of the double-strand break (Rogakou et al,1998). gamma-H2AX appears to play an essential role in recruiting other repair proteins including Rad50, Rad51 and BRCA1(Paull et al., 2000) (Stewart et al., 2003). [Rogakou et al 1998, Stewart et al 2003, Paull et al 2000]
+['Q13315']
+['P16104']
+{'accession_number__in': ['P16104']}
+Protein P16104 already in database.
+{'accession_number__in': ['Q13315']}
+Protein Q13315 already in database.
+Reaction and ID REACT_1517.1 REACT_1517.1 Q13315 -> P16104 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=75245&' (None, None)
+get_page: 5.4 sec
+ATM mediated phosphorylation of MDC1/NFBD1 may be involved in the rapid relocalization of MDC1/NFBD1 to nuclear foci that contain the MRE11 complex, phosphorylated histone H2AX and 53BP1 (Goldberg et al., 2003). NFBD1 may also function in recruiting DNA checkpoint signaling and repair proteins to the sites of DNA damage (Xu and Stern., 2003 and Stewart et al.,2003). [Xu & Stern 2003, Stewart et al 2003, Goldberg et al 2003]
+Reactome: Phosphorylation of MDC1/NFBD1 by ATM (within  2 c-term BRCT domains)
+REACT_1782.2
+ATM mediated phosphorylation of MDC1/NFBD1 may be involved in the rapid relocalization of MDC1/NFBD1 to nuclear foci that contain the MRE11 complex, phosphorylated histone H2AX and 53BP1 (Goldberg et al., 2003). NFBD1 may also function in recruiting DNA checkpoint signaling and repair proteins to the sites of DNA damage (Xu and Stern., 2003 and Stewart et al.,2003). [Xu & Stern 2003, Stewart et al 2003, Goldberg et al 2003]
+['Q13315']
+['Q14676']
+{'accession_number__in': ['Q14676']}
+Protein Q14676 already in database.
+{'accession_number__in': ['Q13315']}
+Protein Q13315 already in database.
+Reaction and ID REACT_1782.2 REACT_1782.2 Q13315 -> Q14676 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=75809&' (None, None)
+get_page: 3.9 sec
+Cdc25C is negatively regulated  by phosphorylation on Ser 216, the 14-3-3-binding site. This is an important regulatory mechanism used by cells to block mitotic entry under normal conditions and after DNA damage (Bulavin et al., 2003). [Bulavin et al 2003]
+Reactome: Phosphorylation of Cdc25C at Ser216
+REACT_128.4
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=75820&' (None, None)
+get_page: 4.3 sec
+At the beginning of this reaction, 1 molecule of 'Cyclin D1:Cdk4', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'phospho(T286)-Cyclin D1:Cdk4', and 1 molecule of 'ADP' are present. This reaction takes place in the 'nucleus' and  is mediated by the 'kinase activity' of 'glycogen synthase kinase-3 beta'.
+Reactome: Phosphorylation of Cyclin D1 at T286 by glycogen synthase kinase-3 beta
+REACT_132.4
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=75887&' (None, None)
+get_page: 4.9 sec
+Glycerol can be a source for glycerol-3-phosphate, in which case, a phosphate form ATP is transferred to glycerol by glycerol kinase forming glycerol-3-phosphate and ADP.
+Reactome: Conversion of Glycerol to Glycerol-3-phosphate
+REACT_724.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=76303&' (None, None)
+get_page: 5.3 sec
+Autophosphorylation of DNA-PKcs is required for NHEJ in vivo (Chan et al, 2002; Ding et al, 2003).
+Reactome: Autophosphorylation of DNA-PKcs
+REACT_215.1
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=76548&' (None, None)
+get_page: 4.1 sec
+At the beginning of this reaction, 1 molecule of 'adenosine', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'AMP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'adenosine kinase activity' of 'adenosine kinase holoenzyme'.
+Reactome: adenosine + ATP =&gt; adenosine 5'-monophosphate (AMP) + ADP
+REACT_1703.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=77071&' (None, None)
+get_page: 3.9 sec
+Phosphorylation of serine  5 residue at the CTD of pol II largest subunit is an important step signaling the end of initiation and escape into processive elongation processes. Cdk7 protein subunit of TFIIH phosphorylates RNA Pol II CTD serine 5 residues on its heptad repeats.
+Reactome: Phosphorylation (Ser5) of RNA pol II CTD
+REACT_1185.2
+HTTP GET '/uniprot/P24928.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/P52435.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/P36954.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P30876.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/O15514.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/P62487.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P19387.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P52434.xml' (None, None)
+get_page: 0.7 sec
+HTTP GET '/uniprot/P53803.xml' (None, None)
+get_page: 0.2 sec
+HTTP GET '/uniprot/P19388.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P61218.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/P62875.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P35269.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/P13984.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P50613.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/P51946.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P51948.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/P18074.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P19447.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/Q13889.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/Q13888.xml' (None, None)
+get_page: 0.2 sec
+HTTP GET '/uniprot/Q92759.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/P32780.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/P50613.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P51946.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P51948.xml' (None, None)
+get_page: 1.0 sec
+HTTP GET '/uniprot/P18074.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/P19447.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/Q13889.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/Q13888.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/Q92759.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P32780.xml' (None, None)
+get_page: 0.5 sec
+Phosphorylation of serine  5 residue at the CTD of pol II largest subunit is an important step signaling the end of initiation and escape into processive elongation processes. Cdk7 protein subunit of TFIIH phosphorylates RNA Pol II CTD serine 5 residues on its heptad repeats.
+['P50613', 'P51948']
+['P24928', 'P36954', 'P19387', 'P61218', 'P35269', 'P13984', 'P50613', 'P51946', 'P51948', 'P19447', 'P32780']
+{'accession_number__in': ['P24928']}
+Protein P24928 already in database.
+{'accession_number__in': ['P50613']}
+Protein P50613 already in database.
+Reaction and ID REACT_1185.2 REACT_1185.2 P50613 -> P24928 already in database.
+{'accession_number__in': ['P51948']}
+Protein P51948 already in database.
+Reaction and ID REACT_1185.2 REACT_1185.2 P51948 -> P24928 already in database.
+{'accession_number__in': ['P36954']}
+Protein P36954 already in database.
+{'accession_number__in': ['P50613']}
+Protein P50613 already in database.
+Reaction and ID REACT_1185.2 REACT_1185.2 P50613 -> P36954 already in database.
+{'accession_number__in': ['P51948']}
+Protein P51948 already in database.
+Reaction and ID REACT_1185.2 REACT_1185.2 P51948 -> P36954 already in database.
+{'accession_number__in': ['P19387']}
+Protein P19387 already in database.
+{'accession_number__in': ['P50613']}
+Protein P50613 already in database.
+Reaction and ID REACT_1185.2 REACT_1185.2 P50613 -> P19387 already in database.
+{'accession_number__in': ['P51948']}
+Protein P51948 already in database.
+Reaction and ID REACT_1185.2 REACT_1185.2 P51948 -> P19387 already in database.
+{'accession_number__in': ['P61218']}
+Protein P61218 already in database.
+{'accession_number__in': ['P50613']}
+Protein P50613 already in database.
+Reaction and ID REACT_1185.2 REACT_1185.2 P50613 -> P61218 already in database.
+{'accession_number__in': ['P51948']}
+Protein P51948 already in database.
+Reaction and ID REACT_1185.2 REACT_1185.2 P51948 -> P61218 already in database.
+{'accession_number__in': ['P35269']}
+Protein P35269 already in database.
+{'accession_number__in': ['P50613']}
+Protein P50613 already in database.
+Reaction and ID REACT_1185.2 REACT_1185.2 P50613 -> P35269 already in database.
+{'accession_number__in': ['P51948']}
+Protein P51948 already in database.
+Reaction and ID REACT_1185.2 REACT_1185.2 P51948 -> P35269 already in database.
+{'accession_number__in': ['P13984']}
+Protein P13984 already in database.
+{'accession_number__in': ['P50613']}
+Protein P50613 already in database.
+Reaction and ID REACT_1185.2 REACT_1185.2 P50613 -> P13984 already in database.
+{'accession_number__in': ['P51948']}
+Protein P51948 already in database.
+Reaction and ID REACT_1185.2 REACT_1185.2 P51948 -> P13984 already in database.
+{'accession_number__in': ['P50613']}
+Protein P50613 already in database.
+{'accession_number__in': ['P50613']}
+Protein P50613 already in database.
+Reaction and ID REACT_1185.2 REACT_1185.2 P50613 -> P50613 already in database.
+{'accession_number__in': ['P51948']}
+Protein P51948 already in database.
+Reaction and ID REACT_1185.2 REACT_1185.2 P51948 -> P50613 already in database.
+{'accession_number__in': ['P51946']}
+Protein P51946 already in database.
+{'accession_number__in': ['P50613']}
+Protein P50613 already in database.
+Reaction and ID REACT_1185.2 REACT_1185.2 P50613 -> P51946 already in database.
+{'accession_number__in': ['P51948']}
+Protein P51948 already in database.
+Reaction and ID REACT_1185.2 REACT_1185.2 P51948 -> P51946 already in database.
+{'accession_number__in': ['P51948']}
+Protein P51948 already in database.
+{'accession_number__in': ['P50613']}
+Protein P50613 already in database.
+Reaction and ID REACT_1185.2 REACT_1185.2 P50613 -> P51948 already in database.
+{'accession_number__in': ['P51948']}
+Protein P51948 already in database.
+Reaction and ID REACT_1185.2 REACT_1185.2 P51948 -> P51948 already in database.
+{'accession_number__in': ['P19447']}
+Protein P19447 already in database.
+{'accession_number__in': ['P50613']}
+Protein P50613 already in database.
+Reaction and ID REACT_1185.2 REACT_1185.2 P50613 -> P19447 already in database.
+{'accession_number__in': ['P51948']}
+Protein P51948 already in database.
+Reaction and ID REACT_1185.2 REACT_1185.2 P51948 -> P19447 already in database.
+{'accession_number__in': ['P32780']}
+Protein P32780 already in database.
+{'accession_number__in': ['P50613']}
+Protein P50613 already in database.
+Reaction and ID REACT_1185.2 REACT_1185.2 P50613 -> P32780 already in database.
+{'accession_number__in': ['P51948']}
+Protein P51948 already in database.
+Reaction and ID REACT_1185.2 REACT_1185.2 P51948 -> P32780 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=109624&' (None, None)
+get_page: 4.8 sec
+At the beginning of this reaction, 1 molecule of '2'-deoxyadenosine', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of '2'-deoxyadenosine 5'-monophosphate', and 1 molecule of 'ADP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'adenosine kinase activity' of 'adenosine kinase holoenzyme'.
+Reactome: 2'-deoxyadenosine + ATP =&gt; 2'-deoxyadenosine 5'-monophosphate + ADP
+REACT_1728.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=109671&' (None, None)
+get_page: 7.4 sec
+At the beginning of this reaction, 1 molecule of '2'-deoxyadenosine', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of '2'-deoxyadenosine 5'-monophosphate', and 1 molecule of 'ADP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'deoxycytidine kinase holoenzyme'.
+Reactome: 2'-deoxyadenosine + ATP =&gt; 2'-deoxyadenosine 5'-monophosphate + ADP
+REACT_1332.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=109686&' (None, None)
+get_page: 5.0 sec
+At the beginning of this reaction, 1 molecule of '2'-deoxyguanosine', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of '2'-deoxyguanosine 5'-monophosphate' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'deoxycytidine kinase holoenzyme'.
+Reactome: 2'-deoxyguanosine + ATP =&gt; 2'-deoxyguanosine 5'-monophosphate + ADP
+REACT_1047.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=109687&' (None, None)
+get_page: 6.6 sec
+At the beginning of this reaction, 1 molecule of 'cytidine', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'cytidine 5'-monophosphate' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'deoxycytidine kinase holoenzyme'.
+Reactome: cytidine + ATP =&gt; cytidine 5'-monophosphate (CMP) + ADP
+REACT_1775.3
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=109702&' (None, None)
+get_page: 3.8 sec
+At the beginning of this reaction, 2 molecules of 'ATP', and 1 molecule of 'PIP3:PKB complex ' are present. At the end of this reaction, 1 molecule of 'PIP3:Phosphorylated PKB complex', and 2 molecules of 'ADP' are present. This reaction takes place on the 'plasma membrane' and  is mediated by the 'kinase activity' of 'PIP3:PDK complex [plasma membrane]'.
+Reactome: Phosphorylation of PKB by PDK1
+REACT_908.3
+HTTP GET '/uniprot/P31751.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/O15530.xml' (None, None)
+get_page: 0.6 sec
+At the beginning of this reaction, 2 molecules of 'ATP', and 1 molecule of 'PIP3:PKB complex ' are present. At the end of this reaction, 1 molecule of 'PIP3:Phosphorylated PKB complex', and 2 molecules of 'ADP' are present. This reaction takes place on the 'plasma membrane' and  is mediated by the 'kinase activity' of 'PIP3:PDK complex [plasma membrane]'.
+['O15530']
+['P31751']
+{'accession_number__in': ['P31751']}
+Protein P31751 already in database.
+{'accession_number__in': ['O15530']}
+Protein O15530 already in database.
+Reaction and ID REACT_908.3 REACT_908.3 O15530 -> P31751 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=109708&' (None, None)
+get_page: 4.7 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of '2'-deoxyinosine' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of '2'-deoxyinosine 5'-monophosphate' are present. This reaction takes place in the 'mitochondrial matrix' and  is mediated by the 'nucleoside kinase activity' of 'deoxyguanosine kinase holoenzyme'.
+Reactome: 2'-deoxyinosine + ATP =&gt; 2'-deoxyinosine 5'-monophosphate + ADP
+REACT_823.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=109733&' (None, None)
+get_page: 4.5 sec
+At the beginning of this reaction, 1 molecule of '2'-deoxyadenosine', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of '2'-deoxyadenosine 5'-monophosphate', and 1 molecule of 'ADP' are present. This reaction takes place in the 'mitochondrial matrix' and  is mediated by the 'nucleoside kinase activity' of 'deoxyguanosine kinase holoenzyme'.
+Reactome: 2'-deoxyadenosine + ATP =&gt; 2'-deoxyadenosine 5'-monophosphate + ADP
+REACT_166.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=109754&' (None, None)
+get_page: 5.2 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'thymidine' are present. At the end of this reaction, 1 molecule of 'thymidine 5'-monophosphate', and 1 molecule of 'ADP' are present. This reaction takes place in the 'mitochondrial matrix' and  is mediated by the 'nucleoside kinase activity' of 'thymidine kinase 2, mitochondrial'.
+Reactome: thymidine + ATP =&gt; thymidine 5'-monophosphate + ADP
+REACT_912.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=109756&' (None, None)
+get_page: 6.8 sec
+At the beginning of this reaction, 1 molecule of '2'-deoxyuridine', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of '2'-deoxyuridine 5'-monophosphate' are present. This reaction takes place in the 'mitochondrial matrix' and  is mediated by the 'nucleoside kinase activity' of 'thymidine kinase 2, mitochondrial'.
+Reactome: 2'-deoxyuridine + ATP =&gt; 2'-deoxyuridine 5'-monophosphate + ADP
+REACT_110.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=109759&' (None, None)
+get_page: 7.2 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of '2'-deoxycytidine' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of '2'-deoxycytidine 5'-monophosphate' are present. This reaction takes place in the 'mitochondrial matrix' and  is mediated by the 'nucleoside kinase activity' of 'thymidine kinase 2, mitochondrial'.
+Reactome: 2'-deoxycytidine + ATP =&gt; 2'-deoxycytidine 5'-monophosphate + ADP
+REACT_1691.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=109822&' (None, None)
+get_page: 4.1 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'GRB2:SOS:SHC-P' are present. At the end of this reaction, 1 molecule of 'GRB2:SHC-P', 1 molecule of 'phospho-SOS', and 1 molecule of 'ADP' are present. This reaction takes place on the 'internal side of plasma membrane' and  is mediated by the 'kinase activity' of 'ERK1'.
+Reactome: SOS phosphorylation and dissociation (SHC)
+REACT_1420.4
+HTTP GET '/uniprot/P62993.xml' (None, None)
+get_page: 0.7 sec
+HTTP GET '/uniprot/Q07889.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P29353.xml' (None, None)
+get_page: 0.4 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'GRB2:SOS:SHC-P' are present. At the end of this reaction, 1 molecule of 'GRB2:SHC-P', 1 molecule of 'phospho-SOS', and 1 molecule of 'ADP' are present. This reaction takes place on the 'internal side of plasma membrane' and  is mediated by the 'kinase activity' of 'ERK1'.
+['P27361']
+['P62993', 'Q07889', 'P29353']
+{'accession_number__in': ['P62993']}
+Protein P62993 already in database.
+{'accession_number__in': ['P27361']}
+Protein P27361 already in database.
+Reaction and ID REACT_1420.4 REACT_1420.4 P27361 -> P62993 already in database.
+{'accession_number__in': ['Q07889']}
+Protein Q07889 already in database.
+{'accession_number__in': ['P27361']}
+Protein P27361 already in database.
+Reaction and ID REACT_1420.4 REACT_1420.4 P27361 -> Q07889 already in database.
+{'accession_number__in': ['P29353']}
+Protein P29353 already in database.
+{'accession_number__in': ['P27361']}
+Protein P27361 already in database.
+Reaction and ID REACT_1420.4 REACT_1420.4 P27361 -> P29353 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=109823&' (None, None)
+get_page: 3.5 sec
+At the beginning of this reaction, 4 molecules of 'ATP', and 1 molecule of 'GRB2:SOS:IRS-P' are present. At the end of this reaction, 1 molecule of 'GRB2:IRS-P', 1 molecule of 'phospho-SOS', and 4 molecules of 'ADP' are present. This reaction takes place on the 'internal side of plasma membrane' and  is mediated by the 'kinase activity' of 'ERK1'.
+Reactome: SOS phosphorylation and dissociation (IRS)
+REACT_169.2
+HTTP GET '/uniprot/P62993.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/Q07889.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P35568.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/Q9Y4H2.xml' (None, None)
+get_page: 0.5 sec
+At the beginning of this reaction, 4 molecules of 'ATP', and 1 molecule of 'GRB2:SOS:IRS-P' are present. At the end of this reaction, 1 molecule of 'GRB2:IRS-P', 1 molecule of 'phospho-SOS', and 4 molecules of 'ADP' are present. This reaction takes place on the 'internal side of plasma membrane' and  is mediated by the 'kinase activity' of 'ERK1'.
+['P27361']
+['P62993', 'Q07889', 'P35568', 'Q9Y4H2']
+{'accession_number__in': ['P62993']}
+Protein P62993 already in database.
+{'accession_number__in': ['P27361']}
+Protein P27361 already in database.
+Reaction and ID REACT_169.2 REACT_169.2 P27361 -> P62993 already in database.
+{'accession_number__in': ['Q07889']}
+Protein Q07889 already in database.
+{'accession_number__in': ['P27361']}
+Protein P27361 already in database.
+Reaction and ID REACT_169.2 REACT_169.2 P27361 -> Q07889 already in database.
+{'accession_number__in': ['P35568']}
+Protein P35568 already in database.
+{'accession_number__in': ['P27361']}
+Protein P27361 already in database.
+Reaction and ID REACT_169.2 REACT_169.2 P27361 -> P35568 already in database.
+{'accession_number__in': ['Q9Y4H2']}
+Protein Q9Y4H2 already in database.
+{'accession_number__in': ['P27361']}
+Protein P27361 already in database.
+Reaction and ID REACT_169.2 REACT_169.2 P27361 -> Q9Y4H2 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=109827&' (None, None)
+get_page: 5.0 sec
+At the beginning of this reaction, 4 molecules of 'ATP', and 1 molecule of 'Crk:SOS:IRS-P' are present. At the end of this reaction, 1 molecule of 'Crk:IRS-P', 1 molecule of 'phospho-SOS', and 4 molecules of 'ADP' are present. This reaction takes place on the 'internal side of plasma membrane' and  is mediated by the 'kinase activity' of 'ERK1'.
+Reactome: SOS phosphorylation and dissociation (IRS, Crk)
+REACT_26.2
+HTTP GET '/uniprot/P46108.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/Q07889.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P35568.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/Q9Y4H2.xml' (None, None)
+get_page: 0.7 sec
+At the beginning of this reaction, 4 molecules of 'ATP', and 1 molecule of 'Crk:SOS:IRS-P' are present. At the end of this reaction, 1 molecule of 'Crk:IRS-P', 1 molecule of 'phospho-SOS', and 4 molecules of 'ADP' are present. This reaction takes place on the 'internal side of plasma membrane' and  is mediated by the 'kinase activity' of 'ERK1'.
+['P27361']
+['P46108', 'Q07889', 'P35568', 'Q9Y4H2']
+{'accession_number__in': ['P46108']}
+Protein P46108 already in database.
+{'accession_number__in': ['P27361']}
+Protein P27361 already in database.
+Reaction and ID REACT_26.2 REACT_26.2 P27361 -> P46108 already in database.
+{'accession_number__in': ['Q07889']}
+Protein Q07889 already in database.
+{'accession_number__in': ['P27361']}
+Protein P27361 already in database.
+Reaction and ID REACT_26.2 REACT_26.2 P27361 -> Q07889 already in database.
+{'accession_number__in': ['P35568']}
+Protein P35568 already in database.
+{'accession_number__in': ['P27361']}
+Protein P27361 already in database.
+Reaction and ID REACT_26.2 REACT_26.2 P27361 -> P35568 already in database.
+{'accession_number__in': ['Q9Y4H2']}
+Protein Q9Y4H2 already in database.
+{'accession_number__in': ['P27361']}
+Protein P27361 already in database.
+Reaction and ID REACT_26.2 REACT_26.2 P27361 -> Q9Y4H2 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=109829&' (None, None)
+get_page: 5.8 sec
+Un as yet unidentified protein tyrosine kinase located in the plasma membrane phosphorylates Tyrosines 340 and 341 (Y1, Y2) of Raf-1. Tyrosine phosphorylation serves to further stabilise the active 'open' Raf-1 conformation. (While the kinase has not been definitively identified, the Src kinase is a plausible candidate.)
+Reactome: Stabilisation of RAF by further phosphorylation
+REACT_525.2
+HTTP GET '/uniprot/P01112.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P01116.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/P01111.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P04049.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P31946.xml' (None, None)
+get_page: 0.3 sec
+No UniProt information for catalyst
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=109841&' (None, None)
+get_page: 4.9 sec
+Active Raf-1 phosphorylates MEK-1/2 on Serine residues, converting ATP to ADP. The MEK-1/2 kinase is now active.
+Reactome: RAF phosphorylates MEK1
+REACT_545.2
+HTTP GET '/uniprot/P01112.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/P01116.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P01111.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P04049.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P31946.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/Q02750.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P01112.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/P01116.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P01111.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P04049.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P31946.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/Q02750.xml' (None, None)
+get_page: 0.5 sec
+Active Raf-1 phosphorylates MEK-1/2 on Serine residues, converting ATP to ADP. The MEK-1/2 kinase is now active.
+['P04049', 'Q02750']
+['P04049', 'P31946', 'Q02750']
+{'accession_number__in': ['P04049']}
+Protein P04049 already in database.
+{'accession_number__in': ['P04049']}
+Protein P04049 already in database.
+Reaction and ID REACT_545.2 REACT_545.2 P04049 -> P04049 already in database.
+{'accession_number__in': ['Q02750']}
+Protein Q02750 already in database.
+Reaction and ID REACT_545.2 REACT_545.2 Q02750 -> P04049 already in database.
+{'accession_number__in': ['P31946']}
+Protein P31946 already in database.
+{'accession_number__in': ['P04049']}
+Protein P04049 already in database.
+Reaction and ID REACT_545.2 REACT_545.2 P04049 -> P31946 already in database.
+{'accession_number__in': ['Q02750']}
+Protein Q02750 already in database.
+Reaction and ID REACT_545.2 REACT_545.2 Q02750 -> P31946 already in database.
+{'accession_number__in': ['Q02750']}
+Protein Q02750 already in database.
+{'accession_number__in': ['P04049']}
+Protein P04049 already in database.
+Reaction and ID REACT_545.2 REACT_545.2 P04049 -> Q02750 already in database.
+{'accession_number__in': ['Q02750']}
+Protein Q02750 already in database.
+Reaction and ID REACT_545.2 REACT_545.2 Q02750 -> Q02750 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=109852&' (None, None)
+get_page: 5.7 sec
+Active Raf-1 phosphorylates MEK-1/2 on Serine residues, converting ATP to ADP. The MEK-1/2 kinase is now active.
+Reactome: RAF phosphorylates MEK2
+REACT_1727.2
+HTTP GET '/uniprot/P01112.xml' (None, None)
+get_page: 1.0 sec
+HTTP GET '/uniprot/P01116.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P01111.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P04049.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P31946.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P36507.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P01112.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/P01116.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/P01111.xml' (None, None)
+get_page: 0.9 sec
+HTTP GET '/uniprot/P04049.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P31946.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P36507.xml' (None, None)
+get_page: 0.4 sec
+Active Raf-1 phosphorylates MEK-1/2 on Serine residues, converting ATP to ADP. The MEK-1/2 kinase is now active.
+['P04049', 'P36507']
+['P04049', 'P31946', 'P36507']
+{'accession_number__in': ['P04049']}
+Protein P04049 already in database.
+{'accession_number__in': ['P04049']}
+Protein P04049 already in database.
+Reaction and ID REACT_1727.2 REACT_1727.2 P04049 -> P04049 already in database.
+{'accession_number__in': ['P36507']}
+Protein P36507 already in database.
+Reaction and ID REACT_1727.2 REACT_1727.2 P36507 -> P04049 already in database.
+{'accession_number__in': ['P31946']}
+Protein P31946 already in database.
+{'accession_number__in': ['P04049']}
+Protein P04049 already in database.
+Reaction and ID REACT_1727.2 REACT_1727.2 P04049 -> P31946 already in database.
+{'accession_number__in': ['P36507']}
+Protein P36507 already in database.
+Reaction and ID REACT_1727.2 REACT_1727.2 P36507 -> P31946 already in database.
+{'accession_number__in': ['P36507']}
+Protein P36507 already in database.
+{'accession_number__in': ['P04049']}
+Protein P04049 already in database.
+Reaction and ID REACT_1727.2 REACT_1727.2 P04049 -> P36507 already in database.
+{'accession_number__in': ['P36507']}
+Protein P36507 already in database.
+Reaction and ID REACT_1727.2 REACT_1727.2 P36507 -> P36507 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=109860&' (None, None)
+get_page: 5.3 sec
+MEK1 phosphorylates the critical Tyrosine and Threonine on ERK1, converting two ATP to ADP. Phosphorylation of ERK-1 activates its kinase activity.
+Reactome: MEK1 phosphorylates ERK-1
+REACT_136.3
+HTTP GET '/uniprot/Q02750.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P27361.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/Q02750.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P27361.xml' (None, None)
+get_page: 0.8 sec
+MEK1 phosphorylates the critical Tyrosine and Threonine on ERK1, converting two ATP to ADP. Phosphorylation of ERK-1 activates its kinase activity.
+['Q02750', 'P27361']
+['Q02750', 'P27361']
+{'accession_number__in': ['Q02750']}
+Protein Q02750 already in database.
+{'accession_number__in': ['Q02750']}
+Protein Q02750 already in database.
+Reaction and ID REACT_136.3 REACT_136.3 Q02750 -> Q02750 already in database.
+{'accession_number__in': ['P27361']}
+Protein P27361 already in database.
+Reaction and ID REACT_136.3 REACT_136.3 P27361 -> Q02750 already in database.
+{'accession_number__in': ['P27361']}
+Protein P27361 already in database.
+{'accession_number__in': ['Q02750']}
+Protein Q02750 already in database.
+Reaction and ID REACT_136.3 REACT_136.3 Q02750 -> P27361 already in database.
+{'accession_number__in': ['P27361']}
+Protein P27361 already in database.
+Reaction and ID REACT_136.3 REACT_136.3 P27361 -> P27361 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=109862&' (None, None)
+get_page: 6.1 sec
+MEK2 phosphorylates the critical Tyrosine and Threonine on ERK2, converting two ATP to ADP. Phosphorylation of ERK-2 activates its kinase activity.
+Reactome: MEK2 phosphorylates ERK-2
+REACT_2247.3
+HTTP GET '/uniprot/P36507.xml' (None, None)
+get_page: 0.9 sec
+HTTP GET '/uniprot/P28482.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P36507.xml' (None, None)
+get_page: 1.4 sec
+HTTP GET '/uniprot/P28482.xml' (None, None)
+get_page: 1.6 sec
+MEK2 phosphorylates the critical Tyrosine and Threonine on ERK2, converting two ATP to ADP. Phosphorylation of ERK-2 activates its kinase activity.
+['P36507', 'P28482']
+['P36507', 'P28482']
+{'accession_number__in': ['P36507']}
+Protein P36507 already in database.
+{'accession_number__in': ['P36507']}
+Protein P36507 already in database.
+Reaction and ID REACT_2247.3 REACT_2247.3 P36507 -> P36507 already in database.
+{'accession_number__in': ['P28482']}
+Protein P28482 already in database.
+Reaction and ID REACT_2247.3 REACT_2247.3 P28482 -> P36507 already in database.
+{'accession_number__in': ['P28482']}
+Protein P28482 already in database.
+{'accession_number__in': ['P36507']}
+Protein P36507 already in database.
+Reaction and ID REACT_2247.3 REACT_2247.3 P36507 -> P28482 already in database.
+{'accession_number__in': ['P28482']}
+Protein P28482 already in database.
+Reaction and ID REACT_2247.3 REACT_2247.3 P28482 -> P28482 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=109903&' (None, None)
+get_page: 6.5 sec
+At the beginning of this reaction, 1 molecule of 'cytidine', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'cytidine 5'-monophosphate' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'Uridine-cytidine kinase 2 '.
+Reactome: cytidine + ATP =&gt; cytidine 5'-monophosphate (CMP) + ADP
+REACT_2162.3
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=109904&' (None, None)
+get_page: 5.9 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'uridine' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'uridine 5'-monophosphate' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'Uridine-cytidine kinase 2 '.
+Reactome: uridine + ATP =&gt; uridine 5'-monophosphate (UMP) + ADP
+REACT_352.3
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110051&' (None, None)
+get_page: 9.0 sec
+Active Raf-1 phosphorylates MEK-1/2 on Serine residues, converting ATP to ADP. The MEK-1/2 kinase is now active.
+Reactome: RAF phosphorylates MEK1
+REACT_203.3
+HTTP GET '/uniprot/Q01986.xml' (None, None)
+get_page: 1.9 sec
+HTTP GET '/uniprot/Q01986.xml' (None, None)
+get_page: 0.3 sec
+Active Raf-1 phosphorylates MEK-1/2 on Serine residues, converting ATP to ADP. The MEK-1/2 kinase is now active.
+['Q01986']
+['Q01986']
+{'accession_number__in': ['Q01986']}
+Protein Q01986 already in database.
+{'accession_number__in': ['Q01986']}
+Protein Q01986 already in database.
+Reaction and ID REACT_203.3 REACT_203.3 Q01986 -> Q01986 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110133&' (None, None)
+get_page: 4.9 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of 'GDP' are present. At the end of this reaction, 1 molecule of 'ATP', and 1 molecule of 'GMP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'guanylate kinase 1'.
+Reactome: guanosine 5'-diphosphate (GDP) + ADP &lt;=&gt; guanosine 5'-monophosphate (GMP) + ATP
+REACT_1256.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110134&' (None, None)
+get_page: 5.1 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of '2'-deoxyguanosine 5'-diphosphate' are present. At the end of this reaction, 1 molecule of '2'-deoxyguanosine 5'-monophosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'guanylate kinase 1'.
+Reactome: 2'-deoxyguanosine 5'-diphosphate (dGDP) + ADP &lt;=&gt; 2'-deoxyguanosine 5'-monophosphate (dGMP) + ATP
+REACT_781.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110135&' (None, None)
+get_page: 4.9 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of '2'-deoxyadenosine 5'-diphosphate' are present. At the end of this reaction, 1 molecule of '2'-deoxyadenosine 5'-monophosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'adenylate kinase 1'.
+Reactome: 2'-deoxyadenosine 5'-diphosphate (dADP) + ADP &lt;=&gt; 2'-deoxyadenosine 5'-monophosphate (dAMP) + ATP
+REACT_2249.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110136&' (None, None)
+get_page: 5.0 sec
+At the beginning of this reaction, 1 molecule of '2'-deoxyadenosine 5'-monophosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of '2'-deoxyadenosine 5'-diphosphate' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'adenylate kinase 1'.
+Reactome: 2'-deoxyadenosine 5'-monophosphate (dAMP) + ATP &lt;=&gt; 2'-deoxyadenosine 5'-diphosphate (dADP) + ADP
+REACT_1512.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110137&' (None, None)
+get_page: 5.0 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of '2'-deoxyadenosine 5'-diphosphate' are present. At the end of this reaction, 1 molecule of '2'-deoxyadenosine 5'-monophosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'adenylate kinase 5'.
+Reactome: 2'-deoxyadenosine 5'-diphosphate (dADP) + ADP &lt;=&gt; 2'-deoxyadenosine 5'-monophosphate (dAMP) + ATP
+REACT_1716.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110138&' (None, None)
+get_page: 4.9 sec
+At the beginning of this reaction, 1 molecule of '2'-deoxyadenosine 5'-monophosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of '2'-deoxyadenosine 5'-diphosphate' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'adenylate kinase 5'.
+Reactome: 2'-deoxyadenosine 5'-monophosphate (dAMP) + ATP &lt;=&gt; 2'-deoxyadenosine 5'-diphosphate (dADP) + ADP
+REACT_271.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110139&' (None, None)
+get_page: 5.2 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of '2'-deoxycytidine 5'-diphosphate' are present. At the end of this reaction, 1 molecule of '2'-deoxycytidine 5'-monophosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'adenylate kinase 5'.
+Reactome: 2'-deoxycytidine 5'-diphosphate (dCDP) + ADP &lt;=&gt; 2'-deoxycytidine 5'-monophosphate (dCMP) + ATP
+REACT_1198.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110140&' (None, None)
+get_page: 6.1 sec
+At the beginning of this reaction, 1 molecule of '2'-deoxycytidine 5'-monophosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of '2'-deoxycytidine 5'-diphosphate' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'adenylate kinase 5'.
+Reactome: 2'-deoxycytidine 5'-monophosphate (dCMP) + ATP &lt;=&gt; 2'-deoxycytidine 5'-diphosphate (dCDP) + ADP
+REACT_1073.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110141&' (None, None)
+get_page: 8.3 sec
+At the beginning of this reaction, 2 molecules of 'ADP' is present. At the end of this reaction, 1 molecule of 'AMP', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'adenylate kinase 1'.
+Reactome: adenosine 5'-diphosphate (ADP) + ADP &lt;=&gt; adenosine 5'-monophosphate (AMP) + ATP
+REACT_763.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110142&' (None, None)
+get_page: 5.5 sec
+At the beginning of this reaction, 2 molecules of 'ADP' is present. At the end of this reaction, 1 molecule of 'AMP', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'adenylate kinase 5'.
+Reactome: adenosine 5'-diphosphate (ADP) + ADP &lt;=&gt; adenosine 5'-monophosphate (AMP) + ATP
+REACT_771.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110143&' (None, None)
+get_page: 5.2 sec
+At the beginning of this reaction, 1 molecule of 'AMP', and 1 molecule of 'ATP' are present. At the end of this reaction, 2 molecules of 'ADP' is present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'adenylate kinase 5'.
+Reactome: adenosine 5'-monophosphate (AMP) + ATP &lt;=&gt; adenosine 5'-diphosphate (ADP) + ADP
+REACT_1617.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110144&' (None, None)
+get_page: 4.6 sec
+At the beginning of this reaction, 2 molecules of 'ADP' is present. At the end of this reaction, 1 molecule of 'AMP', and 1 molecule of 'ATP' are present. This reaction takes place in the 'mitochondrial intermembrane space' and  is mediated by the 'nucleoside kinase activity' of 'adenylate kinase 2'.
+Reactome: adenosine 5'-diphosphate (ADP) + ADP &lt;=&gt; adenosine 5'-monophosphate (AMP) + ATP
+REACT_2031.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110145&' (None, None)
+get_page: 5.4 sec
+At the beginning of this reaction, 1 molecule of 'AMP', and 1 molecule of 'ATP' are present. At the end of this reaction, 2 molecules of 'ADP' is present. This reaction takes place in the 'mitochondrial intermembrane space' and  is mediated by the 'nucleoside kinase activity' of 'adenylate kinase 2'.
+Reactome: adenosine 5'-monophosphate (AMP) + ATP &lt;=&gt; adenosine 5'-diphosphate (ADP) + ADP
+REACT_390.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110146&' (None, None)
+get_page: 9.7 sec
+At the beginning of this reaction, 1 molecule of 'cytidine 5'-diphosphate', and 1 molecule of 'ADP' are present. At the end of this reaction, 1 molecule of 'cytidine 5'-monophosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'adenylate kinase 5'.
+Reactome: cytidine 5'-diphosphate (CDP) + ADP &lt;=&gt; cytidine 5'-monophosphate (CMP) + ATP
+REACT_942.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110147&' (None, None)
+get_page: 5.0 sec
+At the beginning of this reaction, 1 molecule of 'cytidine 5'-monophosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'cytidine 5'-diphosphate', and 1 molecule of 'ADP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside kinase activity' of 'adenylate kinase 5'.
+Reactome: cytidine 5'-monophosphate (CMP) + ATP &lt;=&gt; cytidine 5'-diphosphate (CDP) + ADP
+REACT_1634.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110440&' (None, None)
+get_page: 2.6 sec
+Binding of a DILP to DINR induces a conformational change leading to autophosphorylation.
+Reactome: Autophosphorylation of DINR
+REACT_6189.1
+HTTP GET '/uniprot/P09208.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P09208.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/Q9VT50.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/Q9VT51.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/Q9VT52.xml' (None, None)
+get_page: 0.2 sec
+HTTP GET '/uniprot/Q9VT53.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/Q7KUD5.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/Q9W4Z4.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/Q9W4Q9.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/Q9VT50.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/Q9VT51.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/Q9VT52.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/Q9VT53.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/Q7KUD5.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/Q9W4Z4.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/Q9W4Q9.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P09208.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P09208.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/Q9VT50.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/Q9VT51.xml' (None, None)
+get_page: 0.2 sec
+HTTP GET '/uniprot/Q9VT52.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/Q9VT53.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/Q7KUD5.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/Q9W4Z4.xml' (None, None)
+get_page: 0.8 sec
+HTTP GET '/uniprot/Q9W4Q9.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/Q9VT50.xml' (None, None)
+get_page: 0.2 sec
+HTTP GET '/uniprot/Q9VT51.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/Q9VT52.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/Q9VT53.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/Q7KUD5.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/Q9W4Z4.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/Q9W4Q9.xml' (None, None)
+get_page: 0.2 sec
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110453&' (None, None)
+get_page: 2.6 sec
+PI3Ks are implicated in cell growth, number and size. Dp110, the Drosophila PI3K, phosphorylates PIP2 -> PIP3 (both intracellular messengers) to continue the signaling mechanism. Overexpression of Dp110 results in enlarged cell size and number suggesting a role for Dp110 in growth and size control.
+Reactome: Phosphorylation of PIP2 to PIP3 by Dp110
+REACT_6223.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110468&' (None, None)
+get_page: 2.6 sec
+DPDK1 (a phosphoinositide-dependant protein kinase) controls cellular and organism growth through two effector pathways by activating DAkt and DS6K (S6 kinase). Phosphorylation of the residues Thr308 and Ser473 by DPDK1 (and another downstream kinase?) relieves intermolecular inhibition, allowing the activated DAkt to dissociate from PIP3 and modify its target, DFOXO.
+Reactome: Activation of DAkt1 by DPDK1
+REACT_6260.1
+HTTP GET '/uniprot/Q8INB9.xml' (None, None)
+get_page: 0.5 sec
+DPDK1 (a phosphoinositide-dependant protein kinase) controls cellular and organism growth through two effector pathways by activating DAkt and DS6K (S6 kinase). Phosphorylation of the residues Thr308 and Ser473 by DPDK1 (and another downstream kinase?) relieves intermolecular inhibition, allowing the activated DAkt to dissociate from PIP3 and modify its target, DFOXO.
+['Q9W0V1']
+['Q8INB9']
+{'accession_number__in': ['Q8INB9']}
+Protein Q8INB9 already in database.
+{'accession_number__in': ['Q9W0V1']}
+Protein Q9W0V1 already in database.
+Reaction and ID REACT_6260.1 REACT_6260.1 Q9W0V1 -> Q8INB9 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110475&' (None, None)
+get_page: 2.5 sec
+DFOXO belongs to the FOXO subfamily of forkhead transcription factors. The FOXO factors regulate genes involved in cell cycle control, cell death and stress responses. Phosphorylation of DFOXO by DAkt1 on three residues (Thr44, Ser190 and Ser259) leads to its cytoplasmic retention and inactivation, inhibiting expression of DFOXO-regulated genes. These include D4EBP, DInR and Chico.
+Reactome: DAkt1-mediated phosphorylation inactivates DFOXO
+REACT_6263.1
+DFOXO belongs to the FOXO subfamily of forkhead transcription factors. The FOXO factors regulate genes involved in cell cycle control, cell death and stress responses. Phosphorylation of DFOXO by DAkt1 on three residues (Thr44, Ser190 and Ser259) leads to its cytoplasmic retention and inactivation, inhibiting expression of DFOXO-regulated genes. These include D4EBP, DInR and Chico.
+['Q8INB9']
+['Q95V55']
+{'accession_number__in': ['Q95V55']}
+Protein Q95V55 already in database.
+{'accession_number__in': ['Q8INB9']}
+Protein Q8INB9 already in database.
+Reaction and ID REACT_6263.1 REACT_6263.1 Q8INB9 -> Q95V55 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110506&' (None, None)
+get_page: 2.9 sec
+DTOR phosphorylates a threonine residue on DS6K, which is an important effector of cell growth.
+Reactome: Activated DTOR phosphorylates DS6K
+REACT_6236.3
+DTOR phosphorylates a threonine residue on DS6K, which is an important effector of cell growth.
+['Q8T9I6']
+['P91656']
+{'accession_number__in': ['P91656']}
+Protein P91656 already in database.
+{'accession_number__in': ['Q8T9I6']}
+Protein Q8T9I6 already in database.
+Reaction and ID REACT_6236.3 REACT_6236.3 Q8T9I6 -> P91656 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110518&' (None, None)
+get_page: 2.9 sec
+DeIF4E is an initiation factor for eukaryotic translation. D4EBP forms a complex with DeIF4E, inactivating the latter. Activated DTOR phosphorylates D4EBP on a threonine residue, causing it to dissociate from DeIF4E. 
+Reactome: Activated DTOR also phosphorylates D4EBP
+REACT_6227.2
+HTTP GET '/uniprot/Q9XZ56.xml' (None, None)
+get_page: 0.7 sec
+HTTP GET '/uniprot/P48598.xml' (None, None)
+get_page: 0.3 sec
+DeIF4E is an initiation factor for eukaryotic translation. D4EBP forms a complex with DeIF4E, inactivating the latter. Activated DTOR phosphorylates D4EBP on a threonine residue, causing it to dissociate from DeIF4E. 
+['Q8T9I6']
+['P48598']
+{'accession_number__in': ['P48598']}
+Protein P48598 already in database.
+{'accession_number__in': ['Q8T9I6']}
+Protein Q8T9I6 already in database.
+Reaction and ID REACT_6227.2 REACT_6227.2 Q8T9I6 -> P48598 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110578&' (None, None)
+get_page: 5.2 sec
+At the beginning of this reaction, 1 molecule of 'cytidine 5'-diphosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'CTP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase A hexamer'.
+Reactome: cytidine 5'-diphosphate (CDP) + ATP &lt;=&gt; CTP + adenosine 5'-diphosphate (ADP)
+REACT_2090.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110616&' (None, None)
+get_page: 5.0 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of 'CTP' are present. At the end of this reaction, 1 molecule of 'cytidine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase A hexamer'.
+Reactome: adenosine 5'-diphosphate (ADP) + CTP &lt;=&gt; ATP + cytidine 5'-diphosphate (CDP)
+REACT_1723.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110618&' (None, None)
+get_page: 5.2 sec
+At the beginning of this reaction, 1 molecule of 'cytidine 5'-diphosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'CTP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase B hexamer'.
+Reactome: cytidine 5'-diphosphate (CDP) + ATP &lt;=&gt; CTP + adenosine 5'-diphosphate (ADP)
+REACT_971.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110620&' (None, None)
+get_page: 5.2 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of 'CTP' are present. At the end of this reaction, 1 molecule of 'cytidine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase B hexamer'.
+Reactome: adenosine 5'-diphosphate (ADP) + CTP &lt;=&gt; ATP + cytidine 5'-diphosphate (CDP)
+REACT_1748.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110623&' (None, None)
+get_page: 5.0 sec
+At the beginning of this reaction, 1 molecule of 'cytidine 5'-diphosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'CTP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase C hexamer'.
+Reactome: cytidine 5'-diphosphate (CDP) + ATP &lt;=&gt; CTP + adenosine 5'-diphosphate (ADP)
+REACT_1182.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110635&' (None, None)
+get_page: 9.3 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of 'CTP' are present. At the end of this reaction, 1 molecule of 'cytidine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase C hexamer'.
+Reactome: adenosine 5'-diphosphate (ADP) + CTP &lt;=&gt; ATP + cytidine 5'-diphosphate (CDP)
+REACT_1369.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110639&' (None, None)
+get_page: 6.0 sec
+At the beginning of this reaction, 1 molecule of 'cytidine 5'-diphosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'CTP' are present. This reaction takes place in the 'mitochondrial inner membrane' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase D, mitochondrial hexamer '.
+Reactome: cytidine 5'-diphosphate (CDP) + ATP &lt;=&gt; CTP + adenosine 5'-diphosphate (ADP)
+REACT_889.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110645&' (None, None)
+get_page: 4.9 sec
+At the beginning of this reaction, 1 molecule of '2'-deoxyadenosine 5'-diphosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase A hexamer'.
+Reactome: 2'-deoxyadenosine 5'-diphosphate (dADP) + ATP &lt;=&gt; dATP + adenosine 5'-diphosphate (ADP)
+REACT_2212.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110647&' (None, None)
+get_page: 4.7 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dATP' are present. At the end of this reaction, 1 molecule of '2'-deoxyadenosine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase A hexamer'.
+Reactome: adenosine 5'-diphosphate (ADP) + dATP &lt;=&gt; ATP + 2'-deoxyadenosine 5'-diphosphate (dADP)
+REACT_1075.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110648&' (None, None)
+get_page: 4.6 sec
+At the beginning of this reaction, 1 molecule of '2'-deoxyadenosine 5'-diphosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase B hexamer'.
+Reactome: 2'-deoxyadenosine 5'-diphosphate (dADP) + ATP &lt;=&gt; dATP + adenosine 5'-diphosphate (ADP)
+REACT_463.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110649&' (None, None)
+get_page: 5.1 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dATP' are present. At the end of this reaction, 1 molecule of '2'-deoxyadenosine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase B hexamer'.
+Reactome: adenosine 5'-diphosphate (ADP) + dATP &lt;=&gt; ATP + 2'-deoxyadenosine 5'-diphosphate (dADP)
+REACT_364.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110650&' (None, None)
+get_page: 4.8 sec
+At the beginning of this reaction, 1 molecule of '2'-deoxyadenosine 5'-diphosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase C hexamer'.
+Reactome: 2'-deoxyadenosine 5'-diphosphate (dADP) + ATP &lt;=&gt; dATP + adenosine 5'-diphosphate (ADP)
+REACT_1270.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110651&' (None, None)
+get_page: 4.8 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dATP' are present. At the end of this reaction, 1 molecule of '2'-deoxyadenosine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase C hexamer'.
+Reactome: adenosine 5'-diphosphate (ADP) + dATP &lt;=&gt; ATP + 2'-deoxyadenosine 5'-diphosphate (dADP)
+REACT_1086.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110654&' (None, None)
+get_page: 4.4 sec
+At the beginning of this reaction, 1 molecule of '2'-deoxyadenosine 5'-diphosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dATP' are present. This reaction takes place in the 'mitochondrial inner membrane' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase D, mitochondrial hexamer '.
+Reactome: 2'-deoxyadenosine 5'-diphosphate (dADP) + ATP &lt;=&gt; dATP + adenosine 5'-diphosphate (ADP)
+REACT_1807.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110657&' (None, None)
+get_page: 4.6 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dATP' are present. At the end of this reaction, 1 molecule of '2'-deoxyadenosine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'mitochondrial inner membrane' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase D, mitochondrial hexamer '.
+Reactome: adenosine 5'-diphosphate (ADP) + dATP &lt;=&gt; ATP + 2'-deoxyadenosine 5'-diphosphate (dADP)
+REACT_2171.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110659&' (None, None)
+get_page: 4.5 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dATP' are present. At the end of this reaction, 1 molecule of '2'-deoxyadenosine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase A,B heterohexamer'.
+Reactome: adenosine 5'-diphosphate (ADP) + dATP &lt;=&gt; ATP + 2'-deoxyadenosine 5'-diphosphate (dADP)
+REACT_842.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110662&' (None, None)
+get_page: 4.8 sec
+At the beginning of this reaction, 1 molecule of '2'-deoxycytidine 5'-diphosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dCTP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase A hexamer'.
+Reactome: 2'-deoxycytidine 5'-diphosphate (dCDP) + ATP &lt;=&gt; dCTP + adenosine 5'-diphosphate (ADP)
+REACT_841.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110663&' (None, None)
+get_page: 5.0 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dCTP' are present. At the end of this reaction, 1 molecule of '2'-deoxycytidine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase A hexamer'.
+Reactome: adenosine 5'-diphosphate (ADP) + dCTP &lt;=&gt; ATP + 2'-deoxycytidine 5'-diphosphate (dCDP)
+REACT_647.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110664&' (None, None)
+get_page: 5.5 sec
+At the beginning of this reaction, 1 molecule of '2'-deoxycytidine 5'-diphosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dCTP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase B hexamer'.
+Reactome: 2'-deoxycytidine 5'-diphosphate (dCDP) + ATP &lt;=&gt; dCTP + adenosine 5'-diphosphate (ADP)
+REACT_778.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110665&' (None, None)
+get_page: 4.5 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dCTP' are present. At the end of this reaction, 1 molecule of '2'-deoxycytidine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase B hexamer'.
+Reactome: adenosine 5'-diphosphate (ADP) + dCTP &lt;=&gt; ATP + 2'-deoxycytidine 5'-diphosphate (dCDP)
+REACT_95.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110666&' (None, None)
+get_page: 5.3 sec
+At the beginning of this reaction, 1 molecule of '2'-deoxycytidine 5'-diphosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dCTP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase C hexamer'.
+Reactome: 2'-deoxycytidine 5'-diphosphate (dCDP) + ATP &lt;=&gt; dCTP + adenosine 5'-diphosphate (ADP)
+REACT_1092.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110667&' (None, None)
+get_page: 5.2 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dCTP' are present. At the end of this reaction, 1 molecule of '2'-deoxycytidine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase C hexamer'.
+Reactome: adenosine 5'-diphosphate (ADP) + dCTP &lt;=&gt; ATP + 2'-deoxycytidine 5'-diphosphate (dCDP)
+REACT_219.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110670&' (None, None)
+get_page: 4.6 sec
+At the beginning of this reaction, 1 molecule of '2'-deoxycytidine 5'-diphosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dCTP' are present. This reaction takes place in the 'mitochondrial inner membrane' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase D, mitochondrial hexamer '.
+Reactome: 2'-deoxycytidine 5'-diphosphate (dCDP) + ATP &lt;=&gt; dCTP + adenosine 5'-diphosphate (ADP)
+REACT_1175.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110671&' (None, None)
+get_page: 5.4 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dCTP' are present. At the end of this reaction, 1 molecule of '2'-deoxycytidine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'mitochondrial inner membrane' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase D, mitochondrial hexamer '.
+Reactome: adenosine 5'-diphosphate (ADP) + dCTP &lt;=&gt; ATP + 2'-deoxycytidine 5'-diphosphate (dCDP)
+REACT_2138.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110673&' (None, None)
+get_page: 5.0 sec
+At the beginning of this reaction, 1 molecule of '2'-deoxyguanosine 5'-diphosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dGTP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase A hexamer'.
+Reactome: 2'-deoxyguanosine 5'-diphosphate (dGDP) + ATP &lt;=&gt; dGTP + adenosine 5'-diphosphate (ADP)
+REACT_468.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110675&' (None, None)
+get_page: 4.8 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dGTP' are present. At the end of this reaction, 1 molecule of '2'-deoxyguanosine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase A hexamer'.
+Reactome: adenosine 5'-diphosphate (ADP) + dGTP &lt;=&gt; ATP + 2'-deoxyguanosine 5'-diphosphate (dGDP)
+REACT_2218.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110676&' (None, None)
+get_page: 5.5 sec
+At the beginning of this reaction, 1 molecule of '2'-deoxyguanosine 5'-diphosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dGTP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase B hexamer'.
+Reactome: 2'-deoxyguanosine 5'-diphosphate (dGDP) + ATP &lt;=&gt; dGTP + adenosine 5'-diphosphate (ADP)
+REACT_1528.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110677&' (None, None)
+get_page: 7.7 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dGTP' are present. At the end of this reaction, 1 molecule of '2'-deoxyguanosine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase B hexamer'.
+Reactome: adenosine 5'-diphosphate (ADP) + dGTP &lt;=&gt; ATP + 2'-deoxyguanosine 5'-diphosphate (dGDP)
+REACT_2059.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110678&' (None, None)
+get_page: 5.8 sec
+At the beginning of this reaction, 1 molecule of '2'-deoxyguanosine 5'-diphosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dGTP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase C hexamer'.
+Reactome: 2'-deoxyguanosine 5'-diphosphate (dGDP) + ATP &lt;=&gt; dGTP + adenosine 5'-diphosphate (ADP)
+REACT_472.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110679&' (None, None)
+get_page: 5.7 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dGTP' are present. At the end of this reaction, 1 molecule of '2'-deoxyguanosine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase C hexamer'.
+Reactome: adenosine 5'-diphosphate (ADP) + dGTP &lt;=&gt; ATP + 2'-deoxyguanosine 5'-diphosphate (dGDP)
+REACT_256.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110682&' (None, None)
+get_page: 4.5 sec
+At the beginning of this reaction, 1 molecule of '2'-deoxyguanosine 5'-diphosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dGTP' are present. This reaction takes place in the 'mitochondrial inner membrane' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase D, mitochondrial hexamer '.
+Reactome: 2'-deoxyguanosine 5'-diphosphate (dGDP) + ATP &lt;=&gt; dGTP + adenosine 5'-diphosphate (ADP)
+REACT_339.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110683&' (None, None)
+get_page: 4.7 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dGTP' are present. At the end of this reaction, 1 molecule of '2'-deoxyguanosine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'mitochondrial inner membrane' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase D, mitochondrial hexamer '.
+Reactome: adenosine 5'-diphosphate (ADP) + dGTP &lt;=&gt; ATP + 2'-deoxyguanosine 5'-diphosphate (dGDP)
+REACT_1296.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110684&' (None, None)
+get_page: 4.5 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dGTP' are present. At the end of this reaction, 1 molecule of '2'-deoxyguanosine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase A,B heterohexamer'.
+Reactome: adenosine 5'-diphosphate (ADP) + dGTP &lt;=&gt; ATP + 2'-deoxyguanosine 5'-diphosphate (dGDP)
+REACT_1265.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110687&' (None, None)
+get_page: 6.2 sec
+At the beginning of this reaction, 1 molecule of '2'-deoxyuridine 5'-diphosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dUTP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase A hexamer'.
+Reactome: 2'-deoxyuridine 5'-diphosphate (dUDP) + ATP &lt;=&gt; dUTP + adenosine 5'-diphosphate (ADP)
+REACT_1341.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110688&' (None, None)
+get_page: 4.3 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dUTP' are present. At the end of this reaction, 1 molecule of '2'-deoxyuridine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase A hexamer'.
+Reactome: adenosine 5'-diphosphate (ADP) + dUTP &lt;=&gt; ATP + 2'-deoxyuridine 5'-diphosphate (dUDP)
+REACT_2049.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110689&' (None, None)
+get_page: 6.3 sec
+At the beginning of this reaction, 1 molecule of '2'-deoxyuridine 5'-diphosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dUTP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase B hexamer'.
+Reactome: 2'-deoxyuridine 5'-diphosphate (dUDP) + ATP &lt;=&gt; dUTP + adenosine 5'-diphosphate (ADP)
+REACT_223.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110690&' (None, None)
+get_page: 6.0 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dUTP' are present. At the end of this reaction, 1 molecule of '2'-deoxyuridine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase B hexamer'.
+Reactome: adenosine 5'-diphosphate (ADP) + dUTP &lt;=&gt; ATP + 2'-deoxyuridine 5'-diphosphate (dUDP)
+REACT_366.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110691&' (None, None)
+get_page: 5.1 sec
+At the beginning of this reaction, 1 molecule of '2'-deoxyuridine 5'-diphosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dUTP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase C hexamer'.
+Reactome: 2'-deoxyuridine 5'-diphosphate (dUDP) + ATP &lt;=&gt; dUTP + adenosine 5'-diphosphate (ADP)
+REACT_1421.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110692&' (None, None)
+get_page: 5.3 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dUTP' are present. At the end of this reaction, 1 molecule of '2'-deoxyuridine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase C hexamer'.
+Reactome: adenosine 5'-diphosphate (ADP) + dUTP &lt;=&gt; ATP + 2'-deoxyuridine 5'-diphosphate (dUDP)
+REACT_1005.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110695&' (None, None)
+get_page: 4.2 sec
+At the beginning of this reaction, 1 molecule of '2'-deoxyuridine 5'-diphosphate', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dUTP' are present. This reaction takes place in the 'mitochondrial inner membrane' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase D, mitochondrial hexamer '.
+Reactome: 2'-deoxyuridine 5'-diphosphate (dUDP) + ATP &lt;=&gt; dUTP + adenosine 5'-diphosphate (ADP)
+REACT_1235.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110696&' (None, None)
+get_page: 4.7 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of 'dUTP' are present. At the end of this reaction, 1 molecule of '2'-deoxyuridine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'mitochondrial inner membrane' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase D, mitochondrial hexamer '.
+Reactome: adenosine 5'-diphosphate (ADP) + dUTP &lt;=&gt; ATP + 2'-deoxyuridine 5'-diphosphate (dUDP)
+REACT_1928.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110697&' (None, None)
+get_page: 9.4 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of 'CTP' are present. At the end of this reaction, 1 molecule of 'cytidine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'mitochondrial inner membrane' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase D, mitochondrial hexamer '.
+Reactome: adenosine 5'-diphosphate (ADP) + CTP &lt;=&gt; ATP + cytidine 5'-diphosphate (CDP)
+REACT_502.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110698&' (None, None)
+get_page: 4.4 sec
+At the beginning of this reaction, 1 molecule of 'GTP', and 1 molecule of 'ADP' are present. At the end of this reaction, 1 molecule of 'GDP', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase A hexamer'.
+Reactome: adenosine 5'-diphosphate (ADP) + GTP &lt;=&gt; ATP + guanosine 5'-diphosphate (GDP)
+REACT_1250.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110699&' (None, None)
+get_page: 6.8 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'GDP' are present. At the end of this reaction, 1 molecule of 'GTP', and 1 molecule of 'ADP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase A hexamer'.
+Reactome: guanosine 5'-diphosphate (GDP) + ATP &lt;=&gt; GTP + adenosine 5'-diphosphate (ADP)
+REACT_426.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110701&' (None, None)
+get_page: 4.8 sec
+At the beginning of this reaction, 1 molecule of 'GTP', and 1 molecule of 'ADP' are present. At the end of this reaction, 1 molecule of 'GDP', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase A,B heterohexamer'.
+Reactome: adenosine 5'-diphosphate (ADP) + GTP &lt;=&gt; ATP + guanosine 5'-diphosphate (GDP)
+REACT_1472.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110702&' (None, None)
+get_page: 4.8 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'GDP' are present. At the end of this reaction, 1 molecule of 'GTP', and 1 molecule of 'ADP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase A,B heterohexamer'.
+Reactome: guanosine 5'-diphosphate (GDP) + ATP &lt;=&gt; GTP + adenosine 5'-diphosphate (ADP)
+REACT_566.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110703&' (None, None)
+get_page: 7.6 sec
+At the beginning of this reaction, 1 molecule of 'GTP', and 1 molecule of 'ADP' are present. At the end of this reaction, 1 molecule of 'GDP', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase B hexamer'.
+Reactome: adenosine 5'-diphosphate (ADP) + GTP &lt;=&gt; ATP + guanosine 5'-diphosphate (GDP)
+REACT_2003.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110704&' (None, None)
+get_page: 7.2 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'GDP' are present. At the end of this reaction, 1 molecule of 'GTP', and 1 molecule of 'ADP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase B hexamer'.
+Reactome: guanosine 5'-diphosphate (GDP) + ATP &lt;=&gt; GTP + adenosine 5'-diphosphate (ADP)
+REACT_1881.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110705&' (None, None)
+get_page: 6.0 sec
+At the beginning of this reaction, 1 molecule of 'GTP', and 1 molecule of 'ADP' are present. At the end of this reaction, 1 molecule of 'GDP', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase C hexamer'.
+Reactome: adenosine 5'-diphosphate (ADP) + GTP &lt;=&gt; ATP + guanosine 5'-diphosphate (GDP)
+REACT_288.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110706&' (None, None)
+get_page: 4.4 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'GDP' are present. At the end of this reaction, 1 molecule of 'GTP', and 1 molecule of 'ADP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase C hexamer'.
+Reactome: guanosine 5'-diphosphate (GDP) + ATP &lt;=&gt; GTP + adenosine 5'-diphosphate (ADP)
+REACT_65.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110709&' (None, None)
+get_page: 5.3 sec
+At the beginning of this reaction, 1 molecule of 'GTP', and 1 molecule of 'ADP' are present. At the end of this reaction, 1 molecule of 'GDP', and 1 molecule of 'ATP' are present. This reaction takes place in the 'mitochondrial inner membrane' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase D, mitochondrial hexamer '.
+Reactome: adenosine 5'-diphosphate (ADP) + GTP &lt;=&gt; ATP + guanosine 5'-diphosphate (GDP)
+REACT_1772.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110710&' (None, None)
+get_page: 5.7 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'GDP' are present. At the end of this reaction, 1 molecule of 'GTP', and 1 molecule of 'ADP' are present. This reaction takes place in the 'mitochondrial inner membrane' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase D, mitochondrial hexamer '.
+Reactome: guanosine 5'-diphosphate (GDP) + ATP &lt;=&gt; GTP + adenosine 5'-diphosphate (ADP)
+REACT_815.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110713&' (None, None)
+get_page: 9.2 sec
+At the beginning of this reaction, 1 molecule of 'TTP', and 1 molecule of 'ADP' are present. At the end of this reaction, 1 molecule of 'thymidine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase A hexamer'.
+Reactome: adenosine 5'-diphosphate (ADP) + TTP &lt;=&gt; ATP + thymidine 5'-diphosphate (TDP)
+REACT_444.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110714&' (None, None)
+get_page: 5.0 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'thymidine 5'-diphosphate' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'TTP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase A hexamer'.
+Reactome: thymidine 5'-diphosphate (TDP) + ATP &lt;=&gt; TTP + adenosine 5'-diphosphate (ADP)
+REACT_1566.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110715&' (None, None)
+get_page: 8.7 sec
+At the beginning of this reaction, 1 molecule of 'TTP', and 1 molecule of 'ADP' are present. At the end of this reaction, 1 molecule of 'thymidine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase B hexamer'.
+Reactome: adenosine 5'-diphosphate (ADP) + TTP &lt;=&gt; ATP + thymidine 5'-diphosphate (TDP)
+REACT_1261.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110716&' (None, None)
+get_page: 4.3 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'thymidine 5'-diphosphate' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'TTP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase B hexamer'.
+Reactome: thymidine 5'-diphosphate (TDP) + ATP &lt;=&gt; TTP + adenosine 5'-diphosphate (ADP)
+REACT_1992.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110717&' (None, None)
+get_page: 4.8 sec
+At the beginning of this reaction, 1 molecule of 'TTP', and 1 molecule of 'ADP' are present. At the end of this reaction, 1 molecule of 'thymidine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase C hexamer'.
+Reactome: adenosine 5'-diphosphate (ADP) + TTP &lt;=&gt; ATP + thymidine 5'-diphosphate (TDP)
+REACT_1961.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110718&' (None, None)
+get_page: 5.1 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'thymidine 5'-diphosphate' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'TTP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase C hexamer'.
+Reactome: thymidine 5'-diphosphate (TDP) + ATP &lt;=&gt; TTP + adenosine 5'-diphosphate (ADP)
+REACT_1759.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110721&' (None, None)
+get_page: 4.7 sec
+At the beginning of this reaction, 1 molecule of 'TTP', and 1 molecule of 'ADP' are present. At the end of this reaction, 1 molecule of 'thymidine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'mitochondrial inner membrane' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase D, mitochondrial hexamer '.
+Reactome: adenosine 5'-diphosphate (ADP) + TTP &lt;=&gt; ATP + thymidine 5'-diphosphate (TDP)
+REACT_1970.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110722&' (None, None)
+get_page: 4.4 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'thymidine 5'-diphosphate' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'TTP' are present. This reaction takes place in the 'mitochondrial inner membrane' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase D, mitochondrial hexamer '.
+Reactome: thymidine 5'-diphosphate (TDP) + ATP &lt;=&gt; TTP + adenosine 5'-diphosphate (ADP)
+REACT_1212.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110725&' (None, None)
+get_page: 9.5 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of 'UTP' are present. At the end of this reaction, 1 molecule of 'uridine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase A hexamer'.
+Reactome: adenosine 5'-diphosphate (ADP) + UTP &lt;=&gt; ATP + uridine 5'-diphosphate (UDP)
+REACT_2083.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110726&' (None, None)
+get_page: 5.9 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'uridine 5'-diphosphate' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'UTP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase A hexamer'.
+Reactome: uridine 5'-diphosphate (UDP) + ATP &lt;=&gt; UTP + adenosine 5'-diphosphate (ADP)
+REACT_147.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110727&' (None, None)
+get_page: 4.2 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of 'UTP' are present. At the end of this reaction, 1 molecule of 'uridine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase B hexamer'.
+Reactome: adenosine 5'-diphosphate (ADP) + UTP &lt;=&gt; ATP + uridine 5'-diphosphate (UDP)
+REACT_1828.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110728&' (None, None)
+get_page: 4.7 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'uridine 5'-diphosphate' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'UTP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase B hexamer'.
+Reactome: uridine 5'-diphosphate (UDP) + ATP &lt;=&gt; UTP + adenosine 5'-diphosphate (ADP)
+REACT_1954.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110729&' (None, None)
+get_page: 4.5 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of 'UTP' are present. At the end of this reaction, 1 molecule of 'uridine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase C hexamer'.
+Reactome: adenosine 5'-diphosphate (ADP) + UTP &lt;=&gt; ATP + uridine 5'-diphosphate (UDP)
+REACT_327.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110730&' (None, None)
+get_page: 5.1 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'uridine 5'-diphosphate' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'UTP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase C hexamer'.
+Reactome: uridine 5'-diphosphate (UDP) + ATP &lt;=&gt; UTP + adenosine 5'-diphosphate (ADP)
+REACT_1266.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110733&' (None, None)
+get_page: 5.3 sec
+At the beginning of this reaction, 1 molecule of 'ADP', and 1 molecule of 'UTP' are present. At the end of this reaction, 1 molecule of 'uridine 5'-diphosphate', and 1 molecule of 'ATP' are present. This reaction takes place in the 'mitochondrial inner membrane' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase D, mitochondrial hexamer '.
+Reactome: adenosine 5'-diphosphate (ADP) + UTP &lt;=&gt; ATP + uridine 5'-diphosphate (UDP)
+REACT_518.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=110734&' (None, None)
+get_page: 5.3 sec
+At the beginning of this reaction, 1 molecule of 'ATP', and 1 molecule of 'uridine 5'-diphosphate' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'UTP' are present. This reaction takes place in the 'mitochondrial inner membrane' and  is mediated by the 'nucleoside diphosphate kinase activity' of 'nucleoside diphosphate kinase D, mitochondrial hexamer '.
+Reactome: uridine 5'-diphosphate (UDP) + ATP &lt;=&gt; UTP + adenosine 5'-diphosphate (ADP)
+REACT_1452.2
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=111912&' (None, None)
+get_page: 4.2 sec
+The cAMP-responsive element binding protein (CREB), a key regulator of gene expression, is activated by phosphorylation on Ser-133. Several different protein kinases possess the capability of driving this phosphorylation, making it a point of potential convergence for multiple intracellular signaling cascades. Work in neurons has indicated that physiologic synaptic stimulation recruits a fast calmodulin kinase IV (CaMKIV)-dependent pathway that dominates early signaling to CREB.
+Reactome: CaMK IV phosphorylates CREB
+REACT_15427.1
+HTTP GET '/uniprot/Q16566.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/P62158.xml' (None, None)
+get_page: 0.6 sec
+The cAMP-responsive element binding protein (CREB), a key regulator of gene expression, is activated by phosphorylation on Ser-133. Several different protein kinases possess the capability of driving this phosphorylation, making it a point of potential convergence for multiple intracellular signaling cascades. Work in neurons has indicated that physiologic synaptic stimulation recruits a fast calmodulin kinase IV (CaMKIV)-dependent pathway that dominates early signaling to CREB.
+['Q16566']
+['P16220']
+{'accession_number__in': ['P16220']}
+Protein P16220 already in database.
+{'accession_number__in': ['Q16566']}
+Protein Q16566 already in database.
+Reaction and ID REACT_15427.1 REACT_15427.1 Q16566 -> P16220 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=111915&' (None, None)
+get_page: 5.1 sec
+Autophosphorylation of the N-terminus Ser12-Ser13 is required for full activation after Ca2+/calmodulin binding and phosphorylation of the Ca2+/calmodulin-bound enzyme on Thr200 by a Ca2+/calmodulin-dependent protein kinase kinase.
+Reactome: CaMK IV autophosphorylation
+REACT_15320.1
+No UniProt information for input
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=111919&' (None, None)
+get_page: 5.7 sec
+cAMP-dependent protein kinase A (PKA) phosphorylates in vitro CREB at a specific residue, serine 133; Phosphorylation of Ser133 is required for signal-induced transcription in vivo.
+Reactome: PKA phosphorylates CREB
+REACT_15377.1
+HTTP GET '/uniprot/P17612.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/P22694.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P22612.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/P17612.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P22694.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P22612.xml' (None, None)
+get_page: 0.3 sec
+cAMP-dependent protein kinase A (PKA) phosphorylates in vitro CREB at a specific residue, serine 133; Phosphorylation of Ser133 is required for signal-induced transcription in vivo.
+['P17612', 'P22694', 'P22612', 'P17612', 'P22694', 'P22612']
+['P16220']
+{'accession_number__in': ['P16220']}
+Protein P16220 already in database.
+{'accession_number__in': ['P17612']}
+Protein P17612 already in database.
+Reaction and ID REACT_15377.1 REACT_15377.1 P17612 -> P16220 already in database.
+{'accession_number__in': ['P22694']}
+Protein P22694 already in database.
+Reaction and ID REACT_15377.1 REACT_15377.1 P22694 -> P16220 already in database.
+{'accession_number__in': ['P22612']}
+Protein P22612 already in database.
+Reaction and ID REACT_15377.1 REACT_15377.1 P22612 -> P16220 already in database.
+{'accession_number__in': ['P17612']}
+Protein P17612 already in database.
+Reaction and ID REACT_15377.1 REACT_15377.1 P17612 -> P16220 already in database.
+{'accession_number__in': ['P22694']}
+Protein P22694 already in database.
+Reaction and ID REACT_15377.1 REACT_15377.1 P22694 -> P16220 already in database.
+{'accession_number__in': ['P22612']}
+Protein P22612 already in database.
+Reaction and ID REACT_15377.1 REACT_15377.1 P22612 -> P16220 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=111970&' (None, None)
+get_page: 4.3 sec
+Reactome: PKC phosphorylates GRK2
+REACT_15534.1
+HTTP GET '/uniprot/P17252.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/Q05655.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/P05129.xml' (None, None)
+get_page: 0.5 sec
+['P17252', 'Q05655', 'P05129']
+['P25098']
+{'accession_number__in': ['P25098']}
+Protein P25098 already in database.
+{'accession_number__in': ['P17252']}
+Protein P17252 already in database.
+Reaction and ID REACT_15534.1 REACT_15534.1 P17252 -> P25098 already in database.
+{'accession_number__in': ['Q05655']}
+Protein Q05655 already in database.
+Reaction and ID REACT_15534.1 REACT_15534.1 Q05655 -> P25098 already in database.
+{'accession_number__in': ['P05129']}
+Protein P05129 already in database.
+Reaction and ID REACT_15534.1 REACT_15534.1 P05129 -> P25098 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=112342&' (None, None)
+get_page: 7.6 sec
+At the beginning of this reaction, 2 molecules of 'ATP', and 1 molecule of 'MEK1' are present. At the end of this reaction, 1 molecule of 'phospho_MEK1', and 2 molecules of 'ADP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'protein serine/threonine kinase activity' of 'phospho-Cdc2 (Thr 161)'.
+Reactome: Inactivation of MEK1 by p34cdc2
+REACT_1836.2
+HTTP GET '/uniprot/Q02750.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/Q02750.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/Q02750.xml' (None, None)
+get_page: 3.3 sec
+HTTP GET '/uniprot/Q02750.xml' (None, None)
+get_page: 0.4 sec
+At the beginning of this reaction, 2 molecules of 'ATP', and 1 molecule of 'MEK1' are present. At the end of this reaction, 1 molecule of 'phospho_MEK1', and 2 molecules of 'ADP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'protein serine/threonine kinase activity' of 'phospho-Cdc2 (Thr 161)'.
+['P06493']
+['Q02750', 'Q02750', 'Q02750', 'Q02750']
+{'accession_number__in': ['Q02750']}
+Protein Q02750 already in database.
+{'accession_number__in': ['P06493']}
+Protein P06493 already in database.
+Reaction and ID REACT_1836.2 REACT_1836.2 P06493 -> Q02750 already in database.
+{'accession_number__in': ['Q02750']}
+Protein Q02750 already in database.
+{'accession_number__in': ['P06493']}
+Protein P06493 already in database.
+Reaction and ID REACT_1836.2 REACT_1836.2 P06493 -> Q02750 already in database.
+{'accession_number__in': ['Q02750']}
+Protein Q02750 already in database.
+{'accession_number__in': ['P06493']}
+Protein P06493 already in database.
+Reaction and ID REACT_1836.2 REACT_1836.2 P06493 -> Q02750 already in database.
+{'accession_number__in': ['Q02750']}
+Protein Q02750 already in database.
+{'accession_number__in': ['P06493']}
+Protein P06493 already in database.
+Reaction and ID REACT_1836.2 REACT_1836.2 P06493 -> Q02750 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=112381&' (None, None)
+get_page: 4.0 sec
+Cdk-9 is the kinase subunit of P-TEFb that phosphorylates Serine 2 on the heptapeptide repeats of Pol II CTD alleviating the negative action of DSIF-NELF complex.  This reaction is considered to be a rate limiting step for processive elongation. P-TEFb complex, that has a DRB-sensitive cyclin-dependent kinase activity, is composed of ~43 kDa, Cdk9 kinase (PITALRE), and either Cyclin T1, Cyclin T2a, Cyclin T2b, or Cyclin K. The exact mechanism by which P-TEFb removes the inhibition of elongation by DSIF-NELF is not yet known. P-TEFb is also capable of phosphorylating Spt5 subunit of DSIF complex.   A P-TEFb complex (which contains only the Cyclin T1)  is implicated in the efficient synthesis of human immunodeficiency virus-1 (HIV-1) transcripts. Cyclin T1 subunit of the P-TEFb(Cyclin T1:Cdk9) complex interacts with HIV-1 encoded Tat protein that binds to the transactivation response (TAR) element in the nascent HIV-1 transcript (reviewed in Price,2000). The mechanism by which DSIF, NELF and P-TEFb or TAK/P-TEFb act together in Pol II-regulated elongation is yet to be fully understood. Various biochemical evidences point to a model in which DSIF and NELF negatively regulate elongation through interactions with polymerase containing a hypophosphorylated CTD. Subsequent phosphorylation of the Pol II CTD by P-TEFb might promote elongation by inhibiting interactions of DSIF and NELF with the elongation complex. [Wada et al 1999, Price 2000]
+Reactome: Hyperphosphorylation (Ser2) of RNA Pol II CTD by P-TEFb complex
+REACT_2066.2
+HTTP GET '/uniprot/P63272.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/O00267.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/O00267.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/P52435.xml' (None, None)
+get_page: 0.7 sec
+HTTP GET '/uniprot/P61218.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P36954.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P30876.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/O15514.xml' (None, None)
+get_page: 0.2 sec
+HTTP GET '/uniprot/P62487.xml' (None, None)
+get_page: 0.2 sec
+HTTP GET '/uniprot/P19388.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P19387.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P62875.xml' (None, None)
+get_page: 0.2 sec
+HTTP GET '/uniprot/P53803.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/P52434.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/P24928.xml' (None, None)
+get_page: 5.5 sec
+HTTP GET '/uniprot/P35269.xml' (None, None)
+get_page: 9.6 sec
+HTTP GET '/uniprot/P13984.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P52298.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/Q09161.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/Q9Y5B0.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/Q9H3P2.xml' (None, None)
+get_page: 0.5 sec
+HTTP GET '/uniprot/Q8WX92.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/Q8IXH7.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P18615.xml' (None, None)
+get_page: 3.6 sec
+HTTP GET '/uniprot/O60563.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/O60583.xml' (None, None)
+get_page: 0.8 sec
+HTTP GET '/uniprot/P50750.xml' (None, None)
+get_page: 0.5 sec
+Cdk-9 is the kinase subunit of P-TEFb that phosphorylates Serine 2 on the heptapeptide repeats of Pol II CTD alleviating the negative action of DSIF-NELF complex.  This reaction is considered to be a rate limiting step for processive elongation. P-TEFb complex, that has a DRB-sensitive cyclin-dependent kinase activity, is composed of ~43 kDa, Cdk9 kinase (PITALRE), and either Cyclin T1, Cyclin T2a, Cyclin T2b, or Cyclin K. The exact mechanism by which P-TEFb removes the inhibition of elongation by DSIF-NELF is not yet known. P-TEFb is also capable of phosphorylating Spt5 subunit of DSIF complex.   A P-TEFb complex (which contains only the Cyclin T1)  is implicated in the efficient synthesis of human immunodeficiency virus-1 (HIV-1) transcripts. Cyclin T1 subunit of the P-TEFb(Cyclin T1:Cdk9) complex interacts with HIV-1 encoded Tat protein that binds to the transactivation response (TAR) element in the nascent HIV-1 transcript (reviewed in Price,2000). The mechanism by which DSIF, NELF and P-TEFb or TAK/P-TEFb act together in Pol II-regulated elongation is yet to be fully understood. Various biochemical evidences point to a model in which DSIF and NELF negatively regulate elongation through interactions with polymerase containing a hypophosphorylated CTD. Subsequent phosphorylation of the Pol II CTD by P-TEFb might promote elongation by inhibiting interactions of DSIF and NELF with the elongation complex. [Wada et al 1999, Price 2000]
+['P50750']
+['O00267', 'O00267', 'P61218', 'P36954', 'P19387', 'P24928', 'P35269', 'P13984', 'P52298', 'Q09161', 'Q9Y5B0', 'Q9H3P2', 'Q8WX92', 'P18615']
+{'accession_number__in': ['O00267']}
+Protein O00267 already in database.
+{'accession_number__in': ['P50750']}
+Protein P50750 already in database.
+Reaction and ID REACT_2066.2 REACT_2066.2 P50750 -> O00267 already in database.
+{'accession_number__in': ['O00267']}
+Protein O00267 already in database.
+{'accession_number__in': ['P50750']}
+Protein P50750 already in database.
+Reaction and ID REACT_2066.2 REACT_2066.2 P50750 -> O00267 already in database.
+{'accession_number__in': ['P61218']}
+Protein P61218 already in database.
+{'accession_number__in': ['P50750']}
+Protein P50750 already in database.
+Reaction and ID REACT_2066.2 REACT_2066.2 P50750 -> P61218 already in database.
+{'accession_number__in': ['P36954']}
+Protein P36954 already in database.
+{'accession_number__in': ['P50750']}
+Protein P50750 already in database.
+Reaction and ID REACT_2066.2 REACT_2066.2 P50750 -> P36954 already in database.
+{'accession_number__in': ['P19387']}
+Protein P19387 already in database.
+{'accession_number__in': ['P50750']}
+Protein P50750 already in database.
+Reaction and ID REACT_2066.2 REACT_2066.2 P50750 -> P19387 already in database.
+{'accession_number__in': ['P24928']}
+Protein P24928 already in database.
+{'accession_number__in': ['P50750']}
+Protein P50750 already in database.
+Reaction and ID REACT_2066.2 REACT_2066.2 P50750 -> P24928 already in database.
+{'accession_number__in': ['P35269']}
+Protein P35269 already in database.
+{'accession_number__in': ['P50750']}
+Protein P50750 already in database.
+Reaction and ID REACT_2066.2 REACT_2066.2 P50750 -> P35269 already in database.
+{'accession_number__in': ['P13984']}
+Protein P13984 already in database.
+{'accession_number__in': ['P50750']}
+Protein P50750 already in database.
+Reaction and ID REACT_2066.2 REACT_2066.2 P50750 -> P13984 already in database.
+{'accession_number__in': ['P52298']}
+Protein P52298 already in database.
+{'accession_number__in': ['P50750']}
+Protein P50750 already in database.
+Reaction and ID REACT_2066.2 REACT_2066.2 P50750 -> P52298 already in database.
+{'accession_number__in': ['Q09161']}
+Protein Q09161 already in database.
+{'accession_number__in': ['P50750']}
+Protein P50750 already in database.
+Reaction and ID REACT_2066.2 REACT_2066.2 P50750 -> Q09161 already in database.
+{'accession_number__in': ['Q9Y5B0']}
+Protein Q9Y5B0 already in database.
+{'accession_number__in': ['P50750']}
+Protein P50750 already in database.
+Reaction and ID REACT_2066.2 REACT_2066.2 P50750 -> Q9Y5B0 already in database.
+{'accession_number__in': ['Q9H3P2']}
+Protein Q9H3P2 already in database.
+{'accession_number__in': ['P50750']}
+Protein P50750 already in database.
+Reaction and ID REACT_2066.2 REACT_2066.2 P50750 -> Q9H3P2 already in database.
+{'accession_number__in': ['Q8WX92']}
+Protein Q8WX92 already in database.
+{'accession_number__in': ['P50750']}
+Protein P50750 already in database.
+Reaction and ID REACT_2066.2 REACT_2066.2 P50750 -> Q8WX92 already in database.
+{'accession_number__in': ['P18615']}
+Protein P18615 already in database.
+{'accession_number__in': ['P50750']}
+Protein P50750 already in database.
+Reaction and ID REACT_2066.2 REACT_2066.2 P50750 -> P18615 already in database.
+HTTP GET '/cgi-bin/eventbrowser?DB=gk_current&ID=114600&' (None, None)
+get_page: 4.8 sec
+At the beginning of this reaction, 1 molecule of 'GP VI:Fc Epsilon R1 gamma:Collagen IV complex', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'GP VI:phosphorylated Fc Epsilon R1 gamma:Collagen IV complex' are present. This reaction is mediated by the 'protein-tyrosine kinase activity' of 'GP VI: Fc Epsilon R1 gamma: Collagen IV: SRC'.
+Reactome: Src-mediated phoshorylation of FcR1 gamma
+REACT_191.2
+HTTP GET '/uniprot/Q9HCN6.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/P30273.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/P02452.xml' (None, None)
+get_page: 0.4 sec
+HTTP GET '/uniprot/P08123.xml' (None, None)
+get_page: 0.8 sec
+HTTP GET '/uniprot/Q9HCN6.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/P30273.xml' (None, None)
+get_page: 0.2 sec
+HTTP GET '/uniprot/P02452.xml' (None, None)
+get_page: 0.6 sec
+HTTP GET '/uniprot/P08123.xml' (None, None)
+get_page: 0.3 sec
+HTTP GET '/uniprot/P12931.xml' (None, None)
+get_page: 0.3 sec
+At the beginning of this reaction, 1 molecule of 'GP VI:Fc Epsilon R1 gamma:Collagen IV complex', and 1 molecule of 'ATP' are present. At the end of this reaction, 1 molecule of 'ADP', and 1 molecule of 'GP VI:phosphorylated Fc Epsilon R1 gamma:Collagen IV complex' are present. This reaction is mediated by the 'protein-tyrosine kinase activity' of 'GP VI: Fc Epsilon R1 gamma: Collagen IV: SRC'.
+['P12931']
+['P30273']
+Traceback (most recent call last):
+  File "Reactome_reac_parser.py", line 170, in <module>
+    if ID.objects.filter(external_id = sub_acc[m], source = "UniProt"):
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 191, in __nonzero__
+    iter(self).next()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 185, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 618, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 275, in iterator
+    for row in self.query.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/query.py", line 206, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/query.py", line 1734, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/lib/python2.6/site-packages/django/db/backends/util.py", line 19, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 83, in execute
+    return self.cursor.execute(query, args)
+  File "build/bdist.linux-i686/egg/MySQLdb/cursors.py", line 173, in execute
+  File "build/bdist.linux-i686/egg/MySQLdb/connections.py", line 35, in defaulterrorhandler
+_mysql_exceptions.OperationalError: (1054, "Unknown column 'id.source' in 'field list'")

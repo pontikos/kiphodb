@@ -1,0 +1,237 @@
+.product-line {
+	BORDER-BOTTOM: #1a1716 1px solid
+}
+.family-path {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 11px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; COLOR: #5e5e5e; PADDING-TOP: 0px
+}
+.family-path A {
+	COLOR: #0072ba
+}
+.family-list {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BACKGROUND-COLOR: #ebebeb
+}
+.family-list A {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #1a1716; TEXT-DECORATION: none
+}
+.family-list A:hover {
+	COLOR: #0072ba; TEXT-DECORATION: underline
+}
+.toolbar {
+	WIDTH: 100%; POSITION: relative
+}
+.toolbar-head {
+	PADDING-LEFT: 30px; FONT-WEIGHT: bold; BACKGROUND: url(../enz_pics/act_enz.gif) #cccbcb no-repeat left top; CURSOR: pointer; PADDING-TOP: 2px; POSITION: relative; HEIGHT: 22px; aawidth: 100%
+}
+.toolbar-head-act {
+	BACKGROUND: url(../enz_pics/act_enz.gif) #cccbcb no-repeat left bottom
+}
+.toolbar-dhtml-outer {
+	PADDING-LEFT: 30px; PADDING-BOTTOM: 10px; POSITION: relative
+}
+.toolbar-dhtml-top {
+	DISPLAY: block; LEFT: 0px; WIDTH: 100%; POSITION: absolute; TOP: 0px; HEIGHT: 20px; BACKGROUND-COLOR: #cccbcb
+}
+.toolbar-dhtml {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 561px; PADDING-TOP: 0px; POSITION: relative
+}
+.toolbar-sets {
+	BORDER-RIGHT: #cccbcb 3px solid; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #cccbcb 1px solid; WIDTH: 557px; PADDING-TOP: 0px; BACKGROUND-COLOR: #ebebeb
+}
+.toolbar-sets TD {
+	PADDING-LEFT: 4px
+}
+.toolbar-sets UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.toolbar-sets LI {
+	DISPLAY: block
+}
+.toolbar-sets LI A {
+	TEXT-DECORATION: none
+}
+.toolbar-nav {
+	BORDER-RIGHT: #cccbcb 3px solid; BORDER-TOP: #cccbcb 1px solid; BORDER-LEFT: #cccbcb 1px solid; WIDTH: 557px; BORDER-BOTTOM: #cccbcb 1px solid; BACKGROUND-COLOR: white
+}
+.toolbar-nav TABLE {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px
+}
+.tool-head {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px
+}
+.tool-head2 {
+	FONT-SIZE: 6px; LINE-HEIGHT: 6px; HEIGHT: 6px
+}
+.tool-set A {
+	PADDING-LEFT: 15px; FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #0072ba; TEXT-DECORATION: none
+}
+.tool-set A:link {
+	PADDING-LEFT: 15px; FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #0072ba; TEXT-DECORATION: none
+}
+.tool-set A:visited {
+	PADDING-LEFT: 15px; FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #0072ba; TEXT-DECORATION: none
+}
+.tool-set A:hover {
+	PADDING-LEFT: 15px; FONT-WEIGHT: bold; FONT-SIZE: 11px; BACKGROUND: url(../pics/sip_tool_act.gif) no-repeat left center; COLOR: #1a1716; TEXT-DECORATION: none
+}
+.tool-set-act A {
+	PADDING-LEFT: 15px; FONT-WEIGHT: bold; FONT-SIZE: 11px; BACKGROUND: url(../pics/sip_tool_act.gif) no-repeat left center; COLOR: #1a1716; TEXT-DECORATION: none
+}
+.tabLink {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 16px; BACKGROUND: #ebebeb; COLOR: #0072ba; HEIGHT: 39px; TEXT-DECORATION: none
+}
+.tabActive {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 16px; BACKGROUND: #d8d8d8; COLOR: #1a1716; HEIGHT: 39px; TEXT-DECORATION: none
+}
+.whitetext {
+	COLOR: white
+}
+.list-input {
+	BORDER-RIGHT: #b1b3b4 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #b1b3b4 1px solid; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #b1b3b4 1px solid; WIDTH: 43px; LINE-HEIGHT: 10px; PADDING-TOP: 0px; BORDER-BOTTOM: #b1b3b4 1px solid; HEIGHT: 12px; TEXT-ALIGN: right
+}
+.b-right {
+	BORDER-RIGHT: #cccbcb 3px solid
+}
+.b-left {
+	PADDING-LEFT: 6px; BORDER-LEFT: #cccbcb 1px solid
+}
+.b-bottom {
+	BORDER-BOTTOM: #cccbcb 1px solid
+}
+.b-top {
+	BORDER-TOP: #cccbcb 1px solid
+}
+.one-px-td {
+	DISPLAY: block; FONT-SIZE: 2px; LINE-HEIGHT: 2px; HEIGHT: 2px
+}
+.two-px-td {
+	DISPLAY: block; FONT-SIZE: 4px; LINE-HEIGHT: 4px; HEIGHT: 4px
+}
+.ten-px-td {
+	DISPLAY: block; FONT-SIZE: 10px; LINE-HEIGHT: 10px; HEIGHT: 10px
+}
+.list-pname {
+	HEIGHT: 22px
+}
+.td-checkbox {
+	WIDTH: 32px; TEXT-ALIGN: center
+}
+.new-prod {
+	FONT-WEIGHT: bold
+}
+.toolbar-checks {
+	BORDER-TOP: #cccbcb 1px solid
+}
+.toolbar-checks TD {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px
+}
+.fwhite {
+	COLOR: white
+}
+.b-right1 {
+	BORDER-RIGHT: #0072ba 3px solid
+}
+.b-left1 {
+	PADDING-LEFT: 6px; BORDER-LEFT: #0072ba 1px solid
+}
+.b-bottom1 {
+	BORDER-BOTTOM: #0072ba 1px solid
+}
+.padIcons {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 10px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+.padProp {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.prodName {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 10px; FONT-SIZE: 18px; PADDING-BOTTOM: 12px; LINE-HEIGHT: 22px; PADDING-TOP: 12px
+}
+.detPartTitle {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 33px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: url(../enz_pics/act2.gif) #cccbcb no-repeat left top; PADDING-BOTTOM: 0px; CURSOR: pointer; LINE-HEIGHT: 25px; PADDING-TOP: 0px; HEIGHT: 25px
+}
+.detPartTitle-act {
+	BACKGROUND: url(../enz_pics/act2.gif) #cccbcb no-repeat left bottom
+}
+.detPartTitle1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; LINE-HEIGHT: 16px; PADDING-TOP: 0px
+}
+.detAcoordion {
+	MARGIN-TOP: 4px; MARGIN-LEFT: 30px
+}
+.hideableBody {
+	BACKGROUND-COLOR: white
+}
+.padLeft {
+	PADDING-LEFT: 10px
+}
+SUB {
+	VERTICAL-ALIGN: -2px
+}
+.furCategories {
+	FONT-SIZE: 11px; LINE-HEIGHT: 12px
+}
+.furCategories A {
+	FONT-SIZE: 11px; LINE-HEIGHT: 12px
+}
+.subtoolbar {
+	WIDTH: 100%; HEIGHT: 15px; BACKGROUND-COLOR: #d9d7d8
+}
+.icons IMG {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 2px 0px 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px
+}
+.icons A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.GColor1 {
+	COLOR: white; BACKGROUND-COLOR: #1a1716
+}
+.GColor2 {
+	COLOR: white; BACKGROUND-COLOR: #1a1716
+}
+.GColor3 {
+	COLOR: white; BACKGROUND-COLOR: #1a1716
+}
+.GColor4 {
+	COLOR: white; BACKGROUND-COLOR: #1a1716
+}
+.GColor5 {
+	COLOR: white; BACKGROUND-COLOR: #1a1716
+}
+.GColor6 {
+	COLOR: white; BACKGROUND-COLOR: #1a1716
+}
+.prodImagesDet {
+	FLOAT: left
+}
+.prodImagesDet {
+	BORDER-RIGHT: #0072ba 1px solid; BORDER-TOP: #0072ba 1px solid; MARGIN: 2px; BORDER-LEFT: #0072ba 1px solid; BORDER-BOTTOM: #0072ba 1px solid
+}
+#inhalt-over-jobs {
+	BORDER-RIGHT: #cccbcb 1px solid; BORDER-TOP: #cccbcb 10px solid; BORDER-LEFT: #cccbcb 1px solid; WIDTH: 589px; BORDER-BOTTOM: #cccbcb 1px solid
+}
+#inhalt-over-jobs .bodytext {
+	MARGIN: 10px
+}
+#inhalt-over-jobs .csc-firstHeader {
+	MARGIN: 10px
+}
+#inhalt-over-jobs .jobs-menu {
+	MARGIN: 10px
+}
+#inhalt-left {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 369px; PADDING-TOP: 0px; POSITION: relative
+}
+#inhalt-right {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 200px; PADDING-TOP: 0px; POSITION: relative
+}
+.jobs-menu {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; BACKGROUND-COLOR: #ebebeb
+}
+.jobs-menu-act {
+	PADDING-LEFT: 15px; BACKGROUND: url(../pics/sip_tool_act.gif) no-repeat left center
+}
+.jobs-menu-act A {
+	COLOR: #1a1716; TEXT-DECORATION: none
+}
+.jobs-menu-no {
+	PADDING-LEFT: 15px
+}

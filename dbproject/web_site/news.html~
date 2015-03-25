@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+{% include "header.html" %}
+			<div class="main">
+				<div class="bluebox">
+					<h1>Recent News & Updates</h1><br/>
+					<p>The purpose of this page is to hold recent news and updates concerning the contents of KiPhoDB. It will also provide a log on the changes that have been applied to both the database and the public web site. Finally, it will also provide information about the expansion of the database by including various sources of data.</p><br/><br/>
+					<h2>05/03/2009: DataBrowse Tool</h2>
+					<p>Today a new feature has been added to the KiPhoDB website that enables users to display and browse the data contained in the KiPhoDB database. The name of this tool is DataBrowse and it can be found in the "search" tab. The interface of DataBrowse is very easy to use and its main function is to list the contents of each table in the KiPhoDB database. Moreover, it can be used for sorting the contents of the database according to certain criteria or locate groups of entries that have the same characteristics.</p><br/><br/>
+					<h2>03/03/2009: SQL Query Field</h2>
+					<p>From this point on, KiPhoDB offers a new feature to its users that enables them to perform advanced searches on the data stored in the database. This feature can be found in the "search" tab and offers users the opportunity to form their own customized SQL queries and execute them on our MySQL server. The results of each query are displayed in a basic html page that is easy to read and parse using any programming language.</p><br/><br/>
+					<h2>27/02/2009: NetworKIN Information</h2>
+					<p><a href="http://networkin.info/search.php">NetworKIN</a> is an algorithm for predicting in vivo kinase-substrate relashionsips. It colaborates closely with PhosphoELM and at the time of writing it contains information for 108 kinases and 3978 substrates. We have updated KiPhoDB using data provided by NetworKIN and we would like to thank its creators for giving us access to their data.<p><br/><br/>
+					<h2>24/02/2009: PhosphoELM Data</h2>
+					<p>In late February all data contained in the latest release of <a href="http://phospho.elm.eu.org/">phosphoELM</a> (Version 8.1, December 2008) have been added to the database. PhosphoELM is an exellent resource of experimentally verified phosphorylation sites in eukaryotic proteins. The 8.1 release of the database contains 4384 protein entries (2166 Tyrosine, 13320 Serine and 2766 Threonine), with more than 18,000 phosphorylation sites. All entries are manually currated based on scientific literature and the database itself provides information not only about the exact phosphorylation sites but also the kinases that are responsible for each modification. Moreover it provides numerous links to bibliographic references and additional information about interaction partners, structures etc. <br/> We are delighted to include this valuable resource to our database and we would like to thank the creators and maintainers of phosphoELM for their kind contribution.</p><br/><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+			</div>
+		</div>
+{% include "footer.html" %}

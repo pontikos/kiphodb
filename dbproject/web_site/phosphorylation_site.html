@@ -1,0 +1,66 @@
+{% include "header.html" %}
+{% load kipho_filters %}
+
+			<div class="main">
+				<div class="bluebox">
+					{% if error %}
+						<h1>ERROR!</h1><br/>
+						The following error occurred:
+						<i>{{error}}</i>
+					{% else %}
+						<h1>Phosphorylation Site Information</h1><br/>
+						<h2>Phosphorylation Site ID</h2>
+						{{phosphorylation_site.phosphosite_id}}<br/><br/>
+						<h2>Reviewed</h2>
+						{{phosphorylation_site.reviewed|reviewed}}<br/><br/>
+						 <h2>Source</h2>
+						{{phosphorylation_site.source}}<br/><br/>
+						<h2>Protein Information</h2>
+						<i>Accession Number: </i> <a href="protein?accession_number='{{protein.accession_number}}'">{{protein.accession_number}}</a><br/>
+						<i>Name: </i> {{protein.protein_name}}<br/>
+						<i>Type: </i> {{protein.protein_type|protein_type}}<br/>
+						<i>Gene Accession Number: </i> {{protein.gene_accession_number}}<br/>
+						<i>Gene Name: </i>{{protein.gene_name}}<br/>
+						<i>EC Number: </i>{{protein.ec_number}}<br/>
+						<i>Organism: </i><a href="organism?organism_name='{{ protein.organism_name }}'">{{protein.organism_name}}</a><br/><br/>
+						<h2>Amino Acid</h2>
+						{{phosphorylation_site.amino_acid}}<br/><br/>
+						<h2>Position</h2>
+						{{phosphorylation_site.position}}<br/><br/>
+						<h2>Motif</h2>
+					       {{phosphorylation_site.motif}}<br/><br/>
+						<h2>Updated</h2>
+						{{phosphorylation_site.updated}}<br/><br/>
+						<h2>Comments</h2>
+						{%if not phosphorylation_site.comments%}
+						No Comments
+						{%else%}
+						{{phosphorylation_site.comments}}
+						{%endif%}<br/><br/>
+
+						<!--Are there any references? If yes, display them in a table.-->
+						{% if references %}
+						<h2>References</h2>
+						{% for reference in references %}
+						<a href="reference?reference_id={{reference.reference_id}}">{{reference.reference_id}}</a><br/>
+						{% endfor %}
+						{% endif %} <br/>
+
+						<!--Are there any files? if yes. display them.-->
+						{%if files%}
+						<h2>Files</h2>
+						{%for file in files%}
+						{{file.url}}<br/>
+						{%endfor%}<br/>
+						{%endif%}
+
+					{% endif %}
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+			</div>
+		</div>
+
+		{% include "footer.html" %}
+	

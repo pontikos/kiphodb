@@ -1,0 +1,42 @@
+\contentsline {chapter}{\numberline {1}Introduction}{5}
+\contentsline {section}{\numberline {1.1}Project Description}{5}
+\contentsline {section}{\numberline {1.2}Aims}{6}
+\contentsline {section}{\numberline {1.3}Workplan}{7}
+\contentsline {chapter}{\numberline {2}Background Biology}{11}
+\contentsline {section}{\numberline {2.1}Phosphorylation}{11}
+\contentsline {section}{\numberline {2.2}Kinase}{13}
+\contentsline {section}{\numberline {2.3}Phosphatase}{17}
+\contentsline {section}{\numberline {2.4}Substrate}{18}
+\contentsline {chapter}{\numberline {3}Data Sources}{21}
+\contentsline {section}{\numberline {3.1}PhosphoELM}{21}
+\contentsline {section}{\numberline {3.2}NetworKIN}{22}
+\contentsline {section}{\numberline {3.3}Phosida}{24}
+\contentsline {section}{\numberline {3.4}PhosphoPOINT}{24}
+\contentsline {section}{\numberline {3.5}PhosphaBase}{26}
+\contentsline {section}{\numberline {3.6}KinBase}{27}
+\contentsline {section}{\numberline {3.7}NetPath}{27}
+\contentsline {section}{\numberline {3.8}TreeFam}{28}
+\contentsline {section}{\numberline {3.9}Other resources}{29}
+\contentsline {chapter}{\numberline {4}Implementation}{31}
+\contentsline {section}{\numberline {4.1}Software Tools}{31}
+\contentsline {subsection}{\numberline {4.1.1}MySQL}{31}
+\contentsline {subsection}{\numberline {4.1.2}Python}{31}
+\contentsline {subsection}{\numberline {4.1.3}Django-Python}{32}
+\contentsline {subsection}{\numberline {4.1.4}Dreamweaver}{33}
+\contentsline {subsection}{\numberline {4.1.5}PhyloWidget}{33}
+\contentsline {section}{\numberline {4.2}Development Server}{34}
+\contentsline {section}{\numberline {4.3}Database Schema}{37}
+\contentsline {section}{\numberline {4.4}Data Input}{39}
+\contentsline {section}{\numberline {4.5}Web Site}{41}
+\contentsline {section}{\numberline {4.6}Database Search Tools}{44}
+\contentsline {subsection}{\numberline {4.6.1}Kinase - Phosphatase Pairs}{45}
+\contentsline {subsection}{\numberline {4.6.2}Simple Search}{45}
+\contentsline {subsection}{\numberline {4.6.3}Advanced Search}{47}
+\contentsline {subsection}{\numberline {4.6.4}SQL Query}{47}
+\contentsline {subsection}{\numberline {4.6.5}Browse Data}{50}
+\contentsline {subsection}{\numberline {4.6.6}Construct Phylogenetic Trees}{51}
+\contentsline {subsection}{\numberline {4.6.7}Gene Families}{51}
+\contentsline {chapter}{\numberline {5}Results \& Future work}{53}
+\contentsline {section}{\numberline {5.1}Outcomes}{53}
+\contentsline {section}{\numberline {5.2}Have we met the requirements?}{56}
+\contentsline {section}{\numberline {5.3}Future Plans}{58}

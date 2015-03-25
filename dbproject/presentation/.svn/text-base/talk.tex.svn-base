@@ -1,0 +1,69 @@
+\documentclass{beamer}
+
+%\usepackage{movie15}
+
+\usepackage{beamerthemesplit}
+\usetheme{Kipho}
+\usecolortheme{kipho}
+
+\logo{\includegraphics[scale=.35]{pictures/imperial_logo.pdf}}
+\secondlogo{\includegraphics[scale=.1]{pictures/kiphodb.pdf}}
+
+\title{Kinome-Phosphatome-Database}
+\author{ Tisham De, Christos Gkekas, Nikolas Pontikos \& Zhengzi Yi }
+\institute{ Imperial College London }
+
+\begin{document}
+
+\begin{frame}
+\begin{center}
+%\includegraphics[scale=.4]{pictures/kiphodb.pdf}
+\titlepage
+\end{center}
+\end{frame}
+
+\begin{frame}\frametitle{Table of contents}\tableofcontents
+\end{frame} 
+
+\section{Background}
+\begin{frame}
+\begin{figure}[ht]
+%\includemovie[poster,externalviewer]{5cm}{5cm}{blah.mpeg}
+\end{figure}
+\end{frame}
+
+\subsection{Biology}
+\begin{frame} \frametitle{Background Biology}
+\begin{itemize}
+\item Phosphorylation/dephosphorylation reaction
+\item Kinase
+\item Phosphatase
+\end{itemize}
+\end{frame}
+
+\subsection{Data Sources}
+\begin{frame} \frametitle{Main Data Sources}
+\begin{itemize}
+\item KEGG
+\item Netpath
+\end{itemize}
+\end{frame}
+
+
+\section{Implementation}
+
+\subsection{Demo}
+\begin{frame}\frametitle{Data Sources}
+\end{frame}
+
+\section{Conclusion}
+
+\subsection{Results}
+\begin{frame}\frametitle{Results}
+\end{frame}
+\subsection{Future Work}
+\begin{frame}\frametitle{Future Work}
+\end{frame}
+
+
+\end{document}

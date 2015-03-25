@@ -1,0 +1,162 @@
+\begin{thebibliography}{10}
+
+\bibitem{kinome}
+G.~Manning, DB~Whyte, R.~Martinez, T.~Hunter, and S.~Sudarsanam.
+\newblock {The protein kinase complement of the human genome}.
+\newblock {\em Science}, 298(5600):1912--1934, 2002.
+
+\bibitem{PhosphoPoint}
+C.Y. Yang, C.H. Chang, Y.L. Yu, T.C. Lin, S.A. Lee, C.C. Yen, J.M. Yang, J.M.
+  Lai, Y.R. Hong, T.L. Tseng, K.M. Chao, and Huang C.Y.
+\newblock {PhosphoPOINT: A comprehensive human kinase interactome and
+  phospho-protein database}.
+\newblock {\em Bioinformatics}, 24(16).
+
+\bibitem{phosphorylation_origins}
+P.~Cohen.
+\newblock {The origins of protein phosphorylation}.
+\newblock {\em Nature cell biology}, 4:E127--E130, 2002.
+
+\bibitem{phosphoELM}
+F.~Diella, C.M. Gould, C.~Chica, A.~Via, and T.J. Gibson.
+\newblock {Phospho. ELM: a database of phosphorylation sites update 2008}.
+\newblock {\em Nucleic Acids Research}, 2007.
+
+\bibitem{PHOSIDA}
+F.~Gnad, S.~Ren, J.~Cox, J.~Olsen, B.~Macek, M.~Oroshi, and M.~Mann.
+\newblock {PHOSIDA (phosphorylation site database): management, structural and
+  evolutionary investigation, and prediction of phosphosites}.
+\newblock {\em Genome Biology}, 8(11):R250, 2007.
+
+\bibitem{networKIN}
+R.~Linding, L.J. Jensen, G.J. Ostheimer, M.A.T.M. van Vugt, C.~J{\o}rgensen,
+  I.M. Miron, F.~Diella, K.~Colwill, L.~Taylor, K.~Elder, et~al.
+\newblock {Systematic discovery of in vivo phosphorylation networks}.
+\newblock {\em Cell}, 129(7):1415--1426, 2007.
+
+\bibitem{introphosphorylation}
+{John N. Abelson, Melvin I. Simon, Tony Hunter, Bartholomew M. Sefton}.
+\newblock {\em {Protein Phosphorylation, Parts A and B}}.
+\newblock Academic Press, September 1991.
+
+\bibitem{aquaporin}
+S.~Törnroth-Horsefield, Y.~Wang, K.~Hedfalk, U.~Johanson, M.~Karlsson,
+  E.~Tajkhorshid, R.~Neutze, and P.~Kjellbom.
+\newblock {Structural mechanism of plant aquaporin gating.}
+\newblock {\em Nature}, 439(7077):688--94, 2006.
+
+\bibitem{kinomics}
+S.A. Johnson and T.~Hunter.
+\newblock {Kinomics: methods for deciphering the kinome}.
+\newblock {\em Nature Methods}, 2:17--25, 2005.
+
+\bibitem{p53tumorsuppressor}
+F.~Staib, A.I. Robles, L.~Varticovski, X.W. Wang, B.R. Zeeberg, M.~Sirotin,
+  V.B. Zhurkin, L.J. Hofseth, S.P. Hussain, J.N. Weinstein, et~al.
+\newblock {The p53 tumor suppressor network is a key responder to
+  microenvironmental components of chronic inflammatory stress}, 2005.
+
+\bibitem{kinase_evolution}
+G.~Manning, G.D. Plowman, T.~Hunter, and S.~Sudarsanam.
+\newblock {Evolution of protein kinase signaling from yeast to man.}
+\newblock {\em Trends Biochem Sci}, 27(10):514--20, 2002.
+
+\bibitem{phosphabase}
+KJ~Wolstencroft, R.~Stevens, L.~Tabernero, and A.~Brass.
+\newblock {PhosphaBase: an ontology-driven database resource for protein
+  phosphatases, Proteins (Band 58), Nr. 2}.
+\newblock {\em URL: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi}, pages
+  290--4, 2005.
+
+\bibitem{nuclear_phosphatases}
+G.B. Moorhead, L.~Trinkle-Mulcahy, and A.~Ulke-Lemée.
+\newblock {Emerging roles of nuclear protein phosphatases.}
+\newblock {\em Nat Rev Mol Cell Biol.}, 8(3):234--44, 2007.
+
+\bibitem{tyrosine_phosphatases}
+N.~K. Tonks.
+\newblock {Protein tyrosine phosphatases: from genes, to function, to disease}.
+\newblock {\em Nat Rev Mol Cell Biol.}, 7(11):833--46, 2006.
+
+\bibitem{gps}
+F.F. Zhou, Y.~Xue, G.L. Chen, and X.~Yao.
+\newblock {GPS: a novel group-based phosphorylation predicting and scoring
+  method}.
+\newblock {\em Biochemical and Biophysical Research Communications},
+  325(4):1443--1448, 2004.
+
+\bibitem{rlims-p}
+ZZ~Hu, M.~Narayanaswamy, KE~Ravikumar, K.~Vijay-Shanker, and CH~Wu.
+\newblock {Literature mining and database annotation of protein phosphorylation
+  using a rule-based system}.
+\newblock {\em Bioinformatics}, 21(11):2759--2765, 2005.
+
+\bibitem{phosphoregdb}
+AR~Forrest, D.F. Taylor, J.L. Fink, M.M. Gongora, C.~Flegg, R.D. Teasdale,
+  H.~Suzuki, M.~Kanamori, C.~Kai, Y.~Hayashizaki, et~al.
+\newblock {PhosphoregDB: the tissue and sub-cellular distribution of mammalian
+  protein kinases and phosphatases}.
+\newblock {\em BMC bioinformatics}, 7(1):82, 2006.
+
+\bibitem{go}
+M.~Ashburner, CA~Ball, JA~Blake, D.~Botstein, H.~Butler, JM~Cherry, AP~Davis,
+  K.~Dolinski, SS~Dwight, JT~Eppig, et~al.
+\newblock {Gene ontology: Tool for the unification of biology. The Gene
+  Ontology Consortium.}
+\newblock {\em Nature genetics}, 25(1):25, 2000.
+
+\bibitem{pseudokinases}
+J.~Boudeau, D.~Miranda-Saavedra, G.J. Barton, and D.R. Alessi.
+\newblock {Emerging roles of pseudokinases}.
+\newblock {\em Trends in Cell Biology}, 16(9):443--452, 2006.
+
+\bibitem{treefam1}
+Chen Z Coghlan A Coin LJ Guo Y Hérich?JK Hu Y Kristiansen K Li R Liu T Moses A
+  Qin J Vang S Vilella AJ Ureta-Vidal A Bolund L Wang J Durbin~R. Ruan~J, Li~H.
+\newblock {TreeFam: 2008 Update.}
+\newblock {\em Nucleic Acids Research}, 36:735--40, 2008.
+
+\bibitem{treefam2}
+Ruan J Coin LJ Hérich?JK Osmotherly L Li R Liu T Zhang Z Bolund L Wong GK Zheng
+  W Dehal P Wang J Durbin~R. Li~H, Coghlan~A.
+\newblock {TreeFam: a curated database of phylogenetic trees of animal gene
+  families.}
+\newblock {\em Nucleic Acids Research}, 34:572--80, 2006.
+
+\bibitem{Reactome}
+Gillespie M Caudy M Croft D de Bono B Garapati P Hemish J Hermjakob H Jassal B
+  Kanapin A Lewis S Mahajan S May B Schmidt E Vastrik I Wu G Birney E Stein L
+  D'Eustachio~P Matthews~L, Gopinath~G.
+\newblock {Reactome knowledgebase of human biological pathways and processes}.
+\newblock {\em Nucleic Acids Res.}, 37:D619--D622, 2009.
+
+\bibitem{NCI}
+{Carl F. Schaefer, Kira Anthony, Shiva Krupa, Jeffrey Buchoff, Matthew Day,
+  Timo Hannay and Kenneth H. Buetow}.
+\newblock {PID: The Pathway Interaction Database}.
+\newblock {\em Nucleic Acids Res.}, 37:D674--D679, 2009.
+
+\bibitem{KEGG}
+Araki M. Goto S. Hattori M. Hirakawa M. Itoh M. Katayama T. Kawashima S. Okuda
+  S. Tokimatsu~T. Kanehisa, M. and Y.~Yamanishi.
+\newblock {KEGG for linking genomes to life and the environment}.
+\newblock {\em Nucleic Acids Res.}, 36:D480--D484, 2008.
+
+\bibitem{PhyloWidget}
+Jordan G.E. and Piel W.H.
+\newblock {PhyloWidget: web-based visualizations for the tree of life.}
+\newblock {\em Bioinformatics}, 24(14):1641--1642, 2008.
+
+\bibitem{phosphosite}
+P.V. Hornbeck, I.~Chabra, J.M. Kornhauser, E.~Skrzypek, and B.~Zhang.
+\newblock {PhosphoSite: a bioinformatics resource dedicated to physiological
+  protein phosphorylation}.
+\newblock {\em Proteomics}, 4(6), 2004.
+
+\bibitem{uniprot}
+A.~Bairoch, R.~Apweiler, C.H. Wu, W.C. Barker, B.~Boeckmann, S.~Ferro,
+  E.~Gasteiger, H.~Huang, R.~Lopez, M.~Magrane, et~al.
+\newblock {The universal protein resource (UniProt)}.
+\newblock {\em Nucleic Acids Research}, 33(Database Issue):D154, 2005.
+
+\end{thebibliography}

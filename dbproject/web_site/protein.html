@@ -1,0 +1,156 @@
+{% include "header.html" %}
+{% load kipho_filters %}
+
+			<div class="main">
+				<div class="bluebox">
+					{% if error %}
+						<h1>ERROR!</h1><br/>
+						The following error occurred:
+						<i>{{error}}</i>
+					{% else %}
+						<h1>Protein Information</h1><br/>
+						<h2>Accession Number</h2> {{protein.accession_number}}<br/><br/>
+						<h2>Name</h2> {{protein.protein_name}}<br/><br/>
+						<h2>Reviewed</h2> {{protein.reviewed|reviewed}}<br/><br/>
+						<h2>Source</h2>
+						{{protein.source}}<br><br>
+						<h2>Protein type</h2>
+						{{protein.protein_type|protein_type}}<br/><br/>
+						<h2>Substrate</h2>
+						{{protein.substrate|yes_no}}<br/><br/>
+						<h2>Gene Accession Number</h2>
+						{{protein.gene_accession_number}}<br/><br/>
+						<h2>Gene Name</h2>
+						{{protein.gene_name}}<br/><br/>
+						<h2>EC Number</h2>
+						{{protein.ec_number}}<br/><br/>
+						<h2>Organism</h2>
+						<a href="organism?organism_name='{{protein.organism_name}}'">{{protein.organism_name}}</a><br/><br/>
+						<h2>Amino Acid Sequence</h2>
+						<textarea rows="2" cols="80" readonly="True">{{protein.protein_sequence}}</textarea><br/><br/>
+						<h2>Updated</h2>
+						{{protein.updated}}<br/><br/>
+						<h2>Comments</h2>
+						{%if not protein.comments%}
+						No Comments
+						{%else%}
+						{{protein.comments}}
+						{%endif%}<br/><br/>
+
+						<!--Are there any GO terms? if yes, display them in a table.-->
+						{% if go_terms %}
+						<h2>GO terms</h2>
+						{% for term in go_terms %}
+						<a href="go_term?go_term='{{term.go_term}}'">{{term.go_term}}</a><br/>
+						{%endfor%}
+						{%endif%}<br/>
+
+						<!--Are there any domains? If yes, display them in a table.-->
+						{% if domains %}
+						<h2>Domains</h2>
+						{% for domain in domains %}
+						<a href="domain?pfam_id='{{domain.pfam_id}}'">{{domain.pfam_id}}</a><br/>
+						{% endfor %}
+						{% endif %} <br/>
+
+						<!--Are there any phosphorylation sites? If yes, display them in a table.-->
+						{% if phosphorylation_sites %}
+						<h2>Phosphorylation Sites</h2>
+						<table border=1 width="680">
+							<tr><th>ID</th><th>AA</th><th>Position</th><th>Motif</th><th>Reviewed</th><th>Updated</th><th>Comments</th><th>Source</th></tr>
+							{% for site in phosphorylation_sites %}
+							<tr>
+								<td><a href="phosphorylation_site?phosphosite_id='{{site.phosphosite_id}}'">{{site.phosphosite_id}}</td>
+								<td>{{site.amino_acid}}</td>
+								<td>{{site.position}}</td>
+								<td>{{site.motif}}</td>
+								<td>{{site.reviewed|reviewed}}</td>
+								<td>{{site.updated}}</td>
+								<td>{{site.comments}}</td>
+								<td>{{site.source}}</td>
+							</tr>
+							{% endfor %}
+						</table><br/><br/>
+						{% endif %}
+
+						<!--Are there any reaction results? If yes, display them in a table.-->
+						{% if reactions%}
+						<h2>Reactions</h2>
+						<table border=1 width="680">
+							<tr><th>ID</th><th>Kinase/Phosphatase</th><th>Substrate</th><th>Type</th><th>Effect</th><th>Reviewed</th><th>Source</th></tr>
+							{% for reaction in reactions %}
+							<tr>
+								<td><a href="reaction?reaction_id='{{reaction.reaction_id}}'">{{reac_ids|hash:reaction.reaction_id}}</a></td>
+								<td><a href="protein?accession_number='{{reaction.ki_pho_accession_number}}'">{{reaction.ki_pho_accession_number}}</a></td>
+								<td><a href="protein?accession_number='{{reaction.substrate_accession_number}}'">{{reaction.substrate_accession_number}}</a></td>
+								<td>{{reaction.reaction_type|reaction_type}}</td>
+								<td>{{reaction.reaction_effect|reaction_effect}}</td>
+								<td>{{reaction.reviewed|reviewed}}</td>
+								<td> {% if reac_source_ids|hash:reaction.reaction_id  %}
+                                               	       {% for r in reac_source_ids|hash:reaction.reaction_id %}
+                                               		{% if not r|hasID_reac %}
+                                               			{{reaction.source}}<br/>
+				              		{% else %}
+									<a href="{{reaction.source|source:r}}">{{reaction.source}}</a><br/>
+                                               		{%endif%}
+							       {%endfor%}
+	                                                {% else %}
+        						       {{reaction.source}}<br/>
+                                                       {% endif %}</td>
+							</tr>
+							{%endfor%}
+						</table><br/><br/>
+						{%endif%}
+
+						{% if orthologs %}
+						<div id=ortholog>
+						<h2>Orthologs</h2>
+							{%for ortholog in orthologs %}
+							<a href="protein?accession_number='{{ortholog.accession_number}}'"
+								>{{ortholog.accession_number}}({{ortholog.organism_name}})</a><br/>
+							{% endfor %}
+						</div>
+						{% endif %}<br/>
+
+						<!--Are there any references? If yes, display them in a table.-->
+						{% if references %}
+						<h2>References</h2>
+						{% for reference in references %}
+						<a href="reference?reference_id='{{reference.reference_id}}'"
+							>PUBMED:{{reference.reference_id}}</a><br/>
+						{% endfor %}
+						{% endif %}<br/>
+
+						<!--Are there any external ids? If yes, display them.-->
+						{%if external_ids%}
+						<h2>External IDs</h2>
+						{%for id in external_ids%}
+						{{id.external_id}}<br/>
+						{%endfor%}<br/>
+						{%endif%}
+				<a href="http://www.treefam.org/cgi-bin/search2.pl?e={{protein.accession_number}}" target="_blank"> View Tree </a>
+						<!--Are there any files? if yes. display them.-->
+						{%if files%}
+						<h2>Files</h2>
+						{%for file in files%}
+						{{file.url}} <br/>
+						{%endfor%}<br/>
+						{%endif%}
+
+						<!--What is the source?-->
+						{%if source%}
+						<h2>Sources</h2>
+						{%for s in source%}
+						{{s.source}}<br/>
+						{%endfor%}<br/>
+{%endif%}
+					{% endif %}
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+			</div>
+		</div>
+
+{% include "footer.html" %}
+

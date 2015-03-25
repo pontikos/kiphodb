@@ -1,0 +1,114 @@
+.bodynav LI UL LI A:link {
+	TEXT-DECORATION: none
+}
+.bodynav LI UL LI A:active {
+	TEXT-DECORATION: none
+}
+.bodynav LI UL LI A:hover {
+	TEXT-DECORATION: none
+}
+.bodynav LI UL LI A:visited {
+	TEXT-DECORATION: none
+}
+.bodynav {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 1.1; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.bodynav UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 1.1; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.bodynav A {
+	DISPLAY: block; COLOR: #006666
+}
+.bodynav SPAN {
+	DISPLAY: block; COLOR: #006666
+}
+.bodynav LI {
+	FLOAT: left; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.bodynav LI UL {
+	LEFT: -999em; POSITION: absolute
+}
+.bodynav LI UL A {
+	PADDING-LEFT: 2px
+}
+.bodynav LI UL UL {
+	
+}
+.bodynav LI:hover UL UL {
+	LEFT: -999em
+}
+.bodynav LI:hover UL UL UL {
+	LEFT: -999em
+}
+.bodynav LI.sfhover UL UL {
+	LEFT: -999em
+}
+.bodynav LI.sfhover UL UL UL {
+	LEFT: -999em
+}
+.bodynav LI:hover UL {
+	LEFT: auto
+}
+.bodynav LI LI:hover UL {
+	LEFT: auto
+}
+.bodynav LI LI LI:hover UL {
+	LEFT: auto
+}
+.bodynav LI.sfhover UL {
+	LEFT: auto
+}
+.bodynav LI LI.sfhover UL {
+	LEFT: auto
+}
+.bodynav LI LI LI.sfhover UL {
+	LEFT: auto
+}
+.bodynav LI UL LI {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid
+}
+.bodynav LI UL LI UL LI {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid
+}
+.bodynav LI UL LI:unknown {
+	BORDER-TOP: #cccccc 1px solid
+}
+.bodynav LI UL LI UL LI:unknown {
+	BORDER-TOP: #cccccc 1px solid
+}
+.bodynav LI UL LI UL LI {
+	
+}
+.bodynav UL LI:hover {
+	BACKGROUND: #e9e9e9
+}
+.bodynav UL LI.sfhover {
+	BACKGROUND: #e9e9e9
+}
+.bodynav UL LI:hover A:hover {
+	COLOR: #000000
+}
+.bodynav UL LI.sfhover A:hover {
+	COLOR: #000000
+}
+.bodynav LI LI {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/menu_contents_bg.gif) #ffffff repeat-x left bottom
+}
+.bodynav A {
+	WIDTH: 10em
+}
+.bodynav LI {
+	WIDTH: 10em
+}
+.bodynav LI UL {
+	WIDTH: 10em
+}
+.bodynav LI UL LI {
+	WIDTH: 10em
+}
+.bodynav LI UL A {
+	WIDTH: 10em
+}
+.bodynav LI UL UL {
+	MARGIN: -1.35em 0px 0px 10em
+}

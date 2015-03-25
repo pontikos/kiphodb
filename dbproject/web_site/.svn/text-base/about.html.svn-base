@@ -1,0 +1,48 @@
+{% include "header.html" %}
+			<div class="main">
+				<div class="bluebox">
+					<h1>About KiPhoDB</h1><br/>
+					<p>KiPhoDB was the outcome of a project for the <a href="http://www.bioinformatics.ic.ac.uk/">Centre for Bioinformatics</a> at <a href="http://www3.imperial.ac.uk/">Imperial College London</a>. The people behind this database are Tisham De, Christos Gkekas, Nikolas Pontikos and Zhengzi Yi.</p><br/>
+					<a href="http://www3.imperial.ac.uk"><img src="images/imperial_logo.png"></a><br/><br/>
+					<a href="http://www.bioinformatics.ic.ac.uk"><img src="images/bioinformatics_logo.png"></a>
+				</div>
+				<div class="bluebox">
+					<h1>People</h1><br/>
+					<p><b>Tisham De</b> is a graduate in Biotechnology from India. After four years of Biotechnology engineering and extensive exposure to Laboratory work he realised that Bioinformatics and Systems Biology hold the key to the future of Life Sciences especially Genetics and Molecular Biology. There is an extent to which we can do experiments, especially now when we have to keep in mind the carbon footprints of every experiment we do. It is crucial that we save our resources for experimentation which are an absolute necessity and do the rest using accurate simulation and algorithms. </p><br/>
+
+					<p><b>Christos Gkekas</b> (Χριστος Γκεκας)
+					is an <a href="http://www.ee.auth.gr/">Electrical and Computer Engineer</a> from the <a href="http://www.auth.gr/home/index_en.html">Aristotle University of Thessaloniki</a>. He has worked in three major companies in Greece as an intern, namely <a href="http://www.egnatia.eu/page/default.asp?id=5&la=2">Egnatia Motorway S.A</a>, <a href="http://www.dei.gr/echome.aspx?lang=2">Public Power Corporation S.A</a> and Traffic Technique S.A. He believes that combining two or more scientific fields (e.g. Biology and Computer Science) is very interesting and this is why he decided to join the MSc in Bioinformatics at Imperial College London.</p><br/>
+
+					<p><b>Nikolas Pontikos</b> (Νικολας Ποντικος)
+					is a computer science graduate from <a href="http://www.cs.ucl.ac.uk">UCL</a> (MEng 2:1).
+					After working briefly in <a href="http://www.gambitresearch.com">industry</a> he decided to put his computer skills
+					to better use and joined the <a href="http://www3.imperial.ac.uk/naturalsciences/courses/pg/ls/bioinformatics">MSci Bioinformatics programme</a> at Imperial College.
+					</p><br/>
+
+					<p><b>Zhengzi Yi</b>
+					is a student who has a real enthusiasm for multidisciplinary researching areas She would like to see how the biology and mathematics, two fundamental branches of nature science, can be merged together and therefore chose to start her master study of bioinformatics in Imperial College. </p>
+				</div>
+				<div class="bluebox">
+					<h1>Technologies</h1><br/>
+					<p>In order to construct both the KiPhoDB database and the public website, a wide variety of opensource software tools have been utilized. In the following sections, the main software technologies behind KiPhoDB will be listed and briefly described.</p><br/>
+					<h2>MySQL</h2>
+					<p>The MySQL relational database management system has been used for KiPhoDB because of three main reasons. The first reason is the fact that MySQL is opensource and it is licenced under the GNU General Public Licence, which gives the right to everybody to download it and use it free of charge. The second reason is that MySQL is probably the most popular database system for web applications and several high traffic websites use it in order to store and retrieve huge amounts of data. Finally, MySQL is quite stable and flexible and provides a lot of command line and GUI tools for easy administration and development.</p><br/>
+					<h2>Django</h2>
+					<p>Django is an open source framework for creating web applications. It is written in python and its source code is released under the BSD license, which gives to everyone the right to download and use Django free of charge. Django's primary target is to ease the creation of database-driven websites. It can cooperate flawlessly with MySQL databases and it even offers an automatically created administration interface, which allows users to log in and change entries in the database. For the aforementioned reasons, KiPhoDB was developed using this framework.</p><br/><br/>
+					<h2>This site is powered by...</h2>
+					<table border="0" width="700" align="center">
+						<tr>
+							<td><a href="http://www.mysql.com/"><img src="images/mysql_logo.jpg" alt="MySQL"></a></td>
+							<td><a href="http://www.djangoproject.com/"><img src="images/django_logo.jpg" alt="Django"></a></td>
+							<td><a href="http://www.apache.org/"><img src="images/apache_logo.jpg" alt="Apache HTTP server"></a></td>
+							<td><a href="http://www.archlinux.org/"><img src="images/archLinux_logo.jpg" alt="Arch Linux"></a></td>
+						</tr>
+					</table>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+			</div>
+		</div>
+
+{% include "footer.html" %}

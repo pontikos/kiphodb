@@ -1,0 +1,70 @@
+TF105614	ITPA	inosine triphosphatase (nucleoside triphosphate pyrophosphatase)	C20orf37; HLC14-06-P; dJ794I6.3; Inosine triphosphate pyrophosphatase; EC 3.6.1.19; ITPase; Inosine triphosphatase; Putative oncogene protein hlc14-06-p	12	58		0000-00-00	2005-07-08	curated	Hydrolyzes ITP and dITP to their respective monophosphate derivatives. Xanthosine 5"-triphosphate (XTP) is also a potential substrate. The function of this ubiquitous protein family is proposed to be the elimination of minor potentially mutagenic or clastogenic purine nucleoside triphosphates from the cell. [PMID: 11278832]	
+
+TF105122	DUSP1/2/4-7/9/10	dual specificity phosphatase 1/2/4-7/9/10		68	291		0000-00-00	2005-04-21	curated		
+
+TF105123	DUSP12	dual specificity phosphatase 12		14	48		0000-00-00	2005-04-23	curated	The protein encoded by this gene is a member of the dual specificity protein phosphatase subfamily. These phosphatases inactivate their target kinases by dephosphorylating both the phosphoserine/threonine and phosphotyrosine residues. They negatively regulate members of the mitogen-activated protein (MAP) kinase superfamily (MAPK/ERK, SAPK/JNK, p38), which is associated with cellular proliferation and differentiation. Different members of the family of dual specificity phosphatases show distinct substrate specificities for various MAP kinases, different tissue distribution and subcellular localization, and different modes of inducibility of their expression by extracellular stimuli. This gene product is the human ortholog of the Saccharomyces cerevisiae YVH1 protein tyrosine phosphatase. It is localized predominantly in the nucleus, and is novel in that it contains, and is regulated by a zinc finger domain.	I can see the ARATH outgroup, but I delete them to ensure a correct full tree.
+
+TF105124	DUSP11	dual specificity phosphatase 11		15	54		0000-00-00	2005-04-23	putative	RNA/RNP complex 1-interacting. The protein encoded by this gene is a member of the dual specificity protein phosphatase subfamily. These phosphatases inactivate their target kinases by dephosphorylating both the phosphoserine/threonine and phosphotyrosine residues. They negatively regulate members of the mitogen-activated protein (MAP) kinase superfamily (MAPK/ERK, SAPK/JNK, p38), which is associated with cellular proliferation and differentiation. Different members of the family of dual specificity phosphatases show distinct substrate specificities for various MAP kinases, different tissue distribution and subcellular localization, and different modes of inducibility of their expression by extracellular stimuli. This gene product is localized to the nucleus, and is novel in that it binds directly to RNA and splicing factors, and thus suggested to participate in nuclear mRNA metabolism.	Few members, but diffcult to curate.
+
+TF105125	DUSP23	dual specificity phosphatase 23		9	32		0000-00-00	2005-04-23	curated		
+
+TF105126	DUSP15/22	dual specificity phosphatase 15/22		19	79		0000-00-00	2005-04-25	putative		They might belong to a larger family.
+
+TF105536	PPP1R2	protein phosphatase 1, regulatory (inhibitor) subunit 2		21	91		0000-00-00	2006-10-03	raw		[lh3] One of the mouse homologs might be a pseudogene. HUGO gives many human pseudogenes. Hope they are not the ones in the tree. [alc] Deleted an extra alternative transcript of human ENSG00000184203 from the seed tree. [lh3] Due to a technical reason, use the clean tree as new seed.
+
+TF105537	PPP1R3A-E	protein phosphatase 1, regulatory (inhibitor) subunit 3A-E		38	164		0000-00-00	2005-07-09	putative		PPP1R3A is forcely added.
+
+TF105538	PPP1R7	protein phosphatase 1, regulatory subunit 7		17	59		0000-00-00	2005-07-07	putative		
+
+TF105539	PPP1R8	protein phosphatase 1, regulatory (inhibitor) subunit 8		13	51		0000-00-00	2005-07-07	curated		
+
+TF101040	CDKN3	cyclin-dependent kinase inhibitor 3 (CDK2-associated dual specificity phosphatase)		7	32		0000-00-00	2006-02-13	raw		
+
+TF105540	PPP1R9	protein phosphatase 1, regulatory (inhibitor) subunit 9		26	72		0000-00-00	2005-07-07	curated		
+
+TF105541	PPP1R10	protein phosphatase 1, regulatory subunit 10		10	31		0000-00-00	2005-07-07	curated		
+
+TF105542	PPP1R11	protein phosphatase 1, regulatory (inhibitor) subunit 11		36	3		0000-00-00	2005-07-07	putative		Not sure about the CAEEL/DROME branches.
+
+TF105552	PPP2R1	protein phosphatase 2 (formerly 2A), regulatory subunit A (PR 65)		23	84		0000-00-00	2005-07-26	curated		PPP4R1 may appear in the full tree, but I think it belong to a separated family.
+
+TF105553	PPP2R2	protein phosphatase 2 (formerly 2A), regulatory subunit B (PR 52)		45	136		0000-00-00	2005-07-07	curated		abnormal mouse ppp2r2a
+
+TF105554	PPP2R3	protein phosphatase 2 (formerly 2A), regulatory subunit B		24	72		0000-00-00	2005-07-07	putative		The current topology, I believe, is right. However, worm sequences MIGHT be lost. I am not sure.
+
+TF105555	PPP2R4	protein phosphatase 2A, regulatory subunit B" (PR 53)		21	71		0000-00-00	2005-07-07	curated		
+
+TF105556	PPP2R5	protein phosphatase 2, regulatory subunit B (B56)		66	221		0000-00-00	2005-07-07	curated		
+
+TF105557	PPP3C	protein phosphatase 3 (formerly 2B), catalytic subunit		32	136		0000-00-00	2005-07-07	putative		
+
+TF105558	PPP3R	protein phosphatase 3 (formerly 2B), regulatory subunit B, 19kDa	calcineurin B	30	62		0000-00-00	2005-07-07	putative		Too similar to discriminate.
+
+TF105559	PPP4C	protein phosphatase 4 (formerly X), catalytic subunit	PP4; PPH3; Serine/threonine-protein phosphatase 4 catalytic subunit; PP4C; Pp4; Protein phosphatase X; PP-X; PPX	20	88		0000-00-00	2006-03-08	raw	PPP4 is a ubiquitous serine/threonine phosphatase in the PPP family that regulates a variety of cellular functions. Regulatory subunits (R1 and R2) have been identified in mammals that interact with the catalytic subunit of PPP4 (PPP4C, encoded by this TreeFam family) and control its activity. PPP4C-R2 complexes play roles in the assembly of organelles, including the centrosome and spliceosome [PMID:15913612].	Cohen et al 2005 [PMID:15913612] state that Saccharomyces cerevisiae PPH3 is the yeast orthologue of this family, which agrees with our results.
+
+TF105560	PPP4R1	protein phosphatase 4, regulatory subunit 1		10	52		0000-00-00	2005-07-26	curated		
+
+TF105561	PPP4R2	protein phosphatase 4, regulatory subunit 2		10	33		0000-00-00	2005-07-07	curated		
+
+TF105562	PPP5C	protein phosphatase 5, catalytic subunit		15	51		0000-00-00	2005-07-07	curated		The root is right according to the whole tree where other outgroups are involved.
+
+TF105563	PPP6C	protein phosphatase 6, catalytic subunit		20	60		0000-00-00	2005-07-07	putative		The root is probably incorrect.
+
+TF105673	PTPRA	protein tyrosine phosphatase, receptor type, A	VPS16; Protein-tyrosine phosphatase alpha precursor; PTPRL2; PTPA; LRP; HLPR; HPTPA; RPTPA; Protein-tyrosine phosphatase alpha; R-PTP-alpha;	15	55		0000-00-00	2005-07-20	curated	A receptor protein tyrosine phosphatase with src-family tyrosine kinase substrates . It is expressed in numerous tissues and is physically and functionally associated with several receptors involved in neural signaling [PMID: 12932834].	Separating nematodes and yeasts caused a decrease in likelihood of tree. The alignment indicates that they are separate branches but it is not clear which is closer to vertebrates, therefore the species tree is followed.
+
+TF105128	DUSP3/14/18/19/21/26	dual specificity phosphatase 3/14/18/19/21/26		71	229		0000-00-00	2005-04-25	putative		Extremely confusing. DUSP15/22 has been removed to form a new family.
+
+TF105543	PPP1R12	protein phosphatase 1, regulatory (inhibitor) subunit 12		20	100		0000-00-00	2005-07-07	curated		Note that the single PPP1R12C.
+
+TF105547	PPP1R15A	protein phosphatase 1, regulatory (inhibitor) subunit 15A		2	19		0000-00-00	2005-07-07	curated		
+
+TF105548	PPP1R15B	protein phosphatase 1, regulatory (inhibitor) subunit 15B		4	21		0000-00-00	2005-07-07	curated		
+
+TF105551	PPP2C	protein phosphatase 2 (formerly 2A), catalytic subunit		34	87		0000-00-00	2005-07-07	putative		
+
+TF105416	DUT	dUTP pyrophosphatase		17	59		0000-00-00	2005-06-06	curated		
+
+TF105545	PPP1R13L	protein phosphatase 1, regulatory (inhibitor) subunit 13 like	RAI	28	109		0000-00-00	2005-07-07	putative		The topology is right, but I am not sure about the boundary of the family. Some other sequences appear in the whole alignment.
+
+TF105546	PPP1R14	protein phosphatase 1, regulatory (inhibitor) subunit 14		27	114		0000-00-00	2005-07-07	curated		Hope the DROME sequence is right.
+

@@ -1,0 +1,543 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Reactome (extendedsearch)</title>
+<link rel="stylesheet" type="text/css" href="/stylesheet.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<div id="dhtmltooltip" class="dhtmltooltip"></div>
+<script language="javascript" src="/javascript/tooltip.js"></script>
+<script src="/javascript/yui/build/yahoo-dom-event/yahoo-dom-event.js" type="text/javascript"></script>
+<script src="/javascript/yui/build/container/container_core-min.js" type="text/javascript"></script>
+<script src="/javascript/yui/build/menu/menu.js" type="text/javascript"></script>
+
+<script src="/javascript/pulldown_menu.js" type="text/javascript"></script>
+
+<DIV STYLE="font-size:9pt;font-weight:bold;text-align:center;color:red;padding-top:0px;">
+Try out <i>Beta</i> version of Reactome's <A HREF="/entitylevelview/pathwayview.html#DB=test_reactome_27_pathway_diagram">
+new web user interface</A>.
+We would greatly appreciate your comments, suggestions and bug reports.
+</DIV>
+<script language="JavaScript" type="text/javascript">
+var browser=navigator.appName;
+var nua=navigator.userAgent;
+var op=(nua.indexOf('Opera')!=-1);
+var saf=(nua.indexOf('Safari')!=-1);
+var konq=(!saf && (nua.indexOf('Konqueror')!=-1) ) ? true : false;
+var ffx=(nua.indexOf('Firefox')!=-1 );
+var moz=( (!saf && !konq && !ffx) && ( nua.indexOf('Gecko')!=-1 ) ) ? true : false;
+var ie=(browser=="Microsoft Internet Explorer") || ((nua.indexOf('MSIE')!=-1)&&!op);
+if (konq || moz) {
+	document.write("<TD CLASS=\"navigation\"><A onMouseout=\"hideddrivetip()\" HREF=\"/cgi-bin/frontpage?DB=gk_current\"><img SRC=\"/icons/R-purple.png\" BORDER=\"0\" ALIGN=\"left\" HEIGHT=\"100%\" WIDTH=\"26\">&nbsp;&nbsp;&nbsp;Home</A></TD> <TD CLASS=\"navigation\"><A onMouseout=\"hideddrivetip()\" HREF=\"/about.html\">About Reactome</A></TD> <TD CLASS=\"navigation\"><A onMouseout=\"hideddrivetip()\" HREF=\"/news.html\">News</A></TD> <TD CLASS=\"navigation\"><A onMouseout=\"hideddrivetip()\" HREF=\"/other_reactomes.html\">Other Reactomes</A></TD> <TD CLASS=\"navigation\"><A onMouseout=\"hideddrivetip()\" HREF=\"/disclaimer.html\">Disclaimer</A></TD> <TD CLASS=\"navigation\"><A onMouseout=\"hideddrivetip()\" HREF=\"/cgi-bin/toc?DB=gk_current\">Table of Contents</A></TD> <TD CLASS=\"navigation\"><A onMouseout=\"hideddrivetip()\" HREF=\"/cgi-bin/classbrowser?DB=gk_current\">Database Schema</A></TD> <TD CLASS=\"navigation\"><A onMouseout=\"hideddrivetip()\" HREF=\"http://wiki.reactome.org/index.php/Reactome_Calendar\">Editorial Calendar</A></TD> <TD CLASS=\"navigation\"><A onMouseout=\"hideddrivetip()\" HREF=\"/stats.html\">Statistics</A></TD> <TD CLASS=\"navigation\"><A onMouseout=\"hideddrivetip()\" HREF=\"/userguide/Usersguide.html\">User Guide</A></TD> <TD CLASS=\"navigation\"><A onMouseout=\"hideddrivetip()\" HREF=\"/data_model.html\">Data Model</A></TD> <TD CLASS=\"navigation\"><A onMouseout=\"hideddrivetip()\" HREF=\"/electronic_inference.html\">Orthology Prediction</A></TD> <TD CLASS=\"navigation\"><A onMouseout=\"hideddrivetip()\" HREF=\"/object_relational_mapping.html\">Object/Relational mapping</A></TD> <TD CLASS=\"navigation\"><A onMouseout=\"hideddrivetip()\" HREF=\"http://wiki.reactome.org/index.php/Main_Page\">Wiki</A></TD> <TD CLASS=\"navigation\"><A onMouseout=\"hideddrivetip()\" HREF=\"/referring2GK.html\">Linking to Reactome</A></TD> <TD CLASS=\"navigation\"><A onMouseout=\"hideddrivetip()\" HREF=\"/citation.html\">Citing Reactome</A></TD> <TD CLASS=\"navigation\"><A onMouseout=\"hideddrivetip()\" HREF=\"/cgi-bin/extendedsearch?DB=gk_current\">Advanced Search</A></TD> <TD CLASS=\"navigation\"><A onMouseout=\"hideddrivetip()\" HREF=\"/cgi-bin/pathfinder?DB=gk_current\">PathFinder</A></TD> <TD CLASS=\"navigation\"><A onMouseout=\"hideddrivetip()\" HREF=\"/cgi-bin/skypainter2?DB=gk_current\">SkyPainter</A></TD> <TD CLASS=\"navigation\"><A onMouseout=\"hideddrivetip()\" HREF=\"/entitylevelview/pathwayview.html#DB=test_reactome_25_pathway_diagram\">User Interface II (beta)</A></TD> <TD CLASS=\"navigation\"><A onMouseout=\"hideddrivetip()\" HREF=\"/cgi-bin/mart\">BioMart: query, link</A></TD> <TD CLASS=\"navigation\"><A onMouseout=\"hideddrivetip()\" HREF=\"/download/index.html\">Download</A></TD> <TD CLASS=\"navigation\"><A onMouseout=\"hideddrivetip()\" HREF=\"mailto:help@reactome.org\">Help</A></TD> <TD CLASS=\"navigation\"><A onMouseover=\"ddrivetip('Subscribe to Reactome announcements mailing list','#DCDCDC', 250)\"; onMouseout=\"hideddrivetip()\" HREF=\"http://mail.reactome.org/mailman/listinfo/reactome-announce\">Announcements</A></TD> </TR> </TABLE> ")
+} else {
+	document.write("<div class=\"yui-skin-sam\"> <div id=\"productsandservices\" class=\"yui-main yui-b yuimenubar yuimenubarnav yui-module yui-overlay visible\"> 	<div class=\"bd\"> 	<ul> 		<li class=\"yuimenubaritem first-of-type\"><a class=\"yuimenubaritemlabel home\"  HREF=/cgi-bin/frontpage?DB=gk_current><img SRC=\"/icons/R-purple.png\" BORDER=\"0\" ALIGN=\"left\" HEIGHT=\"100%\" WIDTH=\"26\">&nbsp;&nbsp;&nbsp;Home</a> </li> 		<li class=\"yuimenubaritem\"><a class=\"yuimenubaritemlabel\"  HREF=/about.html>About</a> 		<div class=\"yuimenu\"> 		<div class=\"bd\"> 		<ul> 			<li class=\"yuimenuitem\"><a class=\"yuimenuitemlabel\"  HREF=/about.html>About Reactome</a> </li> 			<li class=\"yuimenuitem\"><a class=\"yuimenuitemlabel\"  HREF=/news.html>News</a> </li> 			<li class=\"yuimenuitem\"><a class=\"yuimenuitemlabel\"  HREF=/other_reactomes.html>Other Reactomes</a> </li> 			<li class=\"yuimenuitem\"><a class=\"yuimenuitemlabel\"  HREF=/disclaimer.html>Disclaimer</a> </li> 		</ul> 		</div> 		</div> </li> 		<li class=\"yuimenubaritem\"><a class=\"yuimenubaritemlabel\"  HREF=/cgi-bin/toc?DB=gk_current>Content</a> 		<div class=\"yuimenu\"> 		<div class=\"bd\"> 		<ul> 			<li class=\"yuimenuitem\"><a class=\"yuimenuitemlabel\"  HREF=/cgi-bin/toc?DB=gk_current>Table of Contents</a> </li> 			<li class=\"yuimenuitem\"><a class=\"yuimenuitemlabel\"  HREF=/cgi-bin/classbrowser?DB=gk_current>Database Schema</a> </li> 			<li class=\"yuimenuitem\"><a class=\"yuimenuitemlabel\"  HREF=http://wiki.reactome.org/index.php/Reactome_Calendar>Editorial Calendar</a> </li> 			<li class=\"yuimenuitem\"><a class=\"yuimenuitemlabel\"  HREF=/stats.html>Statistics</a> </li> 		</ul> 		</div> 		</div> </li> 		<li class=\"yuimenubaritem\"><a class=\"yuimenubaritemlabel\"  HREF=/userguide/Usersguide.html>Documentation</a> 		<div class=\"yuimenu\"> 		<div class=\"bd\"> 		<ul> 			<li class=\"yuimenuitem\"><a class=\"yuimenuitemlabel\"  HREF=/userguide/Usersguide.html target=\"guide_popout\">User Guide</a> </li> 			<li class=\"yuimenuitem\"><a class=\"yuimenuitemlabel\"  HREF=/data_model.html>Data Model</a> </li> 			<li class=\"yuimenuitem\"><a class=\"yuimenuitemlabel\"  HREF=/electronic_inference.html>Orthology Prediction</a> </li> 			<li class=\"yuimenuitem\"><a class=\"yuimenuitemlabel\"  HREF=/object_relational_mapping.html>Object/Relational mapping</a> </li> 			<li class=\"yuimenuitem\"><a class=\"yuimenuitemlabel\"  HREF=http://wiki.reactome.org/index.php/Main_Page>Wiki</a> </li> 			<li class=\"yuimenuitem\"><a class=\"yuimenuitemlabel\"  HREF=/referring2GK.html>Linking to Reactome</a> </li> 			<li class=\"yuimenuitem\"><a class=\"yuimenuitemlabel\"  HREF=/citation.html>Citing Reactome</a> </li> 		</ul> 		</div> 		</div> </li> 		<li class=\"yuimenubaritem\"><a class=\"yuimenubaritemlabel\">Tools</a> 		<div class=\"yuimenu\"> 		<div class=\"bd\"> 		<ul> 			<li class=\"yuimenuitem\"><a class=\"yuimenuitemlabel\"  HREF=/cgi-bin/extendedsearch?DB=gk_current>Advanced Search</a> </li> 			<li class=\"yuimenuitem\"><a class=\"yuimenuitemlabel\"  HREF=/cgi-bin/pathfinder?DB=gk_current>PathFinder</a> </li> 			<li class=\"yuimenuitem\"><a class=\"yuimenuitemlabel\"  HREF=/cgi-bin/skypainter2?DB=gk_current>SkyPainter</a> </li> 			<li class=\"yuimenuitem\"><a class=\"yuimenuitemlabel\"  HREF=/entitylevelview/pathwayview.html#DB=test_reactome_25_pathway_diagram>User Interface II (beta)</a> </li> 			<li class=\"yuimenuitem\"><a class=\"yuimenuitemlabel\"  HREF=/cgi-bin/mart>BioMart: query, link</a> </li> 		</ul> 		</div> 		</div> </li> 		<li class=\"yuimenubaritem\"><a class=\"yuimenubaritemlabel\"  HREF=/download/index.html>Download</a> </li> 		<li class=\"yuimenubaritem\"><a class=\"yuimenubaritemlabel\"  HREF=mailto:help@reactome.org>Help</a> </li> 		<li class=\"yuimenubaritem\"><a class=\"yuimenubaritemlabel\" onMouseover=\"ddrivetip('Subscribe to Reactome announcements mailing list','#DCDCDC', 250)\" onMouseout=\"hideddrivetip()\" HREF=http://mail.reactome.org/mailman/listinfo/reactome-announce>Announcements</a> </li> 	</ul> 	</div> </div><!-- id=\"productsandservices\" --> </div><!-- class=\"yui-skin-sam\" --> ")
+}
+</script>
+<DIV CLASS="section"><TABLE WIDTH="100%" CLASS="instancebrowser" CELLSPACING="0">
+<TR><TH>Found <B>377</B> matches:</TH></TR>
+
+<TR><TD><form method="post" action="/cgi-bin/eventbrowser" enctype="application/x-www-form-urlencoded" name="checklist">
+<input type="hidden" name="DB" value="gk_current"  />
+<script language="JavaScript">
+
+    function checkAll(field) {
+	if (field.length) {
+	    for (var i = 0; i < field.length; i++) {
+		field[i].checked = true;
+	    }
+	} else {
+	    field.checked = true;
+	}
+    }
+
+    function uncheckAll(field) {
+	if (field.length) {
+	    for (var i = 0; i < field.length; i++) {
+		field[i].checked = false ;
+	    }
+	} else {
+	    field.checked = false ;
+	}
+    }
+
+    function checkFormAndSubmit(form,field) {
+	var checked = false;
+	if (field.length) {
+	    for (var i = 0; i < field.length; i++) {
+		if (field[i].checked) {
+		    checked = true;
+		    break;
+		}
+	    }
+	} else {
+	    if (field.checked) {
+		checked = true;
+	    }
+	}
+	if (checked) {
+	    if (form.FORMAT.value == "custom") {
+		form.action = "/cgi-bin/taboutputter";
+//		form.method = "GET";
+	    } else if (form.FORMAT.value == "instancebrowser") {
+		form.action = "/cgi-bin/instancebrowser";
+	    }
+	    form.submit();
+	} else {
+	    alert("You haven't chosen any records to display.");
+	}
+    }
+
+    function setOutputInstructionsVisibility(form) {
+	if (form.FORMAT.value == "custom") {
+	    div = document.getElementById("outputinstructions");
+	    div.style.display = 'block';
+	} else {
+	    div = document.getElementById("outputinstructions");
+	    div.style.display = 'none';
+	}
+    }
+</script>
+<input type="button"  value="Check all" onclick="checkAll(document.checklist.ID)" /><input type="button"  value="Uncheck all" onclick="uncheckAll(document.checklist.ID)" /><input type="button"  value="View selected instances" onclick="checkFormAndSubmit(document.checklist, document.checklist.ID)" /> as <select name="FORMAT"  onchange="setOutputInstructionsVisibility(document.checklist)">
+<option value="instancebrowser">attribute &lt;-&gt; value pairs</option>
+<option value="htmltable">one big table</option>
+<option value="sectioned">seen on a sectioned page</option>
+<option value="sidebarwithdynamichierarchy">event hierarchy in the side bar</option>
+
+<option selected="selected" value="list">list of display names</option>
+<option value="custom">custom table</option>
+</select><DIV ID="outputinstructions" STYLE="display:none;">Specify the the attributes, one per line, the values of which you want included in the output. Values which are instances are reported as class name:internal identifier (DB_ID) pairs, e.g. <TT>ReferenceDatabase:2</TT>. Attribute values of those instances can be accessed by appending dot and attribute name to the 1st attribute name, e.g. <TT>input._displayName</TT>. Multiple values of the same attribute are concatenated with <TT>|</TT> in TSV and with <TT>&lt;BR /&gt;</TT> in HTML format. If you want to access only a single value of a multi-value attribute, append the index of this value in square brackets to the attribute name, e.g. <TT>name[0]</TT>.<BR /><textarea name="OUTPUTINSTRUCTION"  rows="3" cols="50"></textarea><BR />Results table in <select name="TABLEFORMAT" >
+
+<option selected="selected" value="TSV">TSV</option>
+<option value="HTML">HTML</option>
+</select> format</DIV>
+<BR /><label><input type="checkbox" name="ID" value="69199" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=69199&">Dephosphorylation of Cyclin E:Cdk2 complexes by Cdc25A [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="69693" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=69693&">Dephosphorylation of Cyclin E1:Cdk2 complexes by Cdc25A [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="69694" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=69694&">Dephosphorylation of Cyclin E2:Cdk2 complexes by Cdc25A [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="71803" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=71803&">D-fructose 2,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [liver + muscle] [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="71825" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=71825&">alpha-D-Glucose 6-phosphate + H2O => alpha-D-Glucose + Orthophosphate [Homo sapiens]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="74733" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=74733&">Insulin receptor de-phosphorylation [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="74747" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=74747&">De-phosphorylation of IRS [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="74748" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=74748&">De-phosphorylation of SHC [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="75898" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=75898&">Phosphatidic acid + H2O <=> Diacylglycerol +  phosphate (1) [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="76130" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=76130&">Phosphatidic acid + H2O <=> Diacylglycerol +  phosphate (3) [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="76134" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=76134&">Phosphatidic acid + H2O <=> Diacylglycerol +  phosphate (2) [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="77078" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=77078&">Hydrolysis of the 5'-end of the nascent transcript by the capping enzyme [Homo sapiens]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="110459" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=110459&">PIP3 dephosphorylated to PIP2 by DPTEN [Drosophila melanogaster]</A>
+<BR /><label><input type="checkbox" name="ID" value="112383" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=112383&">Hypophosphorylation of RNA Pol II CTD by FCP1P protein [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="113503" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=113503&">Pp2a mediated localization of Rb protein in chromatin [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="139906" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=139906&">Activation of BAD by calcineurin [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="163568" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=163568&">phosphorylated perilipin + H2O -> perilipin + orthophosphate [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="163609" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=163609&">phosphorylated perilipin + H2O -> perilipin + orthophosphate [Rattus norvegicus]</A>
+<BR /><label><input type="checkbox" name="ID" value="163688" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=163688&">Dephosphorylation of pChREBP (Thr 666) by PP2A [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="163689" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=163689&">Dephosphorylation of pChREBP (Ser 196) by PP2A [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="163750" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=163750&">Dephosphorylation of PF2K-Pase by PP2A complex [Homo sapiens]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="164056" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=164056&">Dephosphorylation of pChREBP (Ser 568) by PP2A [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="164113" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=164113&">Dephosphorylation of prChREBP (Ser 196) by rPP2A [Rattus norvegicus]</A>
+<BR /><label><input type="checkbox" name="ID" value="164124" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=164124&">Dephosphorylation of PF2K-Pase by  rPP2A complex [Rattus norvegicus]</A>
+<BR /><label><input type="checkbox" name="ID" value="164129" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=164129&">Dephosphorylation of prChREBP (Thr 666) by rPP2A [Rattus norvegicus]</A>
+<BR /><label><input type="checkbox" name="ID" value="164132" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=164132&">Dephosphorylation of prChREBP (Ser 568) by rPP2A complex [Rattus norvegicus]</A>
+<BR /><label><input type="checkbox" name="ID" value="167072" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=167072&">Hypophosphorylation of RNA Pol II CTD by FCP1P protein [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="170153" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=170153&">Dephosphorylation of nuclear Cyclin B1:phospho-Cdc2 (Thr 14, Tyr15) complexes by Cdc25 phosphatases [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="170158" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=170158&">Dephosphorylation of nuclear Cyclin A:phosph-Cdc2 complexes [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="170161" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=170161&">Dephosphorylation of cytoplasmic Cyclin B1:phospho-Cdc2 (Thr 14, Tyr 15) complexes by Cdc25 phosphatases [Homo sapiens]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="170162" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=170162&">Dephosphorylation of cyclin B2:phospho-Cdc2 (Thr 14) by Cdc25 [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="174110" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=174110&">Cdc25A mediated dephosphorylation of Cyclin A:phospho-Cdk2 [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="174124" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=174124&">Dephosphorylation of phospho-Cdh1 [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="177923" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=177923&">Sustained activation of SRC kinase by SHP2 [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="177924" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=177924&">Dephosphorylation of Gab1 by SHP2 [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="177926" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=177926&">Dephosphorylation of PAG by SHP2 [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="177935" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=177935&">SHP2 dephosphorylates Tyr 992 on EGFR [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="180038" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=180038&">DARPP-32 phosphorylated on T34 binds to PP1, inhibiting its function [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="196950" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=196950&">FMN can be hydrolyzed back to riboflavin [Homo sapiens]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="199425" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=199425&">PHLPP dephosphorylates S473 in AKT [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="199456" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=199456&">PTEN dephosphorylates PIP3 [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="199959" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=199959&">ERKs are inactivated by protein phosphatase 2A [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="201787" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=201787&">DARPP-32 is dephosphorylated on Thr34 by PP2B [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="201790" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=201790&">DARPP-32 is dephosphorylated on Thr75 by PP2A [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="202214" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=202214&">Dephosphorylation of Lck-pY505 by CD45 [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="202237" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=202237&">Hydrolysis of PIP3 to PI(3,4)P2 [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="202371" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=202371&">Hydrolysis of PIP3 to PIP2 [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="203797" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=203797&">ERKs are inactivated by dual-specific phosphatases (DUSPs) [Homo sapiens]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="204169" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=204169&">Activation of PDC by dephosphorylation of phospho-E1 alpha component [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="377643" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=377643&">Dephosphorylation of inactive c-src by PTPB1 [Homo sapiens]</A>
+<BR /><label><input type="checkbox" name="ID" value="390226" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=390226&">Activation of BAD by calcineurin [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="390757" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=390757&">Activation of PDC by dephosphorylation of phospho-E1 alpha component [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="391941" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=391941&">alpha-D-Glucose 6-phosphate + H2O => alpha-D-Glucose + Orthophosphate [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="394952" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=394952&">Cdc25A mediated dephosphorylation of Cyclin A:phospho-Cdk2 [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="396509" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=396509&">D-fructose 1,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="396529" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=396529&">D-fructose 2,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [liver + muscle] [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="396667" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=396667&">DARPP-32 is dephosphorylated on Thr34 by PP2B [Mus musculus]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="396669" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=396669&">DARPP-32 is dephosphorylated on Thr75 by PP2A [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="396680" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=396680&">DARPP-32 phosphorylated on T34 binds to PP1, inhibiting its function [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="396845" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=396845&">Dephosphorylation of cyclin B2:phospho-Cdc2 (Thr 14) by Cdc25 [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="396857" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=396857&">Dephosphorylation of Cyclin E:Cdk2 complexes by Cdc25A [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="396864" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=396864&">Dephosphorylation of cytoplasmic Cyclin B1:phospho-Cdc2 (Thr 14, Tyr 15) complexes by Cdc25 phosphatases [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="396869" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=396869&">Dephosphorylation of Gab1 by SHP2 [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="396875" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=396875&">Dephosphorylation of inactive c-src by PTPB1 [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="396889" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=396889&">Dephosphorylation of Lck-pY505 by CD45 [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="396898" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=396898&">Dephosphorylation of nuclear Cyclin A:phosph-Cdc2 complexes [Mus musculus]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="396900" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=396900&">Dephosphorylation of nuclear Cyclin B1:phospho-Cdc2 (Thr 14, Tyr15) complexes by Cdc25 phosphatases [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="396905" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=396905&">Dephosphorylation of PAG by SHP2 [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="396909" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=396909&">Dephosphorylation of pChREBP (Ser 196) by PP2A [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="396928" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=396928&">Dephosphorylation of pChREBP (Ser 568) by PP2A [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="396930" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=396930&">Dephosphorylation of pChREBP (Thr 666) by PP2A [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="396931" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=396931&">Dephosphorylation of PF2K-Pase by PP2A complex [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="396937" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=396937&">Dephosphorylation of phospho-Cdh1 [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="398240" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=398240&">ERKs are inactivated by dual-specific phosphatases (DUSPs) [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="398242" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=398242&">ERKs are inactivated by protein phosphatase 2A [Mus musculus]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="399119" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=399119&">FMN can be hydrolyzed back to riboflavin [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="399657" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=399657&">Fructose 2,6-bisphosphate is hydrolyzed to form fructose-6-phosphate and orthophosphate [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="400931" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=400931&">Hydrolysis of PIP3 to PIP2 [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="400933" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=400933&">Hydrolysis of the 5'-end of the nascent transcript by the capping enzyme [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="400945" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=400945&">Hypophosphorylation of RNA Pol II CTD by FCP1P protein [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="404212" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=404212&">PHLPP dephosphorylates S473 in AKT [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="404226" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=404226&">Phosphatidic acid + H2O <=> Diacylglycerol +  phosphate (1) [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="404230" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=404230&">Phosphatidic acid + H2O <=> Diacylglycerol +  phosphate (2) [Mus musculus]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="404234" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=404234&">Phosphatidic acid + H2O <=> Diacylglycerol +  phosphate (3) [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="404364" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=404364&">phosphorylated perilipin + H2O -> perilipin + orthophosphate [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="404845" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=404845&">Pp2a mediated localization of Rb protein in chromatin [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="405109" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=405109&">PTEN dephosphorylates PIP3 [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="405889" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=405889&">SHP2 dephosphorylates Tyr 992 on EGFR [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="406322" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=406322&">Sustained activation of SRC kinase by SHP2 [Mus musculus]</A>
+<BR /><label><input type="checkbox" name="ID" value="409806" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=409806&">Activation of BAD by calcineurin [Rattus norvegicus]</A>
+<BR /><label><input type="checkbox" name="ID" value="410220" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=410220&">Activation of PDC by dephosphorylation of phospho-E1 alpha component [Rattus norvegicus]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="411412" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=411412&">alpha-D-Glucose 6-phosphate + H2O => alpha-D-Glucose + Orthophosphate [Rattus norvegicus]</A>
+<BR /><label><input type="checkbox" name="ID" value="414637" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=414637&">Cdc25A mediated dephosphorylation of Cyclin A:phospho-Cdk2 [Rattus norvegicus]</A>
+<BR /><label><input type="checkbox" name="ID" value="416052" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=416052&">D-fructose 1,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [Rattus norvegicus]</A>
+<BR /><label><input type="checkbox" name="ID" value="416079" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=416079&">D-fructose 2,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [liver + muscle] [Rattus norvegicus]</A>
+<BR /><label><input type="checkbox" name="ID" value="416226" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=416226&">DARPP-32 is dephosphorylated on Thr34 by PP2B [Rattus norvegicus]</A>
+<BR /><label><input type="checkbox" name="ID" value="416229" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=416229&">DARPP-32 is dephosphorylated on Thr75 by PP2A [Rattus norvegicus]</A>
+<BR /><label><input type="checkbox" name="ID" value="416240" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=416240&">DARPP-32 phosphorylated on T34 binds to PP1, inhibiting its function [Rattus norvegicus]</A>
+<BR /><label><input type="checkbox" name="ID" value="416416" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=416416&">Dephosphorylation of cyclin B2:phospho-Cdc2 (Thr 14) by Cdc25 [Rattus norvegicus]</A>
+<BR /><label><input type="checkbox" name="ID" value="416426" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=416426&">Dephosphorylation of Cyclin E:Cdk2 complexes by Cdc25A [Rattus norvegicus]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="416432" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=416432&">Dephosphorylation of cytoplasmic Cyclin B1:phospho-Cdc2 (Thr 14, Tyr 15) complexes by Cdc25 phosphatases [Rattus norvegicus]</A>
+<BR /><label><input type="checkbox" name="ID" value="416437" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=416437&">Dephosphorylation of Gab1 by SHP2 [Rattus norvegicus]</A>
+<BR /><label><input type="checkbox" name="ID" value="416443" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=416443&">Dephosphorylation of inactive c-src by PTPB1 [Rattus norvegicus]</A>
+<BR /><label><input type="checkbox" name="ID" value="416457" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=416457&">Dephosphorylation of Lck-pY505 by CD45 [Rattus norvegicus]</A>
+<BR /><label><input type="checkbox" name="ID" value="416465" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=416465&">Dephosphorylation of nuclear Cyclin A:phosph-Cdc2 complexes [Rattus norvegicus]</A>
+<BR /><label><input type="checkbox" name="ID" value="416467" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=416467&">Dephosphorylation of nuclear Cyclin B1:phospho-Cdc2 (Thr 14, Tyr15) complexes by Cdc25 phosphatases [Rattus norvegicus]</A>
+<BR /><label><input type="checkbox" name="ID" value="416473" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=416473&">Dephosphorylation of phospho-Cdh1 [Rattus norvegicus]</A>
+<BR /><label><input type="checkbox" name="ID" value="417501" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=417501&">ERKs are inactivated by dual-specific phosphatases (DUSPs) [Rattus norvegicus]</A>
+<BR /><label><input type="checkbox" name="ID" value="417520" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=417520&">ERKs are inactivated by protein phosphatase 2A [Rattus norvegicus]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="418867" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=418867&">Fructose 2,6-bisphosphate is hydrolyzed to form fructose-6-phosphate and orthophosphate [Rattus norvegicus]</A>
+<BR /><label><input type="checkbox" name="ID" value="419905" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=419905&">Hydrolysis of PIP3 to PIP2 [Rattus norvegicus]</A>
+<BR /><label><input type="checkbox" name="ID" value="419907" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=419907&">Hydrolysis of the 5'-end of the nascent transcript by the capping enzyme [Rattus norvegicus]</A>
+<BR /><label><input type="checkbox" name="ID" value="419921" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=419921&">Hypophosphorylation of RNA Pol II CTD by FCP1P protein [Rattus norvegicus]</A>
+<BR /><label><input type="checkbox" name="ID" value="423046" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=423046&">PHLPP dephosphorylates S473 in AKT [Rattus norvegicus]</A>
+<BR /><label><input type="checkbox" name="ID" value="423050" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=423050&">Phosphatidic acid + H2O <=> Diacylglycerol +  phosphate (1) [Rattus norvegicus]</A>
+<BR /><label><input type="checkbox" name="ID" value="423054" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=423054&">Phosphatidic acid + H2O <=> Diacylglycerol +  phosphate (2) [Rattus norvegicus]</A>
+<BR /><label><input type="checkbox" name="ID" value="423058" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=423058&">Phosphatidic acid + H2O <=> Diacylglycerol +  phosphate (3) [Rattus norvegicus]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="423656" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=423656&">Pp2a mediated localization of Rb protein in chromatin [Rattus norvegicus]</A>
+<BR /><label><input type="checkbox" name="ID" value="423919" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=423919&">PTEN dephosphorylates PIP3 [Rattus norvegicus]</A>
+<BR /><label><input type="checkbox" name="ID" value="424722" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=424722&">SHP2 dephosphorylates Tyr 992 on EGFR [Rattus norvegicus]</A>
+<BR /><label><input type="checkbox" name="ID" value="425095" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=425095&">Sustained activation of SRC kinase by SHP2 [Rattus norvegicus]</A>
+<BR /><label><input type="checkbox" name="ID" value="428520" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=428520&">Activation of PDC by dephosphorylation of phospho-E1 alpha component [Gallus gallus]</A>
+<BR /><label><input type="checkbox" name="ID" value="429555" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=429555&">alpha-D-Glucose 6-phosphate + H2O => alpha-D-Glucose + Orthophosphate [Gallus gallus]</A>
+<BR /><label><input type="checkbox" name="ID" value="432201" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=432201&">Cdc25A mediated dephosphorylation of Cyclin A:phospho-Cdk2 [Gallus gallus]</A>
+<BR /><label><input type="checkbox" name="ID" value="433311" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=433311&">D-fructose 1,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [Gallus gallus]</A>
+<BR /><label><input type="checkbox" name="ID" value="433329" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=433329&">D-fructose 2,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [liver + muscle] [Gallus gallus]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="433527" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=433527&">Dephosphorylation of cyclin B2:phospho-Cdc2 (Thr 14) by Cdc25 [Gallus gallus]</A>
+<BR /><label><input type="checkbox" name="ID" value="433535" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=433535&">Dephosphorylation of Cyclin E:Cdk2 complexes by Cdc25A [Gallus gallus]</A>
+<BR /><label><input type="checkbox" name="ID" value="433540" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=433540&">Dephosphorylation of cytoplasmic Cyclin B1:phospho-Cdc2 (Thr 14, Tyr 15) complexes by Cdc25 phosphatases [Gallus gallus]</A>
+<BR /><label><input type="checkbox" name="ID" value="433545" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=433545&">Dephosphorylation of Gab1 by SHP2 [Gallus gallus]</A>
+<BR /><label><input type="checkbox" name="ID" value="433551" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=433551&">Dephosphorylation of inactive c-src by PTPB1 [Gallus gallus]</A>
+<BR /><label><input type="checkbox" name="ID" value="433563" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=433563&">Dephosphorylation of Lck-pY505 by CD45 [Gallus gallus]</A>
+<BR /><label><input type="checkbox" name="ID" value="433568" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=433568&">Dephosphorylation of nuclear Cyclin A:phosph-Cdc2 complexes [Gallus gallus]</A>
+<BR /><label><input type="checkbox" name="ID" value="433570" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=433570&">Dephosphorylation of nuclear Cyclin B1:phospho-Cdc2 (Thr 14, Tyr15) complexes by Cdc25 phosphatases [Gallus gallus]</A>
+<BR /><label><input type="checkbox" name="ID" value="433575" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=433575&">Dephosphorylation of PAG by SHP2 [Gallus gallus]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="433604" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=433604&">Dephosphorylation of phospho-Cdh1 [Gallus gallus]</A>
+<BR /><label><input type="checkbox" name="ID" value="434444" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=434444&">ERKs are inactivated by dual-specific phosphatases (DUSPs) [Gallus gallus]</A>
+<BR /><label><input type="checkbox" name="ID" value="435440" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=435440&">Fructose 2,6-bisphosphate is hydrolyzed to form fructose-6-phosphate and orthophosphate [Gallus gallus]</A>
+<BR /><label><input type="checkbox" name="ID" value="436433" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=436433&">Hydrolysis of PIP3 to PIP2 [Gallus gallus]</A>
+<BR /><label><input type="checkbox" name="ID" value="436435" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=436435&">Hydrolysis of the 5'-end of the nascent transcript by the capping enzyme [Gallus gallus]</A>
+<BR /><label><input type="checkbox" name="ID" value="436451" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=436451&">Hypophosphorylation of RNA Pol II CTD by FCP1P protein [Gallus gallus]</A>
+<BR /><label><input type="checkbox" name="ID" value="438919" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=438919&">PHLPP dephosphorylates S473 in AKT [Gallus gallus]</A>
+<BR /><label><input type="checkbox" name="ID" value="438932" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=438932&">Phosphatidic acid + H2O <=> Diacylglycerol +  phosphate (1) [Gallus gallus]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="438936" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=438936&">Phosphatidic acid + H2O <=> Diacylglycerol +  phosphate (2) [Gallus gallus]</A>
+<BR /><label><input type="checkbox" name="ID" value="439021" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=439021&">phosphorylated perilipin + H2O -> perilipin + orthophosphate [Gallus gallus]</A>
+<BR /><label><input type="checkbox" name="ID" value="439427" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=439427&">Pp2a mediated localization of Rb protein in chromatin [Gallus gallus]</A>
+<BR /><label><input type="checkbox" name="ID" value="439650" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=439650&">PTEN dephosphorylates PIP3 [Gallus gallus]</A>
+<BR /><label><input type="checkbox" name="ID" value="440217" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=440217&">SHP2 dephosphorylates Tyr 992 on EGFR [Gallus gallus]</A>
+<BR /><label><input type="checkbox" name="ID" value="440534" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=440534&">Sustained activation of SRC kinase by SHP2 [Gallus gallus]</A>
+<BR /><label><input type="checkbox" name="ID" value="443928" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=443928&">Activation of BAD by calcineurin [Tetraodon nigroviridis]</A>
+<BR /><label><input type="checkbox" name="ID" value="444256" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=444256&">Activation of PDC by dephosphorylation of phospho-E1 alpha component [Tetraodon nigroviridis]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="445622" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=445622&">alpha-D-Glucose 6-phosphate + H2O => alpha-D-Glucose + Orthophosphate [Tetraodon nigroviridis]</A>
+<BR /><label><input type="checkbox" name="ID" value="448724" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=448724&">Cdc25A mediated dephosphorylation of Cyclin A:phospho-Cdk2 [Tetraodon nigroviridis]</A>
+<BR /><label><input type="checkbox" name="ID" value="450152" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=450152&">D-fructose 1,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [Tetraodon nigroviridis]</A>
+<BR /><label><input type="checkbox" name="ID" value="450181" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=450181&">D-fructose 2,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [liver + muscle] [Tetraodon nigroviridis]</A>
+<BR /><label><input type="checkbox" name="ID" value="450317" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=450317&">DARPP-32 is dephosphorylated on Thr34 by PP2B [Tetraodon nigroviridis]</A>
+<BR /><label><input type="checkbox" name="ID" value="450319" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=450319&">DARPP-32 is dephosphorylated on Thr75 by PP2A [Tetraodon nigroviridis]</A>
+<BR /><label><input type="checkbox" name="ID" value="450330" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=450330&">DARPP-32 phosphorylated on T34 binds to PP1, inhibiting its function [Tetraodon nigroviridis]</A>
+<BR /><label><input type="checkbox" name="ID" value="450482" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=450482&">Dephosphorylation of cyclin B2:phospho-Cdc2 (Thr 14) by Cdc25 [Tetraodon nigroviridis]</A>
+<BR /><label><input type="checkbox" name="ID" value="450492" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=450492&">Dephosphorylation of Cyclin E:Cdk2 complexes by Cdc25A [Tetraodon nigroviridis]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="450498" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=450498&">Dephosphorylation of cytoplasmic Cyclin B1:phospho-Cdc2 (Thr 14, Tyr 15) complexes by Cdc25 phosphatases [Tetraodon nigroviridis]</A>
+<BR /><label><input type="checkbox" name="ID" value="450503" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=450503&">Dephosphorylation of Gab1 by SHP2 [Tetraodon nigroviridis]</A>
+<BR /><label><input type="checkbox" name="ID" value="450509" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=450509&">Dephosphorylation of inactive c-src by PTPB1 [Tetraodon nigroviridis]</A>
+<BR /><label><input type="checkbox" name="ID" value="450515" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=450515&">Dephosphorylation of nuclear Cyclin A:phosph-Cdc2 complexes [Tetraodon nigroviridis]</A>
+<BR /><label><input type="checkbox" name="ID" value="450522" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=450522&">Dephosphorylation of nuclear Cyclin B1:phospho-Cdc2 (Thr 14, Tyr15) complexes by Cdc25 phosphatases [Tetraodon nigroviridis]</A>
+<BR /><label><input type="checkbox" name="ID" value="450536" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=450536&">Dephosphorylation of pChREBP (Ser 196) by PP2A [Tetraodon nigroviridis]</A>
+<BR /><label><input type="checkbox" name="ID" value="450558" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=450558&">Dephosphorylation of pChREBP (Ser 568) by PP2A [Tetraodon nigroviridis]</A>
+<BR /><label><input type="checkbox" name="ID" value="450562" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=450562&">Dephosphorylation of pChREBP (Thr 666) by PP2A [Tetraodon nigroviridis]</A>
+<BR /><label><input type="checkbox" name="ID" value="450563" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=450563&">Dephosphorylation of PF2K-Pase by PP2A complex [Tetraodon nigroviridis]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="450574" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=450574&">Dephosphorylation of phospho-Cdh1 [Tetraodon nigroviridis]</A>
+<BR /><label><input type="checkbox" name="ID" value="451557" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=451557&">ERKs are inactivated by dual-specific phosphatases (DUSPs) [Tetraodon nigroviridis]</A>
+<BR /><label><input type="checkbox" name="ID" value="451559" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=451559&">ERKs are inactivated by protein phosphatase 2A [Tetraodon nigroviridis]</A>
+<BR /><label><input type="checkbox" name="ID" value="452095" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=452095&">FMN can be hydrolyzed back to riboflavin [Tetraodon nigroviridis]</A>
+<BR /><label><input type="checkbox" name="ID" value="452628" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=452628&">Fructose 2,6-bisphosphate is hydrolyzed to form fructose-6-phosphate and orthophosphate [Tetraodon nigroviridis]</A>
+<BR /><label><input type="checkbox" name="ID" value="453812" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=453812&">Hydrolysis of PIP3 to PIP2 [Tetraodon nigroviridis]</A>
+<BR /><label><input type="checkbox" name="ID" value="453814" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=453814&">Hydrolysis of the 5'-end of the nascent transcript by the capping enzyme [Tetraodon nigroviridis]</A>
+<BR /><label><input type="checkbox" name="ID" value="453826" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=453826&">Hypophosphorylation of RNA Pol II CTD by FCP1P protein [Tetraodon nigroviridis]</A>
+<BR /><label><input type="checkbox" name="ID" value="456494" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=456494&">PHLPP dephosphorylates S473 in AKT [Tetraodon nigroviridis]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="456508" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=456508&">Phosphatidic acid + H2O <=> Diacylglycerol +  phosphate (1) [Tetraodon nigroviridis]</A>
+<BR /><label><input type="checkbox" name="ID" value="456512" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=456512&">Phosphatidic acid + H2O <=> Diacylglycerol +  phosphate (3) [Tetraodon nigroviridis]</A>
+<BR /><label><input type="checkbox" name="ID" value="457049" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=457049&">Pp2a mediated localization of Rb protein in chromatin [Tetraodon nigroviridis]</A>
+<BR /><label><input type="checkbox" name="ID" value="457267" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=457267&">PTEN dephosphorylates PIP3 [Tetraodon nigroviridis]</A>
+<BR /><label><input type="checkbox" name="ID" value="457997" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=457997&">SHP2 dephosphorylates Tyr 992 on EGFR [Tetraodon nigroviridis]</A>
+<BR /><label><input type="checkbox" name="ID" value="458384" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=458384&">Sustained activation of SRC kinase by SHP2 [Tetraodon nigroviridis]</A>
+<BR /><label><input type="checkbox" name="ID" value="461206" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=461206&">Activation of PDC by dephosphorylation of phospho-E1 alpha component [Drosophila melanogaster]</A>
+<BR /><label><input type="checkbox" name="ID" value="461805" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=461805&">alpha-D-Glucose 6-phosphate + H2O => alpha-D-Glucose + Orthophosphate [Drosophila melanogaster]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="463470" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=463470&">Cdc25A mediated dephosphorylation of Cyclin A:phospho-Cdk2 [Drosophila melanogaster]</A>
+<BR /><label><input type="checkbox" name="ID" value="464249" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=464249&">D-fructose 1,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [Drosophila melanogaster]</A>
+<BR /><label><input type="checkbox" name="ID" value="464262" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=464262&">D-fructose 2,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [liver + muscle] [Drosophila melanogaster]</A>
+<BR /><label><input type="checkbox" name="ID" value="464467" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=464467&">Dephosphorylation of cyclin B2:phospho-Cdc2 (Thr 14) by Cdc25 [Drosophila melanogaster]</A>
+<BR /><label><input type="checkbox" name="ID" value="464481" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=464481&">Dephosphorylation of cytoplasmic Cyclin B1:phospho-Cdc2 (Thr 14, Tyr 15) complexes by Cdc25 phosphatases [Drosophila melanogaster]</A>
+<BR /><label><input type="checkbox" name="ID" value="464486" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=464486&">Dephosphorylation of Gab1 by SHP2 [Drosophila melanogaster]</A>
+<BR /><label><input type="checkbox" name="ID" value="464492" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=464492&">Dephosphorylation of inactive c-src by PTPB1 [Drosophila melanogaster]</A>
+<BR /><label><input type="checkbox" name="ID" value="464499" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=464499&">Dephosphorylation of nuclear Cyclin A:phosph-Cdc2 complexes [Drosophila melanogaster]</A>
+<BR /><label><input type="checkbox" name="ID" value="464506" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=464506&">Dephosphorylation of nuclear Cyclin B1:phospho-Cdc2 (Thr 14, Tyr15) complexes by Cdc25 phosphatases [Drosophila melanogaster]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="464513" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=464513&">Dephosphorylation of pChREBP (Ser 196) by PP2A [Drosophila melanogaster]</A>
+<BR /><label><input type="checkbox" name="ID" value="464527" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=464527&">Dephosphorylation of pChREBP (Ser 568) by PP2A [Drosophila melanogaster]</A>
+<BR /><label><input type="checkbox" name="ID" value="464529" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=464529&">Dephosphorylation of pChREBP (Thr 666) by PP2A [Drosophila melanogaster]</A>
+<BR /><label><input type="checkbox" name="ID" value="464530" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=464530&">Dephosphorylation of PF2K-Pase by PP2A complex [Drosophila melanogaster]</A>
+<BR /><label><input type="checkbox" name="ID" value="464538" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=464538&">Dephosphorylation of phospho-Cdh1 [Drosophila melanogaster]</A>
+<BR /><label><input type="checkbox" name="ID" value="464972" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=464972&">ERKs are inactivated by dual-specific phosphatases (DUSPs) [Drosophila melanogaster]</A>
+<BR /><label><input type="checkbox" name="ID" value="464974" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=464974&">ERKs are inactivated by protein phosphatase 2A [Drosophila melanogaster]</A>
+<BR /><label><input type="checkbox" name="ID" value="465404" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=465404&">Fructose 2,6-bisphosphate is hydrolyzed to form fructose-6-phosphate and orthophosphate [Drosophila melanogaster]</A>
+<BR /><label><input type="checkbox" name="ID" value="465850" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=465850&">Hydrolysis of PIP3 to PIP2 [Drosophila melanogaster]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="465852" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=465852&">Hydrolysis of the 5'-end of the nascent transcript by the capping enzyme [Drosophila melanogaster]</A>
+<BR /><label><input type="checkbox" name="ID" value="465864" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=465864&">Hypophosphorylation of RNA Pol II CTD by FCP1P protein [Drosophila melanogaster]</A>
+<BR /><label><input type="checkbox" name="ID" value="467097" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=467097&">PHLPP dephosphorylates S473 in AKT [Drosophila melanogaster]</A>
+<BR /><label><input type="checkbox" name="ID" value="467104" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=467104&">Phosphatidic acid + H2O <=> Diacylglycerol +  phosphate (1) [Drosophila melanogaster]</A>
+<BR /><label><input type="checkbox" name="ID" value="467444" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=467444&">Pp2a mediated localization of Rb protein in chromatin [Drosophila melanogaster]</A>
+<BR /><label><input type="checkbox" name="ID" value="467528" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=467528&">PTEN dephosphorylates PIP3 [Drosophila melanogaster]</A>
+<BR /><label><input type="checkbox" name="ID" value="468014" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=468014&">SHP2 dephosphorylates Tyr 992 on EGFR [Drosophila melanogaster]</A>
+<BR /><label><input type="checkbox" name="ID" value="468260" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=468260&">Sustained activation of SRC kinase by SHP2 [Drosophila melanogaster]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="470357" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=470357&">Activation of PDC by dephosphorylation of phospho-E1 alpha component [Caenorhabditis elegans]</A>
+<BR /><label><input type="checkbox" name="ID" value="472028" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=472028&">Cdc25A mediated dephosphorylation of Cyclin A:phospho-Cdk2 [Caenorhabditis elegans]</A>
+<BR /><label><input type="checkbox" name="ID" value="472725" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=472725&">D-fructose 1,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [Caenorhabditis elegans]</A>
+<BR /><label><input type="checkbox" name="ID" value="472744" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=472744&">D-fructose 2,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [liver + muscle] [Caenorhabditis elegans]</A>
+<BR /><label><input type="checkbox" name="ID" value="473020" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=473020&">Dephosphorylation of cyclin B2:phospho-Cdc2 (Thr 14) by Cdc25 [Caenorhabditis elegans]</A>
+<BR /><label><input type="checkbox" name="ID" value="473031" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=473031&">Dephosphorylation of cytoplasmic Cyclin B1:phospho-Cdc2 (Thr 14, Tyr 15) complexes by Cdc25 phosphatases [Caenorhabditis elegans]</A>
+<BR /><label><input type="checkbox" name="ID" value="473039" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=473039&">Dephosphorylation of nuclear Cyclin A:phosph-Cdc2 complexes [Caenorhabditis elegans]</A>
+<BR /><label><input type="checkbox" name="ID" value="473045" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=473045&">Dephosphorylation of nuclear Cyclin B1:phospho-Cdc2 (Thr 14, Tyr15) complexes by Cdc25 phosphatases [Caenorhabditis elegans]</A>
+<BR /><label><input type="checkbox" name="ID" value="473052" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=473052&">Dephosphorylation of pChREBP (Ser 196) by PP2A [Caenorhabditis elegans]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="473066" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=473066&">Dephosphorylation of pChREBP (Ser 568) by PP2A [Caenorhabditis elegans]</A>
+<BR /><label><input type="checkbox" name="ID" value="473068" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=473068&">Dephosphorylation of pChREBP (Thr 666) by PP2A [Caenorhabditis elegans]</A>
+<BR /><label><input type="checkbox" name="ID" value="473069" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=473069&">Dephosphorylation of PF2K-Pase by PP2A complex [Caenorhabditis elegans]</A>
+<BR /><label><input type="checkbox" name="ID" value="473076" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=473076&">Dephosphorylation of phospho-Cdh1 [Caenorhabditis elegans]</A>
+<BR /><label><input type="checkbox" name="ID" value="473471" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=473471&">ERKs are inactivated by dual-specific phosphatases (DUSPs) [Caenorhabditis elegans]</A>
+<BR /><label><input type="checkbox" name="ID" value="473473" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=473473&">ERKs are inactivated by protein phosphatase 2A [Caenorhabditis elegans]</A>
+<BR /><label><input type="checkbox" name="ID" value="473591" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=473591&">FMN can be hydrolyzed back to riboflavin [Caenorhabditis elegans]</A>
+<BR /><label><input type="checkbox" name="ID" value="473808" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=473808&">Fructose 2,6-bisphosphate is hydrolyzed to form fructose-6-phosphate and orthophosphate [Caenorhabditis elegans]</A>
+<BR /><label><input type="checkbox" name="ID" value="474299" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=474299&">Hydrolysis of PIP3 to PIP2 [Caenorhabditis elegans]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="474301" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=474301&">Hydrolysis of the 5'-end of the nascent transcript by the capping enzyme [Caenorhabditis elegans]</A>
+<BR /><label><input type="checkbox" name="ID" value="474321" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=474321&">Hypophosphorylation of RNA Pol II CTD by FCP1P protein [Caenorhabditis elegans]</A>
+<BR /><label><input type="checkbox" name="ID" value="475556" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=475556&">PHLPP dephosphorylates S473 in AKT [Caenorhabditis elegans]</A>
+<BR /><label><input type="checkbox" name="ID" value="475560" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=475560&">Phosphatidic acid + H2O <=> Diacylglycerol +  phosphate (1) [Caenorhabditis elegans]</A>
+<BR /><label><input type="checkbox" name="ID" value="475909" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=475909&">Pp2a mediated localization of Rb protein in chromatin [Caenorhabditis elegans]</A>
+<BR /><label><input type="checkbox" name="ID" value="475953" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=475953&">PTEN dephosphorylates PIP3 [Caenorhabditis elegans]</A>
+<BR /><label><input type="checkbox" name="ID" value="479241" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=479241&">Cdc25A mediated dephosphorylation of Cyclin A:phospho-Cdk2 [Cryptococcus neoformans A/D]</A>
+<BR /><label><input type="checkbox" name="ID" value="479509" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=479509&">D-fructose 1,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [Cryptococcus neoformans A/D]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="479517" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=479517&">D-fructose 2,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [liver + muscle] [Cryptococcus neoformans A/D]</A>
+<BR /><label><input type="checkbox" name="ID" value="479596" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=479596&">Dephosphorylation of cyclin B2:phospho-Cdc2 (Thr 14) by Cdc25 [Cryptococcus neoformans A/D]</A>
+<BR /><label><input type="checkbox" name="ID" value="479599" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=479599&">Dephosphorylation of cytoplasmic Cyclin B1:phospho-Cdc2 (Thr 14, Tyr 15) complexes by Cdc25 phosphatases [Cryptococcus neoformans A/D]</A>
+<BR /><label><input type="checkbox" name="ID" value="479603" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=479603&">Dephosphorylation of nuclear Cyclin A:phosph-Cdc2 complexes [Cryptococcus neoformans A/D]</A>
+<BR /><label><input type="checkbox" name="ID" value="479607" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=479607&">Dephosphorylation of nuclear Cyclin B1:phospho-Cdc2 (Thr 14, Tyr15) complexes by Cdc25 phosphatases [Cryptococcus neoformans A/D]</A>
+<BR /><label><input type="checkbox" name="ID" value="479614" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=479614&">Dephosphorylation of phospho-Cdh1 [Cryptococcus neoformans A/D]</A>
+<BR /><label><input type="checkbox" name="ID" value="480005" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=480005&">Fructose 2,6-bisphosphate is hydrolyzed to form fructose-6-phosphate and orthophosphate [Cryptococcus neoformans A/D]</A>
+<BR /><label><input type="checkbox" name="ID" value="480258" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=480258&">Hydrolysis of PIP3 to PIP2 [Cryptococcus neoformans A/D]</A>
+<BR /><label><input type="checkbox" name="ID" value="480260" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=480260&">Hydrolysis of the 5'-end of the nascent transcript by the capping enzyme [Cryptococcus neoformans A/D]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="480765" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=480765&">PHLPP dephosphorylates S473 in AKT [Cryptococcus neoformans A/D]</A>
+<BR /><label><input type="checkbox" name="ID" value="481039" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=481039&">PTEN dephosphorylates PIP3 [Cryptococcus neoformans A/D]</A>
+<BR /><label><input type="checkbox" name="ID" value="484071" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=484071&">Cdc25A mediated dephosphorylation of Cyclin A:phospho-Cdk2 [Saccharomyces cerevisiae]</A>
+<BR /><label><input type="checkbox" name="ID" value="484378" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=484378&">D-fructose 1,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [Saccharomyces cerevisiae]</A>
+<BR /><label><input type="checkbox" name="ID" value="484386" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=484386&">D-fructose 2,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [liver + muscle] [Saccharomyces cerevisiae]</A>
+<BR /><label><input type="checkbox" name="ID" value="484538" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=484538&">Dephosphorylation of cyclin B2:phospho-Cdc2 (Thr 14) by Cdc25 [Saccharomyces cerevisiae]</A>
+<BR /><label><input type="checkbox" name="ID" value="484541" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=484541&">Dephosphorylation of cytoplasmic Cyclin B1:phospho-Cdc2 (Thr 14, Tyr 15) complexes by Cdc25 phosphatases [Saccharomyces cerevisiae]</A>
+<BR /><label><input type="checkbox" name="ID" value="484545" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=484545&">Dephosphorylation of nuclear Cyclin A:phosph-Cdc2 complexes [Saccharomyces cerevisiae]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="484549" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=484549&">Dephosphorylation of nuclear Cyclin B1:phospho-Cdc2 (Thr 14, Tyr15) complexes by Cdc25 phosphatases [Saccharomyces cerevisiae]</A>
+<BR /><label><input type="checkbox" name="ID" value="484551" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=484551&">Dephosphorylation of PF2K-Pase by PP2A complex [Saccharomyces cerevisiae]</A>
+<BR /><label><input type="checkbox" name="ID" value="484557" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=484557&">Dephosphorylation of phospho-Cdh1 [Saccharomyces cerevisiae]</A>
+<BR /><label><input type="checkbox" name="ID" value="484837" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=484837&">ERKs are inactivated by protein phosphatase 2A [Saccharomyces cerevisiae]</A>
+<BR /><label><input type="checkbox" name="ID" value="485014" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=485014&">Fructose 2,6-bisphosphate is hydrolyzed to form fructose-6-phosphate and orthophosphate [Saccharomyces cerevisiae]</A>
+<BR /><label><input type="checkbox" name="ID" value="485247" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=485247&">Hydrolysis of PIP3 to PIP2 [Saccharomyces cerevisiae]</A>
+<BR /><label><input type="checkbox" name="ID" value="485249" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=485249&">Hydrolysis of the 5'-end of the nascent transcript by the capping enzyme [Saccharomyces cerevisiae]</A>
+<BR /><label><input type="checkbox" name="ID" value="485253" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=485253&">Hypophosphorylation of RNA Pol II CTD by FCP1P protein [Saccharomyces cerevisiae]</A>
+<BR /><label><input type="checkbox" name="ID" value="485851" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=485851&">PHLPP dephosphorylates S473 in AKT [Saccharomyces cerevisiae]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="486154" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=486154&">PTEN dephosphorylates PIP3 [Saccharomyces cerevisiae]</A>
+<BR /><label><input type="checkbox" name="ID" value="489191" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=489191&">Cdc25A mediated dephosphorylation of Cyclin A:phospho-Cdk2 [Neurospora crassa]</A>
+<BR /><label><input type="checkbox" name="ID" value="489610" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=489610&">D-fructose 1,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [Neurospora crassa]</A>
+<BR /><label><input type="checkbox" name="ID" value="489618" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=489618&">D-fructose 2,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [liver + muscle] [Neurospora crassa]</A>
+<BR /><label><input type="checkbox" name="ID" value="489774" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=489774&">Dephosphorylation of cyclin B2:phospho-Cdc2 (Thr 14) by Cdc25 [Neurospora crassa]</A>
+<BR /><label><input type="checkbox" name="ID" value="489779" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=489779&">Dephosphorylation of cytoplasmic Cyclin B1:phospho-Cdc2 (Thr 14, Tyr 15) complexes by Cdc25 phosphatases [Neurospora crassa]</A>
+<BR /><label><input type="checkbox" name="ID" value="489785" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=489785&">Dephosphorylation of nuclear Cyclin A:phosph-Cdc2 complexes [Neurospora crassa]</A>
+<BR /><label><input type="checkbox" name="ID" value="489791" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=489791&">Dephosphorylation of nuclear Cyclin B1:phospho-Cdc2 (Thr 14, Tyr15) complexes by Cdc25 phosphatases [Neurospora crassa]</A>
+<BR /><label><input type="checkbox" name="ID" value="489798" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=489798&">Dephosphorylation of pChREBP (Ser 196) by PP2A [Neurospora crassa]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="489810" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=489810&">Dephosphorylation of pChREBP (Ser 568) by PP2A [Neurospora crassa]</A>
+<BR /><label><input type="checkbox" name="ID" value="489812" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=489812&">Dephosphorylation of pChREBP (Thr 666) by PP2A [Neurospora crassa]</A>
+<BR /><label><input type="checkbox" name="ID" value="489813" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=489813&">Dephosphorylation of PF2K-Pase by PP2A complex [Neurospora crassa]</A>
+<BR /><label><input type="checkbox" name="ID" value="489820" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=489820&">Dephosphorylation of phospho-Cdh1 [Neurospora crassa]</A>
+<BR /><label><input type="checkbox" name="ID" value="490094" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=490094&">ERKs are inactivated by protein phosphatase 2A [Neurospora crassa]</A>
+<BR /><label><input type="checkbox" name="ID" value="490283" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=490283&">Fructose 2,6-bisphosphate is hydrolyzed to form fructose-6-phosphate and orthophosphate [Neurospora crassa]</A>
+<BR /><label><input type="checkbox" name="ID" value="490572" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=490572&">Hydrolysis of PIP3 to PIP2 [Neurospora crassa]</A>
+<BR /><label><input type="checkbox" name="ID" value="490574" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=490574&">Hydrolysis of the 5'-end of the nascent transcript by the capping enzyme [Neurospora crassa]</A>
+<BR /><label><input type="checkbox" name="ID" value="490578" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=490578&">Hypophosphorylation of RNA Pol II CTD by FCP1P protein [Neurospora crassa]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="491206" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=491206&">PHLPP dephosphorylates S473 in AKT [Neurospora crassa]</A>
+<BR /><label><input type="checkbox" name="ID" value="491488" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=491488&">PTEN dephosphorylates PIP3 [Neurospora crassa]</A>
+<BR /><label><input type="checkbox" name="ID" value="494700" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=494700&">Cdc25A mediated dephosphorylation of Cyclin A:phospho-Cdk2 [Schizosaccharomyces pombe]</A>
+<BR /><label><input type="checkbox" name="ID" value="494989" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=494989&">D-fructose 1,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [Schizosaccharomyces pombe]</A>
+<BR /><label><input type="checkbox" name="ID" value="495000" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=495000&">D-fructose 2,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [liver + muscle] [Schizosaccharomyces pombe]</A>
+<BR /><label><input type="checkbox" name="ID" value="495234" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=495234&">Dephosphorylation of cyclin B2:phospho-Cdc2 (Thr 14) by Cdc25 [Schizosaccharomyces pombe]</A>
+<BR /><label><input type="checkbox" name="ID" value="495239" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=495239&">Dephosphorylation of cytoplasmic Cyclin B1:phospho-Cdc2 (Thr 14, Tyr 15) complexes by Cdc25 phosphatases [Schizosaccharomyces pombe]</A>
+<BR /><label><input type="checkbox" name="ID" value="495245" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=495245&">Dephosphorylation of nuclear Cyclin A:phosph-Cdc2 complexes [Schizosaccharomyces pombe]</A>
+<BR /><label><input type="checkbox" name="ID" value="495251" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=495251&">Dephosphorylation of nuclear Cyclin B1:phospho-Cdc2 (Thr 14, Tyr15) complexes by Cdc25 phosphatases [Schizosaccharomyces pombe]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="495253" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=495253&">Dephosphorylation of PF2K-Pase by PP2A complex [Schizosaccharomyces pombe]</A>
+<BR /><label><input type="checkbox" name="ID" value="495261" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=495261&">Dephosphorylation of phospho-Cdh1 [Schizosaccharomyces pombe]</A>
+<BR /><label><input type="checkbox" name="ID" value="495553" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=495553&">ERKs are inactivated by protein phosphatase 2A [Schizosaccharomyces pombe]</A>
+<BR /><label><input type="checkbox" name="ID" value="495745" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=495745&">Fructose 2,6-bisphosphate is hydrolyzed to form fructose-6-phosphate and orthophosphate [Schizosaccharomyces pombe]</A>
+<BR /><label><input type="checkbox" name="ID" value="495972" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=495972&">Hydrolysis of PIP3 to PIP2 [Schizosaccharomyces pombe]</A>
+<BR /><label><input type="checkbox" name="ID" value="495974" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=495974&">Hydrolysis of the 5'-end of the nascent transcript by the capping enzyme [Schizosaccharomyces pombe]</A>
+<BR /><label><input type="checkbox" name="ID" value="495978" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=495978&">Hypophosphorylation of RNA Pol II CTD by FCP1P protein [Schizosaccharomyces pombe]</A>
+<BR /><label><input type="checkbox" name="ID" value="496499" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=496499&">PHLPP dephosphorylates S473 in AKT [Schizosaccharomyces pombe]</A>
+<BR /><label><input type="checkbox" name="ID" value="496716" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=496716&">PTEN dephosphorylates PIP3 [Schizosaccharomyces pombe]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="499609" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=499609&">D-fructose 1,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [Cyanidioschyzon merolae]</A>
+<BR /><label><input type="checkbox" name="ID" value="499624" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=499624&">D-fructose 2,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [liver + muscle] [Cyanidioschyzon merolae]</A>
+<BR /><label><input type="checkbox" name="ID" value="499833" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=499833&">Dephosphorylation of PF2K-Pase by PP2A complex [Cyanidioschyzon merolae]</A>
+<BR /><label><input type="checkbox" name="ID" value="499839" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=499839&">Dephosphorylation of phospho-Cdh1 [Cyanidioschyzon merolae]</A>
+<BR /><label><input type="checkbox" name="ID" value="500064" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=500064&">ERKs are inactivated by dual-specific phosphatases (DUSPs) [Cyanidioschyzon merolae]</A>
+<BR /><label><input type="checkbox" name="ID" value="500073" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=500073&">ERKs are inactivated by protein phosphatase 2A [Cyanidioschyzon merolae]</A>
+<BR /><label><input type="checkbox" name="ID" value="500293" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=500293&">Fructose 2,6-bisphosphate is hydrolyzed to form fructose-6-phosphate and orthophosphate [Cyanidioschyzon merolae]</A>
+<BR /><label><input type="checkbox" name="ID" value="500516" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=500516&">Hydrolysis of the 5'-end of the nascent transcript by the capping enzyme [Cyanidioschyzon merolae]</A>
+<BR /><label><input type="checkbox" name="ID" value="500520" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=500520&">Hypophosphorylation of RNA Pol II CTD by FCP1P protein [Cyanidioschyzon merolae]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="500993" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=500993&">Phosphatidic acid + H2O <=> Diacylglycerol +  phosphate (2) [Cyanidioschyzon merolae]</A>
+<BR /><label><input type="checkbox" name="ID" value="501115" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=501115&">Pp2a mediated localization of Rb protein in chromatin [Cyanidioschyzon merolae]</A>
+<BR /><label><input type="checkbox" name="ID" value="504531" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=504531&">D-fructose 1,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [Thalassiosira pseudonana]</A>
+<BR /><label><input type="checkbox" name="ID" value="504542" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=504542&">D-fructose 2,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [liver + muscle] [Thalassiosira pseudonana]</A>
+<BR /><label><input type="checkbox" name="ID" value="504764" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=504764&">Dephosphorylation of PF2K-Pase by PP2A complex [Thalassiosira pseudonana]</A>
+<BR /><label><input type="checkbox" name="ID" value="504772" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=504772&">Dephosphorylation of phospho-Cdh1 [Thalassiosira pseudonana]</A>
+<BR /><label><input type="checkbox" name="ID" value="505005" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=505005&">ERKs are inactivated by protein phosphatase 2A [Thalassiosira pseudonana]</A>
+<BR /><label><input type="checkbox" name="ID" value="505073" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=505073&">FMN can be hydrolyzed back to riboflavin [Thalassiosira pseudonana]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="505177" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=505177&">Fructose 2,6-bisphosphate is hydrolyzed to form fructose-6-phosphate and orthophosphate [Thalassiosira pseudonana]</A>
+<BR /><label><input type="checkbox" name="ID" value="505459" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=505459&">Hydrolysis of the 5'-end of the nascent transcript by the capping enzyme [Thalassiosira pseudonana]</A>
+<BR /><label><input type="checkbox" name="ID" value="505467" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=505467&">Hypophosphorylation of RNA Pol II CTD by FCP1P protein [Thalassiosira pseudonana]</A>
+<BR /><label><input type="checkbox" name="ID" value="506109" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=506109&">PHLPP dephosphorylates S473 in AKT [Thalassiosira pseudonana]</A>
+<BR /><label><input type="checkbox" name="ID" value="512825" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=512825&">D-fructose 1,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [Arabidopsis thaliana]</A>
+<BR /><label><input type="checkbox" name="ID" value="512854" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=512854&">D-fructose 2,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [liver + muscle] [Arabidopsis thaliana]</A>
+<BR /><label><input type="checkbox" name="ID" value="513267" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=513267&">Dephosphorylation of PF2K-Pase by PP2A complex [Arabidopsis thaliana]</A>
+<BR /><label><input type="checkbox" name="ID" value="513766" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=513766&">ERKs are inactivated by dual-specific phosphatases (DUSPs) [Arabidopsis thaliana]</A>
+<BR /><label><input type="checkbox" name="ID" value="513791" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=513791&">ERKs are inactivated by protein phosphatase 2A [Arabidopsis thaliana]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="513946" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=513946&">FMN can be hydrolyzed back to riboflavin [Arabidopsis thaliana]</A>
+<BR /><label><input type="checkbox" name="ID" value="514137" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=514137&">Fructose 2,6-bisphosphate is hydrolyzed to form fructose-6-phosphate and orthophosphate [Arabidopsis thaliana]</A>
+<BR /><label><input type="checkbox" name="ID" value="514568" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=514568&">Hydrolysis of PIP3 to PIP2 [Arabidopsis thaliana]</A>
+<BR /><label><input type="checkbox" name="ID" value="514570" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=514570&">Hydrolysis of the 5'-end of the nascent transcript by the capping enzyme [Arabidopsis thaliana]</A>
+<BR /><label><input type="checkbox" name="ID" value="514603" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=514603&">Hypophosphorylation of RNA Pol II CTD by FCP1P protein [Arabidopsis thaliana]</A>
+<BR /><label><input type="checkbox" name="ID" value="515898" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=515898&">Pp2a mediated localization of Rb protein in chromatin [Arabidopsis thaliana]</A>
+<BR /><label><input type="checkbox" name="ID" value="515931" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=515931&">PTEN dephosphorylates PIP3 [Arabidopsis thaliana]</A>
+<BR /><label><input type="checkbox" name="ID" value="524447" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=524447&">D-fructose 1,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [Oryza sativa]</A>
+<BR /><label><input type="checkbox" name="ID" value="524487" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=524487&">D-fructose 2,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [liver + muscle] [Oryza sativa]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="525026" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=525026&">Dephosphorylation of PF2K-Pase by PP2A complex [Oryza sativa]</A>
+<BR /><label><input type="checkbox" name="ID" value="525635" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=525635&">ERKs are inactivated by dual-specific phosphatases (DUSPs) [Oryza sativa]</A>
+<BR /><label><input type="checkbox" name="ID" value="525662" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=525662&">ERKs are inactivated by protein phosphatase 2A [Oryza sativa]</A>
+<BR /><label><input type="checkbox" name="ID" value="525858" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=525858&">FMN can be hydrolyzed back to riboflavin [Oryza sativa]</A>
+<BR /><label><input type="checkbox" name="ID" value="526118" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=526118&">Fructose 2,6-bisphosphate is hydrolyzed to form fructose-6-phosphate and orthophosphate [Oryza sativa]</A>
+<BR /><label><input type="checkbox" name="ID" value="526677" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=526677&">Hydrolysis of PIP3 to PIP2 [Oryza sativa]</A>
+<BR /><label><input type="checkbox" name="ID" value="526679" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=526679&">Hydrolysis of the 5'-end of the nascent transcript by the capping enzyme [Oryza sativa]</A>
+<BR /><label><input type="checkbox" name="ID" value="526710" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=526710&">Hypophosphorylation of RNA Pol II CTD by FCP1P protein [Oryza sativa]</A>
+<BR /><label><input type="checkbox" name="ID" value="528296" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=528296&">Pp2a mediated localization of Rb protein in chromatin [Oryza sativa]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="528354" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=528354&">PTEN dephosphorylates PIP3 [Oryza sativa]</A>
+<BR /><label><input type="checkbox" name="ID" value="531946" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=531946&">Cdc25A mediated dephosphorylation of Cyclin A:phospho-Cdk2 [Entamoeba histolytica]</A>
+<BR /><label><input type="checkbox" name="ID" value="532127" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=532127&">D-fructose 2,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [liver + muscle] [Entamoeba histolytica]</A>
+<BR /><label><input type="checkbox" name="ID" value="532225" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=532225&">Dephosphorylation of cyclin B2:phospho-Cdc2 (Thr 14) by Cdc25 [Entamoeba histolytica]</A>
+<BR /><label><input type="checkbox" name="ID" value="532230" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=532230&">Dephosphorylation of cytoplasmic Cyclin B1:phospho-Cdc2 (Thr 14, Tyr 15) complexes by Cdc25 phosphatases [Entamoeba histolytica]</A>
+<BR /><label><input type="checkbox" name="ID" value="532236" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=532236&">Dephosphorylation of nuclear Cyclin A:phosph-Cdc2 complexes [Entamoeba histolytica]</A>
+<BR /><label><input type="checkbox" name="ID" value="532242" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=532242&">Dephosphorylation of nuclear Cyclin B1:phospho-Cdc2 (Thr 14, Tyr15) complexes by Cdc25 phosphatases [Entamoeba histolytica]</A>
+<BR /><label><input type="checkbox" name="ID" value="532505" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=532505&">Fructose 2,6-bisphosphate is hydrolyzed to form fructose-6-phosphate and orthophosphate [Entamoeba histolytica]</A>
+<BR /><label><input type="checkbox" name="ID" value="532784" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=532784&">Hydrolysis of PIP3 to PIP2 [Entamoeba histolytica]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="533125" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=533125&">PHLPP dephosphorylates S473 in AKT [Entamoeba histolytica]</A>
+<BR /><label><input type="checkbox" name="ID" value="533132" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=533132&">Phosphatidic acid + H2O <=> Diacylglycerol +  phosphate (1) [Entamoeba histolytica]</A>
+<BR /><label><input type="checkbox" name="ID" value="533455" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=533455&">PTEN dephosphorylates PIP3 [Entamoeba histolytica]</A>
+<BR /><label><input type="checkbox" name="ID" value="536553" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=536553&">Cdc25A mediated dephosphorylation of Cyclin A:phospho-Cdk2 [Dictyostelium discoideum]</A>
+<BR /><label><input type="checkbox" name="ID" value="537133" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=537133&">D-fructose 1,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [Dictyostelium discoideum]</A>
+<BR /><label><input type="checkbox" name="ID" value="537146" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=537146&">D-fructose 2,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [liver + muscle] [Dictyostelium discoideum]</A>
+<BR /><label><input type="checkbox" name="ID" value="537369" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=537369&">Dephosphorylation of cyclin B2:phospho-Cdc2 (Thr 14) by Cdc25 [Dictyostelium discoideum]</A>
+<BR /><label><input type="checkbox" name="ID" value="537374" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=537374&">Dephosphorylation of cytoplasmic Cyclin B1:phospho-Cdc2 (Thr 14, Tyr 15) complexes by Cdc25 phosphatases [Dictyostelium discoideum]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="537380" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=537380&">Dephosphorylation of nuclear Cyclin A:phosph-Cdc2 complexes [Dictyostelium discoideum]</A>
+<BR /><label><input type="checkbox" name="ID" value="537386" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=537386&">Dephosphorylation of nuclear Cyclin B1:phospho-Cdc2 (Thr 14, Tyr15) complexes by Cdc25 phosphatases [Dictyostelium discoideum]</A>
+<BR /><label><input type="checkbox" name="ID" value="537388" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=537388&">Dephosphorylation of PF2K-Pase by PP2A complex [Dictyostelium discoideum]</A>
+<BR /><label><input type="checkbox" name="ID" value="537394" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=537394&">Dephosphorylation of phospho-Cdh1 [Dictyostelium discoideum]</A>
+<BR /><label><input type="checkbox" name="ID" value="537650" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=537650&">ERKs are inactivated by protein phosphatase 2A [Dictyostelium discoideum]</A>
+<BR /><label><input type="checkbox" name="ID" value="537903" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=537903&">Fructose 2,6-bisphosphate is hydrolyzed to form fructose-6-phosphate and orthophosphate [Dictyostelium discoideum]</A>
+<BR /><label><input type="checkbox" name="ID" value="538264" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=538264&">Hydrolysis of PIP3 to PIP2 [Dictyostelium discoideum]</A>
+<BR /><label><input type="checkbox" name="ID" value="538266" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=538266&">Hydrolysis of the 5'-end of the nascent transcript by the capping enzyme [Dictyostelium discoideum]</A>
+<BR /><label><input type="checkbox" name="ID" value="538270" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=538270&">Hypophosphorylation of RNA Pol II CTD by FCP1P protein [Dictyostelium discoideum]</A>
+
+<BR /><label><input type="checkbox" name="ID" value="539365" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=539365&">Pp2a mediated localization of Rb protein in chromatin [Dictyostelium discoideum]</A>
+<BR /><label><input type="checkbox" name="ID" value="539404" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=539404&">PTEN dephosphorylates PIP3 [Dictyostelium discoideum]</A>
+<BR /><label><input type="checkbox" name="ID" value="542032" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=542032&">FMN can be hydrolyzed back to riboflavin [Plasmodium falciparum]</A>
+<BR /><label><input type="checkbox" name="ID" value="542232" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=542232&">Hydrolysis of the 5'-end of the nascent transcript by the capping enzyme [Plasmodium falciparum]</A>
+<BR /><label><input type="checkbox" name="ID" value="546480" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=546480&">D-fructose 1,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [Escherichia coli]</A>
+<BR /><label><input type="checkbox" name="ID" value="546487" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=546487&">D-fructose 2,6-bisphosphate + H2O => D-fructose 6-phosphate + orthophosphate [liver + muscle] [Escherichia coli]</A>
+<BR /><label><input type="checkbox" name="ID" value="546595" /></label><A HREF="/cgi-bin/eventbrowser?DB=gk_current&ID=546595&">Fructose 2,6-bisphosphate is hydrolyzed to form fructose-6-phosphate and orthophosphate [Escherichia coli]</A>
+<div><input type="hidden" name=".cgifields" value="ID"  /></div></form>
+</TD></TR></TABLE></DIV>
+<TABLE WIDTH="100%"><TR CLASS="footer"><TD><I>Date: 2009-03-13 12:01:33</I></TD><TD ALIGN="right"><ADDRESS><A HREF="mailto:help@reactome.org">Help</A></ADDRESS></TD></TR></TABLE>
+
+<!-- FOOTER END -->
+
+</body>
+</html>

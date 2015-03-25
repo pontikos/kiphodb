@@ -1,0 +1,462 @@
+TABLE TD.contentsarea {
+	BORDER-LEFT: #dedede 1px solid
+}
+.sidemenufixed {
+	POSITION: fixed; TOP: 65px
+}
+.sidemenu LI {
+	PADDING-LEFT: 11px; BACKGROUND: url(http://www.ebi.ac.uk/inc/images/leftmenu/level1_link.gif) no-repeat left top; COLOR: #006666
+}
+.sidemenu LI:unknown {
+	PADDING-LEFT: 11px; BACKGROUND: url(http://www.ebi.ac.uk/inc/images/leftmenu/level1_link_lastchild.gif) no-repeat left top
+}
+.sidemenu LI.lastchild {
+	PADDING-LEFT: 11px; BACKGROUND: url(http://www.ebi.ac.uk/inc/images/leftmenu/level1_link_lastchild.gif) no-repeat left top
+}
+.sidemenu LI.clickme {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/leftmenu/level1_plus.gif) no-repeat left top; CURSOR: pointer
+}
+.sidemenu LI.clickme:unknown {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/leftmenu/level1_plus_lastchild.gif) no-repeat left top; CURSOR: pointer
+}
+.sidemenu LI.clickmelastchild {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/leftmenu/level1_plus_lastchild.gif) no-repeat left top; CURSOR: pointer
+}
+.sidemenu LI.clickmeopen {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/leftmenu/level1_minus.gif) no-repeat left top
+}
+.sidemenu LI.clickmeopen:unknown {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/leftmenu/level1_minus_lastchild.gif) no-repeat left top
+}
+.sidemenu LI.clickmeopenlastchild {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/leftmenu/level1_minus_lastchild.gif) no-repeat left top
+}
+.sidemenu LI.opensub {
+	DISPLAY: block; BACKGROUND: url(http://www.ebi.ac.uk/inc/images/leftmenu/level1_minus.gif) no-repeat left top; MARGIN: 0px
+}
+.sidemenu LI.opensub:unknown {
+	DISPLAY: block; BACKGROUND: url(http://www.ebi.ac.uk/inc/images/leftmenu/level1_minus_lastchild.gif) no-repeat left top; MARGIN: 0px
+}
+.sidemenu LI.lastchildopensub {
+	DISPLAY: block; BACKGROUND: url(http://www.ebi.ac.uk/inc/images/leftmenu/level1_minus_lastchild.gif) no-repeat left top; MARGIN: 0px
+}
+.sidemenu LI UL LI {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/leftmenu/level2_link.gif) no-repeat left top; CURSOR: pointer
+}
+.sidemenu LI UL LI:unknown {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/leftmenu/level2_link_lastchild.gif) no-repeat left top; CURSOR: pointer
+}
+.sidemenu LI UL LI.level2lastchild {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/leftmenu/level2_link_lastchild.gif) no-repeat left top; CURSOR: pointer
+}
+.sidemenu LI UL LI UL LI.level2lastchild {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/leftmenu/level2_link_lastchild.gif) no-repeat left top; CURSOR: pointer
+}
+.sidemenu LI UL LI.clickme {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/leftmenu/level2_plus.gif) no-repeat left top; CURSOR: pointer
+}
+.sidemenu LI UL LI.clickme:unknown {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/leftmenu/level2_plus_lastchild.gif) no-repeat left top; CURSOR: pointer
+}
+.sidemenu LI UL LI.clickmelevel2lastchild {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/leftmenu/level2_plus_lastchild.gif) no-repeat left top; CURSOR: pointer
+}
+.sidemenu LI UL LI UL LI.clickmelevel2lastchild {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/leftmenu/level2_plus_lastchild.gif) no-repeat left top; CURSOR: pointer
+}
+.sidemenu LI UL LI.clickmeopen {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/leftmenu/level2_minus.gif) no-repeat left top; CURSOR: pointer
+}
+.sidemenu LI UL LI.clickmeopen:unknown {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/leftmenu/level2_minus_lastchild.gif) no-repeat left top; CURSOR: pointer
+}
+.sidemenu LI UL LI.clickmeopenlevel2lastchild {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/leftmenu/level2_minus_lastchild.gif) no-repeat left top; CURSOR: pointer
+}
+.sidemenu LI UL LI UL LI.clickmeopenlevel2lastchild {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/leftmenu/level2_minus_lastchild.gif) no-repeat left top; CURSOR: pointer
+}
+.sidemenu LI UL LI.opensub {
+	DISPLAY: block; BACKGROUND: url(http://www.ebi.ac.uk/inc/images/leftmenu/level2_minus.gif) no-repeat left top; MARGIN: 0px
+}
+.sidemenu LI UL LI.opensub:unknown {
+	DISPLAY: block; BACKGROUND: url(http://www.ebi.ac.uk/inc/images/leftmenu/level2_minus_lastchild.gif) no-repeat left top; MARGIN: 0px
+}
+.sidemenu LI UL LI.level2lastchildopensub {
+	DISPLAY: block; BACKGROUND: url(http://www.ebi.ac.uk/inc/images/leftmenu/level2_minus_lastchild.gif) no-repeat left top; MARGIN: 0px
+}
+.sidemenu LI UL LI {
+	OVERFLOW: hidden; WIDTH: 114px
+}
+.sidemenu LI UL LI LI A {
+	OVERFLOW: hidden; WIDTH: 120px
+}
+.leftmenutable {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 145px; PADDING-TOP: 0px
+}
+.leftmenutable TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.sidemenu {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 2px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.sidemenu LI UL {
+	PADDING-RIGHT: 0px; DISPLAY: none; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.sidemenu A:link {
+	COLOR: #006666; TEXT-DECORATION: none
+}
+.sidemenu A:visited {
+	COLOR: #006666; TEXT-DECORATION: none
+}
+.sidemenu LI {
+	PADDING-RIGHT: 1px; PADDING-TOP: 5px
+}
+.sidemenu A:hover {
+	COLOR: #e33e3e; TEXT-DECORATION: underline
+}
+.sidemenu A:active {
+	COLOR: #e33e3e; TEXT-DECORATION: underline
+}
+.sidemenu LI.leftmenudivider {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; FONT-SIZE: 1px; BACKGROUND: url(http://www.ebi.ac.uk/inc/images/line.jpg) #ffffff center 50%; PADDING-BOTTOM: 0px; MARGIN: 10px 0px; BORDER-LEFT: 0px; WIDTH: 100%; PADDING-TOP: 0px; BORDER-BOTTOM: 0px; HEIGHT: 1px; TEXT-ALIGN: left
+}
+.sidemenu LI.plainlist {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; BACKGROUND: #ffffff; PADDING-BOTTOM: 0px; MARGIN: 10px 0px 20px; BORDER-LEFT: 0px; WIDTH: 100%; COLOR: #1f1f1f; PADDING-TOP: 0px; BORDER-BOTTOM: 0px; HEIGHT: 1px; TEXT-ALIGN: left
+}
+.sidemenu LI.leftmenudividersubheading {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; BACKGROUND: #ffffff; PADDING-BOTTOM: 0px; MARGIN: 10px 0px 20px 10px; BORDER-LEFT: 0px; WIDTH: 100%; COLOR: #1f1f1f; PADDING-TOP: 0px; BORDER-BOTTOM: 0px; HEIGHT: 1px; TEXT-ALIGN: left
+}
+.sidemenu LI.clickmeopen {
+	DISPLAY: block
+}
+.sidemenu LI.clickmeopen UL {
+	DISPLAY: block
+}
+.sidemenu LI.clickmeopen UL LI {
+	DISPLAY: block
+}
+.sidemenu LI.clickmeopen UL LI UL {
+	DISPLAY: none
+}
+.sidemenu LI.clickmeopen UL {
+	MARGIN: 0px
+}
+.freestyle {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; BACKGROUND: #ffffff; PADDING-BOTTOM: 0px; MARGIN: 10px 0px 20px -10px; BORDER-LEFT: 0px; WIDTH: 100%; COLOR: #1f1f1f; PADDING-TOP: 0px; BORDER-BOTTOM: 0px; HEIGHT: 1px; TEXT-ALIGN: left
+}
+.smalltext {
+	FONT-SIZE: 10px; COLOR: #999999; TEXT-DECORATION: none
+}
+.smalltext A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.smalltext A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.smalltext A:active {
+	COLOR: #408c8c; TEXT-DECORATION: underline
+}
+.smalltext A:hover {
+	COLOR: #408c8c; TEXT-DECORATION: underline
+}
+TABLE.leftmenutable {
+	WIDTH: 145px
+}
+DIV.leftmenu {
+	DISPLAY: block; VISIBILITY: visible; WIDTH: 145px
+}
+.iconboxheading {
+	BORDER-RIGHT: #bfbfbf 1px solid; PADDING-RIGHT: 30px; BORDER-TOP: #bfbfbf 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 8pt; BACKGROUND: url(http://www.ebi.ac.uk/inc/images/head_blue2c.gif) no-repeat right top; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 3px; MARGIN-LEFT: 2px; BORDER-LEFT: #bfbfbf 1px solid; WIDTH: 106px; COLOR: #1f1f1f; PADDING-TOP: 5px; BORDER-BOTTOM: #bfbfbf 1px solid; POSITION: relative; BORDER-COLLAPSE: collapse; HEIGHT: auto; TEXT-ALIGN: left
+}
+.iconboxheading A:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #1f1f1f; TEXT-DECORATION: none
+}
+.iconboxheading A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #1f1f1f; TEXT-DECORATION: none
+}
+.iconboxheading A:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ff3300; TEXT-DECORATION: none
+}
+.iconboxheading A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ff3300; TEXT-DECORATION: none
+}
+.iconboxcontents {
+	BORDER-TOP-WIDTH: 0px; BORDER-RIGHT: #bfbfbf 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: 8pt; BACKGROUND: url(http://www.ebi.ac.uk/inc/images/head_blue3b.gif) no-repeat right top; PADDING-BOTTOM: 5px; MARGIN: 0px 0px 0px 2px; VERTICAL-ALIGN: top; BORDER-LEFT: #bfbfbf 1px solid; WIDTH: 133px; PADDING-TOP: 3px; BORDER-BOTTOM: #bfbfbf 1px solid; POSITION: relative
+}
+.iconboxcontents BR {
+	FONT-SIZE: 3pt
+}
+.iconboxcontents P {
+	MARGIN-TOP: 5px; MARGIN-BOTTOM: 5px
+}
+.iconboxcontents UL LI {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; MARGIN-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 8pt; BORDER-BOTTOM-WIDTH: 0px; MARGIN-BOTTOM: 6px; PADDING-BOTTOM: 0px; MARGIN-LEFT: -22px; PADDING-TOP: 0px; LIST-STYLE-TYPE: square; BORDER-RIGHT-WIDTH: 0px
+}
+.iconboxcontents A:link {
+	FONT-SIZE: 8pt; COLOR: #408c8c; TEXT-DECORATION: underline
+}
+.iconboxcontents A:visited {
+	FONT-SIZE: 8pt; COLOR: #408c8c; TEXT-DECORATION: underline
+}
+.iconboxcontents A:active {
+	FONT-SIZE: 8pt; COLOR: #ff3300; TEXT-DECORATION: none
+}
+.iconboxcontents A:hover {
+	FONT-SIZE: 8pt; COLOR: #ff3300; TEXT-DECORATION: none
+}
+.iconboxcontents IMG.boxleftplaingraphic {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 4px; MARGIN-LEFT: 25px; WIDTH: 75px; PADDING-TOP: 4px; HEIGHT: 50px; TEXT-ALIGN: center; BORDER-RIGHT-WIDTH: 0px
+}
+.iconboxheadingwide {
+	BORDER-RIGHT: #bfbfbf 1px solid; PADDING-RIGHT: 30px; BORDER-TOP: #bfbfbf 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 8pt; BACKGROUND: url(http://www.ebi.ac.uk/inc/images/head_blue2cwide.gif) no-repeat right top; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 3px; MARGIN-LEFT: 2px; BORDER-LEFT: #bfbfbf 1px solid; WIDTH: 243px; COLOR: #1f1f1f; PADDING-TOP: 5px; BORDER-BOTTOM: #bfbfbf 1px solid; POSITION: relative; BORDER-COLLAPSE: collapse; HEIGHT: auto; TEXT-ALIGN: left
+}
+.iconboxheadingwide A:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #1f1f1f; TEXT-DECORATION: none
+}
+.iconboxheadingwide A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #1f1f1f; TEXT-DECORATION: none
+}
+.iconboxheadingwide A:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ff3300; TEXT-DECORATION: none
+}
+.iconboxheadingwide A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ff3300; TEXT-DECORATION: none
+}
+.iconboxcontentswide {
+	BORDER-TOP-WIDTH: 0px; BORDER-RIGHT: #bfbfbf 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: 8pt; BACKGROUND: url(http://www.ebi.ac.uk/inc/images/head_blue3bwide.gif) no-repeat right top; PADDING-BOTTOM: 5px; MARGIN: 0px 0px 0px 2px; VERTICAL-ALIGN: top; BORDER-LEFT: #bfbfbf 1px solid; WIDTH: 270px; PADDING-TOP: 3px; BORDER-BOTTOM: #bfbfbf 1px solid; POSITION: relative
+}
+.iconboxcontentswide2 {
+	BORDER-TOP-WIDTH: 0px; BORDER-RIGHT: #e0e6e6 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: 8pt; BACKGROUND: url(http://www.ebi.ac.uk/inc/images/head_blue4bwide.gif) no-repeat right top; PADDING-BOTTOM: 5px; MARGIN: 0px 0px 0px 2px; VERTICAL-ALIGN: top; BORDER-LEFT: #bfbfbf 1px solid; WIDTH: 270px; PADDING-TOP: 3px; BORDER-BOTTOM: #bfbfbf 1px solid; POSITION: relative
+}
+.iconboxcontentswide BR {
+	FONT-SIZE: 3pt
+}
+.iconboxcontentswide2 BR {
+	FONT-SIZE: 3pt
+}
+.iconboxcontentswide P {
+	MARGIN-TOP: 5px; MARGIN-BOTTOM: 5px
+}
+.iconboxcontentswide2 P {
+	MARGIN-TOP: 5px; MARGIN-BOTTOM: 5px
+}
+.iconboxcontentswide UL LI {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; MARGIN-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 8pt; BORDER-BOTTOM-WIDTH: 0px; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px; MARGIN-LEFT: -22px; PADDING-TOP: 0px; LIST-STYLE-TYPE: disc; BORDER-RIGHT-WIDTH: 0px
+}
+.iconboxcontentswide2 UL LI {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; MARGIN-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 8pt; BORDER-BOTTOM-WIDTH: 0px; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px; MARGIN-LEFT: -22px; PADDING-TOP: 0px; LIST-STYLE-TYPE: disc; BORDER-RIGHT-WIDTH: 0px
+}
+.iconboxcontentswide A:link {
+	FONT-SIZE: 8pt; COLOR: #408c8c; TEXT-DECORATION: underline
+}
+.iconboxcontentswide A:visited {
+	FONT-SIZE: 8pt; COLOR: #408c8c; TEXT-DECORATION: underline
+}
+.iconboxcontentswide2 A:link {
+	FONT-SIZE: 8pt; COLOR: #408c8c; TEXT-DECORATION: underline
+}
+.iconboxcontentswide2 A:visited {
+	FONT-SIZE: 8pt; COLOR: #408c8c; TEXT-DECORATION: underline
+}
+.iconboxcontentswide A:active {
+	FONT-SIZE: 8pt; COLOR: #ff3300; TEXT-DECORATION: none
+}
+.iconboxcontentswide A:hover {
+	FONT-SIZE: 8pt; COLOR: #ff3300; TEXT-DECORATION: none
+}
+.iconboxcontentswide2 A:active {
+	FONT-SIZE: 8pt; COLOR: #ff3300; TEXT-DECORATION: none
+}
+.iconboxcontentswide2 A:hover {
+	FONT-SIZE: 8pt; COLOR: #ff3300; TEXT-DECORATION: none
+}
+.iconboxcontentswide IMG.boxleftplaingraphic {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 4px; MARGIN-LEFT: 25px; WIDTH: 75px; PADDING-TOP: 4px; HEIGHT: 50px; TEXT-ALIGN: center; BORDER-RIGHT-WIDTH: 0px
+}
+.iconboxcontentswide2 IMG.boxleftplaingraphic {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 4px; MARGIN-LEFT: 25px; WIDTH: 75px; PADDING-TOP: 4px; HEIGHT: 50px; TEXT-ALIGN: center; BORDER-RIGHT-WIDTH: 0px
+}
+.boxleftplaincontents2 {
+	BORDER-TOP-WIDTH: 0px; BORDER-RIGHT: #bfbfbf 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 5px; FONT-SIZE: 8pt; BACKGROUND: url(http://www.ebi.ac.uk/inc/images/head_blue3b.gif) no-repeat right top; PADDING-BOTTOM: 5px; MARGIN: 0px 0px 0px 2px; VERTICAL-ALIGN: top; BORDER-LEFT: #bfbfbf 1px solid; WIDTH: 133px; PADDING-TOP: 3px; POSITION: relative
+}
+.boxleftplaincontents2 BR {
+	FONT-SIZE: 3pt
+}
+.boxleftplaincontents2 P {
+	MARGIN-TOP: 5px; MARGIN-BOTTOM: 5px
+}
+.boxleftplaincontents2 UL LI {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; MARGIN-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 8pt; BORDER-BOTTOM-WIDTH: 0px; MARGIN-BOTTOM: 12px; PADDING-BOTTOM: 0px; MARGIN-LEFT: -22px; PADDING-TOP: 0px; LIST-STYLE-TYPE: square; BORDER-RIGHT-WIDTH: 0px
+}
+.boxleftplaincontents2 A:link {
+	FONT-SIZE: 8pt; COLOR: #408c8c; TEXT-DECORATION: underline
+}
+.boxleftplaincontents2 A:visited {
+	FONT-SIZE: 8pt; COLOR: #408c8c; TEXT-DECORATION: underline
+}
+.boxleftplaincontents2 A:active {
+	FONT-SIZE: 8pt; COLOR: #ff3300; TEXT-DECORATION: none
+}
+.boxleftplaincontents2 A:hover {
+	FONT-SIZE: 8pt; COLOR: #ff3300; TEXT-DECORATION: none
+}
+.boxleftplaincontents2 IMG.boxleftplaingraphic {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 4px; MARGIN-LEFT: 25px; WIDTH: 75px; PADDING-TOP: 4px; HEIGHT: 50px; TEXT-ALIGN: center; BORDER-RIGHT-WIDTH: 0px
+}
+.boxleftplainbottom {
+	PADDING-RIGHT: 30px; PADDING-LEFT: 5px; BACKGROUND: url(http://www.ebi.ac.uk/inc/images/head_bot_blue3b.gif) right top; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 2px; WIDTH: 108px; PADDING-TOP: 0px; POSITION: relative; BORDER-COLLAPSE: collapse; HEIGHT: 5px; TEXT-ALIGN: left
+}
+.sidemenusiframe {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: hidden; WIDTH: 141px; PADDING-TOP: 0px; HEIGHT: 540px; BORDER-RIGHT-WIDTH: 0px
+}
+.flag_en {
+	PADDING-LEFT: 19px
+}
+.flag_de {
+	PADDING-LEFT: 19px
+}
+.flag_es {
+	PADDING-LEFT: 19px
+}
+.flag_fr {
+	PADDING-LEFT: 19px
+}
+.flag_it {
+	PADDING-LEFT: 19px
+}
+.flag_ru {
+	PADDING-LEFT: 19px
+}
+.flag_en {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/locale/flag_en.gif) no-repeat left center
+}
+.flag_de {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/locale/flag_de.gif) no-repeat left center
+}
+.flag_es {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/locale/flag_es.gif) no-repeat left center
+}
+.flag_fr {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/locale/flag_fr.gif) no-repeat left center
+}
+.flag_it {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/locale/flag_it.gif) no-repeat left center
+}
+.flag_ru {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/locale/flag_ru.gif) no-repeat left center
+}
+.slidecontainer_open {
+	BORDER-RIGHT: #bfbfbf 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #bfbfbf 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 5px 0px 10px 2px; BORDER-LEFT: #bfbfbf 1px solid; WIDTH: 140px; PADDING-TOP: 0px; BORDER-BOTTOM: #bfbfbf 1px solid
+}
+.slidecontainer {
+	BORDER-RIGHT: #bfbfbf 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #bfbfbf 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 5px 0px 10px 2px; BORDER-LEFT: #bfbfbf 1px solid; WIDTH: 140px; PADDING-TOP: 0px; BORDER-BOTTOM: #bfbfbf 1px solid
+}
+.headerToggleImage {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 16px; HEIGHT: 16px; BORDER-RIGHT-WIDTH: 0px
+}
+.headerToggle {
+	FLOAT: right; VERTICAL-ALIGN: middle; CURSOR: pointer; TEXT-ALIGN: center
+}
+.headerToggleImagedemo {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-TOP: 20px; POSITION: absolute; BORDER-RIGHT-WIDTH: 0px
+}
+.headerToggledemo {
+	FLOAT: right; VERTICAL-ALIGN: middle; CURSOR: pointer; POSITION: relative; TEXT-ALIGN: center
+}
+.iconbox2heading {
+	BORDER-RIGHT: #bfbfbf 0px solid; PADDING-RIGHT: 4px; BORDER-TOP: #bfbfbf 0px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 8pt; BACKGROUND: url(http://www.ebi.ac.uk/inc/images/head_blue2d.gif) repeat-x right bottom; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 4px; MARGIN-LEFT: 0px; BORDER-LEFT: #bfbfbf 0px solid; WIDTH: 131px; COLOR: #1f1f1f; PADDING-TOP: 3px; BORDER-BOTTOM: #bfbfbf 1px solid; POSITION: relative; BORDER-COLLAPSE: collapse; HEIGHT: auto; TEXT-ALIGN: left
+}
+.iconbox2heading_gr {
+	BORDER-RIGHT: #bfbfbf 0px solid; PADDING-RIGHT: 4px; BORDER-TOP: #bfbfbf 0px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 8pt; BACKGROUND: url(http://www.ebi.ac.uk/inc/images/yellow_gradient.gif) repeat-x right bottom; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 4px; MARGIN-LEFT: 0px; BORDER-LEFT: #bfbfbf 0px solid; WIDTH: 131px; COLOR: #1f1f1f; PADDING-TOP: 3px; BORDER-BOTTOM: #bfbfbf 1px solid; POSITION: relative; BORDER-COLLAPSE: collapse; HEIGHT: auto; TEXT-ALIGN: left
+}
+.iconbox2contents_gr {
+	BORDER-RIGHT: #bfbfbf 0px solid; PADDING-RIGHT: 4px; BORDER-TOP: #bfbfbf 0px solid; DISPLAY: none; PADDING-LEFT: 4px; FONT-SIZE: 8pt; BACKGROUND: url(http://www.ebi.ac.uk/inc/images/yellow_gradient_big.gif) repeat-x right top; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 5px; MARGIN: 0px 0px 0px 2px; VERTICAL-ALIGN: top; BORDER-LEFT: #bfbfbf 0px solid; WIDTH: 130px; PADDING-TOP: 3px; POSITION: relative
+}
+.iconbox2heading A:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #1f1f1f; TEXT-DECORATION: none
+}
+.iconbox2heading A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #1f1f1f; TEXT-DECORATION: none
+}
+.iconbox2heading_gr A:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #1f1f1f; TEXT-DECORATION: none
+}
+.iconbox2heading_gr A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #1f1f1f; TEXT-DECORATION: none
+}
+.iconbox2heading A:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ff3300; TEXT-DECORATION: none
+}
+.iconbox2heading A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ff3300; TEXT-DECORATION: none
+}
+.iconbox2heading_gr A:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ff3300; TEXT-DECORATION: none
+}
+.iconbox2heading_gr A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ff3300; TEXT-DECORATION: none
+}
+.iconbox2contents {
+	BORDER-RIGHT: #bfbfbf 0px solid; PADDING-RIGHT: 4px; BORDER-TOP: #bfbfbf 0px solid; DISPLAY: none; PADDING-LEFT: 4px; FONT-SIZE: 8pt; BACKGROUND: url(http://www.ebi.ac.uk/inc/images/head_blue3b.gif) no-repeat right top; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 5px; MARGIN: 0px 0px 0px 2px; VERTICAL-ALIGN: top; BORDER-LEFT: #bfbfbf 0px solid; WIDTH: 130px; PADDING-TOP: 3px; POSITION: relative
+}
+.iconbox2contents BR {
+	FONT-SIZE: 3pt
+}
+.iconbox2contents_gr BR {
+	FONT-SIZE: 3pt
+}
+.iconbox2contents P {
+	MARGIN-TOP: 5px; MARGIN-BOTTOM: 5px
+}
+.iconbox2contents_gr P {
+	MARGIN-TOP: 5px; MARGIN-BOTTOM: 5px
+}
+.iconbox2contents UL LI {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; MARGIN-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 8pt; BORDER-BOTTOM-WIDTH: 0px; MARGIN-BOTTOM: 6px; PADDING-BOTTOM: 0px; MARGIN-LEFT: -22px; PADDING-TOP: 0px; LIST-STYLE-TYPE: square; BORDER-RIGHT-WIDTH: 0px
+}
+.iconbox2contents_gr UL LI {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; MARGIN-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 8pt; BORDER-BOTTOM-WIDTH: 0px; MARGIN-BOTTOM: 6px; PADDING-BOTTOM: 0px; MARGIN-LEFT: -22px; PADDING-TOP: 0px; LIST-STYLE-TYPE: square; BORDER-RIGHT-WIDTH: 0px
+}
+.iconbox2contents A:link {
+	FONT-SIZE: 8pt; COLOR: #408c8c; TEXT-DECORATION: underline
+}
+.iconbox2contents A:visited {
+	FONT-SIZE: 8pt; COLOR: #408c8c; TEXT-DECORATION: underline
+}
+.iconbox2contents_gr A:link {
+	FONT-SIZE: 8pt; COLOR: #408c8c; TEXT-DECORATION: underline
+}
+.iconbox2contents_gr A:visited {
+	FONT-SIZE: 8pt; COLOR: #408c8c; TEXT-DECORATION: underline
+}
+.iconbox2contents A:active {
+	FONT-SIZE: 8pt; COLOR: #ff3300; TEXT-DECORATION: none
+}
+.iconbox2contents A:hover {
+	FONT-SIZE: 8pt; COLOR: #ff3300; TEXT-DECORATION: none
+}
+.iconbox2contents_gr A:active {
+	FONT-SIZE: 8pt; COLOR: #ff3300; TEXT-DECORATION: none
+}
+.iconbox2contents_gr A:hover {
+	FONT-SIZE: 8pt; COLOR: #ff3300; TEXT-DECORATION: none
+}
+.iconbox2contents IMG.boxleftplaingraphic {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 4px; MARGIN-LEFT: 25px; WIDTH: 75px; PADDING-TOP: 4px; HEIGHT: 50px; TEXT-ALIGN: center; BORDER-RIGHT-WIDTH: 0px
+}
+.iconbox2contents_gr IMG.boxleftplaingraphic {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 4px; MARGIN-LEFT: 25px; WIDTH: 75px; PADDING-TOP: 4px; HEIGHT: 50px; TEXT-ALIGN: center; BORDER-RIGHT-WIDTH: 0px
+}
+DIV.iconbox2contents P {
+	FONT-SIZE: 8pt
+}
+DIV.iconboxcontents P {
+	FONT-SIZE: 8pt
+}
+DIV.iconbox2contents_gr P {
+	FONT-SIZE: 8pt
+}
+DIV.iconboxcontents_gr P {
+	FONT-SIZE: 8pt
+}

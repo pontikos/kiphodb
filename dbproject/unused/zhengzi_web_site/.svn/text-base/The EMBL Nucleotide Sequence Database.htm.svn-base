@@ -1,0 +1,302 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0026)http://www.ebi.ac.uk/embl/ -->
+<HTML lang=eng xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/new_template_leftmenu.dwt" codeOutsideHTMLIsLocked="false" --><HEAD><TITLE>The EMBL Nucleotide Sequence Database</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META content="EBI Web Team" name=author>
+<META http-equiv=Content-Language content=en-GB>
+<META http-equiv=Window-target content=_top>
+<META content=http://www.unspam.com/noemailcollection/ name=no-email-collection>
+<META content="MSHTML 6.00.2900.5726" name=GENERATOR><!-- InstanceBeginEditable name="doctitle" -->
+<META 
+content="Site for the EMBL database including documentation and how to submit data to EMBL" 
+name=description>
+<META 
+content="EBI, EMBL, bioinformatics, molecular, genetics, software, databases, genomics, sequencing, sequence, protein, computational biology, nucleotide, FASTA, BLAST, SRS, ClustalW2, DNA, RNA, BioInformer, science, leading edge" 
+name=keywords><!-- InstanceEndEditable --><LINK 
+href="The EMBL Nucleotide Sequence Database.files/contents.css" type=text/css 
+rel=stylesheet><LINK 
+href="The EMBL Nucleotide Sequence Database.files/userstyles.css" type=text/css 
+rel=stylesheet>
+<SCRIPT src="The EMBL Nucleotide Sequence Database.files/contents.js" 
+type=text/javascript></SCRIPT>
+<LINK href="The EMBL Nucleotide Sequence Database.files/sidebars.css" 
+type=text/css rel=stylesheet><LINK href="http://www.ebi.ac.uk/bookmark.ico" 
+rel="SHORTCUT ICON">
+<STYLE type=text/css>
+@media Print    
+{
+BODY {
+	POSITION: relative
+}
+.contents {
+	POSITION: relative
+}
+.header {
+	POSITION: relative
+}
+.contentsarea {
+	POSITION: relative
+}
+.head {
+	POSITION: relative
+}
+
+}
+</STYLE>
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable --></HEAD>
+<BODY 
+onload="if(navigator.userAgent.indexOf('MSIE') != -1) {document.getElementById('head').allowTransparency = true;}">
+<DIV class=headerdiv id=headerdiv style="Z-INDEX: 1; POSITION: absolute"><IFRAME 
+id=head style="Z-INDEX: 1; POSITION: absolute; HEIGHT: 57px" name=head 
+marginWidth=0 marginHeight=0 
+src="The EMBL Nucleotide Sequence Database.files/head.htm" frameBorder=0 
+width="100%" 
+scrolling=no>Your browser does not support inline frames or is currently configured not to display inline frames. Content can be viewed at actual source page: http://www.ebi.ac.uk/inc/head.html</IFRAME></DIV>
+<DIV class=contents id=contents>
+<TABLE class=contentspane id=contentspane 
+summary="The main content pane of the page">
+  <TBODY>
+  <TR>
+    <TD class=leftmargin><IMG class=spacer alt=spacer 
+      src="The EMBL Nucleotide Sequence Database.files/spacer.gif"></TD>
+    <TD class=leftmenucell id=leftmenucell>
+      <DIV class=leftmenu id=leftmenu 
+      style="DISPLAY: block; VISIBILITY: visible; WIDTH: 145px"><!-- InstanceBeginEditable name="leftnav" -->
+      <UL class=sidemenu id=sidemenuid>
+        <LI class=clickmeopen><A href="http://www.ebi.ac.uk/embl/">EMBL-Bank 
+        Home</A> 
+        <LI><A href="http://www.ebi.ac.uk/embl/Access/index.html">Access</A> 
+        <LI><A 
+        href="http://www.ebi.ac.uk/embl/Documentation/index.html">Documentation</A> 
+
+        <LI><A href="http://www.ebi.ac.uk/embl/News/news.html">News</A> 
+        <LI><A 
+        href="http://www.ebi.ac.uk/embl/Submission/index.html">Submission</A> 
+        <LI><A href="http://www.ebi.ac.uk/panda/EMBL.html">Publications</A> 
+        <LI><A href="http://www.ebi.ac.uk/panda/people.html">People</A> 
+        <LI><A href="http://www.ebi.ac.uk/embl/Contact/index.html">Contact</A> 
+        </LI>
+        <LI class=leftmenudivider></LI></UL><!-- InstanceEndEditable --><!-- InstanceBeginEditable name="lefticons" -->
+      <SCRIPT src="The EMBL Nucleotide Sequence Database.files/iconboxslider.js" 
+      type=text/javascript></SCRIPT>
+
+      <DIV class=slidecontainer>
+      <DIV class=iconbox2heading><SPAN class=headerToggle id=news><IMG 
+      class=headerToggleImage alt=Collapse 
+      src="The EMBL Nucleotide Sequence Database.files/minus.gif"> </SPAN>EMBL 
+      Fetch </DIV>
+      <DIV class=iconbox2contents id=news_content style="DISPLAY: block">Fetch 
+      an EMBL record by id<BR><BR>
+      <FORM id=one style="MARGIN: 0px" name=one 
+      onsubmit="if (document.one.id.value=='') { alert('Text box is empty.');  document.one.id.focus();  return false;}" 
+      action=/cgi-bin/emblfetch method=get><INPUT type=hidden value=html 
+      name=style> <INPUT class=text maxLength=20 size=3 name=id> <INPUT class=text type=submit value=Go name=Submit> </FORM></DIV></DIV>
+      <DIV class=slidecontainer>
+      <DIV class=iconbox2heading><SPAN class=headerToggle id=news2><IMG 
+      class=headerToggleImage alt=Collapse 
+      src="The EMBL Nucleotide Sequence Database.files/minus.gif"> </SPAN>New 
+      Webin Submission System </DIV>
+      <DIV class=iconbox2contents id=news2_content 
+      style="DISPLAY: block"><B>16th Feb. 2009:</B> Public beta version of new 
+      Webin submission system launched... <A 
+      href="http://www.ebi.ac.uk/embl/News/news.html#item_20090216">more</A> 
+      </DIV></DIV>
+      <DIV class=slidecontainer>
+      <DIV class=iconbox2heading><SPAN class=headerToggle id=news3><IMG 
+      class=headerToggleImage alt=Collapse 
+      src="The EMBL Nucleotide Sequence Database.files/minus.gif"> 
+      </SPAN>Collaborations </DIV>
+      <DIV class=iconbox2contents id=news3_content style="DISPLAY: block">
+      <UL>
+        <LI><A href="http://www.insdc.org/">INSDC</A> - International Nucleotide 
+        Sequence Database Collaboration 
+        <LI><A href="http://www.ncbi.nlm.nih.gov/About/index.html">NCBI</A> - 
+        The Nucleotide Sequence Database is produced in collaboration with 
+        GenBank (USA) 
+        <LI><A href="http://www.ddbj.nig.ac.jp/">DDBJ</A> - The Nucleotide 
+        Sequence Database is also produced in collaboration with the DNA 
+        Database of Japan (DDBJ) </LI></UL></DIV></DIV><BR><!-- InstanceEndEditable -->
+      <SCRIPT src="The EMBL Nucleotide Sequence Database.files/sidebars.js" 
+      type=text/javascript></SCRIPT>
+      <IMG class=spacer alt=spacer 
+      src="The EMBL Nucleotide Sequence Database.files/spacer.gif"></DIV></TD>
+    <TD bgcolor="#FFFFFF" class=contentsarea id=contentsarea><!-- InstanceBeginEditable name="contents" -->
+      <DIV class=breadcrumbs><A class=firstbreadcrumb 
+      href="http://www.ebi.ac.uk/">EBI</A><A 
+      href="http://www.ebi.ac.uk/Databases/">Databases</A><A 
+      href="http://www.ebi.ac.uk/embl/">EMBL-Bank</A></DIV>
+      <H1 class="contentsarea">EMBL Nucleotide Sequence Database</H1>
+      <H1>&nbsp;</H1>
+      <IMG height=75 alt=EMBL hspace=4 
+      src="The EMBL Nucleotide Sequence Database.files/logo_embl_mid.gif" 
+      width=113 align=right vspace=4>The EMBL Nucleotide Sequence Database (also 
+      known as EMBL-Bank) constitutes Europe's primary nucleotide sequence 
+      resource. Main sources for DNA and RNA sequences are <A 
+      href="http://www.ebi.ac.uk/embl/Submission/index.html">direct 
+      submissions</A> from individual researchers, genome sequencing&nbsp; 
+      projects and patent applications. <BR><BR>The database is produced in an 
+      international <A 
+      href="http://www.ebi.ac.uk/embl/Contact/collaboration.html">collaboration</A> 
+      with GenBank (USA) and the DNA Database of Japan (DDBJ). Each of the three 
+      groups collects a portion of the total sequence data reported worldwide, 
+      and&nbsp;all new and updated database entries are exchanged between the 
+      groups on a daily basis. The <A 
+      href="ftp://ftp.ebi.ac.uk/pub/databases/embl/release/">current database 
+      release</A> (Release 98, January 2009), with according <A 
+      href="http://www.ebi.ac.uk/embl/Documentation/Release_notes/current/relnotes.html">Release 
+      notes</A> and <A 
+      href="http://www.ebi.ac.uk/embl/Documentation/User_manual/usrman.html">user 
+      manual</A> are available from the EBI servers. A sample database entry is 
+      shown <A 
+      href="http://www.ebi.ac.uk/cgi-bin/dbfetch?db=embl&amp;id=trbg361&amp;style=html">here</A>. 
+      <BR><BR>A publication in <A 
+      href="http://nar.oxfordjournals.org/cgi/screenpdf/gkn765v1.pdf" 
+      target=_blank>Nucleic Acids Research 2009 <SPAN class=pubjournal>37: 
+      D19-D25.</SPAN></A> provides further information and details. <BR><BR>The 
+      EMBL nucleotide sequence database is part of the <A 
+      href="http://www.ebi.ac.uk/panda/">The <SPAN 
+      class=greenbold>P</SPAN>rotein <SPAN class=greenbold>a</SPAN>nd <SPAN 
+      class=greenbold>N</SPAN>ucleotide <SPAN class=greenbold>Da</SPAN>tabase 
+      Group</A> (<SPAN class=greenbold>PANDA</SPAN>). This is jointly headed by 
+      <A 
+      href="http://www.ebi.ac.uk/Information/Staff/person_maintx.php?s_person_id=54">Dr. 
+      Rolf Apweiler</A> and <A 
+      href="http://www.ebi.ac.uk/Information/Staff/person_maintx.php?s_person_id=90">Dr. 
+      Ewan Birney</A>, with Dr. Birney taking responsibility for 
+Nucleotides.<BR><!--div class="normaltextcommentsbox">
+        	<div style="text-align: center" class="red_bold">
+        		POSSIBLE DELAYS IN PROCESSING OF NEW SUBMISSIONS AND UPDATES
+        	</div>
+  Between 19-DEC-2008 and 06-JAN-2009, processing of data submissions and
+
+  update messages may be delayed due to reduced staffing levels. We 
+  recommend that users submit urgent new data and updates as soon as 
+  possible to ensure rapid processing. Normal processing will resume by 
+  07-JAN-2009. Please note that database entries due to be made available
+
+  to the public between 20-DEC-2008 and 06-JAN-2009 will not be released 
+  until 07-JAN-2009.
+
+        </div--><BR>
+      <TABLE class=contenttable_lmenu>
+        <TBODY>
+        <TR align=left>
+          <TH><SPAN class=offwhite>Link</SPAN></TH>
+          <TH><SPAN class=offwhite>Explanation</SPAN></TH></TR>
+        <TR>
+          <TD vAlign=top><A 
+            href="http://www.ebi.ac.uk/embl/Access/index.html">Access</A> </TD>
+          <TD align=justify><A 
+            href="http://www.ebi.ac.uk/embl/Access/index.html#queries">Database 
+            queries</A>, <A href="http://www.ebi.ac.uk/genomes/">Completed 
+            genomes webserver</A>, <A 
+            href="http://www.ebi.ac.uk/embl/Access/index.html#ftp">FTP 
+            archives</A> (EMBL release, alignments etc), <A 
+            href="http://www.ebi.ac.uk/cgi-bin/sva/sva.pl">EMBL sequence version 
+            archive</A> (SVA), <A 
+            href="http://www.ebi.ac.uk/embl/Services/EMBLWorld/EMBLWorld.pl">Browse 
+            by geography</A>.</TD></TR>
+        <TR>
+          <TD vAlign=top><A 
+            href="http://www.ebi.ac.uk/embl/Submission/index.html">Submission</A></TD>
+          <TD align=justify>Primary sequence submissions, third party 
+            annotation, updates<!-- and 
+alignment submissions-->.</TD></TR>
+        <TR>
+          <TD vAlign=top><A 
+            href="http://www.ebi.ac.uk/embl/Documentation/index.html">Documentation</A></TD>
+          <TD><A 
+            href="http://www.ebi.ac.uk/embl/Documentation/Release_notes/current/relnotes.html">Release 
+            notes</A> <A 
+            href="http://www.ebi.ac.uk/embl/Documentation/User_manual/usrman.html">user 
+            manual</A>, <A 
+            href="http://www.ebi.ac.uk/embl/Documentation/information_for_submitters.html">Information 
+            for Submitters</A>, <A 
+            href="http://www.ebi.ac.uk/embl/Documentation/FAQ/index.html">FAQ</A>, 
+            <A 
+            href="http://www.ebi.ac.uk/embl/Documentation/release_info.html">Release 
+            information</A>, <A 
+            href="http://www.ebi.ac.uk/embl/Documentation/forthcomingchanges.html">Forthcoming 
+            Changes </A>, <A 
+            href="http://www.ebi.ac.uk/embl/Services/DBStats/">EMBL database 
+            statistics</A>, <A 
+            href="http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html">Feature 
+            table</A>, <A href="http://www.ebi.ac.uk/embl/xml/">XML 
+            documentation</A>, <A 
+            href="http://www.ebi.ac.uk/cgi-bin/dbfetch?X56734" 
+            target=_blank>Sample entry</A>, <A 
+            href="http://www.ebi.ac.uk/embl/Documentation/codes.html">Accession 
+            Number Prefix Codes</A>, <A 
+            href="http://www.ebi.ac.uk/embl/Standards/web/index.html">Examples 
+            of annotation</A>, <A 
+            href="http://www.ebi.ac.uk/embl/WebFeat/index.html">EMBL Features 
+            &amp; Qualifiers</A>, <A 
+            href="http://www.ebi.ac.uk/embl/Documentation/de_line_standards.html">DE 
+            line standards</A>, <A 
+            href="http://www.ebi.ac.uk/embl/Documentation/INSD_policies.html">Database 
+            Policies</A></TD></TR>
+        <TR>
+          <TD vAlign=top><A 
+            href="http://www.ebi.ac.uk/panda/EMBL.html">Publications</A></TD>
+          <TD>Group publications</TD></TR>
+        <TR>
+          <TD vAlign=top><A 
+            href="http://www.ebi.ac.uk/panda/people.html">People</A></TD>
+          <TD>Group members</TD></TR>
+        <TR>
+          <TD vAlign=top><A 
+            href="http://www.ebi.ac.uk/embl/Contact/">Contact</A> </TD>
+          <TD>How to contact the EMBL Nucleotide Sequence Database</TD></TR>
+        <TR>
+          <TD vAlign=top><A 
+            href="http://www.ebi.ac.uk/embl/News/news.html">News</A> </TD>
+          <TD>List of recent changes on this site</TD></TR></TBODY></TABLE><BR><!--
+<div class="normaltextcommentsbox">
+          <div style="text-align: center" class="red_bold">IMPORTANT INFORMATION REGARDING SEQUENCE SUBMISSIONS</div>
+          <br />
+          <b>16th June 2008:</b> The &quot;Next Generation Sequencing Data Archive&quot; opens for submissions ...<a href="/embl/Documentation/ENA-Reads.html">more</a></div>
+	-->
+      <H2>Contact</H2>For information, comments and/or suggestions, please use 
+      the EBI Support Form page <A 
+      href="http://www.ebi.ac.uk/support/index.php?query=EMBL">http://www.ebi.ac.uk/support/index.php?query=EMBL</A><BR>
+      <SCRIPT 
+      type=text/javascript>
+			tableruler();
+			tablestriper();
+		</SCRIPT>
+<!-- InstanceEndEditable --><IMG class=spacer alt=spacer 
+      src="The EMBL Nucleotide Sequence Database.files/spacer.gif"></TD>
+    <TD class=rightmenucell id=rightmenucell>
+      <DIV class=rightmenu id=rightmenu><IMG class=spacer alt=spacer 
+      src="The EMBL Nucleotide Sequence Database.files/spacer.gif"></DIV></TD></TR></TBODY></TABLE>
+<TABLE class=footerpane id=footerpane 
+summary="The main footer pane of the page">
+  <TBODY>
+  <TR>
+    <TD class=footerrow colSpan=4>
+      <DIV class=footerdiv id=footerdiv style="Z-INDEX: 2"><IFRAME 
+      style="Z-INDEX: 2" name=foot marginWidth=0 marginHeight=0 
+      src="The EMBL Nucleotide Sequence Database.files/foot.htm" frameBorder=0 
+      width="100%" scrolling=no 
+      height=22>Your browser does not support inline frames or is currently configured not to display inline frames. Content can be viewed at actual source page: http://www.ebi.ac.uk/inc/foot.html</IFRAME></DIV></TD></TR></TBODY></TABLE>
+<SCRIPT src="The EMBL Nucleotide Sequence Database.files/footer.js" 
+type=text/javascript></SCRIPT>
+</DIV>
+<SCRIPT src="The EMBL Nucleotide Sequence Database.files/urchin.js" 
+type=text/javascript>
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+_uacct = "UA-629242-1";
+if (navigator.userAgent.indexOf("Firefox") == -1) {
+	urchinTracker();
+}
+else{
+	if(window._userv){ // check for adblock
+		urchinTracker();
+	}
+}
+</body>
+<!-- InstanceEnd --></html>
+</SCRIPT>
+</BODY></HTML>

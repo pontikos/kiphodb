@@ -1,0 +1,153 @@
+#menucontainer {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(http://www.ebi.ac.uk/inc/images/menu1.jpg) #404040 repeat-x left top; LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: #000000; PADDING-TOP: 0px; WHITE-SPACE: nowrap; POSITION: absolute
+}
+.menuzoom {
+	FONT-SIZE: 13pt
+}
+#nav {
+	WHITE-SPACE: normal; LIST-STYLE-TYPE: none
+}
+#nav UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; Z-INDEX: 99; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: visible; WIDTH: 11em; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; POSITION: relative
+}
+#nav UL UL UL {
+	OVERFLOW: visible
+}
+#nav UL UL {
+	OVERFLOW: visible
+}
+#nav UL {
+	OVERFLOW: visible
+}
+#nav UL {
+	POSITION: absolute; TOP: 18px
+}
+#nav LI {
+	BORDER-TOP-WIDTH: 0px; DISPLAY: block; BORDER-LEFT-WIDTH: 0px; FLOAT: left; BORDER-BOTTOM-WIDTH: 0px; MARGIN: 0px 0px 0px -5em; WIDTH: 12em; POSITION: relative; HEIGHT: 18px; BORDER-RIGHT-WIDTH: 0px
+}
+#nav LI LI {
+	BORDER-TOP-WIDTH: 0px; DISPLAY: block; BORDER-LEFT-WIDTH: 0px; FLOAT: left; BORDER-BOTTOM-WIDTH: 0px; MARGIN: 0px; WIDTH: 12em; POSITION: relative; HEIGHT: auto; BORDER-RIGHT-WIDTH: 0px
+}
+#tab_02 {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/menuspacer.jpg) #404040 no-repeat left top; COLOR: #000000
+}
+#tab_03 {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/menuspacer.jpg) #404040 no-repeat left top; COLOR: #000000
+}
+#tab_04 {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/menuspacer.jpg) #404040 no-repeat left top; COLOR: #000000
+}
+#tab_05 {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/menuspacer.jpg) #404040 no-repeat left top; COLOR: #000000
+}
+#tab_06 {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/menuspacer.jpg) #404040 no-repeat left top; COLOR: #000000
+}
+#tab_07 {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/menuspacer.jpg) #404040 no-repeat left top; COLOR: #000000
+}
+#tab_08 {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/menuspacer.jpg) #404040 no-repeat left top; COLOR: #000000
+}
+#tab_01 {
+	PADDING-LEFT: 2px
+}
+#tab_02 {
+	PADDING-LEFT: 2px
+}
+#tab_03 {
+	PADDING-LEFT: 2px
+}
+#tab_04 {
+	PADDING-LEFT: 2px
+}
+#tab_05 {
+	PADDING-LEFT: 2px
+}
+#tab_06 {
+	PADDING-LEFT: 2px
+}
+#tab_07 {
+	PADDING-LEFT: 2px
+}
+#tab_08 {
+	PADDING-LEFT: 2px
+}
+#nav LI A {
+	COLOR: #ffffff; BACKGROUND-COLOR: #404040
+}
+#nav LI LI {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; COLOR: #000000; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #e0e0e0
+}
+#nav LI LI A {
+	PADDING-LEFT: 2px; COLOR: #000000; BACKGROUND-COLOR: #e0e0e0
+}
+#nav UL LI {
+	BORDER-TOP-WIDTH: 1px; MARGIN-TOP: -1px; BORDER-LEFT-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 1px
+}
+#nav UL UL LI {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 1px
+}
+#nav UL UL LI:unknown {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT-WIDTH: 1px
+}
+#nav UL LI:unknown {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT-WIDTH: 1px
+}
+#nav A {
+	PADDING-RIGHT: 0.2em; DISPLAY: block; PADDING-LEFT: 0.2em; PADDING-BOTTOM: 0.2em; MARGIN: 0px; WIDTH: 11.6em; PADDING-TOP: 0.2em; HEIGHT: auto; TEXT-DECORATION: none
+}
+#nav LI LI A:hover {
+	COLOR: #000000; BACKGROUND-COLOR: #a1a1a1
+}
+#nav LI LI A:hover {
+	DISPLAY: block
+}
+#nav UL {
+	DISPLAY: none
+}
+#nav UL UL {
+	MARGIN-TOP: -18px; DISPLAY: none; MARGIN-LEFT: 12em; POSITION: absolute
+}
+#nav UL UL UL {
+	MARGIN-TOP: -18px; DISPLAY: none; MARGIN-LEFT: 12em; POSITION: absolute
+}
+#nav UL {
+	OVERFLOW: visible
+}
+#nav LI.clickhover:hover UL UL {
+	DISPLAY: none
+}
+#nav LI.clickhover:hover UL UL UL {
+	DISPLAY: none
+}
+#nav LI.clickhover:hover UL UL UL UL {
+	DISPLAY: none
+}
+#nav LI.clickhover:hover UL UL UL UL UL {
+	DISPLAY: none
+}
+#nav LI.clickhover:hover UL {
+	DISPLAY: block
+}
+#nav UL LI.clickhover:hover UL {
+	DISPLAY: block
+}
+#nav UL UL LI.clickhover:hover UL {
+	DISPLAY: block
+}
+#nav UL UL UL LI.clickhover:hover UL {
+	DISPLAY: block
+}
+#nav UL UL UL UL LI.clickhover:hover UL {
+	DISPLAY: block
+}
+.mainmenu {
+	MARGIN: 0.2em 0px 0px 20px; min-width: 84em
+}
+UNKNOWN {
+	LEFT: auto; TOP: auto
+}
+A.arrow {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/rightarrow.gif) no-repeat right top
+}

@@ -1,0 +1,549 @@
+.tx-thmailformplus-pi1 H2 {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+.tx-dropdownsitemap-pi1 {
+	MARGIN-LEFT: 20px
+}
+.tx-dropdownsitemap-pi1 UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: disc
+}
+.tx-dropdownsitemap-pi1 OL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: disc
+}
+.tx-dropdownsitemap-pi1 A {
+	COLOR: #0072ba
+}
+.tx-dropdownsitemap-pi1 A:link {
+	COLOR: #0072ba
+}
+.tx-dropdownsitemap-pi1 A:visited {
+	COLOR: #0072ba
+}
+.tx-dropdownsitemap-pi1 A:hover {
+	COLOR: #0072ba
+}
+.tx-dropdownsitemap-pi1 A:active {
+	COLOR: #0072ba
+}
+.tx-dropdownsitemap-pi1 DIV {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 5px; PADDING-TOP: 0px
+}
+.tx-dropdownsitemap-pi1 LI.open OL {
+	DISPLAY: block
+}
+.tx-dropdownsitemap-pi1 LI.closed OL {
+	DISPLAY: none
+}
+.tx-dropdownsitemap-pi1 LI.open UL {
+	DISPLAY: block; MARGIN-LEFT: 20px
+}
+.tx-dropdownsitemap-pi1 LI.closed1 UL {
+	DISPLAY: none
+}
+.tx-dropdownsitemap-pi1 SPAN.ifsub {
+	FONT-WEIGHT: bold
+}
+.tx-dropdownsitemap-pi1 SPAN.spc {
+	TEXT-TRANSFORM: uppercase; FONT-STYLE: italic
+}
+.tx-dropdownsitemap-pi1 .description {
+	FONT-SIZE: 80%; MARGIN-LEFT: 5px; FONT-STYLE: italic
+}
+.tx-dropdownsitemap-pi1 DIV {
+	
+}
+.tx-dropdownsitemap-pi1 DIV.level_2 {
+	
+}
+.tx-dropdownsitemap-pi1 DIV.level_3 {
+	
+}
+.tx-dropdownsitemap-pi1 DIV.level_4 {
+	
+}
+.tx-dropdownsitemap-pi1 DIV.level_5 {
+	
+}
+.tx-dropdownsitemap-pi1 DIV.expAll {
+	BORDER-RIGHT: #dba83b 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #dba83b 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: #dba83b 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #dba83b 1px solid; BACKGROUND-COLOR: #fcf2c8
+}
+.tx-dropdownsitemap-pi1 IMG {
+	MARGIN-RIGHT: 5px
+}
+DIV.csc-textpic-caption-c .csc-textpic-caption {
+	TEXT-ALIGN: center
+}
+DIV.csc-textpic-caption-r .csc-textpic-caption {
+	TEXT-ALIGN: right
+}
+DIV.csc-textpic-caption-l .csc-textpic-caption {
+	TEXT-ALIGN: left
+}
+DIV.csc-textpic DIV.csc-textpic-imagecolumn {
+	DISPLAY: inline; FLOAT: left
+}
+DIV.csc-textpic-border DIV.csc-textpic-imagewrap .csc-textpic-image IMG {
+	BORDER-RIGHT: black 2px solid; PADDING-RIGHT: 0px; BORDER-TOP: black 2px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: black 2px solid; PADDING-TOP: 0px; BORDER-BOTTOM: black 2px solid
+}
+DIV.csc-textpic-imagewrap {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+DIV.csc-textpic IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+DIV.csc-textpic DIV.csc-textpic-imagewrap DIV.csc-textpic-image {
+	FLOAT: left
+}
+DIV.csc-textpic DIV.csc-textpic-imagewrap UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+DIV.csc-textpic DIV.csc-textpic-imagewrap UL LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DIV.csc-textpic DIV.csc-textpic-imagewrap DL.csc-textpic-image {
+	FLOAT: left
+}
+DIV.csc-textpic DIV.csc-textpic-imagewrap DL.csc-textpic-image DT {
+	FLOAT: none
+}
+DIV.csc-textpic DIV.csc-textpic-imagewrap DL.csc-textpic-image DD {
+	FLOAT: none
+}
+DIV.csc-textpic DIV.csc-textpic-imagewrap DL.csc-textpic-image DD IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+DL.csc-textpic-image {
+	MARGIN: 0px
+}
+DL.csc-textpic-image DT {
+	DISPLAY: inline; MARGIN: 0px
+}
+DL.csc-textpic-image DD {
+	MARGIN: 0px
+}
+DIV.csc-textpic-clear {
+	CLEAR: both
+}
+DIV.csc-textpic-left DIV.csc-textpic-imagewrap .csc-textpic-image {
+	DISPLAY: inline; MARGIN-RIGHT: 10px
+}
+DIV.csc-textpic-intext-left-nowrap DIV.csc-textpic-imagewrap .csc-textpic-image {
+	DISPLAY: inline; MARGIN-RIGHT: 10px
+}
+DIV.csc-textpic-intext-left DIV.csc-textpic-imagewrap .csc-textpic-image {
+	DISPLAY: inline; MARGIN-RIGHT: 10px
+}
+DIV.csc-textpic-right DIV.csc-textpic-imagewrap .csc-textpic-image {
+	DISPLAY: inline; MARGIN-LEFT: 10px
+}
+DIV.csc-textpic-intext-right-nowrap DIV.csc-textpic-imagewrap .csc-textpic-image {
+	DISPLAY: inline; MARGIN-LEFT: 10px
+}
+DIV.csc-textpic-intext-right DIV.csc-textpic-imagewrap .csc-textpic-image {
+	DISPLAY: inline; MARGIN-LEFT: 10px
+}
+DIV.csc-textpic-center DIV.csc-textpic-imagewrap .csc-textpic-image {
+	DISPLAY: inline; MARGIN-LEFT: 10px
+}
+DIV.csc-textpic DIV.csc-textpic-imagewrap .csc-textpic-image .csc-textpic-caption {
+	MARGIN: 0px
+}
+DIV.csc-textpic DIV.csc-textpic-imagewrap .csc-textpic-image IMG {
+	MARGIN: 0px
+}
+DIV.csc-textpic DIV.csc-textpic-imagewrap .csc-textpic-image {
+	MARGIN-BOTTOM: 5px
+}
+DIV.csc-textpic-equalheight DIV.csc-textpic-imagerow {
+	DISPLAY: block; MARGIN-BOTTOM: 5px
+}
+DIV.csc-textpic DIV.csc-textpic-imagerow {
+	CLEAR: both
+}
+DIV.csc-textpic DIV.csc-textpic-imagewrap .csc-textpic-firstcol {
+	MARGIN-LEFT: 0px! important
+}
+DIV.csc-textpic DIV.csc-textpic-imagewrap .csc-textpic-lastcol {
+	MARGIN-RIGHT: 0px! important
+}
+DIV.csc-textpic-intext-left DIV.csc-textpic-imagewrap {
+	MARGIN-RIGHT: 10px! important
+}
+DIV.csc-textpic-intext-left-nowrap DIV.csc-textpic-imagewrap {
+	MARGIN-RIGHT: 10px! important
+}
+DIV.csc-textpic-intext-right DIV.csc-textpic-imagewrap {
+	MARGIN-LEFT: 10px! important
+}
+DIV.csc-textpic-intext-right-nowrap DIV.csc-textpic-imagewrap {
+	MARGIN-LEFT: 10px! important
+}
+DIV.csc-textpic-above DIV.csc-textpic-text {
+	CLEAR: both
+}
+DIV.csc-textpic-center {
+	TEXT-ALIGN: center
+}
+DIV.csc-textpic-center DIV.csc-textpic-imagewrap {
+	MARGIN: 0px auto
+}
+DIV.csc-textpic-center DIV.csc-textpic-imagewrap .csc-textpic-image {
+	TEXT-ALIGN: left
+}
+DIV.csc-textpic-center DIV.csc-textpic-text {
+	TEXT-ALIGN: left
+}
+DIV.csc-textpic-right DIV.csc-textpic-imagewrap {
+	FLOAT: right
+}
+DIV.csc-textpic-right DIV.csc-textpic-text {
+	CLEAR: right
+}
+DIV.csc-textpic-left DIV.csc-textpic-imagewrap {
+	FLOAT: left
+}
+DIV.csc-textpic-left DIV.csc-textpic-text {
+	CLEAR: left
+}
+DIV.csc-textpic-intext-left DIV.csc-textpic-imagewrap {
+	FLOAT: left
+}
+DIV.csc-textpic-intext-right DIV.csc-textpic-imagewrap {
+	FLOAT: right
+}
+DIV.csc-textpic-intext-right-nowrap DIV.csc-textpic-imagewrap {
+	CLEAR: both; FLOAT: right
+}
+ HTML DIV.csc-textpic-intext-right-nowrap .csc-textpic-text {
+	HEIGHT: 1%
+}
+DIV.csc-textpic-intext-left-nowrap DIV.csc-textpic-imagewrap {
+	CLEAR: both; FLOAT: left
+}
+ HTML DIV.csc-textpic-intext-left-nowrap .csc-textpic-text {
+	HEIGHT: 1%
+}
+.filelinks DIV {
+	PADDING-LEFT: 25px; BACKGROUND: url(/typo3/gfx/fileicons/default.gif) no-repeat left top; MARGIN-BOTTOM: 10px
+}
+.filelinks SPAN {
+	DISPLAY: block
+}
+.filelinks .filecount {
+	DISPLAY: block; MARGIN-BOTTOM: 5px
+}
+.filelinks A {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.filelinks .ai {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/ai.gif)! important
+}
+.filelinks .ani {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/ani.gif)! important
+}
+.filelinks .au {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/au.gif)! important
+}
+.filelinks .avi {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/avi.gif)! important
+}
+.filelinks .bmp {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/bmp.gif)! important
+}
+.filelinks .cdr {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/cdr.gif)! important
+}
+.filelinks .css {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/css.gif)! important
+}
+.filelinks .csv {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/csv.gif)! important
+}
+.filelinks .doc {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/doc.gif)! important
+}
+.filelinks .dtd {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/dtd.gif)! important
+}
+.filelinks .eps {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/eps.gif)! important
+}
+.filelinks .exe {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/exe.gif)! important
+}
+.filelinks .fh3 {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/fh3.gif)! important
+}
+.filelinks .flash {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/flash.gif)! important
+}
+.filelinks .folder {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/folder.gif)! important
+}
+.filelinks .gif {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/gif.gif)! important
+}
+.filelinks .htm {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/htm.gif)! important
+}
+.filelinks .html {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/html.gif)! important
+}
+.filelinks .ico {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/ico.gif)! important
+}
+.filelinks .inc {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/inc.gif)! important
+}
+.filelinks .java {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/java.gif)! important
+}
+.filelinks .jpg {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/jpg.gif)! important
+}
+.filelinks .js {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/js.gif)! important
+}
+.filelinks .max {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/max.gif)! important
+}
+.filelinks .mid {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/mid.gif)! important
+}
+.filelinks .mov {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/mov.gif)! important
+}
+.filelinks .mpeg {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/mpeg.gif)! important
+}
+.filelinks .mpg {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/mpg.gif)! important
+}
+.filelinks .pcd {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/pcd.gif)! important
+}
+.filelinks .pcx {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/pcx.gif)! important
+}
+.filelinks .pdf {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/pdf.gif)! important
+}
+.filelinks .png {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/png.gif)! important
+}
+.filelinks .ps {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/ps.gif)! important
+}
+.filelinks .psd {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/psd.gif)! important
+}
+.filelinks .rtf {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/rtf.gif)! important
+}
+.filelinks .sgml {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/sgml.gif)! important
+}
+.filelinks .swf {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/swf.gif)! important
+}
+.filelinks .sxc {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/sxc.gif)! important
+}
+.filelinks .sxw {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/sxw.gif)! important
+}
+.filelinks .tga {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/tga.gif)! important
+}
+.filelinks .tif {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/tif.gif)! important
+}
+.filelinks .ttf {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/ttf.gif)! important
+}
+.filelinks .txt {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/txt.gif)! important
+}
+.filelinks .wav {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/wav.gif)! important
+}
+.filelinks .wrl {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/wrl.gif)! important
+}
+.filelinks .xls {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/xls.gif)! important
+}
+.filelinks .xml {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/xml.gif)! important
+}
+.filelinks .xsl {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/xsl.gif)! important
+}
+.filelinks .zip {
+	BACKGROUND-IMAGE: url(/typo3/gfx/fileicons/zip.gif)! important
+}
+.filelinks A:hover {
+	TEXT-DECORATION: underline
+}
+.news-latest-item A {
+	
+}
+.news-latest-item {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; MARGIN: 0px; PADDING-TOP: 0px; POSITION: relative; HEIGHT: 1%
+}
+.news-latest-item UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.news-latest-iteme UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.news-latest-item UL LI {
+	MARGIN: 0px
+}
+.news-latest-date {
+	FONT-SIZE: 100%
+}
+.news-latest-datee {
+	FONT-SIZE: 100%
+}
+.overlink {
+	
+}
+.news-latest-morelink {
+	
+}
+.news-latest-morelink A:link {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 11px; HEIGHT: 12px; TEXT-DECORATION: none
+}
+.news-latest-morelink A:hover {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 11px; HEIGHT: 12px; TEXT-DECORATION: none
+}
+.news-latest-morelink A:visited {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 11px; HEIGHT: 12px; TEXT-DECORATION: none
+}
+.news-list-imgcaption {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 10px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.news-list-date {
+	FONT-SIZE: 10px
+}
+.news-list-title A {
+	FONT-SIZE: 15px; LINE-HEIGHT: 18px
+}
+.news-single-date {
+	FONT-SIZE: 10px
+}
+.news-single-title A {
+	FONT-SIZE: 15px; LINE-HEIGHT: 18px
+}
+.news-list-imgcaption {
+	
+}
+.news-single-img IMG {
+	MARGIN-TOP: 10px
+}
+.news-single-files {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 5px; WIDTH: 189px; PADDING-TOP: 5px; BACKGROUND-COLOR: #ebebeb
+}
+.news-file-link {
+	PADDING-BOTTOM: 5px
+}
+.news-file-link IMG {
+	MARGIN-RIGHT: 5px
+}
+.news-single-item HR.clearer {
+	CLEAR: right; BORDER-RIGHT: #0d4f81 1px solid; BORDER-TOP: #0d4f81 1px solid; DISPLAY: none; BORDER-LEFT: #0d4f81 1px solid; BORDER-BOTTOM: #0d4f81 1px solid; HEIGHT: 1px
+}
+.news-single-item {
+	WIDTH: 100%
+}
+.news-single-item TD {
+	MARGIN-BOTTOM: 8px; POSITION: relative
+}
+.news-single-item0 {
+	MARGIN-BOTTOM: 8px; POSITION: relative
+}
+.news-single-item H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 3px; COLOR: black; PADDING-TOP: 0px
+}
+.news-single-image {
+	MARGIN-BOTTOM: 8px; MARGIN-LEFT: 0px; xwidth: 215px
+}
+.news-single-imgcaption {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.news-single-cat {
+	PADDING-RIGHT: 6px; FONT-SIZE: 10px
+}
+.news-single-backlink {
+	TEXT-DECORATION: none
+}
+.news-single-backlink A:link {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 11px; FONT-SIZE: 10px; COLOR: #284473; LINE-HEIGHT: 11px; HEIGHT: 12px; TEXT-DECORATION: none
+}
+.news-single-backlink A:visited {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 11px; FONT-SIZE: 10px; COLOR: #284473; LINE-HEIGHT: 11px; HEIGHT: 12px; TEXT-DECORATION: none
+}
+.news-single-backlink A:hover {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 11px; FONT-SIZE: 10px; COLOR: #284473; LINE-HEIGHT: 11px; HEIGHT: 12px; TEXT-DECORATION: none
+}
+.news-single-timedata {
+	COLOR: #848780
+}
+.news-single-timedata {
+	FONT-SIZE: 11px
+}
+.news-single-author {
+	FONT-SIZE: 11px
+}
+.news-single-imgcaption {
+	FONT-SIZE: 11px
+}
+.news-single-author {
+	PADDING-BOTTOM: 3px
+}
+.addin {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; POSITION: relative; HEIGHT: 100%
+}
+.news-single-additional-info {
+	BORDER-RIGHT: #848780 1px solid; BORDER-TOP: #848780 1px solid; BORDER-LEFT: #848780 1px solid; BORDER-BOTTOM: #848780 1px solid; HEIGHT: 100%
+}
+.news-single-additional-info DL {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 6px; PADDING-TOP: 6px
+}
+.news-single-related {
+	MARGIN: 0px
+}
+.news-single-files {
+	MARGIN: 0px
+}
+.news-single-links {
+	MARGIN: 0px
+}
+.news-single-related DD {
+	MARGIN: 0px
+}
+.news-single-links DD {
+	MARGIN: 0px
+}
+.news-single-files DD {
+	MARGIN: 0px
+}
+.news-single-related DT {
+	DISPLAY: none
+}
+.news-single-links DT {
+	DISPLAY: none
+}
+.news-single-files DT {
+	DISPLAY: none
+}
+.tx-srfreecap-pi2-image {
+	
+}
+.tx-srfreecap-pi2-cant-read {
+	FONT-SIZE: 0.9em; COLOR: #1a1716
+}
+.tx-srfreecap-pi2-cant-read A:link {
+	FONT-WEIGHT: bold; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}

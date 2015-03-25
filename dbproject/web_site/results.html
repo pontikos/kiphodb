@@ -1,0 +1,996 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+{% include "header.html" %}
+{% load kipho_filters %}
+{% load macros %}
+
+{% macro pagination pager %}
+						<div class="pagination">
+							<span class="step-links">
+								{% if pager.has_previous %}
+									<a href="?{{ getparams }}&page={{ pager.previous_page_number }}">previous</a>
+								{% endif %}
+
+								<span class="current">
+									Page {{ pager.number }} of {{ pager.paginator.num_pages }}.
+								</span>
+
+								{% if pager.has_next %}
+									<a href="?{{ getparams }}&page={{ pager.next_page_number }}">next</a>
+								{% endif %}
+							</span>
+						</div>
+{% endmacro %}`
+
+
+			<div class="main">
+
+				<!--Are there any protein results? If yes, display them in a table.-->
+				{% if proteins %}
+				<div class="bluebox">
+					<h1>Proteins</h1><br/>
+					<p>The following {{protein_number}} proteins matched your query:</p><br/>
+
+					{% usemacro pagination proteins %} 
+					<table border=1 width="680">
+						<tr><th>Accession</th><th>Name</th><th>Type</th><th>Substrate</th><th>Organism</th><th>Reviewed</th><th>Source</th></tr>
+						{% for protein in proteins.object_list %}
+						<tr>
+							<td><a href="protein?accession_number='{{protein.accession_number}}'">{{protein.accession_number}}</a></td>
+							<td>{{protein.protein_name}}</td>
+							<td>{{protein.protein_type|protein_type}}</td>
+							<td>{{protein.substrate|substrate}}</td>
+							<td>{{protein.organism_name}}</td>
+							<td><a href="protein?reviewed={{protein.reviewed}}">{{protein.reviewed|reviewed}}</a></td>
+							<td>{{protein.source}}</td>
+						</tr>
+						{% endfor %}
+					</table>
+					<br/><br/>
+					<p><b>Generate a phylogenetic tree with these proteins.</b></p><br/>
+					<form name="ClustalW" method="post" action="generateTree.html">
+						<input type="text" size="80" name="Proteins" value="{{proteins.object_list|accession_list}}">
+						<input type="submit" value="Generate tree">
+					</form>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+
+				<!--Are there any domain results? If yes, display them in a table.-->
+				{% if domains %}
+				<div class="bluebox">
+					<h1>Domains</h1><br/>
+					<p>The following domains matched your query:</p><br/>
+
+					{% usemacro pagination domains %}
+					<table border=1 width="680">
+						<tr><th>PFAM ID</th><th>Name</th><th>Description</th></tr>
+						{% for domain in domains.object_list  %}
+						<tr>
+							<td><a href='domain?pfam_id="{{domain.pfam_id}}"'>{{domain.pfam_id}}</a></td>
+							<td>{{domain.name}}</td>
+							<td>{{domain.description}}</td>
+						</tr>
+						{% endfor %}
+					</table>{{domain_number}} hits in total <br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+
+				<!--Are there any phosphorylation site results? If yes, display them in a table.-->
+				{% if phosphorylation_sites %}
+				<div class="bluebox">
+					<h1>Phosphorylation Sites</h1><br/>
+					<p>The following phosphorylation sites matched your query:</p><br/>
+
+                                  {% usemacro pagination phosphorylation_sites %}
+					<table border=1 width="680">
+						<tr><th>ID</th><th>Protein Accession</th><th>Amino Acid</th><th>Position</th><th>Motif</th><th>Reviewed</th><th>Source</th></tr>
+						{% for psite in phosphorylation_sites.object_list %}
+						<tr>
+							<td><a href="phosphorylation_site?phosphosite_id='{{psite.phosphosite_id}}'">{{psite.phosphosite_id}}</a></td>
+							<td><a href="protein?accession_number='{{psite.accession_number}}'">{{psite.accession_number}}</a></td>
+							<td>{{psite.amino_acid}}</td>
+							<td>{{psite.position}}</td>
+							<td>{{psite.motif}}</td>
+							<td>{{psite.reviewed|reviewed}}</td>
+							<td>{{psite.source}}</td>
+						</tr>
+						{% endfor %}
+					</table>{{pho_site_number}} hits in total<br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+
+				<!--Are there any reaction results? If yes, display them in a table.-->
+				{% if reactions %}
+				<div class="bluebox">
+					<h1>Reactions</h1><br/>
+					<p>The following reactions matched your query:</p><br/>
+
+					{% usemacro pagination reactions %}
+					<table border=1 width="680">
+						<tr><th>ID</th><th>Kinase/Phosphatase</th><th>Substrate</th><th>Type</th><th>Effect</th><th>Reviewed</th><th>Source</th></tr>
+						{% for reaction in reactions.object_list %}
+						<tr>
+							<td><a href="reaction?reaction_id={{reaction.reaction_id}}">{{ reac_ids|hash:reaction.reaction_id }}</a></td>
+							<td><a href="protein?accession_number='{{reaction.ki_pho_accession_number}}'">{{reaction.ki_pho_accession_number}}</a></td>
+							<td><a href="protein?accession_number='{{reaction.substrate_accession_number}}'">{{reaction.substrate_accession_number}}</a></td>
+							<td>{{reaction.reaction_type|reaction_type}}</td>
+							<td>{{reaction.reaction_effect|reaction_effect}}</td>
+							<td>{{reaction.reviewed|reviewed}}</td>
+                                                <td>{% if reac_source_ids|hash:reaction.reaction_id  %}
+                                                         {% for r in reac_source_ids|hash:reaction.reaction_id %}
+                                                		{% if not r|hasID_reac %}
+                                                 			{{reaction.source}}<br/>
+						       		{% else %}
+										<a href="{{reaction.source|source:r}}">{{reaction.source}}</a><br/>
+                                                		{%endif%}
+								   {%endfor%}
+	                                              {% else %}
+							      	   {{reaction.source}}<br/>
+                                                     {% endif %}</td>
+						</tr>
+						{% endfor %}
+					</table>{{reaction_number}} hits in total <br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+
+				<!--Are there any pathway results? If yes, display them in a table-->
+				{% if pathways %}
+				<div class="bluebox">
+					<h1>Pathways</h1><br/>
+					<p>The following pathways matched your query:</p><br/>
+
+					{% usemacro pagination pathways %}
+					<table border=1 width="680">
+						<tr><th>ID</th><th>Name</th><th>Organism</th><th>Reviewed</th><th>Source</th></tr>
+						{% for pathway in pathways.object_list %}
+						<tr>
+							<td><a href="pathway?pathway_id={{pathway.pathway_id}}">{{ path_ids|hash:pathway.pathway_id }}</a></td>
+							<td>{{pathway.pathway_name}}</td>
+							<td>{{pathway.organism_name}}</td>
+							<td>{{pathway.reviewed|reviewed}}</td>
+                                                <td>{% if path_source_ids|hash:pathway.pathway_id %}
+                                                {% for p in path_source_ids|hash:pathway.pathway_id %}
+                                                {% if not p|hasID %}
+                                                {{pathway.source}}<br/>
+						       {% else %}<a href="{{pathway.source|source:p}}">{{pathway.source}}</a><br/>
+                                                {%endif%}{%endfor%}
+                                                {% else %}{{pathway.source}}<br/>{% endif %}</td>
+						</tr>
+						{% endfor %}
+					</table>{{pathway_number}} hits in total<br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+
+				<!--Are there any organism results? If yes, display them in a table-->
+				{% if organisms %}
+				<div class="bluebox">
+					<h1>Organisms</h1><br/>
+					<p>The following organisms matched your query:</p><br/>
+
+					{% usemacro pagination organisms %}
+					<table border=1 width="680">
+						<tr><th>Name</th><th>Common Name</th></tr>
+						{% for organism in organisms.object_list %}
+						<tr>
+							<td><a href="organism?organism_name='{{organism.organism_name}}'">{{organism.organism_name}}</a></td>
+							<td>{{organism.common_name}}</td>
+						</tr>
+						{% endfor %}
+					</table>{{organism_number}} hits in total<br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+	
+				<!--Are there any tree results? If yes display them in a table.-->
+				{% if trees %}
+				<div class="bluebox">
+					<h1>Trees</h1><br/>
+					<p>The following phylogenetic trees matched your query:</p><br/>
+					<table border=1 width="680">
+						<tr><th>ID</th><th>Name</th><th>Reviewed</th></tr>
+						{% for tree in trees.object_list  %}
+						<tr>
+							<td><a href="tree?tree_id={{tree.tree_id}}">{{tree.tree_id}}</a></td>
+							<td>{{tree.name}}</td>
+							<td>{{tree.reviewed|reviewed}}</td>
+						</tr>
+						{% endfor %}
+					</table>{{tree_number}} hits in total<br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+
+				<!--Are there any GO term results? if yes, display them in a table.-->
+				{% if goterms %}
+				<div class="bluebox">
+					<h1>GO Terms</h1><br/>
+					<p>The following GO terms matched your query:</p><br/>
+
+					{% usemacro pagination goterms %}
+					<table border=1 width="680">
+						<tr><th>GO Term</th><th>Name</th></tr>
+						{% for goterm in goterms.object_list %}
+						<tr>
+							<td><a href='go_term?go_term="{{goterm.go_term}}"'>{{goterm.go_term}}</a></td>
+							<td>{{goterm.name}}</td>
+						</tr>
+						{% endfor %}
+					</table>{{go_number}} hits in total <br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+
+				<!--Are there any reference results? If yes, display them in a table.-->
+				{% if references %}
+				<div class="bluebox">
+					<h1>References</h1><br/>
+					<p>The following references matched your query:</p><br/>
+
+					{% usemacro pagination references %}
+					<table border=1 width="680">
+						<tr><th>PUBMED ID</th><th>Title</th><th>Authors</th></tr>
+						{% for reference in references.object_list  %}
+						<tr>
+							<td><a href='reference?reference_id="{{reference.reference_id}}"'>{{reference.reference_id}}</a></td>
+							<td>{{reference.title}}</td>
+							<td>{{reference.authors}}</td>
+						</tr>
+						{% endfor %}
+					</table>{{ref_number}} hits in total <br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+
+				<!--Are there any kinfamily results? If yes, display them in a table.-->
+				{% if kinfamily %}
+				<div class="bluebox">
+					<h1>Kinase Gene Families</h1><br/>
+					<p>The following Kinase Gene Families matched your query:</p><br/>
+
+					{% usemacro pagination kinfamily %}
+					<table border=1 width="680">
+						<tr><th>Gene</th><th>Full Name</th><th>Protein Type<th>Tree </th></tr>
+						{% for family in kinfamily.object_list %}
+						<tr>
+							
+							<td>{{family.gene_id}}</td>
+							<td>{{family.gene_name}}</td>
+							<td>{{family.protein_type}}</td>
+							<td><a href="http://www.treefam.org/cgi-bin/treeview.pl?ac={{family.treefam_id}}&stype=clean&misc=aln&highlight={{family.treefam_id}}" target="_blank"> View Tree </a> </td>
+					
+						</tr>
+						{% endfor %}
+					</table>
+                                   {{kinfam_number}} hits in total<br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+
+				<!--Are there any kinfamily results? If yes, display them in a table.-->
+				{% if phosfamily %}
+				<div class="bluebox">
+					<h1>Phosphatase Gene Families</h1><br/>
+					<p>The following Phosphatase Gene Families matched your query:</p><br/>
+					{% usemacro pagination phosfamily %}
+					<table border=1 width="680">
+						<tr><th>Gene</th><th>Full Name</th><th>Protein type</th><th>Tree </th></tr>
+						{% for family in phosfamily.object_list %}
+						<tr>
+							<td>{{family.gene_id}}</td>
+							<td>{{family.gene_name}}</td>
+							<td>{{family.protein_type}}</td>
+							<td><a href="http://www.treefam.org/cgi-bin/treeview.pl?ac={{family.treefam_id}}&stype=clean&misc=aln&highlight={{family.treefam_id}}" target="_blank"> View Tree </a> </td>
+						</tr>
+						{% endfor %}
+					</table>{{phosfam_number}} hits in total<br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+	
+
+				{% if families %}
+				<div class="bluebox">
+					<h1>Gene Families</h1><br/>
+					<p>The following Gene Families matched your query:</p><br/>
+				{% usemacro pagination families %}
+					<table border=1 width="680">
+						<tr><th>Gene</th><th>Gene Name</th><th>Protein Type<th>View tree</th></tr>
+						{% for family in families.object_list %}
+						<tr>
+							<td>{{family.gene_id}}</td>
+							<td>{{family.gene_name}}</td>
+							<td>{{family.protein_type}}</td>
+							<td><a href="http://www.treefam.org/cgi-bin/treeview.pl?ac={{family.treefam_id}}&stype=clean&misc=aln&highlight={{family.treefam_id}}" target="_blank"> View Tree </a> </td>
+						</tr>
+						{% endfor %}
+					</table>{{fam_number}} hits in total<br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+
+
+				{% if canpathway %}
+				<div class="bluebox">
+					<h1>Cancer Pathways</h1><br/>
+					<p>The following Cancer signalling pathways matched your query:</p><br/>
+				{% usemacro pagination canpathway %}
+					<table border=1 width="680">
+						<tr><th>Pathway_name</th><th>Kinase</th><th>Substrate<th>Pairs</th></tr>
+						{% for pathway in canpathway.object_list %}
+						<tr>
+							<td>{{pathway.pathway_name}}</td>
+							<td>{{pathway.protein_id}}</td>
+							<td>{{pathway.substrate_id}}</td>
+							<td>{{pathway.pairs}}</td>
+						</tr>
+						{% endfor %}
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+
+				{% if impathway %}
+				<div class="bluebox">
+					<h1>Immune Pathways</h1><br/>
+					<p>The following Immune signalling pathways matched your query:</p><br/>
+				{% usemacro pagination impathway %}
+					<table border=1 width="680">
+						<tr><th>Pathway_name</th><th>Kinase</th><th>Substrate<th>Pairs</th></tr>
+						{% for pathway in impathway.object_list %}
+						<tr>
+							<td>{{pathway.pathway_name}}</td>
+							<td>{{pathway.protein_id}}</td>
+							<td>{{pathway.substrate_id}}</td>
+							<td>{{pathway.pairs}}</td>
+						</tr>
+						{% endfor %}
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+
+				{% if pathway1 %}
+				<div class="bluebox">
+					<h1>Alpha6 Beta4 Integrin</h1><br/>
+					<p>Integrins are cell surface heterodimeric protein complex consisting of one alpha and one beta chain. Integrins act as cell adhesion molecules as well as participate in cellular signaling. The ligands of the alpha6 beta4 integrin are heterotrimers belonging to the laminin family including Laminin A2, Laminin B1, Laminin C1, Laminin A3, Laminin B3, Laminin C2, Laminin A5, Laminin A1 and Laminin B2 among others. Upon activation, the receptor is phosphorylated and associates with adaptor molecules Shc and Grb2, which then activate the PI 3-kinase/Akt, MAPK/NFkB and SMAD signaling modules.",
+"The androgen receptor is a member of the nuclear receptor family of ligand activated transcription factors. These receptors bind to steroid hormones, thyroid hormone, retinoids and vitamin D among others, dimerize and bind to DNA. Its ligands include testosterone, dehydroepiandrosterone and androstenedione. Stimulation of the receptor activates the SMAD signaling module</p><br/>
+				{% usemacro pagination pathway1 %}
+					<table border=1 width="680">
+
+		<tr><th>Pathway_name</th><th>Protein</th><th>Protein type</th> <th>Substrate</th><th>Substrate Type</th><th>Pairs</th>
+						{% for pathway in pathway1.object_list %}
+						<tr>
+							<td>{{pathway.pathway_name}}</td>
+							<td>{{pathway.protein_id}}</td>
+							<td>{{pathway.protein_type}}</td>
+							<td>{{pathway.substrate_id}}</td>
+							<td>{{pathway.substrate_type}}</td>
+							<td>{{pathway.pairs}}</td>
+						</tr>
+						{% endfor %}
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+
+	
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+
+				{% if pathway2 %}
+				<div class="bluebox">
+					<h1>AR - Andregen Receptor</h1><br/>
+					<p>The androgen receptor is a member of the nuclear receptor family of ligand activated transcription factors. These receptors bind to steroid hormones, thyroid hormone, retinoids and vitamin D among others, dimerize and bind to DNA. Its ligands include testosterone, dehydroepiandrosterone and androstenedione. Stimulation of the receptor activates the SMAD signaling module</p><br/>
+				{% usemacro pagination pathway2 %}
+					<table border=1 width="680">
+
+		<tr><th>Pathway_name</th><th>Protein</th><th>Protein type</th> <th>Substrate</th><th>Substrate Type</th><th>Pairs</th>
+						{% for pathway in pathway2.object_list %}
+						<tr>
+							<td>{{pathway.pathway_name}}</td>
+							<td>{{pathway.protein_id}}</td>
+							<td>{{pathway.protein_type}}</td>
+							<td>{{pathway.substrate_id}}</td>
+							<td>{{pathway.substrate_type}}</td>
+							<td>{{pathway.pairs}}</td>
+						</tr>
+						{% endfor %}
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+
+	
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+
+				{% if pathway3 %}
+				<div class="bluebox">
+					<h1>Notch</h1><br/>
+					<p>There are 4 Notch receptors in humans (Notch 1-4) that bind to a family of 5 ligands (Jagged 1 and 2 and Delta-like 1-3). The Notch receptors are expressed on the cell surface as heterodimeric proteins and their ligands are also membrane-bound. Signaling through the Notch receptors is triggered by ligand-binding that induces cleavage of the extracellular domain by an ADAM family metalloprotease followed by a cleavage within the transmembrane domain by gamma secretase complex. The second cleavage leads to translocation of the cytosolic domain of Notch receptors into the nucleus. Notch proteins are important in lineage specification and stem cell maintenance. Aberrant Notch signaling has been linked to a number of malignancies including leukemias, lymphomas and carcinomas of the breast, skin, lung, cervix and kidneys.</p><br/>
+				{% usemacro pagination pathway3 %}
+					<table border=1 width="680">
+
+		<tr><th>Pathway_name</th><th>Protein</th><th>Protein type</th> <th>Substrate</th><th>Substrate Type</th><th>Pairs</th>
+						{% for pathway in pathway3.object_list %}
+						<tr>
+							<td>{{pathway.pathway_name}}</td>
+							<td>{{pathway.protein_id}}</td>
+							<td>{{pathway.protein_type}}</td>
+							<td>{{pathway.substrate_id}}</td>
+							<td>{{pathway.substrate_type}}</td>
+							<td>{{pathway.pairs}}</td>
+						</tr>
+						{% endfor %}
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+
+	
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+
+				{% if pathway4 %}
+				<div class="bluebox">
+					<h1>EGFR1</h1><br/>
+					<p>The epidermal growth factor receptor (EGFR1) is a cell surface receptor that belongs to the EGFR/erbB family of receptor tyrosine kinases. Upon binding to its ligand Epidermal Growth Factor (EGF), this receptor can undergo homodimerization or heterodimerize with other members of the erbB family, ERBB2, ERBB3 or ERBB4, resulting in phosphorylation of the receptor subunits. In addition to EGF, the EGFR1 also binds to transforming growth factor alpha (TGF alpha), Amphiregulin, Betacellulin, Epiregulin and Heparin-binding EGF-like growth factor (HB-EGF). Ligand binding activates the Ras/Raf/MAPK signaling modules.</p><br/>
+				{% usemacro pagination pathway4 %}
+					<table border=1 width="680">
+
+		<tr><th>Pathway_name</th><th>Protein</th><th>Protein type</th> <th>Substrate</th><th>Substrate Type</th><th>Pairs</th>
+						{% for pathway in pathway4.object_list %}
+						<tr>
+							<td>{{pathway.pathway_name}}</td>
+							<td>{{pathway.protein_id}}</td>
+							<td>{{pathway.protein_type}}</td>
+							<td>{{pathway.substrate_id}}</td>
+							<td>{{pathway.substrate_type}}</td>
+							<td>{{pathway.pairs}}</td>
+						</tr>
+						{% endfor %}
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>	
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+
+
+				{% if pathway5 %}
+				<div class="bluebox">
+					<h1>ID- Inhibitor of DNA binding</h1><br/>
+					<p>Inhibitor of DNA binding (ID) proteins are members of the helix-loop-helix (HLH) family of proteins which lack a DNA binding domain themselves but bind to other family members inhibiting their DNA binding capacity. This family of proteins is comprised of IDs 1, 2, 3 and 4. They can be stimulated by ligands such as the Vascular Endothelial Growth Factor (VEGF), TGF beta and the T cell receptor</p><br/>
+				{% usemacro pagination pathway5 %}
+					<table border=1 width="680">
+
+		<tr><th>Pathway_name</th><th>Protein</th><th>Protein type</th> <th>Substrate</th><th>Substrate Type</th><th>Pairs</th>
+						{% for pathway in pathway5.object_list %}
+						<tr>
+							<td>{{pathway.pathway_name}}</td>
+							<td>{{pathway.protein_id}}</td>
+							<td>{{pathway.protein_type}}</td>
+							<td>{{pathway.substrate_id}}</td>
+							<td>{{pathway.substrate_type}}</td>
+							<td>{{pathway.pairs}}</td>
+						</tr>
+						{% endfor %}
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>	
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+				{% if pathway6 %}
+				<div class="bluebox">
+					<h1>Kit</h1><br/>
+					<p>Kit is a receptor protein tyrosine kinase, which is a receptor for stem cell factor or kit ligand. Signaling through Kit is important for formation of red cells, lymphocytes, mast cells and platelets among others. Binding of Kit receptor to stem cell factor leads to an intracellular cascade of events that includes activation of PI 3-kinase, Src family kinases and PLC gamma. Activating mutations in the Kit receptor are associated with several human malignancies include leukemias, gastrointestinal stromal tumors and mastocytomas.</p><br/>
+				{% usemacro pagination pathway6 %}
+					<table border=1 width="680">
+
+		<tr><th>Pathway_name</th><th>Protein</th><th>Protein type</th> <th>Substrate</th><th>Substrate Type</th><th>Pairs</th>
+						{% for pathway in pathway6.object_list %}
+						<tr>
+							<td>{{pathway.pathway_name}}</td>
+							<td>{{pathway.protein_id}}</td>
+							<td>{{pathway.protein_type}}</td>
+							<td>{{pathway.substrate_id}}</td>
+							<td>{{pathway.substrate_type}}</td>
+							<td>{{pathway.pairs}}</td>
+						</tr>
+						{% endfor %}
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>	
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+				{% if pathway7 %}
+				<div class="bluebox">
+					<h1>TGFBR1</h1><br/>
+					<p>The TGF beta receptors TGFBR1 and TGFBR2 belong to a subfamily of membrane-bound serine/threonine kinases which are designated as Type I or II based on their structural and functional properties. The receptor is composed of pairs of type I or II arranged in a heterotetrameric complex. Its ligand, TGF beta, has 3 members - TGFB1, TGFB2 and TGFB3, which can homodimerize or heterodimerize before binding to the receptors. Ligand binding activates the MAPK/SMAD signaling modules</p><br/>
+				{% usemacro pagination pathway7 %}
+					<table border=1 width="680">
+
+		<tr><th>Pathway_name</th><th>Protein</th><th>Protein type</th> <th>Substrate</th><th>Substrate Type</th><th>Pairs</th>
+						{% for pathway in pathway7.object_list %}
+						<tr>
+							<td>{{pathway.pathway_name}}</td>
+							<td>{{pathway.protein_id}}</td>
+							<td>{{pathway.protein_type}}</td>
+							<td>{{pathway.substrate_id}}</td>
+							<td>{{pathway.substrate_type}}</td>
+							<td>{{pathway.pairs}}</td>
+						</tr>
+						{% endfor %}
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>	
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+				{% if pathway8 %}
+				<div class="bluebox">
+					<h1>Wnt</h1><br/>
+					<p>Wnt family of proteins are a large family of cysteine-rich secreted glycoproteins that regulate cell-cell interactions. They bind to members of the Frizzled family of 7 transmembrane receptors. Binding of Wnt to its receptors leads to activation of at least 3 distinct pathways: i) the canonical beta catenin pathway, ii) the planar cell polarity pathway, and, iii) the calcium pathway. In the canonical beta catenin pathway, binding of Wnt to its receptors leads to stabilization of beta catenin in the cytosol followed by its translocation into the nucleus where it activates the transcription factor Tcf/Lef leading to upregulation of target genes. The non canonical planar cell polarity pathway involves activation of Dishevelled, small G proteins (Rho/Rac) and JNK. The non canonical calcium pathway involves activation of calcium sensitive kinases, PKC and CAMKII by Dishevelled. The Wnt signaling pathway is similar to the Hedgehog pathway in many respects. Abnormalities in the Wnt signaling pathway are associated with a large variety of human malignancies including tumors of breast, colon, pancreas, liver and bone.</p><br/>
+				{% usemacro pagination pathway8 %}
+					<table border=1 width="680">
+
+		<tr><th>Pathway_name</th><th>Protein</th><th>Protein type</th> <th>Substrate</th><th>Substrate Type</th><th>Pairs</th>
+						{% for pathway in pathway8.object_list %}
+						<tr>
+							<td>{{pathway.pathway_name}}</td>
+							<td>{{pathway.protein_id}}</td>
+							<td>{{pathway.protein_type}}</td>
+							<td>{{pathway.substrate_id}}</td>
+							<td>{{pathway.substrate_type}}</td>
+							<td>{{pathway.pairs}}</td>
+						</tr>
+						{% endfor %}
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>	
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+				{% if pathway9 %}
+				<div class="bluebox">
+					<h1>TNF alpha,Kb</h1><br/>
+					<p>The Tumor Necrosis Factor alpha is a proinflammatory cytokine belonging to the TNF superfamily. It signals through 2 separate receptors - TNFRSF1A and TNFRSF1B, both members of the TNF receptor superfamily. Activation by the homotrimeric ligand results in receptor trimerization. TNFRSF1A trimers result in the activation of NF-kB through MAPK and caspase pathways leading to apoptosis, whereas a heterocomplex of both TNFRSF1A and TNFRSF1B recruits proteins such as BIRC2 and BIRC3, which are apoptotic inhibitors. As both TNF alpha and IL-1 stimulate the MAPK signaling module and activate NFkB, they are synergistic and complement each other's activity.</p><br/>
+				{% usemacro pagination pathway9 %}
+					<table border=1 width="680">
+
+		<tr><th>Pathway_name</th><th>Protein</th><th>Protein type</th> <th>Substrate</th><th>Substrate Type</th><th>Pairs</th>
+						{% for pathway in pathway9.object_list %}
+						<tr>
+							<td>{{pathway.pathway_name}}</td>
+							<td>{{pathway.protein_id}}</td>
+							<td>{{pathway.protein_type}}</td>
+							<td>{{pathway.substrate_id}}</td>
+							<td>{{pathway.substrate_type}}</td>
+							<td>{{pathway.pairs}}</td>
+						</tr>
+						{% endfor %}
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>	
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+
+				{% endif %}
+				{% if pathway10 %}
+				<div class="bluebox">
+					<h1>HEDGEHOG</h1><br/>
+					<p>The Hedgehog proteins are a family of secreted ligands that include sonic hedgehog, Indian hedgehog and desert hedgehog in humans. Binding of Hedgehog ligands to their receptors, Patched 1 and 2, prevents inhibition of a 7 transmembrane receptor called Smoothened. This leads to activation of GLI family of transcription factors (GLI1-3). Signaling through the Hedgehog pathway is essential for development of many tissues and organs. This pathway is highly conserved among metazoans. Aberrant activation of this pathway has been associated with a number of human malignancies including carcinoma of lung, esophagus, pancreas and prostate.</p><br/>
+				{% usemacro pagination pathway10 %}
+					<table border=1 width="680">
+
+		<tr><th>Pathway_name</th><th>Protein</th><th>Protein type</th> <th>Substrate</th><th>Substrate Type</th><th>Pairs</th>
+						{% for pathway in pathway10.object_list %}
+						<tr>
+							<td>{{pathway.pathway_name}}</td>
+							<td>{{pathway.protein_id}}</td>
+							<td>{{pathway.protein_type}}</td>
+							<td>{{pathway.substrate_id}}</td>
+							<td>{{pathway.substrate_type}}</td>
+							<td>{{pathway.pairs}}</td>
+						</tr>
+						{% endfor %}
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>	
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+
+				{% if pathway11 %}
+				<div class="bluebox">
+					<h1>T Cell Receptor</h1><br/>
+					<p>The T cell receptor complex includes the ligand binding TCR alpha and TCR beta chains, along with CD3 gamma, delta, epsilon and zeta subunits. This receptor complex is stimulated by antigen peptides presented by the Major Histocompatibility Complex proteins present on T cells and antigen presenting cells. Stimulation of the T cell receptor leads to the activation of NFkB and NFAT signaling modules which play a key role in T cell receptor signaling.</p><br/>
+				{% usemacro pagination pathway11 %}
+					<table border=1 width="680">
+
+		<tr><th>Pathway_name</th><th>Protein</th><th>Protein type</th> <th>Substrate</th><th>Substrate Type</th><th>Pairs</th>
+						{% for pathway in pathway11.object_list %}
+						<tr>
+							<td>{{pathway.pathway_name}}</td>
+							<td>{{pathway.protein_id}}</td>
+							<td>{{pathway.protein_type}}</td>
+							<td>{{pathway.substrate_id}}</td>
+							<td>{{pathway.substrate_type}}</td>
+							<td>{{pathway.pairs}}</td>
+						</tr>
+						{% endfor %}
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>	
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+				{% if pathway12 %}
+				<div class="bluebox">
+					<h1>B Cell Receptor</h1><br/>
+					<p>The B cell receptor includes membrane mu heavy chain molecules bound to a light chain and an Ig alpha (CD79A)/Ig beta (CD79B) heterodimer. Activation of the B cell receptor involves phosphorylation of the cytoplasmic immunoreceptor tyrosine-based activation motifs (ITAMs) present in Ig alpha and beta. This leads to activation of several non-receptor tyrosine kinases including those of the Src, Tec and Syk family of kinases. Downstream messengers include DAG, IP3, MAPK/ERK and JNK signaling modules.</p><br/>
+				{% usemacro pagination pathway12 %}
+					<table border=1 width="680">
+
+		<tr><th>Pathway_name</th><th>Protein</th><th>Protein type</th> <th>Substrate</th><th>Substrate Type</th><th>Pairs</th>
+						{% for pathway in pathway12.object_list %}
+						<tr>
+							<td>{{pathway.pathway_name}}</td>
+							<td>{{pathway.protein_id}}</td>
+							<td>{{pathway.protein_type}}</td>
+							<td>{{pathway.substrate_id}}</td>
+							<td>{{pathway.substrate_type}}</td>
+							<td>{{pathway.pairs}}</td>
+						</tr>
+						{% endfor %}
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>	
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+
+				{% if pathway13 %}
+				<div class="bluebox">
+					<h1>IL1 (cytokines)</h1><br/>
+					<p>The interleukin 1 family of cytokines includes interleukin-1 alpha (IL1A), beta (IL1B) and the IL-1 receptor antagonist (IL1RN). These bind to the IL-1 receptor (IL1R1) as well as its decoy receptor, IL1R2. Upon binding to the ligands, interleukin-1 alpha or beta, IL1R1 interacts with IL-1 receptor accessory protein (IL1RAP) to activate the MAPK/JNK signaling modules. The MAPK pathway leads to activation of NFkB complex. As both IL-1 and TNF alpha stimulate the MAPK signaling module and activate NFkB, they are synergistic and complement each other's activit</p><br/>
+				{% usemacro pagination pathway13 %}
+					<table border=1 width="680">
+
+		<tr><th>Pathway_name</th><th>Protein</th><th>Protein type</th> <th>Substrate</th><th>Substrate Type</th><th>Pairs</th>
+						{% for pathway in pathway13.object_list %}
+						<tr>
+							<td>{{pathway.pathway_name}}</td>
+							<td>{{pathway.protein_id}}</td>
+							<td>{{pathway.protein_type}}</td>
+							<td>{{pathway.substrate_id}}</td>
+							<td>{{pathway.substrate_type}}</td>
+							<td>{{pathway.pairs}}</td>
+						</tr>
+						{% endfor %}
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>	
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+				{% if pathway14 %}
+				<div class="bluebox">
+					<h1>IL2 </h1><br/>
+					<p>Interleukin-2 belongs to a family of cytokines, which includes IL-4, IL-7, IL-9, IL-15 and IL-21. IL-2 signals through a receptor complex consisting of IL-2 specific IL-2 receptor alpha (CD25), IL-2 receptor beta (CD122) and a common gamma chain (gamma c), which is shared by all members of this family of cytokines. Binding of IL-2 activates the Ras/MAPK, JAK/Stat and PI 3-kinase/Akt signaling modules.</p><br/>
+				{% usemacro pagination pathway14 %}
+					<table border=1 width="680">
+
+		<tr><th>Pathway_name</th><th>Protein</th><th>Protein type</th> <th>Substrate</th><th>Substrate Type</th><th>Pairs</th>
+						{% for pathway in pathway14.object_list %}
+						<tr>
+							<td>{{pathway.pathway_name}}</td>
+							<td>{{pathway.protein_id}}</td>
+							<td>{{pathway.protein_type}}</td>
+							<td>{{pathway.substrate_id}}</td>
+							<td>{{pathway.substrate_type}}</td>
+							<td>{{pathway.pairs}}</td>
+						</tr>
+						{% endfor %}
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>	
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+				{% if pathway15 %}
+				<div class="bluebox">
+					<h1>IL3</h1><br/>
+					<p>Interleukin-3 belongs to a family of cytokines, which includes IL-5 and GM-CSF. It signals through a receptor complex comprising of an IL-3 specific IL-3 receptor alpha subunit (IL3RA) and a common beta chain, which is shared between all members of this cytokine family. Binding of IL-3 to IL3RA recruits the beta chain to the complex, which activates the JAK/STAT, MAPK and PI 3-kinase signaling modules</p><br/>
+				{% usemacro pagination pathway15 %}
+					<table border=1 width="680">
+
+		<tr><th>Pathway_name</th><th>Protein</th><th>Protein type</th> <th>Substrate</th><th>Substrate Type</th><th>Pairs</th>
+						{% for pathway in pathway15.object_list %}
+						<tr>
+							<td>{{pathway.pathway_name}}</td>
+							<td>{{pathway.protein_id}}</td>
+							<td>{{pathway.protein_type}}</td>
+							<td>{{pathway.substrate_id}}</td>
+							<td>{{pathway.substrate_type}}</td>
+							<td>{{pathway.pairs}}</td>
+						</tr>
+						{% endfor %}
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>	
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+				{% if pathway16 %}
+				<div class="bluebox">
+					<h1>IL4</h1><br/>
+					<p>Interleukin-4 belongs to the IL-2 family of cytokines, which includes IL-2, IL-7, IL-9, IL-15 and IL-21. It signals through 2 different receptor complexes; Receptor complex 1 comprises of IL-4 receptor alpha (IL4RA) and the common gamma chain (gamma c), Receptor complex 2 comprises of IL4RA and IL-13 receptor alpha1. IL-4 stimulates the JAK/STAT and MAPK signaling modules..</p><br/>
+				{% usemacro pagination pathway16 %}
+					<table border=1 width="680">
+
+		<tr><th>Pathway_name</th><th>Protein</th><th>Protein type</th> <th>Substrate</th><th>Substrate Type</th><th>Pairs</th>
+						{% for pathway in pathway16.object_list %}
+						<tr>
+							<td>{{pathway.pathway_name}}</td>
+							<td>{{pathway.protein_id}}</td>
+							<td>{{pathway.protein_type}}</td>
+							<td>{{pathway.substrate_id}}</td>
+							<td>{{pathway.substrate_type}}</td>
+							<td>{{pathway.pairs}}</td>
+						</tr>
+						{% endfor %}
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>	
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+				{% if pathway17 %}
+				<div class="bluebox">
+					<h1>IL5</h1><br/>
+					<p>Interleukin-5 belongs to the family of cytokines, which includes IL-3 and GM-CSF. It signals through a receptor complex comprising of an IL-5 receptor alpha subunit (IL5RA), and a common beta chain which is shared between all members of this cytokine family. Binding of IL-5 to IL5RA recruits the beta chain to the complex, this then activates the JAK/STAT and Raf/MAPK signaling modules.</p><br/>
+				{% usemacro pagination pathway17 %}
+					<table border=1 width="680">
+
+		<tr><th>Pathway_name</th><th>Protein</th><th>Protein type</th> <th>Substrate</th><th>Substrate Type</th><th>Pairs</th>
+						{% for pathway in pathway17.object_list %}
+						<tr>
+							<td>{{pathway.pathway_name}}</td>
+							<td>{{pathway.protein_id}}</td>
+							<td>{{pathway.protein_type}}</td>
+							<td>{{pathway.substrate_id}}</td>
+							<td>{{pathway.substrate_type}}</td>
+							<td>{{pathway.pairs}}</td>
+						</tr>
+						{% endfor %}
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>	
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+				{% if pathway18 %}
+				<div class="bluebox">
+					<h1>IL6</h1><br/>
+					<p>Interleukin-6 belongs to a family of cytokines which includes IL-11, ciliary neurotrophic factor (CNTF), cardiotropin-1, cardiotrophin-like cytokine, leukemia inhibitory factor (LIF) and Oncostatin M. IL-6 signals through a ternary receptor complex consisting of IL-6 receptor alpha (IL6RA) and a homodimer of the signal transducing receptor gp130. IL-6 stimulates the association of IL6RA to gp130, which then activates the Jak/STAT, Ras/Raf/MAPK and PI 3-kinase signaling modules.</p><br/>
+				{% usemacro pagination pathway18 %}
+					<table border=1 width="680">
+
+		<tr><th>Pathway_name</th><th>Protein</th><th>Protein type</th> <th>Substrate</th><th>Substrate Type</th><th>Pairs</th>
+						{% for pathway in pathway18.object_list %}
+						<tr>
+							<td>{{pathway.pathway_name}}</td>
+							<td>{{pathway.protein_id}}</td>
+							<td>{{pathway.protein_type}}</td>
+							<td>{{pathway.substrate_id}}</td>
+							<td>{{pathway.substrate_type}}</td>
+							<td>{{pathway.pairs}}</td>
+						</tr>
+						{% endfor %}
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>	
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+				{% if pathway19 %}
+				<div class="bluebox">
+					<h1>IL7</h1><br/>
+					<p>Interleukin-7 belongs to a family of cytokines, which includes IL-2, IL-4, IL-9, IL-15 and IL-21. It signals through a receptor complex consisting of IL-7 receptor alpha chain (IL7RA) and a common gamma chain (gamma c) that is shared between all members of this family. IL-7 mainly activates the JAK/STAT signaling module.</p><br/>
+				{% usemacro pagination pathway17 %}
+					<table border=1 width="680">
+
+		<tr><th>Pathway_name</th><th>Protein</th><th>Protein type</th> <th>Substrate</th><th>Substrate Type</th><th>Pairs</th>
+						{% for pathway in pathway17.object_list %}
+						<tr>
+							<td>{{pathway.pathway_name}}</td>
+							<td>{{pathway.protein_id}}</td>
+							<td>{{pathway.protein_type}}</td>
+							<td>{{pathway.substrate_id}}</td>
+							<td>{{pathway.substrate_type}}</td>
+							<td>{{pathway.pairs}}</td>
+						</tr>
+						{% endfor %}
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>	
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+				{% if pathway20 %}
+				<div class="bluebox">
+					<h1>IL9</h1><br/>
+					<p>Interleukin-9 belongs to a family of cytokines, which includes IL-2, IL-4, IL-7, IL-15 and IL-21. It signals through a receptor complex consisting of an IL-9 receptor (IL9R) and a common gamma chain that is shared between all members of this family. IL-9 activates Jak/STAT and MAPK signaling modules.</p><br/>
+				{% usemacro pagination pathway20 %}
+					<table border=1 width="680">
+
+		<tr><th>Pathway_name</th><th>Protein</th><th>Protein type</th> <th>Substrate</th><th>Substrate Type</th><th>Pairs</th>
+						{% for pathway in pathway20.object_list %}
+						<tr>
+							<td>{{pathway.pathway_name}}</td>
+							<td>{{pathway.protein_id}}</td>
+							<td>{{pathway.protein_type}}</td>
+							<td>{{pathway.substrate_id}}</td>
+							<td>{{pathway.substrate_type}}</td>
+							<td>{{pathway.pairs}}</td>
+						</tr>
+						{% endfor %}
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>	
+					</table><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+
+
+				{% if errors %}
+				<div class="bluebox">
+					<h1>Errors!</h1><br/>
+					<p>Your search could not be executed due to the following errors:</p><br/>
+					<p><i>{{errors}}</i></p><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				{% endif %}
+			</div>
+		</div>
+
+		{% include "footer.html" %}
+

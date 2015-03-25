@@ -1,0 +1,858 @@
+.contents A:link {
+	COLOR: #006666; TEXT-DECORATION: underline
+}
+.contents A:visited {
+	COLOR: #006666; TEXT-DECORATION: underline
+}
+.contents A:hover {
+	COLOR: #e33e3e; TEXT-DECORATION: none
+}
+.contents A:active {
+	COLOR: #e33e3e; TEXT-DECORATION: none
+}
+.contents .alink {
+	FONT-SIZE: 10pt; COLOR: #006666; TEXT-DECORATION: underline
+}
+.contents .ahoverlink {
+	FONT-SIZE: 10pt; COLOR: #e33e3e; TEXT-DECORATION: none
+}
+.contents .pipe {
+	COLOR: #006666
+}
+.contents A.greenbold:link {
+	FONT-WEIGHT: bold
+}
+.contents A.greenbold:visited {
+	FONT-WEIGHT: bold
+}
+.contents A.greenbold:hover {
+	FONT-WEIGHT: bold
+}
+.contents A.greenbold:active {
+	FONT-WEIGHT: bold
+}
+.contents .greenbold {
+	FONT-WEIGHT: bold; COLOR: #006666
+}
+.contents A.greenboldsmall2:link {
+	FONT-WEIGHT: bold
+}
+.contents A.greenboldsmall2:visited {
+	FONT-WEIGHT: bold
+}
+.contents A.greenboldsmall2:hover {
+	FONT-WEIGHT: bold
+}
+.contents A.greenboldsmall2:active {
+	FONT-WEIGHT: bold
+}
+.contents .greenboldsmall2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #006666
+}
+.contents A.nounderline:link {
+	TEXT-DECORATION: none
+}
+.contents A.nounderline:visited {
+	TEXT-DECORATION: none
+}
+.contents A.nounderline:hover {
+	TEXT-DECORATION: none
+}
+.contents A.nounderline:active {
+	TEXT-DECORATION: none
+}
+.tophelp {
+	FLOAT: right; MARGIN-BOTTOM: 0px; WIDTH: 300px; TEXT-ALIGN: right
+}
+.tophelp {
+	FONT-SIZE: 11px; COLOR: #777777; FONT-FAMILY: helvetica, Arial, verdana, sans-serif
+}
+.tophelp A {
+	FONT-SIZE: 11px; COLOR: #777777; FONT-FAMILY: helvetica, Arial, verdana, sans-serif
+}
+.linktotop {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 8pt; FLOAT: right; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 12px; COLOR: #999999; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.linktotop A:link {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 0px; BACKGROUND: url(http://www.ebi.ac.uk/inc/images/top_arrow.gif) no-repeat right top; PADDING-BOTTOM: 0px; COLOR: #999999; PADDING-TOP: 2px; HEIGHT: 14px; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.linktotop A:visited {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 0px; BACKGROUND: url(http://www.ebi.ac.uk/inc/images/top_arrow.gif) no-repeat right top; PADDING-BOTTOM: 0px; COLOR: #999999; PADDING-TOP: 2px; HEIGHT: 14px; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.linktotop A:hover {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 0px; BACKGROUND: url(http://www.ebi.ac.uk/inc/images/top_arrow.gif) no-repeat right top; PADDING-BOTTOM: 0px; COLOR: #e33e3e; PADDING-TOP: 2px; HEIGHT: 14px; TEXT-ALIGN: left; TEXT-DECORATION: underline
+}
+.linktotop A:active {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 0px; BACKGROUND: url(http://www.ebi.ac.uk/inc/images/top_arrow.gif) no-repeat right top; PADDING-BOTTOM: 0px; COLOR: #e33e3e; PADDING-TOP: 2px; HEIGHT: 14px; TEXT-ALIGN: left; TEXT-DECORATION: underline
+}
+.bigLetter {
+	CLEAR: both; FONT-WEIGHT: bold; FONT-SIZE: 50px; COLOR: #207a7a
+}
+A.itemLink {
+	WHITE-SPACE: nowrap; TEXT-DECORATION: none
+}
+A.itemLink:link {
+	WHITE-SPACE: nowrap; TEXT-DECORATION: none
+}
+A.itemLink:active {
+	WHITE-SPACE: nowrap; TEXT-DECORATION: none
+}
+A.itemLink:visited {
+	WHITE-SPACE: nowrap; TEXT-DECORATION: none
+}
+.inactiveLink {
+	COLOR: #006666
+}
+.linktotop2 {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FONT-SIZE: 8pt; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 12px; COLOR: #999999; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.linktotop2 {
+	POSITION: relative; TOP: 35px
+}
+.linktotop2 A:link {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 0px; BACKGROUND: url(http://www.ebi.ac.uk/inc/images/top_arrow.gif) no-repeat right top; PADDING-BOTTOM: 0px; COLOR: #999999; PADDING-TOP: 2px; HEIGHT: 14px; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.linktotop2 A:visited {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 0px; BACKGROUND: url(http://www.ebi.ac.uk/inc/images/top_arrow.gif) no-repeat right top; PADDING-BOTTOM: 0px; COLOR: #999999; PADDING-TOP: 2px; HEIGHT: 14px; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.linktotop2 A:hover {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 0px; BACKGROUND: url(http://www.ebi.ac.uk/inc/images/top_arrow.gif) no-repeat right top; PADDING-BOTTOM: 0px; COLOR: #e33e3e; PADDING-TOP: 2px; HEIGHT: 14px; TEXT-ALIGN: left; TEXT-DECORATION: underline
+}
+.linktotop2 A:active {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 0px; BACKGROUND: url(http://www.ebi.ac.uk/inc/images/top_arrow.gif) no-repeat right top; PADDING-BOTTOM: 0px; COLOR: #e33e3e; PADDING-TOP: 2px; HEIGHT: 14px; TEXT-ALIGN: left; TEXT-DECORATION: underline
+}
+DIV.publication {
+	FONT-SIZE: 9pt; LINE-HEIGHT: 18px
+}
+DIV.iconsspan {
+	FONT-SIZE: 9pt; LINE-HEIGHT: 18px
+}
+DIV.pubauthors {
+	FONT-SIZE: 9pt; COLOR: #000000; BACKGROUND-COLOR: #ffffff
+}
+DIV.pubtitle {
+	FONT-SIZE: 9pt; COLOR: #000000; BACKGROUND-COLOR: #ffffff
+}
+DIV.pubjournal {
+	FONT-SIZE: 9pt; COLOR: #000000; BACKGROUND-COLOR: #ffffff
+}
+DIV.pubauthors {
+	FONT-WEIGHT: normal; COLOR: #5e5e5e; FONT-STYLE: normal; BACKGROUND-COLOR: #ffffff
+}
+DIV.pubtitle {
+	FONT-WEIGHT: bold; COLOR: #006666; FONT-STYLE: normal; BACKGROUND-COLOR: #ffffff
+}
+DIV.pubjournal {
+	FONT-WEIGHT: normal; COLOR: #1f1f1f; FONT-STYLE: italic; BACKGROUND-COLOR: #ffffff
+}
+DIV.publication A.pubabstract:link {
+	FONT-SIZE: 9pt
+}
+DIV.publication A.pubabstract:visited {
+	FONT-SIZE: 9pt
+}
+DIV.publication A.pubabstract:hover {
+	FONT-SIZE: 9pt
+}
+DIV.publication A.pubabstract:active {
+	FONT-SIZE: 9pt
+}
+DIV.publication A.pubhtml:link {
+	FONT-SIZE: 9pt
+}
+DIV.publication A.pubdoi:link {
+	FONT-SIZE: 9pt
+}
+DIV.publication A.pubhtml:visited {
+	FONT-SIZE: 9pt
+}
+DIV.publication A.pubhtml:hover {
+	FONT-SIZE: 9pt
+}
+DIV.publication A.pubhtml:active {
+	FONT-SIZE: 9pt
+}
+DIV.publication A.pubdoi:link {
+	FONT-SIZE: 9pt
+}
+DIV.publication A.pubpdf:link {
+	FONT-SIZE: 9pt
+}
+DIV.publication A.pubdoi:visited {
+	FONT-SIZE: 9pt
+}
+DIV.publication A.pubpdf:visited {
+	FONT-SIZE: 9pt
+}
+DIV.publication A.pubdoi:hover {
+	FONT-SIZE: 9pt
+}
+DIV.publication A.pubpdf:hover {
+	FONT-SIZE: 9pt
+}
+DIV.publication A.pubpdf:active {
+	FONT-SIZE: 9pt
+}
+A.pubabstract {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/icon_abstract.gif) #ffffff no-repeat right top; COLOR: #006666
+}
+A.pubhtml {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/icon_html.gif) #ffffff no-repeat right top; COLOR: #006666
+}
+A.pubpdf {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/icon_pdf.gif) #ffffff no-repeat right top; COLOR: #006666
+}
+A.pubpdf {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/icon_pdf.gif) #ffffff no-repeat right top; COLOR: #006666
+}
+A.pubexcel {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/icon_excel.gif) #ffffff no-repeat right top; COLOR: #006666
+}
+A.pubdoi {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/icon_doi.gif) #ffffff no-repeat right top; COLOR: #006666
+}
+A.pubhelp {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/icon_help.gif) #ffffff no-repeat right top; COLOR: #006666
+}
+A.pubppt {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/icon_ppt.gif) #ffffff no-repeat right top; COLOR: #006666
+}
+A.pubword {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/icon_word.gif) #ffffff no-repeat right top; COLOR: #006666
+}
+A.pubzip {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/icon_zip.gif) #ffffff no-repeat right top; COLOR: #006666
+}
+A.icon_txt {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/icon_txt.gif) #ffffff no-repeat right top; COLOR: #006666
+}
+A.icon_flash {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/icon_flash.gif) #ffffff no-repeat right top; COLOR: #006666
+}
+A.icon_movie {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/icon_movie.gif) #ffffff no-repeat right top; COLOR: #006666
+}
+A.icon_xml {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/icon_xml.gif) #ffffff no-repeat right top; COLOR: #006666
+}
+A.icon_windows {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/icon_windows.gif) #ffffff no-repeat right top; COLOR: #006666
+}
+A.icon_linux {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/icon_linux.gif) #ffffff no-repeat right top; COLOR: #006666
+}
+A.icon_mac {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/icon_mac.gif) #ffffff no-repeat right top; COLOR: #006666
+}
+A.icon_java {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/icon_java.gif) #ffffff no-repeat right top; COLOR: #006666
+}
+A.icon_perl {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/icon_perl.gif) #ffffff no-repeat right top; COLOR: #006666
+}
+A.icon_news {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/icon_news.gif) #ffffff no-repeat right top; COLOR: #006666
+}
+A.icon_person {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/icon_person.gif) #ffffff no-repeat right top; COLOR: #006666
+}
+A.icon_email {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/icon_email.gif) #ffffff no-repeat right top; COLOR: #006666
+}
+A.icon_book {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/icon_book.gif) #ffffff no-repeat right top; COLOR: #006666
+}
+A.icon_music {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/icon_music.gif) #ffffff no-repeat right top; COLOR: #006666
+}
+A.icon_computer {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/icon_computer.gif) #ffffff no-repeat right top; COLOR: #006666
+}
+A.icon_phone {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/icon_phone.gif) #ffffff no-repeat right top; COLOR: #006666
+}
+A.icon_executable {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/icon_executable.gif) #ffffff no-repeat right top; COLOR: #006666
+}
+A.icon_download {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/icon_download.gif) #ffffff no-repeat right top; COLOR: #006666
+}
+A.icon_info {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/icon_info.gif) #ffffff no-repeat right top; COLOR: #006666
+}
+A.icon_print {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/icon_print.gif) #ffffff no-repeat right top; COLOR: #006666
+}
+A.icon_xls {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/icon_xls.gif) #ffffff no-repeat right top; COLOR: #006666
+}
+A.icon_postscript {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/icon_postscript.gif) #ffffff no-repeat right top; COLOR: #006666
+}
+A.icon_rtf {
+	BACKGROUND: url(http://www.ebi.ac.uk/inc/images/icon_rtf.gif) #ffffff no-repeat right top; COLOR: #006666
+}
+A.icon_postscript:visited {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.pubabstract:visited {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.pubhtml:visited {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.pubpdf:visited {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.pubpdf:visited {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.pubexcel:visited {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.pubhelp:visited {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.pubppt:visited {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.pubzip:visited {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_txt:visited {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_flash:visited {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_movie:visited {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_xml:visited {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_windows:visited {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_linux:visited {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_mac:visited {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_java:visited {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_perl:visited {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_news:visited {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_person:visited {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_email:visited {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_book:visited {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_music:visited {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_computer:visited {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_phone:visited {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_executable:visited {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_info:visited {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_print:visited {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_xls:visited {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.pubword:visited {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_download:visited {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.pubdoi:visited {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_rtf:visited {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_postscript:link {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.pubabstract:link {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.pubhtml:link {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.pubpdf:link {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.pubpdf:link {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.pubexcel:link {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.pubhelp:link {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.pubppt:link {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.pubzip:link {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_txt:link {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_flash:link {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_movie:link {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_xml:link {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_windows:link {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_linux:link {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_mac:link {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_java:link {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_perl:link {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_news:link {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_person:link {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_email:link {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_book:link {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_music:link {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_computer:link {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_phone:link {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_executable:link {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_info:link {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_print:link {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_xls:link {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.pubword:link {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_download:link {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.pubdoi:link {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_rtf:link {
+	FONT-SIZE: 9pt; COLOR: #006666; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.icon_postscript:hover {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.pubabstract:hover {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.pubhtml:hover {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.pubpdf:hover {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.pubpdf:hover {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.pubexcel:hover {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.pubhelp:hover {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.pubppt:hover {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.pubzip:hover {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_txt:hover {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_flash:hover {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_movie:hover {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_xml:hover {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_windows:hover {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_linux:hover {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_mac:hover {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_java:hover {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_perl:hover {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_news:hover {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_person:hover {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_email:hover {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_book:hover {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_music:hover {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_computer:hover {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_phone:hover {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_executable:hover {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_info:hover {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_print:hover {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_xls:hover {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.pubword:hover {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_download:hover {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.pubdoi:hover {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_rtf:hover {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_postscript:active {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.pubabstract:active {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.pubhtml:active {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.pubpdf:active {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.pubpdf:active {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.pubexcel:active {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.pubhelp:active {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.pubppt:active {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.pubzip:active {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_txt:active {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_flash:active {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_movie:active {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_xml:active {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_windows:active {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_linux:active {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_mac:active {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_java:active {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_perl:active {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_news:active {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_person:active {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_email:active {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_book:active {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_music:active {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_computer:active {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_phone:active {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_executable:active {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_info:active {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_print:active {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_xls:active {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.pubword:active A.icon_download:active {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.pubdoi:active {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_rtf:active {
+	FONT-SIZE: 9pt; COLOR: #e33e3e; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.icon_postscript {
+	PADDING-RIGHT: 18px; DISPLAY: inline; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+A.pubabstract {
+	PADDING-RIGHT: 18px; DISPLAY: inline; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+A.pubhtml {
+	PADDING-RIGHT: 18px; DISPLAY: inline; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+A.pubpdf {
+	PADDING-RIGHT: 18px; DISPLAY: inline; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+A.pubpdf {
+	PADDING-RIGHT: 18px; DISPLAY: inline; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+A.pubexcel {
+	PADDING-RIGHT: 18px; DISPLAY: inline; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+A.pubhelp {
+	PADDING-RIGHT: 18px; DISPLAY: inline; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+A.pubppt {
+	PADDING-RIGHT: 18px; DISPLAY: inline; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+A.pubzip {
+	PADDING-RIGHT: 18px; DISPLAY: inline; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+A.icon_txt {
+	PADDING-RIGHT: 18px; DISPLAY: inline; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+A.icon_flash {
+	PADDING-RIGHT: 18px; DISPLAY: inline; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+A.icon_movie {
+	PADDING-RIGHT: 18px; DISPLAY: inline; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+A.icon_xml {
+	PADDING-RIGHT: 18px; DISPLAY: inline; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+A.icon_windows {
+	PADDING-RIGHT: 18px; DISPLAY: inline; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+A.icon_linux {
+	PADDING-RIGHT: 18px; DISPLAY: inline; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+A.icon_mac {
+	PADDING-RIGHT: 18px; DISPLAY: inline; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+A.icon_java {
+	PADDING-RIGHT: 18px; DISPLAY: inline; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+A.icon_perl {
+	PADDING-RIGHT: 18px; DISPLAY: inline; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+A.icon_news {
+	PADDING-RIGHT: 18px; DISPLAY: inline; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+A.icon_person {
+	PADDING-RIGHT: 18px; DISPLAY: inline; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+A.icon_email {
+	PADDING-RIGHT: 18px; DISPLAY: inline; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+A.icon_book {
+	PADDING-RIGHT: 18px; DISPLAY: inline; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+A.icon_music {
+	PADDING-RIGHT: 18px; DISPLAY: inline; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+A.icon_computer {
+	PADDING-RIGHT: 18px; DISPLAY: inline; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+A.icon_phone {
+	PADDING-RIGHT: 18px; DISPLAY: inline; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+A.icon_executable {
+	PADDING-RIGHT: 18px; DISPLAY: inline; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+A.icon_info {
+	PADDING-RIGHT: 18px; DISPLAY: inline; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+A.icon_print {
+	PADDING-RIGHT: 18px; DISPLAY: inline; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+A.icon_xls {
+	PADDING-RIGHT: 18px; DISPLAY: inline; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+A.icon_download {
+	PADDING-RIGHT: 18px; DISPLAY: inline; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+A.pubword {
+	PADDING-RIGHT: 18px; DISPLAY: inline; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+A.pubdoi {
+	PADDING-RIGHT: 18px; DISPLAY: inline; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+A.icon_rtf {
+	PADDING-RIGHT: 18px; DISPLAY: inline; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+DIV.pubauthors {
+	
+}
+DIV.pubtitle {
+	
+}
+DIV.pubjournal {
+	
+}
+.contents A.small2:link {
+	COLOR: #ffffff
+}
+.contents A.small2:active {
+	COLOR: #ffffff
+}
+.contents A.small2:hover {
+	COLOR: #ffffff
+}
+.contents A.small2:visited {
+	COLOR: #ffffff
+}
+.contents A.offwhite:link {
+	COLOR: #ffffff
+}
+.contents A.offwhite:active {
+	COLOR: #ffffff
+}
+.contents A.offwhite:hover {
+	COLOR: #ffffff
+}
+.contents A.offwhite:visited {
+	COLOR: #ffffff
+}
+.icon_link {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN-BOTTOM: 3px; VERTICAL-ALIGN: top; BORDER-RIGHT-WIDTH: 0px
+}
+.redbold_small {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #e33e3e
+}
+.red_bold {
+	FONT-WEIGHT: bold; COLOR: #e33e3e
+}
+A.red_bold:link {
+	FONT-WEIGHT: bold; COLOR: #e33e3e
+}
+A.red_bold:visited {
+	FONT-WEIGHT: bold; COLOR: #e33e3e
+}
+A.red_bold:active {
+	FONT-WEIGHT: bold; COLOR: #e33e3e
+}
+A.red_bold:hover {
+	FONT-WEIGHT: bold; COLOR: #e33e3e
+}
+.red_bold_small {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #e33e3e
+}
+A.red_bold_small:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #e33e3e
+}
+A.red_bold_small:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #e33e3e
+}
+A.red_bold_small:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #e33e3e
+}
+A.red_bold_small:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #e33e3e
+}
+.green_bold {
+	FONT-WEIGHT: bold; COLOR: #73b360
+}

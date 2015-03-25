@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SQL Results</title>
+	</head>
+	<body>
+		{% if not error  %}
+		<table border="1">
+			{% for result in results%}
+			<tr>
+				{% for string in result%}
+				<td>{{ string }}</td>
+				{% endfor %}
+			</tr>
+			{% endfor %}
+		</table>
+		{% else %}
+		<font size="5" color="red">MySQL returned the following error:</font><br/>{{error}}
+		{% endif %}
+	</body>
+</html>

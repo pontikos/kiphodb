@@ -1,0 +1,172 @@
+TF105902	UCKL1	uridine-cytidine kinase 1-like 1	URKL1; uridine kinase-like 1; FLJ20517;	21	66		0000-00-00	2005-08-22	curated	Proposed to be a novel uridine kinas/uracil phosphoribosyltransferase by homology studies [PMID: 12199906].	ENSDART00000007088_BRARE and ENSDART00000039518_BRARE have been removed from Ensembl (v32) and therefore deleted from the tree.
+
+TF105403	AKAP3/4	A kinase (PRKA) anchor protein 3/4		6	42		0000-00-00	2005-06-06	curated		
+
+TF101104	GSK3	glycogen synthase kinase 3		47	131		0000-00-00	2005-07-26	putative	GSK3B phosphorylates CCND1 at T286, which leads to its ubiquintination.	
+
+TF102004	SGK/PRKC/AKT	Protein kinase A/C	Serine/threonine-protein kinase; protein kinase C	135	381		0000-00-00	2005-04-04	putative	AKT1 phosphorylate BAD.	So complex a family. Not sure about the outgroup. Better find some references and re-curate this family later.
+
+TF105404	AKAP5	A kinase (PRKA) anchor protein 5		4	18		0000-00-00	2005-06-06	curated		
+
+TF102005	PKN	protein kinase N		27	105		0000-00-00	2005-04-04	curated		
+
+TF105405	AKAP6	A kinase (PRKA) anchor protein 6		5	27		0000-00-00	2005-06-06	curated		
+
+TF106505	MLTK	Mitogen-activated protein kinase kinase kinase MLT		25	40	0	0000-00-00	2007-03-05			I am not sure whether this family should be split.
+
+TF105406	AKAP7	A kinase (PRKA) anchor protein 7		8	13		0000-00-00	2005-06-06	putative		Might be wrong with the root.
+
+TF106506	RIPK1-4	receptor (TNFRSF)-interacting serine-threonine kinase 1-4		69	132	0	0000-00-00	2007-03-05			
+
+TF105407	AKAP8	A kinase (PRKA) anchor protein 8		13	29		0000-00-00	2005-06-06	curated		The topology is right, yet ZNF326_MOUSE should belong to this family.
+
+TF105408	AKAP9	A kinase (PRKA) anchor protein 9		5	27		0000-00-00	2005-06-06	curated		
+
+TF106508	PCTK/PFTK	PCTAIRE/PFTAIRE protein kinase		93	183	0	0000-00-00	2007-03-05			Strangely enough, this family is closely related to CDC2 family.
+
+TF105409	AKAP10	A kinase (PRKA) anchor protein 10		11	47		0000-00-00	2005-06-06	curated		
+
+TF101111	CDKN1	Cyclin-dependent kinase inhibitor 1	p21; CDK-interacting protein 1; MDA-6; Melanoma differentiation-associated protein 6; Cyclin-dependent kinase inhibitor 1A; CDKN1A; CAP20, CDKN1, CIP1; PIC1; SDI1; WAF1; Cyclin-dependent kinase inhibitor 1B; CDKN1B; p27; KIP1; Cyclin-dependent kinase inhi	8	13		0000-00-00	2005-08-05	curated	CDKN1 proteins bind to cyclin-CDK complexes. CDKN1 proteins can inhibit or help assemble/stabilize cyclin-CDK complexes. May also act as apoptosis inhibitors, transcriptionnal cofactors and regulators of cell motility [PMID: 12559756]	Rearranged tree to follow species tree. Added fly and worm genes. End of branch duplications in dog and pig may represent duplicate entries in Swissprot not duplicate genes.
+
+TF101511	EIF2AK3	Eukaryotic translation initiation factor 2 alpha kinase 3		13	49		0000-00-00	2005-03-31	curated		
+
+TF105411	AKAP12	A kinase (PRKA) anchor protein 12		4	22		0000-00-00	2005-06-06	curated		
+
+TF101512	EIF2AK4	Eukaryotic translation initiation factor 2 alpha kinase 4		11	49		0000-00-00	2005-03-31	curated		
+
+TF105112	MAP3K1	mitogen-activated protein kinase kinase kinase 1		6	32		0000-00-00	2005-04-21	curated	MAP3K, or MEK kinase, is a serine/threonine kinase that occupies a pivotal role in a network of phosphorylating enzymes integrating cellular responses to a number of mitogenic and metabolic stimuli, including insulin (MIM 176730) and many growth factors.[supplied by OMIM]	
+
+TF105113	MAP3K2/3	mitogen-activated protein kinase kinase kinase 2/3		18	34		0000-00-00	2005-04-21	curated		Remove two chick duplications
+
+TF105114	MAP3K4	mitogen-activated protein kinase kinase kinase 4		7	46		0000-00-00	2005-04-21	curated	The central core of each mitogen-activated protein kinase (MAPK) pathway is a conserved cascade of 3 protein kinases: an activated MAPK kinase kinase (MAPKKK) phosphorylates and activates a specific MAPK kinase (MAPKK), which then activates a specific MAPK. While the ERK MAPKs are activated by mitogenic stimulation, the CSBP2 and JNK MAPKs are activated by environmental stresses such as osmotic shock, UV irradiation, wound stress, and inflammatory factors. This gene encodes a MAPKKK, the MEKK4 protein, also called MTK1. This protein contains a protein kinase catalytic domain at the C terminus. The N-terminal nonkinase domain may contain a regulatory domain. Expression of MEKK4 in mammalian cells activated the CSBP2 and JNK MAPK pathways, but not the ERK pathway. In vitro kinase studies indicated that recombinant MEKK4 can specifically phosphorylate and activate PRKMK6 and SERK1, MAPKKs that activate CSBP2 and JNK, respectively but cannot phosphorylate PRKMK1, an MAPKK that activates ERKs. MEKK4 is a major mediator of environmental stresses that activate the CSBP2 MAPK pathway, and a minor mediator of the JNK pathway. Two alternatively spliced transcripts encoding distinct isoforms have been described.	
+
+TF105115	MAP3K5/6/15	mitogen-activated protein kinase kinase kinase 5/6/15		24	111		0000-00-00	2005-04-21	curated		
+
+TF101022	CDK4/6	Cyclin-dependent kinase 4/6		20	84		0000-00-00	2006-02-10	raw	Both CDK4 and CDK6 combine with cyclin D.	
+
+TF105322	STK11	serine/threonine kinase 11 (Peutz-Jeghers syndrome)		12	45		0000-00-00	2005-05-19	curated		
+
+TF101023	CDK5	Cyclin-dependent kinase 5	EC 2.7.1.37	12	51		0000-00-00	2006-02-10	raw		I removed two CIOIN genes. They both look weird and interfere with tree-building.
+
+TF105423	PDPK1	3-phosphoinositide dependent protein kinase-1		22	69		0000-00-00	2005-06-06	putative		
+
+TF101024	CDK7	Cyclin-dependent kinase 7		20	60		0000-00-00	2006-02-10	raw		
+
+TF101025	CDC2L6/CDK8	Cyclin-dependent kinase 8		22	86		0000-00-00	2006-02-10	raw		CDC2L6 is CDK8-like. One frog gene was mis-placed. I corrected it.
+
+TF101026	CDK10	Cyclin-dependent kinase 10		32	78		0000-00-00	2006-10-03	raw		[lh3] One frog gene should belong to TF101035. I removed it. [alc] Deleted Ciona gene ENSCING00000000488 from the seed tree, as it does not have a significant HMMER match to this family, but rather belongs to family TF101035 (CDC2L1). [lh3] Recurate.
+
+TF105426	ENSG00000153820	sphingosine kinase type 1-interacting protein		6	30		0000-00-00	2005-06-06	curated		
+
+TF101032	CDKL5	Cyclin-dependent kinase-like 5	EC 2.7.1.37; STK9	8	34		0000-00-00	2006-02-10	raw		
+
+TF102032	PIK3C3	phosphoinositide-3-kinase, class III		18	57		0000-00-00	2006-03-02	raw		This family might belong to PIK3C/PIK3C2.
+
+TF105332	STK19	serine/threonine kinase 19		7	29		0000-00-00	2005-05-19	curated		
+
+TF102033	PIK3R1/2/3	phosphoinositide-3-kinase, regulatory subunit 1/2/3		29	114		0000-00-00	2005-05-22	curated		
+
+TF105333	STK22	serine/threonine kinase 22		66	132		0000-00-00	2005-05-19	putative		Hard to place DROME genes.
+
+TF102034	PIK3R4	phosphoinositide-3-kinase, regulatory subunit 4, p150		15	56		0000-00-00	2005-05-22	curated		
+
+TF105334	STK23/SRPK	serine/threonine kinase 23		43	158		0000-00-00	2005-05-19	putative		
+
+TF102035	PIK3R5	phosphoinositide-3-kinase, regulatory subunit 5, p101		14	56		0000-00-00	2005-05-22	curated		
+
+TF105135	MAP2K3/4/6/7	mitogen-activated protein kinase kinase 3/4/6/7		62	106		0000-00-00	2006-02-21	raw		Separated from MAP2K in TreeFam-1.x. Two frog genes are deleted because I believe they are mis-annotated. Several nodes are putative.
+
+TF105335	STK31	serine/threonine kinase 31		5	27		0000-00-00	2005-05-19	curated		
+
+TF101036	CDK5R	Cyclin-dependent kinase 5 activator	CDK5 activator; p39; p23; p35; p25	20	63		0000-00-00	2006-02-13	raw		It is queer that CDK5R1_MOUSE and CDK5R1_RAT are absent in TreeFam-2.0, but they are present in 1.x.
+
+TF105336	STK35	serine/threonine kinase 35		19	71		0000-00-00	2005-05-19	curated		
+
+TF101037	CDK2AP1	Cyclin-dependent kinase 2-associated protein 1	DOC-1	18	96		0000-00-00	2006-02-13	raw		One DROME gene was removed. Topology around CDK2AP1_MOUSE has been changed according to dM tree, which I believe is more reliable in this area. The two frog genes look weird, but I have no evidence to modify.
+
+TF105137	MAP2K1/2	mitogen-activated protein kinase kinase 1/2		30	95		0000-00-00	2006-02-21	raw		Separated from TF105111 in TreeFam 1.x. Two chimpanzee genes are removed. They should be concatenated.
+
+TF105337	STK38	serine/threonine kinase 38		52	153		0000-00-00	2005-05-19	curated		
+
+TF101038	CDKN1	Cyclin-dependent kinase inhibitor 1	p21	7	53		0000-00-00	2006-02-13	raw		
+
+TF105138	MAP4K4	mitogen-activated protein kinase kinase kinase kinase subfamily		25	136		0000-00-00	2006-02-21	raw		Contain several kinases. Remove a chick gene.
+
+TF101039	CDK9	Cyclin-dependent kinase 9		17	59		0000-00-00	2006-02-13	raw		Hard to decide the outgroup.
+
+TF105339	STK39/OSR1	serine/threonine kinase 39		34	100		0000-00-00	2005-05-19	curated		Again, outgroup is hard to decide, as it always happens to the STK superfamily.
+
+TF101040	CDKN3	cyclin-dependent kinase inhibitor 3 (CDK2-associated dual specificity phosphatase)		7	32		0000-00-00	2006-02-13	raw		
+
+TF105340	STK36	serine/threonine kinase 36 (fused homolog, Drosophila)		6	28		0000-00-00	2005-07-09	curated		
+
+TF101041	CLK	CDC-like kinase		42	141		0000-00-00	2006-02-13	raw		A group of worm genes will appear in the full tree, but they do not seem to belong to any family.
+
+TF102041	PIK4CA	phosphatidylinositol 4-kinase, catalytic, alpha polypeptide		13	63		0000-00-00	2005-05-22	curated		
+
+TF101142	CKS	Cyclin-dependent kinases regulatory subunit	CDC28 protein kinase regulatory subunit; ckshs1; CKS1; CKS2; CKS1B; PNAS-16; PNAS-143	33	103		0000-00-00	2005-08-15	curated	CKS proteins associate with CDKs and regulate their function by modulating substrate phosphorylation. CKS1 is also an important cofactor in the ubiquitylation of CDKN1B by SCFskp2. [PMID: 11516665]	Removed ENSRNOT00000009504 (ENSRNOG00000007248), ENSRNOT00000013591 (ENSRNOG00000010251), ENSRNOT00000021602 (ENSRNOG00000024516), F2-CKS2_MOUSE (ENSMUSG00000059505) because not in Ensembl anymore Not sure which subfamily the worm and fly genes belong to
+
+TF102042	PIK4CB	phosphatidylinositol 4-kinase, catalytic, beta polypeptide		13	57		0000-00-00	2005-05-22	curated		
+
+TF105352	PAK4/6/7	p21 (CDKN1A)-activated kinase 4/6/7		27	110		0000-00-00	2005-05-19	curated		This tree is correct, but several members of STK family will appear in the full tree. Be careful. Outgroup is hard to decide.
+
+TF106465	TRK	Trk receptor tyrosine kinases	ROR2; receptor tyrosine kinase-like orphan receptor 2; NTRKR2; BDB; BDB1; Tyrosine-protein kinase transmembrane receptor ROR2 precursor; Neurotrophic tyrosine kinase, receptor-related 2; ROR1; receptor tyrosine kinase-like orphan receptor 1; NTRKR1; Tyros	49	210		0000-00-00	2006-09-20	raw	Neurotrophins are growth factors implicated in the development and maintenance of different neuronal populations in the nervous system. Trk receptors are a family of three receptor tyrosine kinases, each of which can be activated by one or more of four neurotrophins (NTs). Neurotrophins bind to Trk receptor tyrosine kinases to activate several different signaling pathways that mediate various biological functions. Neurotrophin signaling through these receptors regulates cell survival, proliferation, the fate of neural precursors, axon and dendrite growth and patterning, and the expression and activity of functionally important proteins, such as ion channels and neurotransmitter receptors. In the adult nervous system, the Trk receptors regulate synaptic strength and plasticity. Trk receptor activation has been well-studied and triggers the well-characterized Ras/Rap-MAPK, PI3K-Akt, and PLCgamma-PKC cascades [PMID:12676795][PMID:16699811].	[alc] The TRK TreeFam family belongs to the Tyr protein kinase protein superfamily, which has members in plants and fungi. We could perhaps use a plant/fungal Tyr protein kinase gene as an outgroup to this TreeFam family; however, the diverse domain architectures found in this family may make it difficult to identify a good outgroup.
+
+TF106468	MAP2K5	mitogen-activated protein kinase kinase 5	MEK5; MAPKK5; HsT17454; PRKMK5; MAP kinase kinase MEK5c	9	36		0000-00-00	2006-08-23	raw	One of the components of a "mitogen-activated protein kinase (MAPK)" type of signal transduction pathway.	Merged with TF105136 which contained the same human gene and the mouse gene missing from here. Then deleted worm and yeast genes as they fall outside the plant outgroup. No Drosophila gene found (best hmmer match is Dsor1, already in family TF105137).
+
+TF105770	RBKS	ribokinase	5230400M11Rik; RBSK;	17	75		0000-00-00	2005-08-08	curated	Phosphorylates ribose at O5, requiring ATP and magnesium [PMID: 11786021].	ENSDART00000010677_BRARE has been removed from Ensembl v32 and therefore from the tree
+
+TF106473	VRK	vaccinia related kinase	Vaccinia related kinase 1; Serine/threonine-protein kinase VRK1; VRK1; Vaccinia related kinase 2; Serine/threonine-protein kinase VRK2; VRK2; Vaccinia related kinase 3; VRK3; Serine/threonine-protein kinase VRK3	28	115		0000-00-00	2006-08-23	raw	VRKs are protein kinases with sequence homology to the vaccinia virus B1 protein kinase. Human and mouse VRK1 can complement a B1-defective virus [PMID:14747564]	
+
+TF106374	NME5/6/7	non-metastatic cells 5/6/7, protein expressed in (nucleoside-diphosphate kinase)	NME6; NM23-H6; IPIA-ALPHA; Nucleoside diphosphate kinase 6; NDK 6; NDP kinase 6; ; nm23-H6; Inhibitor of p53-induced apoptosis-alpha; IPIA-alpha; non-metastatic cells 6, protein expressed in (nucleoside-diphosphate kinase); NME6; NME5; non-metastatic cell	49	123		0000-00-00	2006-09-07	raw	The thioredoxin system, composed of thioredoxin and thioredoxin reductase, has emerged as a key player in cellular redox-mediated reactions. The mammalian testis-specific thioredoxin system comprises three thioredoxins exclusively expressed in spermatids, (including TXNDC3, which is in this family; also called SPTRX2), and an additional thioredoxin highly expressed in testis called TXNDC6 (also called TXL2) [PMID:14713334]. The TXNDC3 and TXNDC6 proteins in this family have an N-terminal thioredoxin domain and a C-terminal NDP kinase domain. In contrast, there are also NME7 proteins in this family, which have an NDP kinase domain, but no thioredoxin domain. Nucleoside diphosphate kinases are enzymes required for the synthesis of nucleoside triphosphates other than ATP [PMID:11768308].	[lh3] TXNDC3 is also called NME8. [alc] Merged the TreeFam families TF106374 and TF106372, as TF106372 didn"t have a plant/fungal outgroup. The genes in the two families all have a nucleoside diphosphate kinase domain, although many genes in family TF106374 had a nucleoside diphosphate kinase domain and a Dpy-30 domain, while many genes in the TF106372 family had a thioredoxin Pfam domain and a nucleoside diphosphate kinase Pfam domain. When the two families are merged, the new tree is based on the nucleoside diphosphate kinase domain, and the outgroup sequences form a clade with 100% bootstrap support.
+
+TF101184	NEK2	NIMA (never in mitosis gene a)-related kinase 2	NEK2; NLK1; NimA-related protein kinase 2; NimA-like protein kinase 1; HSPK 21; Serine/threonine-protein kinase Nek2	11	45		0000-00-00	2005-10-07	curated	Nek2 is a serine/threonine protein kinase that localizes to the centrosome. It regulates centrosome separation and mitotic spindle formation. It is predicted to also be involved in other aspects of cell division. [PMID: 16084011]	
+
+TF101089	PLK1-3	polo-like kinase 1-3		36	136		0000-00-00	2005-07-26	curated	PLK1 inactivates WEE1 and MYT1, and activates CDC25C, both by phosphorylation. PLK1 also phosphorylates FBXO5, leading to FBXO5 ubiqintination, and indirectly stablizing APC complex.	
+
+TF101090	PLK4	polo-like kinase 4		11	49		0000-00-00	2005-07-26	curated	See family PLK1-3.	
+
+TF105097	MAPK1/3	mitogen-activated protein kinase 1/3		67	125		0000-00-00	2006-02-20	raw	The protein encoded by this gene is a member of the MAP kinase family. MAP kinases, also known as extracellular signal-regulated kinases (ERKs), act as an integration point for multiple biochemical signals, and are involved in a wide variety of cellular processes such as proliferation, differentiation, transcription regulation and development. The activation of this kinase requires its phosphorylation by upstream kinases. Upon activation, this kinase translocates to the nucleus of the stimulated cells, where it phosphorylates nuclear targets. Two alternatively spliced transcript variants encoding the same protein, but differing in the UTRs, have been reported for this gene.	mpk-2_CAEEL probably belongs to another family where no vertebrate genes are present. I leave it there anyway.
+
+TF105098	MAPK4/6	mitogen-activated protein kinase 4/6	Erk3-related; Erk4; Extracellular signal-regulated kinase 4; ERK-4; MAP kinase isoform p63; p63-MAPK; PRKM4; ERK3; p97MAPK; HsT17250; Extracellular signal-regulated kinase 3; ERK-3; MAP kinase isoform p97; p97-MAPK; PRKM6	16	62		0000-00-00	2006-02-21	raw	MAP kinases are serine/threonine kinases involved in transduction of extracellular signals, generally as the downstream elements of a cascade of kinases.	Removed ENSDART00000048141 (not in Ensembl anymore). <LH3> remove a PANTR gene. It looks weird.
+
+TF105117	MAP3K8	mitogen-activated protein kinase kinase kinase 8		7	29		0000-00-00	2005-04-21	curated	This gene was identified by its oncogenic transforming activity in cells. The encoded protein is a member of the serine/threonine protein kinase family. This kinase can activate both the MAP kinase and JNK kinase pathways. This kinase was shown to activate IkappaB kinases, and thus induce the nuclear production of NF-kappaB. This kinase was also found to promote the production of TNF-alpha and IL-2 during T lymphocyte activation. Studies of a similar gene in rat suggested the direct involvement of this kinase in the proteolysis of NF-kappaB1,p105 (NFKB1). This gene may also utilize a downstream in-frame translation start codon, and thus produce an isoform containing a shorter N-terminus. The shorter isoform has been shown to display weaker transforming activity.	
+
+TF105417	HIPK	homeodomain interacting protein kinase		31	134		0000-00-00	2006-10-04	raw		[lh3] Root is right. But outgroup sequences are not showed. [alc] Deleted extra copy of zebrafish gene ENSDARG00000021482 from the seed tree. [lh3] Recurate based on the clean tree and previous curation. Notable a long branch.
+
+TF105118	MAP3K9/10/11	mitogen-activated protein kinase kinase kinase 9/10/11		22	117		0000-00-00	2005-04-21	putative		I kave no idea whether 12/13 should be included.
+
+TF105119	MAP3K12/13	mitogen-activated protein kinase kinase kinase 12/13		15	82		0000-00-00	2005-04-21	putative		Again, I do not know whether ENSG00000091436 should be included. I have deleted for so many times.
+
+TF105120	MAP3K14	mitogen-activated protein kinase kinase kinase 14		7	31		0000-00-00	2005-04-21	curated	This gene encodes mitogen-activated protein kinase kinase kinase 14, which is a serine/threonine protein-kinase. This kinase binds to TRAF2 and stimulates NF-kappaB activity. It shares sequence similarity with several other MAPKK kinases. It participates in an NF-kappaB-inducing signalling cascade common to receptors of the tumour-necrosis/nerve-growth factor (TNF/NGF) family and to the interleukin-1 type-I receptor.	
+
+TF105420	TTK	TTK protein kinase		14	51		0000-00-00	2005-06-06	curated		
+
+TF101021	CDK1/2/3	Cyclin-dependent kinase 1/2/3	CDC2; EC 2.7.1.37; p34	38	190		0000-00-00	2006-02-10	raw	CDC2 (CDK1) combines with CCNA/CCNB; CDK2 with CCNA/CCNE.	Now I believe this is actually two families. I will separate it some day.
+
+TF105121	MAP4K1/2/3/5	mitogen-activated protein kinase kinase kinase kinase 1/2/3/5		32	131		0000-00-00	2006-02-21	raw		Cannot find MAP4K4.
+
+TF105351	PAK1-3	p21 (CDKN1A)-activated kinase 1-3		40	144		0000-00-00	2005-05-19	curated		Remove several short transcripts.
+
+TF106472	NEK	NimA-related protein kinase		55	225		0000-00-00	2006-10-04	raw		Removed Q5RII6_BRARE (spurious alignment).
+
+TF105116	MAP3K7	mitogen-activated protein kinase kinase kinase 7		15	62		0000-00-00	2005-04-21	curated	The protein encoded by this gene is a member of the serine/threonine protein kinase family. This kinase mediates the signaling transduction induced by TGF beta and morphogenetic protein (BMP), and controls a variety of cell functions including transcription regulation and apoptosis. In response to IL-1, this protein forms a kinase complex including TRAF6, MAP3K7P1/TAB1 and MAP3K7P2/TAB2; this complex is required for the activation of nuclear factor kappa B. This kinase can also activate MAPK8/JNK, MAP2K4/MKK4, and thus plays a role in the cell response to environmental stresses. Four alternatively spliced transcript variants encoding distinct isoforms have been reported.	Two human genes are removed for fear that they might be wrongly included in full sequences.
+
+TF101031	CDKL1/2/3	Cyclin-dependent kinase-like 1/2/3		26	126		0000-00-00	2006-02-10	raw		One mouse and dog gene look strange, yet I have no evidence to remove them.
+
+TF102031	PIK3C	phosphoinositide-3-kinase, class I/II		56	249		0000-00-00	2006-03-02	raw		Actually, PIK3C3 might belong to this family.
+
+TF105331	AURK	aurora kinase	AURKA; AURKB; AURKC; AIM-1; Aurora/IPL1-related kinase 2; Aurora-related kinase 2; STK-1; Aurora-B; Aurora/Ipl1/Eg2 protein 1; Aurora-C; Serine/threonine kinase 15; Aurora/IPL1-related kinase 1; Aurora-related kinase 1; hARK1; Aurora-A; Breast-tumor-amp	48	51		0000-00-00	2005-07-14	curated	Aurora kinases control many processes during cell division. Aurora A kinases are involved in the centrosome cycle and mitotic spindle formation. Aurora B kinases are involved in DNA condensation, chromosome bi-orientation, kinetochore-microtubule attachment and cytokinesis. [PMID: 14625535]	Tree of aurora A and B kinase domains using maximum parsimony in [PMID: 14625535] The B/C split probably occured after the Xenopus branch as the DNA sequence for the 4 Xenopus Aurora B genes is as similar to AURKB as it is to AURKC.
+
+TF105831	RIOK1	RIO kinase 1 (yeast)	AD034; FLJ30006; bA288G3.1; RIO kinase 1 isoform 1; AD034 protein; Serine/threonine-protein kinase RIO1;	29	108		0000-00-00	2005-08-12	curated	A novel type of protein kinase with low sequence similarity to conventional protein kinases [PMID: 12135737].	Root with ARATH decreases the likelihood of the tree, however the alignment supports modification therefore it is retained.
+
+TF101087	PKMYT1	protein kinase, membrane associated tyrosine/threonine 1	MYT1	13	51		0000-00-00	2005-07-18	curated	PKMYT1, or MYT1, inactivates CDK/cyclin complex by phosphorylation. CDC25 works in a revered way.	Closely related to WEE1, another inactivator of CDK/cyclin complex.
+
+TF105099	MAPK7	mitogen-activated protein kinase 7	BMK1; ERK5; PRKM7; Extracellular signal-regulated kinase 5; ERK-5; ERK4; BMK1 kinase	8	28		0000-00-00	2005-10-12	curated	The protein encoded by this gene is a member of the MAP kinase family. MAP kinases act as an integration point for multiple biochemical signals, and are involved in a wide variety of cellular processes such as proliferation, differentiation, transcription regulation and development. This kinase is specifically activated by mitogen-activated protein kinase kinase 5 (MAP2K5/MEK5). It is involved in the downstream signaling processes of various receptor molecules including receptor type kinases, and G protein-coupled receptors. In response to extracelluar signals, this kinase translocates to cell nucleus, where it regulates gene expression by phosphorylating, and activating different transcription factors. Four alternatively spliced transcript variants of this gene encoding two distinct isoforms have been reported.	Cut tree at yeast outgroup. Removed ENSDART00000048141 (not in Ensembl anymore)
+
+TF105100	MAPK8-14	mitogen-activated protein kinase 8-14		73	294		0000-00-00	2006-02-21	raw		I delete EAA09792 and a TETNG gene. I think some of their exons are wrongly annotated, which interfere with tree building. I do not know how to place p38c_DROME and pmk-3_CAEEL, and so I do not do any modification around them.
+
+TF105101	MAPK15	mitogen-activated protein kinase 15		11	39		0000-00-00	2005-04-21	curated		
+
+TF105401	AKAP1	A kinase (PRKA) anchor protein 1		10	51		0000-00-00	2005-06-06	curated		
+

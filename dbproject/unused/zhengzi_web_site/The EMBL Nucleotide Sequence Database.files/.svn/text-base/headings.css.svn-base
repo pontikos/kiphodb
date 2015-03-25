@@ -1,0 +1,75 @@
+.text {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #000000
+}
+DIV.right_page H1 A {
+	FONT-SIZE: 11pt; COLOR: #006666
+}
+DIV.right_page H1 A:link {
+	FONT-SIZE: 11pt; COLOR: #006666
+}
+DIV.right_page H1 A:active {
+	FONT-SIZE: 11pt; COLOR: #006666
+}
+DIV.right_page H1 A:hover {
+	FONT-SIZE: 11pt; COLOR: #006666
+}
+DIV.right_page H1 A:visited {
+	FONT-SIZE: 11pt; COLOR: #006666
+}
+.contents H1 {
+	BORDER-RIGHT: #bfbfbf 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #bfbfbf 1px solid; PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 11pt; BACKGROUND: #eef5f5; PADDING-BOTTOM: 4px; MARGIN: 5px 0px 10px; BORDER-LEFT: #bfbfbf 1px solid; COLOR: #006666; PADDING-TOP: 4px; BORDER-BOTTOM: #bfbfbf 1px solid
+}
+.contents .h1_left {
+	PADDING-RIGHT: 0px; BORDER-TOP: #bfbfbf 1px solid; DISPLAY: inline; PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 11pt; BACKGROUND: #eef5f5; FLOAT: left; PADDING-BOTTOM: 4px; MARGIN: 5px 0px 10px; BORDER-LEFT: #bfbfbf 1px solid; COLOR: #006666; PADDING-TOP: 4px; BORDER-BOTTOM: #bfbfbf 1px solid; BORDER-RIGHT-WIDTH: 0px
+}
+.contents .h1_right {
+	CLEAR: right; BORDER-RIGHT: #bfbfbf 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #bfbfbf 1px solid; DISPLAY: inline; PADDING-LEFT: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 11pt; BACKGROUND: #eef5f5; FLOAT: left; PADDING-BOTTOM: 4px; MARGIN: 5px 0px 10px; COLOR: #006666; PADDING-TOP: 4px; BORDER-BOTTOM: #bfbfbf 1px solid
+}
+.contents H2 {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 10pt; BACKGROUND: #ffffff; PADDING-BOTTOM: 0px; MARGIN: 25px 0px 5px; COLOR: #1f1f1f; PADDING-TOP: 0px; BORDER-BOTTOM: #d9dadc 1px solid; BORDER-RIGHT-WIDTH: 0px
+}
+H2.navheading {
+	BORDER-TOP-WIDTH: 0px; CLEAR: both; PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 8pt; FLOAT: right; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 2px; MARGIN: 0px; WIDTH: auto; PADDING-TOP: 2px; TEXT-ALIGN: right; BORDER-RIGHT-WIDTH: 0px
+}
+DIV.navheading {
+	BORDER-TOP-WIDTH: 0px; CLEAR: both; PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 8pt; FLOAT: right; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 2px; MARGIN: 0px; WIDTH: auto; PADDING-TOP: 2px; TEXT-ALIGN: right; BORDER-RIGHT-WIDTH: 0px
+}
+.contents H3 {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 9pt; BACKGROUND: #ffffff; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 5px 0px 0px; COLOR: #006666; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.contents H4 {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 9pt; BACKGROUND: #ffffff; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 5px 0px 0px; COLOR: #1f1f1f; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.contents H5 {
+	DISPLAY: inline; FONT-WEIGHT: normal; FONT-SIZE: 9pt
+}
+.contents H6 {
+	DISPLAY: inline; FONT-WEIGHT: bold; FONT-SIZE: 8pt
+}
+.contents h7 {
+	DISPLAY: inline; FONT-WEIGHT: normal; FONT-SIZE: 8pt
+}
+P {
+	CLEAR: left; FONT-SIZE: 12px; MARGIN-BOTTOM: 0px
+}
+.contentsarea {
+	FONT-SIZE: 12px
+}
+P.textjustify {
+	CLEAR: left; FONT-SIZE: 12px; MARGIN-BOTTOM: 0px; TEXT-ALIGN: justify
+}
+.red {
+	COLOR: #e33e3e
+}
+.redstartext {
+	PADDING-LEFT: 12px; BACKGROUND: url(http://www.ebi.ac.uk/inc/images/redstar.gif) no-repeat; TEXT-ALIGN: left
+}
+.h1center {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 12pt; BACKGROUND: #ffffff; PADDING-BOTTOM: 0px; MARGIN: 25px 0px 5px; COLOR: #1f1f1f; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+.h2center {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 10pt; BACKGROUND: #ffffff; PADDING-BOTTOM: 0px; MARGIN: 25px 0px 5px; COLOR: #1f1f1f; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+.linkboldstyle {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #006666; TEXT-DECORATION: none
+}

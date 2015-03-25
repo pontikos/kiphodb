@@ -1,0 +1,122 @@
+{% load kipho_filters %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Language" content="en" />
+		<meta http-equiv="imagetoolbar" content="no" />
+		<meta name="keywords" content="KiPhoDB, Kinase, Phosphatase, Substrate, Database, Signal Transduction" />
+		<meta name="description" content="This is the official website of KiPhoDB - The Kinase and Phosphatase Database" />
+		<meta name="author" content="Tisham De, Christos Gkekas, Nikolas Pontikos, Zhengzi Yi" />
+		<meta name="robots" content="all, follow" />
+		<meta name="googlebot" content="index, follow, snippet, archive" />
+		<link rel="stylesheet" href="../stylesheets/screen.css" type="text/css"  media="screen, projection" />
+		<link rel="shortcut icon" href="favicon.ico" />
+		<title>KiPhoDB - The Kinase & Phosphatase Database</title>
+		<LINK REL="SHORTCUT ICON" HREF="../images/icon.ico">
+	</head>
+	<body>
+		<div class="page">
+			<h3 class="header">
+				<img width="760" height="170" src="../images/logo.jpg" />
+			</h3>
+			<ul class="topmenu">
+				<li><a href="../contact.html">Contact</a></li>
+				<li><a href="../about.html">About</a></li>
+				<li><a href="../admin">Admin</a></li>
+				<li><a href="../news.html">News</a></li>
+				<li><a href="../search.html">Search</a></li>
+				<li><a href="../index.html">Home</a></li>
+			</ul>
+			<div class="main">
+				<div class="bluebox">
+					{% if error %}
+						<h1>ERROR!</h1><br/>
+						The following error occurred:
+						<i>{{error}}</i>
+					{% else %}
+						<h1>Pathway Information</h1><br/>
+						<h2>Pathway ID</h2>
+						{{pathway.pathway_id}}<br/><br/>
+						<h2>Name</h2>
+						{{pathway.pathway_name}}<br/><br/>
+						<h2>Organism</h2>
+						<a href="../organism/{{pathway.organism_name}}">{{pathway.organism_name}}</a><br/><br/>
+						<h2>Description</h2>
+						{{pathway.description}}<br/><br/>
+						<h2>Reviewed</h2>
+						{%if pathway.reviewed%}
+						Yes.
+						{%else%}
+						No.
+						{%endif%}<br/><br/>
+						<h2>Updated</h2>
+						{{pathway.updated}}<br/><br/>
+						<h2>Comments</h2>
+						{%if not pathway.comments%}
+						No Comments
+						{%else%}
+						{{pathway.comments}}
+						{%endif%}<br/><br/>
+
+						{% if reactions%}
+						<h2>Reactions</h2>
+						{%for reaction in reactions%}
+						<a href="../reaction/{{reaction.reaction_id}}">{{reaction.ki_pho_accession_number}} {{reaction.reaction_type|reaction_type}} {{reaction.substrate_accession_number}}</a><br/>
+						{%endfor%}
+						{% endif %}
+
+						<!--Are there any references? If yes, display them in a table.-->
+						{% if references %}
+						<h2>References</h2>
+						{% for reference in references %}
+						<a href="../reference/{{reference.reference_id}}">{{reference.reference_id}}</a><br/>
+						{% endfor %}
+						{% endif %} <br/>
+
+						<!--Are there any external ids? If yes, display them.-->
+						{%if external_ids%}
+						<h2>External IDs</h2>
+						{%for id in external_ids%}
+						{{id.external_id}}<br/>
+						{%endfor%}<br/>
+						{%endif%}
+
+						<!--Are there any files? if yes. display them.-->
+						{%if files%}
+						<h2>Files</h2>
+						{%for file in files%}
+						{{file.url}}<br/>
+						{%endfor%}<br/>
+						{%endif%}
+
+						<!--What is the source?-->
+						{%if source%}
+						<h2>Sources</h2>
+						{%for s in source%}
+						{{s.url}}<br/>
+						{{s.description}}
+						{%endfor%}<br/>
+						{%endif%}
+					{% endif %}
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer1">
+			© 2009
+			<a href="../index.html">KiPhoDB</a>|
+			<a href="http://www.bioinformatics.ic.ac.uk/">Center for Bioinformatics</a>|
+			<a href="http://www3.imperial.ac.uk/">Imperial College London</a>|
+			<a href="../contact.html">Terms of Use</a>|
+			<a href="../contact.html">Contact Us</a>
+		</div>
+	</div>
+	<div class="footer2">
+		&nbsp;
+	</div>
+</body>
+</html>

@@ -1,0 +1,813 @@
+{% include "header.html" %}
+<script type="text/javascript" src="js/toggle.js"></script>
+		<link rel="stylesheet" href="./stylesheets/jquery.autocomplete.css" type="text/css" />
+		<script type="text/javascript" src="./js/jquery-1.3.2.min.js"> </script> 
+		<script type="text/javascript" src="./js/jquery.autocomplete.js"> </script> 
+			<div class="main">
+				<div class="bluebox">
+                                  <h1>Kinase - Phosphatase Pairs</h1><br/>
+								  <p>A kinase - phosphatase pair acts on the same substrate.
+								  Please enter the kinase, phosphatase or substrate accession number of your protein
+								  in the text box below. Make sure that the accession number belongs to a kinase or phosphatase,
+								  because otherwise there will be no results.</p><br/>
+					<form name="searchOptions" method="post" action="pairs.html">
+							<script type="text/javascript">
+								function findValue(li) {
+								}
+								function selectItem(li) {
+									findValue(li);
+								}
+								function formatItem(row) {
+									return;
+								}
+								$(document).ready(function () {
+											var data = "Core Selectors Attributes Traversing Manipulation CSS Events Effects Ajax Utilities".split(" ");
+											$("#search_box").autocomplete('/suggest_reaction_protein', options={
+												minChars:1,
+												maxItemsToShow:10,
+												matchSubset:1,
+												mustMatch:true,
+												autoFill:true});
+											});
+							</script> 
+
+
+							<input type=text name=searchString id=search_box class=ac_input onfocus="if (this.value==='Enter a accession number...') {this.value=''}" value="Enter a accession number..." autocomplete=off></input>
+							<input type="submit" value="GO"></input><br/>
+                                  </form><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+                           <div class="bluebox">
+					<h1>Search KiPhoDB</h1><br/>
+					<p>Please write a keyword on the textbox below and press the button "GO". The website's search engine will perfom a database search using the given keyword and it will display the final results on a new page. The search will be performed in all preselected fields: Protein, GO terms, Protein Domains, Phosphorylation Sites, Reactions, Pathways, Organisms, Trees, References and Files.</p><br/><br/>
+					<form name="searchOptions" method="post" action="results.html">
+						<input type="text" name="searchString" onfocus="if (this.value=='Enter a keyword or accession number...') {this.value=''}" value="Enter a keyword or accession number..." size="40">
+						<input type="submit" value="GO"><br/><br/>
+						<table border="0" align="center" width="670">
+							<tr>
+								<td><input type="checkbox" name="search" value="protein"/> Protein</td>
+								<td><input type="checkbox" name="search" value="domain"/> Domain</td>
+								<td><input type="checkbox" name="search" value="phosphorylation_site"/> Phosphorylation Site</td>
+							</tr>
+							<tr><td><br/></td><td><br/></td><td><br/></td></tr>
+							<tr>
+								<td><input type="checkbox" name="search" value="reaction"/> Reaction</td>
+								<td><input type="checkbox" name="search" value="pathway"/> Pathway</td>
+								<td><input type="checkbox" name="search" value="organism"/> Organism</td>
+							</tr>
+							<tr><td><br/></td><td><br/></td><td><br/></td></tr>
+							<tr>
+								<td><input type="checkbox" name="search" value="tree"/> Tree</td>
+								<td><input type="checkbox" name="search" value="go_term"/> GO term</td>
+								<td><input type="checkbox" name="search" value="reference"/> Reference</td>
+							</tr>
+						</table>
+					</form><br/><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				<div class="bluebox">
+					<h1>Advanced Search</h1><br>
+					<p>Please select the one or more of the tables shown in the list below to activate it. Then you can choose which fields from each table you would like to include in the final results and which filters should be used to get the desired output. By clicking on the <i>Display</i> checkbox at the left side of each field you can select it or deselect it for displaying in the final output. Moreover, by using the text field <i>Filter</i> and the checkbox <i>NOT</i>, you can set up appropriate filters to get the output of your choice.</p><br/>
+					<p>The Advanced Search tool provides you will a lot of flexibility, since it enables you to combine different filters and fields in order to get the desired results. The server translates your choices into an SQL query which is subsequently executed on the server. The SQL query itself and the output of its execution will be displayed in a new page. If you are not completely satisfied with the query, you can modify it and use it in the SQL Query tool below. </p><br/><br/>
+					<form name="advancedSearch" method="post" action="advancedsearch.html">
+					<dl id="content">
+						<dt><font size="4"><b>Protein</b></font></dt>
+						<dd>
+						<table border="0" align="center" width="670">
+							<tr>
+								<th>Display</th>
+								<th>Field</th>
+								<th>Filter</th>
+								<th>NOT</th>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.protein.accession_number"></td>
+								<td align="center">Accession Number</td>
+								<td align="center"><input type="text" name="filter.protein.accession_number" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.protein.accession_number"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.protein.protein_name"></td>
+								<td align="center">Protein Name</td>
+								<td align="center"><input type="text" name="filter.protein.protein_name" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.protein.protein_name"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.protein.protein_type"></td>
+								<td align="center">Protein Type</td>
+								<td align="center">
+									<select name="filter.protein.protein_type" selected="">
+										<option value=""> </option>
+										<option value="K">Kinase</option>
+										<option value="P">Phosphatase</option>
+										<option value="O">Other</option>
+									</select>
+								</td>
+								<td align="center"><input type="checkbox" name="not.protein.protein_type"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.protein.substrate"></td>
+								<td align="center">Substrate</td>
+								<td align="center">
+									<select name="filter.protein.substrate" selected="">
+										<option value=""> </option>
+										<option value="1">Yes</option>
+										<option value="0">No</option>
+									</select>
+								</td>
+								<td align="center"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.protein.gene_accession_number"></td>
+								<td align="center">Gene Accession Number</td>
+								<td align="center"><input type="text" name="filter.protein.gene_accession_number" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.protein.gene_accession_number"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.protein.gene_name"></td>
+								<td align="center">Gene Name</td>
+								<td align="center"><input type="text" name="filter.protein.gene_name" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.protein.gene_name"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.protein.ec_number"></td>
+								<td align="center">EC Number</td>
+								<td align="center"><input type="text" name="filter.protein.ec_number" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.protein.ec_number"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.protein.cog"></td>
+								<td align="center">COG</td>
+								<td align="center"><input type="text" name="filter.protein.cog" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.protein.cog"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.protein.organism_name"></td>
+								<td align="center">Organism Name</td>
+								<td align="center"><input type="text" name="filter.protein.organism_name" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.protein.organism_name"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.protein.protein_sequence"></td>
+								<td align="center">Protein Sequence</td>
+								<td align="center"><input type="text" name="filter.protein.protein_sequence" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.protein.protein_sequence"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.protein.reviewed"></td>
+								<td align="center">Reviewed</td>
+								<td align="center">
+									<select name="filter.protein.reviewed" selected="">
+										<option value=""> </option>
+										<option value="1">Yes</option>
+										<option value="0">No</option>
+									</select>
+								</td>
+								<td align="center"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.protein.updated"></td>
+								<td align="center">Updated</td>
+								<td align="center"></td>
+								<td align="center"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.protein.comments"></td>
+								<td align="center">Comments</td>
+								<td align="center"><input type="text" name="filter.protein.comments" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.protein.comments"></td>
+							</tr>
+						</table><br/>
+						</dd><br/>
+						<dt><font size="4"><b>Reaction</b></font></dt>
+						<dd>
+						<table border="0" align="center" width="670">
+							<tr>
+								<th>Display</th>
+								<th>Field</th>
+								<th>Filter</th>
+								<th>NOT</th>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.reaction.reaction_id"></td>
+								<td align="center">Reaction ID</td>
+								<td align="center"><input type="text" name="filter.reaction.reaction_id" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.reaction.reaction_id"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.reaction.ki_pho_accession_number_id"></td>
+								<td align="center">Kinase/Phosphatase Accession</td>
+								<td align="center"><input type="text" name="filter.reaction.ki_pho_accession_number_id" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.reaction.ki_pho_accession_number_id"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.reaction.substrate_accession_number_id"></td>
+								<td align="center">Substrate Accession</td>
+								<td align="center"><input type="text" name="filter.reaction.substrate_accession_number_id" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.reaction.substrate_accession_number_id"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.reaction.reaction_type"></td>
+								<td align="center">Reaction Type</td>
+								<td align="center">
+									<select name="filter.reaction.reaction_type" selected="">
+										<option value=""> </option>
+										<option value="P">Phosphorylation</option>
+										<option value="D">Dephosphorylation</option>
+										<option value="U">Unknown</option>
+									</select>
+								</td>
+								<td align="center"><input type="checkbox" name="not.reaction.reaction_type"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.reaction.reaction_effect"></td>
+								<td align="center">Reaction Effect</td>
+								<td align="center">
+									<select name="filter.reaction.reaction_effect" selected="">
+										<option value=""> </option>
+										<option value="A">Activation</option>
+										<option value="D">Deactivation</option>
+										<option value="U">Unknown</option>
+									</select>
+								</td>
+								<td align="center"><input type="checkbox" name="not.reaction.reaction_effect"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.reaction.reaction_evidence"></td>
+								<td align="center">Reaction Evidence</td>
+								<td align="center">
+									<select name="filter.reaction.reaction_evidence" selected="">
+										<option value=""> </option>
+										<option value="H">High Throughput Experimental</option>
+										<option value="V">In Vivo</option>
+										<option value="R">In Vitro</option>
+										<option value="S">In Silico</option>
+										<option value="U">Unknown</option>
+									</select>
+								</td>
+								<td align="center"><input type="checkbox" name="not.reaction.reaction_evidence"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.reaction.reaction_score"></td>
+								<td align="center">Reaction Score</td>
+								<td align="center"><input type="text" name="filter.reaction.reaction_score" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.reaction.reaction_score"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.reaction.reaction_description"></td>
+								<td align="center">Reaction Description</td>
+								<td align="center"><input type="text" name="filter.reaction.reaction_description" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.reaction.reaction_description"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.reaction.reviewed"></td>
+								<td align="center">Reviewed</td>
+								<td align="center">
+									<select name="filter.reaction.reviewed" selected="">
+										<option value=""> </option>
+										<option value="1">Yes</option>
+										<option value="0">No</option>
+									</select>
+								</td>
+								<td align="center"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.reaction.updated"></td>
+								<td align="center">Updated</td>
+								<td align="center"></td>
+								<td align="center"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.reaction.comments"></td>
+								<td align="center">Comments</td>
+								<td align="center"><input type="text" name="filter.reaction.comments" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.reaction.comments"></td>
+							</tr>
+						</table>
+						</dd><br/>
+						<dt><font size="4"><b>Pathway</b></font></dt>
+						<dd>
+						<table border="0" align="center" width="670">
+							<tr>
+								<th>Display</th>
+								<th>Field</th>
+								<th>Filter</th>
+								<th>NOT</th>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.pathway.pathway_id"></td>
+								<td align="center">Pathway ID</td>
+								<td align="center"><input type="text" name="filter.pathway.pathway_id" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.pathway.pathway_id"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.pathway.pathway_name"></td>
+								<td align="center">Pathway Name</td>
+								<td align="center"><input type="text" name="filter.pathway.pathway_name" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.pathway.pathway_name"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.pathway.organism_name"></td>
+								<td align="center">Organism Name</td>
+								<td align="center"><input type="text" name="filter.pathway.organism_name" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.pathway.organism_name"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.pathway.desription"></td>
+								<td align="center">Description</td>
+								<td align="center"><input type="text" name="filter.pathway.description" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.pathway.description"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.pathway.reviewed"></td>
+								<td align="center">Reviewed</td>
+								<td align="center">
+									<select name="filter.pathway.reviewed" selected="">
+										<option value=""> </option>
+										<option value="1">Yes</option>
+										<option value="0">No</option>
+									</select>
+								</td>
+								<td align="center"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.pathway.updated"></td>
+								<td align="center">Updated</td>
+								<td align="center"></td>
+								<td align="center"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.pathway.comments"></td>
+								<td align="center">Comments</td>
+								<td align="center"><input type="text" name="filter.pathway.comments" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.pathway.comments"></td>
+							</tr>
+						</table>
+						</dd><br/>
+						<dt><font size="4"><b>Phosphorylation Site</b></font></dt>
+						<dd>
+						<table border="0" align="center" width="670">
+							<tr>
+								<th>Display</th>
+								<th>Field</th>
+								<th>Filter</th>
+								<th>NOT</th>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.phosphorylation_site.phosphosite_id"></td>
+								<td align="center">Phosphorylation Site ID</td>
+								<td align="center"><input type="text" name="filter.phosphorylation_site.phosphosite_id" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.phosphorylation_site.phosphosite_id"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.phosphorylation_site.accession_number_id"></td>
+								<td align="center">Protein Accession Number</td>
+								<td align="center"><input type="text" name="filter.phosphorylation_site.accession_number_id" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.phosphorylation_site.accession_number_id"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.phosphorylation_site.amino_acid"></td>
+								<td align="center">Amino Acid</td>
+								<td align="center">
+									<select name="filter.phosphorylation_site.amino_acid" selected="">
+										<option value=""> </option>
+										<option value="S">Serine</option>
+										<option value="T">Threonine</option>
+										<option value="Y">Tyrosine</option>
+										<option value="X">Unknown</option>
+									</select>
+								</td>
+								<td align="center"><input type="checkbox" name="not.phosphorylation_site.amino_acid"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.phosphorylation_site.position"></td>
+								<td align="center">Position</td>
+								<td align="center"><input type="text" name="filter.phosphorylation_site.position" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.phosphorylation_site.position"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.phosphorylation_site.motif"></td>
+								<td align="center">Motif</td>
+								<td align="center"><input type="text" name="filter.phosphorylation_site.motif" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.phosphorylation_site.motif"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.phosphorylation_site.reviewed"></td>
+								<td align="center">Reviewed</td>
+								<td align="center">
+									<select name="filter.phosphorylation_site.reviewed" selected="">
+										<option value=""> </option>
+										<option value="1">Yes</option>
+										<option value="0">No</option>
+									</select>
+								</td>
+								<td align="center"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.phosphorylation_site.updated"></td>
+								<td align="center">Updated</td>
+								<td align="center"></td>
+								<td align="center"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.phosphorylation_site.comments"></td>
+								<td align="center">Comments</td>
+								<td align="center"><input type="text" name="filter.phosphorylation_site.comments" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.phosphorylation_site.comments"></td>
+							</tr>
+						</table>
+						</dd><br/>
+						<dt><font size="4"><b>Domain</b></font></dt>
+						<dd>
+						<table border="0" align="center" width="670">
+							<tr>
+								<th>Display</th>
+								<th>Field</th>
+								<th>Filter</th>
+								<th>NOT</th>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.domain.pfam_id"></td>
+								<td align="center">PFAM ID</td>
+								<td align="center"><input type="text" name="filter.domain.pfam_id" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.domain.pfam_id"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.domain.name"></td>
+								<td align="center">Domain Name</td>
+								<td align="center"><input type="text" name="filter.domain.name" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.domain.name"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.domain.description"></td>
+								<td align="center">Description</td>
+								<td align="center"><input type="text" name="filter.domain.description" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.domain.description"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.domain.comments"></td>
+								<td align="center">Comments</td>
+								<td align="center"><input type="text" name="filter.domain.comments" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.domain.comments"></td>
+							</tr>
+						</table>
+						</dd><br/>
+						<dt><font size="4"><b>GO Term</b></font></dt>
+						<dd>
+						<table border="0" align="center" width="670">
+							<tr>
+								<th>Display</th>
+								<th>Field</th>
+								<th>Filter</th>
+								<th>NOT</th>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.go_term.go_term"></td>
+								<td align="center">GO Term</td>
+								<td align="center"><input type="text" name="filter.go_term.go_term" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.go_term.go_term"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.go_term.name"></td>
+								<td align="center">Name</td>
+								<td align="center"><input type="text" name="filter.go_term.name" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.go_term.name"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.go_term.ontology"></td>
+								<td align="center">Amino Acid</td>
+								<td align="center">
+									<select name="filter.go_term.ontology" selected="">
+										<option value=""> </option>
+										<option value="B">Biological Process</option>
+										<option value="C">Cellular Component</option>
+										<option value="M">Molecular Function</option>
+										<option value="U">Unknown</option>
+									</select>
+								</td>
+								<td align="center"><input type="checkbox" name="not.go_term.ontology"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.go_term.definition"></td>
+								<td align="center">Definition</td>
+								<td align="center"><input type="text" name="filter.go_term.definition" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.go_term.definition"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.go_term.comments"></td>
+								<td align="center">Comments</td>
+								<td align="center"><input type="text" name="filter.go_term.comments" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.go_term.comments"></td>
+							</tr>
+						</table>
+						</dd><br/>
+						<dt><font size="4"><b>Organism</b></font></dt>
+						<dd>
+						<table border="0" align="center" width="670">
+							<tr>
+								<th>Display</th>
+								<th>Field</th>
+								<th>Filter</th>
+								<th>NOT</th>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.organism.organism_name"></td>
+								<td align="center">Organism Name</td>
+								<td align="center"><input type="text" name="filter.organism.organism_name" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.organism.organism_name"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.organism.taxonomic_id"></td>
+								<td align="center">Taxonomic ID</td>
+								<td align="center"><input type="text" name="filter.organism.taxonomic_id" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.organism.taxonomic_id"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.organism.taxonomic_lineage"></td>
+								<td align="center">Taxonomic Lineage</td>
+								<td align="center"><input type="text" name="filter.organism.taxonomic_lineage" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.organism.taxonomic_lineage"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.organism.common_name"></td>
+								<td align="center">Common Name</td>
+								<td align="center"><input type="text" name="filter.organism.common_name" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.organism.common_name"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.organism.organism_domain"></td>
+								<td align="center">Organism Domain</td>
+								<td align="center">
+									<select name="filter.organism.organism_domain" selected="">
+										<option value=""> </option>
+										<option value="A">Archaea</option>
+										<option value="B">Bacteria</option>
+										<option value="E">Eukarya</option>
+									</select>
+								</td>
+								<td align="center"><input type="checkbox" name="not.organism.organism_domain"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.organism.organism_type"></td>
+								<td align="center">Organism Type</td>
+								<td align="center">
+									<select name="filter.organism.organism_type" selected="">
+										<option value=""> </option>
+										<option value="P">Plant</option>
+										<option value="A">Animal</option>
+										<option value="U">Unknown</option>
+									</select>
+								</td>
+								<td align="center"><input type="checkbox" name="not.organism.organism_type"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.organism.cellularity"></td>
+								<td align="center">Cellularity</td>
+								<td align="center">
+									<select name="filter.organism.cellularity" selected="">
+										<option value=""> </option>
+										<option value="M">Multicellular</option>
+										<option value="U">Unicellular</option>
+										<option value="X">Unknown</option>
+									</select>
+								</td>
+								<td align="center"><input type="checkbox" name="not.organism.cellularity"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.organism.comments"></td>
+								<td align="center">Comments</td>
+								<td align="center"><input type="text" name="filter.organism.comments" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.organism.comments"></td>
+							</tr>
+						</table>
+						</dd><br/>
+						<dt><font size="4"><b>Tree</b></font></dt>
+						<dd>
+						<table border="0" align="center" width="670">
+							<tr>
+								<th>Display</th>
+								<th>Field</th>
+								<th>Filter</th>
+								<th>NOT</th>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.tree.tree_id"></td>
+								<td align="center">Tree ID</td>
+								<td align="center"><input type="text" name="filter.tree.tree_id" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.tree.tree_id"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.tree.name"></td>
+								<td align="center">Name</td>
+								<td align="center"><input type="text" name="filter.tree.name" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.tree.name"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.tree.structure"></td>
+								<td align="center">Structure</td>
+								<td align="center"><input type="text" name="filter.tree.structure" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.tree.structure"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.tree.sql_query"></td>
+								<td align="center">SQL Query</td>
+								<td align="center"><input type="text" name="filter.tree.sql_query" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.tree.sql_query"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.tree.reviewed"></td>
+								<td align="center">Reviewed</td>
+								<td align="center"><input type="checkbox" name="filter.tree.reviewed"></td>
+								<td align="center"><input type="checkbox" name="not.tree.reviewed"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.tree.updated"></td>
+								<td align="center">Updated</td>
+								<td align="center"></td>
+								<td align="center"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.tree.comments"></td>
+								<td align="center">Comments</td>
+								<td align="center"><input type="text" name="filter.tree.comments" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.tree.comments"></td>
+							</tr>
+						</table>
+						</dd><br/>
+						<dt><font size="4"><b>Reference</b></font></dt>
+						<dd>
+						<table border="0" align="center" width="670">
+							<tr>
+								<th>Display</th>
+								<th>Field</th>
+								<th>Filter</th>
+								<th>NOT</th>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.reference.reference_id"></td>
+								<td align="center">Reference ID</td>
+								<td align="center"><input type="text" name="filter.reference.reference_id" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.reference.reference_id"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.reference.title"></td>
+								<td align="center">Title</td>
+								<td align="center"><input type="text" name="filter.reference.title" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.reference.title"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.reference.authors"></td>
+								<td align="center">Authors</td>
+								<td align="center"><input type="text" name="filter.reference.authors" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.reference.authors"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.reference.location"></td>
+								<td align="center">Location</td>
+								<td align="center"><input type="text" name="filter.reference.location" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.reference.location"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.reference.comments"></td>
+								<td align="center">Comments</td>
+								<td align="center"><input type="text" name="filter.reference.comments" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.reference.comments"></td>
+							</tr>
+						</table>
+						</dd><br/>
+						<dt><font size="4"><b>Source</b></font></dt>
+						<dd>
+						<table border="0" align="center" width="670">
+							<tr>
+								<th>Display</th>
+								<th>Field</th>
+								<th>Filter</th>
+								<th>NOT</th>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.source.source_id"></td>
+								<td align="center">Source ID</td>
+								<td align="center"><input type="text" name="filter.source.source_id" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.source.source_id"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.source.url"></td>
+								<td align="center">Source URL</td>
+								<td align="center"><input type="text" name="filter.source.url" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.source.url"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.source.description"></td>
+								<td align="center">Description</td>
+								<td align="center"><input type="text" name="filter.source.description" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.source.description"></td>
+							</tr>
+						</table>
+						</dd><br/>
+					</dl><br/>
+					<input type="submit" value="Advanced Search">
+					</form><br/>
+					<form action="search.html">
+						<input type="submit" value="Clear all">
+					</form>
+				</div>
+				<div class="bluebox">
+					<h1>SQL Query</h1><br/>
+					<p>Using the text box below you can enter your own SQL query, which will be subsequently executed in our MySQL server and the results will be presented in a separate html page. You can save this page either as a text file or as an html file, so that you can examine the results of the query in your own time. If there is an error in your SQL syntax, you will receive the exact MySQL error message so that you can correct your query. This text field works in the same way as an interactive MySQL prompt, but please use it with caution.</p><br/>
+					<form name="SQLquery" method="post" action="sqlresults.html">
+						<textarea onfocus="if (this.value=='Enter your SQL query here...') {this.value=''}" name="SQLquery" rows="10" cols="50">Enter your SQL query here...</textarea>
+						<input type="submit" value="Execute">
+					</form>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				<div class="bluebox">
+					<h1>Browse KiPhoDB Data</h1><br/>
+					<p>The DataBrowse tool enables all public users of KiPhoDB to browse the contents of the database. The interface is very easy to use and provides the user with a lot of features. Its main functionality is to list the contents of each table in the KiPhoDB database. Other features include sorting the contents of every table according to different fields and viewing entries that have common characteristics. You can use the DataBrowse tool by clicking on the button below:</p><br/>
+					<form method="get" action="databrowse">
+						<input type="submit" value="DataBrowse">
+					</form>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				<div class="bluebox">
+					<h1><a name="Trees"><font color="#888888">Construct Phylogenetic Trees</font></a></h1><br/>
+					<p>This tools can be used to construct phylogenetic trees based on the protein information that is stored inside KiPhoDB. These trees are very useful when comparing proteins that have similar structure and function and they can offer valuable insight into the evolutionary distance between them. The program ClustalW is used in the background in order to perform the multiple sequence alignment between the amino acid sequences that the user provides as input and the resulting phylogenetic tree is displayed in a new html page.</p><br/>
+					<p>In order to use this tool, please enter the accession numbers of all proteins of interest, in a comma separated format (e.g. "O08605,O15111,O43318,O43707") and then press the button "Generate".</p><br/>
+					<form name="ClustalW" method="post" action="generateTree.html">
+						<input type="text" size="80" name="Proteins" onfocus="if (this.value=='Enter comma separated protein accession numbers...') {this.value=''}" value="Enter comma separated protein accession numbers...">
+						<input type="submit" value="Generate">
+					</form>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				<div class="bluebox">
+					<h1><a name="GeneFamilies"><font color="#888888">Browse Gene Families</font></a></h1><br/>
+					<p>In this section you can browse or perform a search in the various Kinase or Phosphatase gene families</p><br/>
+					<p><b><a href='kinfamily?protein_type__in=["K"]'>Browse Kinase Families</a></b></p><br/>
+					<p><b><a href='phosfamily?protein_type__in=["P"]'>Browse Phosphatase Families</a></b></p><br/><br/>
+					<p><b>Search for a Gene Family</b></p><br/>
+					<form name="searchFamilies" method="post" action="results.html">
+						<input type="text" name="searchString" onfocus="if (this.value=='Enter a keyword or accession number...') {this.value=''}" value="Enter a keyword or accession number..." size="40">
+						<input type="submit" value="GO"><br/><br/>
+						<table border="0" align="center" width="670">
+							<tr>
+								<td><input type="checkbox" name="search" value="genename"/> Keyword</td>
+								<td><input type="checkbox" name="search" value="gene"/> Gene Name</td>
+								<td><input type="checkbox" name="search" value="treefam_id"/> Treefam ID</td>
+							</tr>
+						</table>
+					</form><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				<div class="bluebox">
+					<h1><a name="Cancer/Ismmune signalling pathways"><font color="#888888">Browse Cancer/Immune Signalling Pathways</font></a></h1><br/>
+					<p>This section allows you to browse manually curated Cancer and Immune signaling pathways in Humans.All the kinase substrate and phosphatase substrate pairs occuring in these pathways can be viewed. There is also an option for viewing the common substrates (which are acted upon by both kinase and phosphatase) in each of these pathways. </p><br/><p></p> 
+					<p>The <b> <a href='canpathwaypage?pathway_type__in=["1"]'>  Cancer Signalling Pathways</a> </b>includes various pathways which have been found to cause cancer in humans.It includes many pathways which have been studied extensively by various scientists for example the EFGR1,Wnt,Hedgehog etc.  </p> <br/>  <p>  </p>  
+
+					<p> The <b>  <a href='impathwaypage?pathway_type__in=["2"]'> Immune Signalling Pathways</a> </b>includes many widely studied immunological pathways for example the Interleukins (IL),TCR(T Cell Receptor),BCR(B Cell receptor) etc.
+					<p><b></b></p><br/><br/>
+					<p><b>Search Pathways</b></p><br/>
+					<form name="searchFamilies" method="post" action="results.html">
+						<input type="text" name="searchString" onfocus="if (this.value=='Enter a keyword or accession number...') {this.value=''}" value="Enter a keyword or accession number..." size="40">
+						<input type="submit" value="GO"><br/><br/>
+						<table border="0" align="center" width="670">
+							<tr>
+								<td><input type="checkbox" name="search" value="genename"/> Keyword</td>
+							
+								<td><input type="checkbox" name="search" value="treefam_id"/> Pathway </td>
+							</tr>
+						</table>
+					</form><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+				<div class="bluebox">
+					<div class="left">
+						<h1>More info</h1><br/>
+						<p>In order to perform efficient SQL queries, it is important to have a basic understanding of the database schema that KiPhoDB uses. In this section we are going to provide you with some basic information on the ways you can use SQL in order to display the database tables and their fields.</p><br/>
+						<p>In order to display the tables of KiPhoDB, you can use the SQL query input field above and type in the following command: "SHOW TABLES;". This command will provide you with a list of all tables in the KiPhoDB database. The MySQL user that connects to the database server in the background and perfoms these queries has only the basic permissions of listing the contents of each table. Moreover, the user cannot see some tables that are used for user administration and storage of sensitive data.</p><br/>
+						<p>If you are interested in a specific table and you would like to view more information about it, you can use the command: "SHOW FIELDS FROM <i>TABLE</i>", where <i>TABLE</i> is the name of the table you have chosen. This command will list all fields of the table, their sizes and their properties.</p><br/>
+						<p>Finally, an image showing the database schema of KiPhoDB can be found <a href="images/DatabaseSchema.png">here</a>.</p><br/>
+					</div>
+				</div>
+				<div class="bluebox">
+					<h1>Download</h1><br/>
+					<p>You can download the database as a MySQL dump <a href="#">here</a>.</p>
+	
+				</div>
+
+		</div>
+
+		{% include "footer.html" %}
+

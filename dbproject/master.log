@@ -1,0 +1,115 @@
+Starting pathway.kegg
+RC000001
+No pathway in common
+RC000002
+No pathway in common
+RC000003
+Added pathway hsa04520 to Pathway table
+Relate reaction P06213 -> P18031 to pathway  hsa04520
+Added pathway hsa04910 to Pathway table
+Relate reaction P06213 -> P18031 to pathway  hsa04910
+RC000004
+No pathway in common
+RC000005
+No related KEGG pathway information for Q5VT25
+RC000006
+Added pathway hsa04110 to Pathway table
+Relate reaction P49841 -> P30305 to pathway  hsa04110
+RC000007
+Added pathway hsa04010 to Pathway table
+Relate reaction P53779 -> Q15750 to pathway  hsa04010
+Added pathway hsa04620 to Pathway table
+Relate reaction P53779 -> Q15750 to pathway  hsa04620
+RC000008
+No pathway in common
+RC000009
+Added pathway hsa04010 to Pathway table
+Relate reaction P51812 -> P35236 to pathway  hsa04010
+RC000010
+Added pathway hsa04010 to Pathway table
+Relate reaction P45984 -> P35236 to pathway  hsa04010
+RC000011
+No pathway in common
+RC000012
+Added pathway hsa04012 to Pathway table
+Relate reaction P05771 -> P49841 to pathway  hsa04012
+Added pathway hsa04310 to Pathway table
+Relate reaction P05771 -> P49841 to pathway  hsa04310
+Added pathway hsa04510 to Pathway table
+Relate reaction P05771 -> P49841 to pathway  hsa04510
+Added pathway hsa04662 to Pathway table
+Relate reaction P05771 -> P49841 to pathway  hsa04662
+Added pathway hsa04916 to Pathway table
+Relate reaction P05771 -> P49841 to pathway  hsa04916
+RC000013
+No pathway in common
+RC000014
+Added pathway hsa04540 to Pathway table
+Relate reaction P12931 -> P06493 to pathway  hsa04540
+RC000015
+No pathway in common
+RC000016
+No pathway in common
+RC000017
+Added pathway hsa04012 to Pathway table
+Relate reaction P45983 -> P12931 to pathway  hsa04012
+Added pathway hsa04510 to Pathway table
+Relate reaction P45983 -> P12931 to pathway  hsa04510
+Added pathway hsa04912 to Pathway table
+Relate reaction P45983 -> P12931 to pathway  hsa04912
+Added pathway hsa05120 to Pathway table
+Relate reaction P45983 -> P12931 to pathway  hsa05120
+RC000018
+Added pathway hsa04510 to Pathway table
+Relate reaction P06241 -> P12931 to pathway  hsa04510
+Added pathway hsa04520 to Pathway table
+Relate reaction P06241 -> P12931 to pathway  hsa04520
+RC000019
+No related KEGG pathway information for Q05209
+RC000020
+No related KEGG information for P07948
+RC000021
+No related KEGG pathway information for Q9Y5B0
+RC000022
+No related KEGG information for P79923
+RC000023
+No pathway in common
+RC000024
+Added pathway hsa04110 to Pathway table
+Relate reaction Q13315 -> P30304 to pathway  hsa04110
+RC000025
+No related KEGG information for Q01279
+RC000026
+No related KEGG pathway information for P18433
+RC000027
+No pathway in common
+RC000028
+Added pathway hsa04110 to Pathway table
+Relate reaction P24941 -> Q9UBD5 to pathway  hsa04110
+Done!
+Finished pathway.kegg
+Starting pathway.panther
+Traceback (most recent call last):
+  File "master.py", line 79, in <module>
+    panther.parse()
+  File "/home/kipho/dbproject/pathway/panther/panther_parser.py", line 47, in parse
+    reac = Reaction.objects.get(reaction_id = "RC" + '%0.6d' %k )
+  File "/usr/lib/python2.6/site-packages/django/db/models/manager.py", line 93, in get
+    return self.get_query_set().get(*args, **kwargs)
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 303, in get
+    clone = self.filter(*args, **kwargs)
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 489, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 507, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/query.py", line 1258, in add_q
+    can_reuse=used_aliases)
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/query.py", line 1201, in add_filter
+    self.where.add((alias, col, field, lookup_type, value), connector)
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/where.py", line 48, in add
+    params = field.get_db_prep_lookup(lookup_type, value)
+  File "/usr/lib/python2.6/site-packages/django/db/models/fields/__init__.py", line 202, in get_db_prep_lookup
+    return [self.get_db_prep_value(value)]
+  File "/usr/lib/python2.6/site-packages/django/db/models/fields/__init__.py", line 353, in get_db_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'RC000000'

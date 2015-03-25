@@ -1,0 +1,99 @@
+HTML {
+	OVERFLOW-X: auto; OVERFLOW: scroll
+}
+BODY {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #1a1716; LINE-HEIGHT: 18px; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, Geneva, sans-serif; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: left; BORDER-RIGHT-WIDTH: 0px
+}
+TD {
+	FONT-SIZE: 12px; LINE-HEIGHT: 18px
+}
+IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#bodyP {
+	MARGIN: 10px
+}
+#body-over0 {
+	MIN-HEIGHT: 100%; MARGIN-LEFT: auto; WIDTH: 100%; MARGIN-RIGHT: auto; POSITION: relative; HEIGHT: 100%
+}
+#body-over {
+	MIN-HEIGHT: 100%; MARGIN-LEFT: auto; WIDTH: 955px; MARGIN-RIGHT: auto; POSITION: relative; HEIGHT: 100%
+}
+#body-container {
+	MIN-HEIGHT: 100%; MARGIN-LEFT: auto; WIDTH: 935px; MARGIN-RIGHT: auto; TEXT-ALIGN: left
+}
+#top1 {
+	BORDER-TOP: #003772 1px solid; DISPLAY: block; OVERFLOW: hidden; WIDTH: 935px; POSITION: relative; HEIGHT: 129px
+}
+#logo {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: hidden; WIDTH: 190px; PADDING-TOP: 0px; HEIGHT: 129px
+}
+#header {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: hidden; WIDTH: 745px; PADDING-TOP: 0px; HEIGHT: 129px
+}
+#search-over {
+	BORDER-RIGHT: #0072ba 1px solid; BORDER-TOP: #0072ba 10px solid; MARGIN: 0px 0px 10px; BORDER-LEFT: #0072ba 1px solid; BORDER-BOTTOM: #0072ba 1px solid; HEIGHT: 50px; BACKGROUND-COLOR: #ebebeb
+}
+#search {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 5px 0px 0px 10px; WIDTH: 570px; PADDING-TOP: 0px
+}
+.clearing {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 0; PADDING-TOP: 0px; HEIGHT: 0px
+}
+UNKNOWN {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 0; PADDING-TOP: 0px; HEIGHT: 0px
+}
+#top2 {
+	DISPLAY: block; PADDING-LEFT: 180px; OVERFLOW: hidden; PADDING-TOP: 0px; POSITION: relative; HEIGHT: 28px; bwidth: 935px
+}
+#meta-navi {
+	DISPLAY: block
+}
+#middle1 {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px; POSITION: relative; qborder: 1px solid black
+}
+#main-navi {
+	DISPLAY: block; FLOAT: left; VISIBILITY: hidden; WIDTH: 180px; POSITION: relative; BACKGROUND-COLOR: #ffffff
+}
+#center1 {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px 10px; WIDTH: 591px; PADDING-TOP: 0px; POSITION: relative; aaaoverflow-x: hidden
+}
+#inhalt {
+	DISPLAY: block; WIDTH: 100%; POSITION: relative
+}
+#inhaltmain {
+	DISPLAY: block; WIDTH: 100%; POSITION: relative
+}
+#inhalt-a {
+	BORDER-RIGHT: #cccbcb 1px solid; WIDTH: 50%
+}
+#inhalt-b {
+	WIDTH: 50%
+}
+#inhalt-over {
+	BORDER-RIGHT: #cccbcb 1px solid; BORDER-TOP: #cccbcb 10px solid; BORDER-LEFT: #cccbcb 1px solid; WIDTH: 589px; BORDER-BOTTOM: #cccbcb 1px solid
+}
+#inhalt .bodytext9 {
+	MARGIN: 10px
+}
+#inhaltmain .bodytext9 {
+	MARGIN: 10px
+}
+#right1 {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 140px; PADDING-TOP: 0px; POSITION: relative; ooverflow-x: hidden
+}
+#teaser {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px
+}
+#footer1 {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 10px 0px 0px; WIDTH: 591px; PADDING-TOP: 0px; POSITION: relative; HEIGHT: 15px; BACKGROUND-COLOR: #cccbcb
+}
+#copyright {
+	DISPLAY: none
+}
+#brand-selector {
+	BORDER-RIGHT: #cccbcb 1px; PADDING-RIGHT: 0px; BORDER-TOP: #cccbcb 1px; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #cccbcb 1px; LINE-HEIGHT: 17px; PADDING-TOP: 0px; BORDER-BOTTOM: #cccbcb 1px; HEIGHT: 18px
+}
+#brandformid {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 3px; MARGIN: 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px
+}

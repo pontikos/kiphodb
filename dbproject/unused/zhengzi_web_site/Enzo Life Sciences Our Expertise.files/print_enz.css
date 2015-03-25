@@ -1,0 +1,117 @@
+HTML {
+	
+}
+BODY {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #1a1716; LINE-HEIGHT: 16px; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, Geneva, sans-serif; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: left; BORDER-RIGHT-WIDTH: 0px
+}
+TD {
+	FONT-SIZE: 12px; LINE-HEIGHT: 16px
+}
+DIV {
+	pposition: relative; pfloat: none; pheight: 
+}
+#main-navi {
+	DISPLAY: none; pposition: relative; ffloat: none
+}
+#right1 {
+	DISPLAY: none; pposition: relative; ffloat: none
+}
+#header {
+	DISPLAY: none; pposition: relative; ffloat: none
+}
+#search {
+	DISPLAY: none; pposition: relative; ffloat: none
+}
+#top2 {
+	DISPLAY: none; pposition: relative; ffloat: none
+}
+#footer1 {
+	DISPLAY: none; pposition: relative; ffloat: none
+}
+.family-list {
+	DISPLAY: none; pposition: relative; ffloat: none
+}
+.toolbar {
+	DISPLAY: none; pposition: relative; ffloat: none
+}
+.td-checkbox {
+	DISPLAY: none; pposition: relative; ffloat: none
+}
+.icons {
+	DISPLAY: none; pposition: relative; ffloat: none
+}
+.prthide {
+	DISPLAY: none; pposition: relative; ffloat: none
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.pinkcolorbg {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; COLOR: black; PADDING-TOP: 0px; BACKGROUND-COLOR: white
+}
+.graycolorbg {
+	BACKGROUND-COLOR: white
+}
+.redcolorbg {
+	BACKGROUND-COLOR: red
+}
+.fwhite {
+	COLOR: black
+}
+.detPartTitle {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(clear.gif) white no-repeat left top; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#center1 {
+	FLOAT: none
+}
+#llogo {
+	FLOAT: none
+}
+#top1 {
+	BORDER-RIGHT: black 0px solid; BORDER-TOP: black 0px solid; BORDER-LEFT: black 0px solid; BORDER-BOTTOM: black 0px solid
+}
+#inhalt-over {
+	BORDER-RIGHT: black 0px solid; BORDER-TOP: black 0px solid; BORDER-LEFT: black 0px solid; BORDER-BOTTOM: black 0px solid
+}
+#inhalt .ruler {
+	BORDER-RIGHT: black 0px solid; BORDER-TOP: black 0px solid; BORDER-LEFT: black 0px solid; BORDER-BOTTOM: black 0px solid
+}
+#inhalt-a .ruler {
+	BORDER-RIGHT: black 0px solid; BORDER-TOP: black 0px solid; BORDER-LEFT: black 0px solid; BORDER-BOTTOM: black 0px solid
+}
+#inhalt-b .ruler {
+	BORDER-RIGHT: black 0px solid; BORDER-TOP: black 0px solid; BORDER-LEFT: black 0px solid; BORDER-BOTTOM: black 0px solid
+}
+.b-left1 {
+	BORDER-RIGHT: black 0px solid; BORDER-TOP: black 0px solid; BORDER-LEFT: black 0px solid; BORDER-BOTTOM: black 0px solid
+}
+.b-bottom1 {
+	BORDER-RIGHT: black 0px solid; BORDER-TOP: black 0px solid; BORDER-LEFT: black 0px solid; BORDER-BOTTOM: black 0px solid
+}
+.b-right1 {
+	BORDER-RIGHT: black 0px solid; BORDER-TOP: black 0px solid; BORDER-LEFT: black 0px solid; BORDER-BOTTOM: black 0px solid
+}
+#center1 {
+	WIDTH: 591px
+}
+.b-left {
+	BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.b-right {
+	BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.list-pname {
+	WIDTH: 400px
+}
+#copyright {
+	RIGHT: 80px; POSITION: absolute; TOP: 25px
+}
+#body-over0 {
+	WIDTH: 650px; TEXT-ALIGN: left; xxposition: absolute; xxheight: 100%; xxmin-height: 100%
+}
+#body-over {
+	WIDTH: 650px; POSITION: relative; TEXT-ALIGN: left; xxmin-height: 100%; xx_height: 100%; xmargin-left: auto; xmargin-right: auto
+}
+#body-container {
+	MARGIN-TOP: 7px; WIDTH: 650px; POSITION: relative; TEXT-ALIGN: left; xxmin-height: 100%
+}

@@ -1,0 +1,47 @@
+{% include "header.html" %}
+{% load kipho_filters %}
+<script type="text/javascript" src="js/toggle.js"></script>
+
+			<div class="main">
+				<div class="bluebox">
+					{% if error %}
+						<h1>ERROR!</h1><br/>
+						The following error occurred:
+						<i>{{error}}</i>
+					{% else %}
+					<h1>Reactions in which protein is involved</h1><br/>
+						<h2>Protein Information</h2>
+						<a href="protein?accession_number='{{accession_number}}'">{{accession_number}}</a><br/><br/>
+						<h2>Reactions</h2>
+						<dl id="content">
+							<dt><font size=2><b>Phosphorylation/Dephosphorylation ({{ p_dp_reactions|length }}) </b></font></dt>
+							<dd>
+								{% for (p, dp) in p_dp_reactions %}
+									{{p.ki_pho_accession_number}}  --- {{dp.kipho_accession_number}}<br>
+								{% endfor %}
+							</dd>
+							<dt><font size=2><b>Phosphorylation ({{ p_reactions|length }}) </b></font></dt>
+							<dd>
+								{% for r in p_reactions %}
+									<a href="protein?accession_number='{{r.ki_pho_accession_number}}'">{{r.ki_pho_accession_number}}</a>
+									phosphorylates
+									<a href="protein?accession_number='{{r.substrate_accession_number}}'">{{r.substrate_accession_number}}</a>
+									<br>
+								{% endfor %} 
+							</dd>
+							<dt><font size=2><b>Dephosphorylation ({{ dp_reactions|length }}) </b></font></dt>
+							<dd>
+								{% for r in dp_reactions %}
+									<a href="protein?accession_number='{{r.ki_pho_accession_number}}'">{{r.ki_pho_accession_number}}</a>
+									dephosphorylates
+									<a href="protein?accession_number='{{r.substrate_accession_number}}'">{{r.substrate_accession_number}}</a>
+									<br>
+								{% endfor %}
+							</dd>
+						</dl>
+					{% endif %}
+				</div>
+			</div>
+
+{% include "footer.html" %}
+

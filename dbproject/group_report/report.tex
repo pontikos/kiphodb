@@ -1,0 +1,69 @@
+% The document will be printed one side in A4 paper.
+\documentclass[12pt,a4paper,oneside]{report}
+
+% Insert some packages.
+%\usepackage{charter}             % Use Charter font.
+\usepackage[pdftex]{graphicx}    % Use PDF output.
+\usepackage{a4wide}              % The output should be wide.
+\usepackage{graphicx}
+\usepackage{url}
+
+% The document begins here.
+\begin{document}
+
+% Front Matter.
+\title{
+\centering
+\includegraphics[scale=0.6]{pictures/KiPhoDB.png}
+} 
+\author{Tisham De - \texttt{tisham.de08@imperial.ac.uk} \\ Christos Gkekas - \texttt{christos.gkekas08@imperial.ac.uk} \\ Nikolas Pontikos - \texttt{nikolas.pontikos08@imperial.ac.uk} \\ Zhengzi Yi - \texttt{zhengzi.yi08@imperial.ac.uk} \\ \\
+        \small{MSc Bioinformatics and Theoretical Systems Biology} \\
+        \small{Centre for Bioinformatics} \\
+        \small{Imperial College London}}
+\date{\today}
+\maketitle
+
+%Create an empty page.
+\newpage
+\thispagestyle{empty} 
+\addtocounter{page}{-1}
+\ \clearpage
+
+% Create the table of contents, list of figures and list of tables.
+\tableofcontents
+\listoffigures
+\listoftables
+
+% Chapter 1: Introduction
+\chapter{Introduction}
+\input{introduction}
+
+%Create an empty page.
+\newpage
+\ \clearpage
+
+% Chapter 2: Background Biology
+\chapter{Background Biology}
+\input{background}
+
+% Chapter 3: Data Sources
+\chapter{Data Sources}
+\input{datasources}
+
+%Create an empty page.
+\newpage
+\ \clearpage
+
+% Chapter 4: Implementation
+\chapter{Implementation}
+\input{implementation}
+
+% Chapter 5: 
+\chapter{Results \& Future work}
+\input{conclusion}
+
+% Bibliography
+\bibliographystyle{unsrt.bst}
+\bibliography{report}
+
+\end{document}

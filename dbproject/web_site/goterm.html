@@ -1,0 +1,36 @@
+{% include "header.html" %}
+{% load kipho_filters %}
+
+			<div class="main">
+				<div class="bluebox">
+					{% if error %}
+						<h1>ERROR!</h1><br/>
+						The following error occurred:
+						<i>{{error}}</i>
+					{% else %}
+						<h1>GO Term Information</h1><br/>
+						<h2>GO Term</h2>
+						{{goterm.go_term}}<br/><br/>
+						<h2>Name</h2>
+						{{goterm.name}}<br/><br/>
+						<h2>Ontology</h2>
+							{{ goterm.ontology|ontology }}
+						<br/><br/>
+						<h2>Definition</h2>
+						{{goterm.definition}}<br/><br/>
+						<h2>Comments</h2>
+						{%if not goterm.comments%}
+						No Comments
+						{%else%}
+						{{goterm.comments}}
+						{%endif%}<br/><br/>
+					{%endif%}
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+			</div>
+		</div>
+
+{% include "footer.html" %}
+

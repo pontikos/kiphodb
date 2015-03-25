@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; 	charset=utf-8" />
+    <meta http-equiv="Content-Language" content="en" />
+    <meta http-equiv="imagetoolbar" content="no" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="www.studio7designs.com" />
+    <meta name="robots" content="all, follow" />
+    <meta name="googlebot" content="index, follow, snippet, archive" />
+    <link rel="stylesheet" href="./stylesheets/screen.css" type="text/css"  media="screen, projection" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>Nautica06</title>
+  </head>
+  <body>
+    <div class="page">
+      <h3 class="header">
+        <a href="#" title="Home">
+          Nautica06
+         
+          <span>
+          </span></a></h3>
+      <ul class="topmenu">
+        <li>
+        <a href="contact.html">Contact</a></li>       
+        <li>
+        <a href="gallery.html">Gallery</a></li>
+        <li>
+        <a href="index.html" >Main</a></li>
+      </ul>
+      <div class="main">
+	  
+	         <div class="greybox2">
+          <a href="#" class="preview">
+            <img src="./images/img1.jpg" width="274" height="188" alt="" id="previewimg" /></a>
+          <div class="right">
+            <a href="#" >
+              <img src="./images/img2-s.jpg" width="62" height="59" alt="Sample Photo" title="Sample Photo" /></a>
+            <a href="#">
+              <img src="./images/img2-s.jpg" width="62" height="59" alt="Sample Photo" title="Sample Photo" /></a>
+            <a href="#">
+              <img src="./images/img1-s.jpg" width="62" height="59" alt="Sample Photo" title="Sample Photo" /></a>
+            <a href="#">
+              <img src="./images/img2-s.jpg" width="62" height="59" alt="Sample Photo" title="Sample Photo" /></a>
+            <a href="#">
+              <img src="./images/img1-s.jpg" width="62" height="59" alt="Sample Photo" title="Sample Photo" /></a>
+            <a href="#">
+              <img src="./images/img2-s.jpg" width="62" height="59" alt="Sample Photo" title="Sample Photo" /></a>
+            <a href="#">
+              <img src="./images/img1-s.jpg" width="62" height="59" alt="Sample Photo" title="Sample Photo" /></a>
+            <a href="#">
+              <img src="./images/img2-s.jpg" width="62" height="59" alt="Sample Photo" title="Sample Photo" /></a>
+            <a href="#">
+              <img src="./images/img1-s.jpg" width="62" height="59" alt="Sample Photo" title="Sample Photo" /></a>
+            <a href="#">
+              <img src="./images/img2-s.jpg" width="62" height="59" alt="Sample Photo" title="Sample Photo" /></a>
+            <a href="#">
+              <img src="./images/img1-s.jpg" width="62" height="59" alt="Sample Photo" title="Sample Photo" /></a>
+            <a href="#" >
+              <img src="./images/img2-s.jpg" width="62" height="59" alt="Sample Photo" title="Sample Photo" /></a>
+            <div class="cleaner">
+              &nbsp;
+            </div>
+          </div>
+          <div class="cleaner">
+            &nbsp;
+          </div>
+        </div>
+        <!-- /greybox2-->
+		
+		
+		 <div class="greybox2">
+          <a href="#" class="preview">
+            <img src="./images/img1.jpg" width="274" height="188" alt="" /></a>
+          <div class="right">
+            <a href="#">
+              <img src="./images/img1-s.jpg" width="62" height="59" alt="Sample Photo" title="Sample Photo" /></a>
+            <a href="#" >
+              <img src="./images/img2-s.jpg" width="62" height="59" alt="Sample Photo" title="Sample Photo" /></a>
+            <a href="#">
+              <img src="./images/img1-s.jpg" width="62" height="59" alt="Sample Photo" title="Sample Photo" /></a>
+            <a href="#">
+              <img src="./images/img2-s.jpg" width="62" height="59" alt="Sample Photo" title="Sample Photo" /></a>
+            <a href="#" >
+              <img src="./images/img1-s.jpg" width="62" height="59" alt="Sample Photo" title="Sample Photo" /></a>
+            <a href="#" >
+              <img src="./images/img2-s.jpg" width="62" height="59" alt="Sample Photo" title="Sample Photo" /></a>
+            <a href="#" >
+              <img src="./images/img1-s.jpg" width="62" height="59" alt="Sample Photo" title="Sample Photo" /></a>
+            <a href="#">
+              <img src="./images/img2-s.jpg" width="62" height="59" alt="Sample Photo" title="Sample Photo" /></a>
+            <a href="#" >
+              <img src="./images/img1-s.jpg" width="62" height="59" alt="Sample Photo" title="Sample Photo" /></a>
+            <a href="#">
+              <img src="./images/img2-s.jpg" width="62" height="59" alt="Sample Photo" title="Sample Photo" /></a>
+            <a href="#">
+              <img src="./images/img1-s.jpg" width="62" height="59" alt="Sample Photo" title="Sample Photo" /></a>
+            <a href="#">
+              <img src="./images/img2-s.jpg" width="62" height="59" alt="Sample Photo" title="Sample Photo" /></a>
+            <div class="cleaner">
+              &nbsp;
+            </div>
+          </div>
+          <div class="cleaner">
+            &nbsp;
+          </div>
+        </div>
+        <!-- /greybox2-->
+		
+		
+        <div class="photos">
+          <a href="#" title="Sample Photo">
+            <img src="./images/img1.jpg" width="102" height="119" alt="Sample Photo" title="Sample Photo" />
+            <span>
+              Link to gallery
+            </span></a>
+          <a href="#" title="Sample Photo">
+            <img src="./images/img1.jpg" width="102" height="119" alt="Sample Photo" title="Sample Photo" />
+            <span>
+              Link to gallery
+            </span></a>
+          <a href="#" title="Sample Photo">
+            <img src="./images/img1.jpg" width="102" height="119" alt="Sample Photo" title="Sample Photo" />
+            <span>
+              Link to gallery
+            </span></a>
+          <a href="#" title="Sample Photo">
+            <img src="./images/img1.jpg" width="102" height="119" alt="Sample Photo" title="Sample Photo" />
+            <span>
+              Link to gallery
+            </span></a>
+          <a href="#" title="Sample Photo">
+            <img src="./images/img1.jpg" width="102" height="119" alt="Sample Photo" title="Sample Photo" />
+            <span>
+              Link to gallery
+            </span></a>
+          <a href="#" class="last" title="Sample Photo">
+            <img src="./images/img1.jpg" width="102" height="119" alt="Sample Photo" title="Sample Photo" />
+            <span>
+              Link to gallery
+            </span></a>
+          <div class="cleaner">
+            &nbsp;
+          </div>
+        </div>
+       
+ 
+      </div>
+      <!-- /main-->
+      <div class="footer1">
+        © 2006
+        <a href="#">Your Company Name</a>
+        |
+        <a href="http://www.studio7designs.com">Studio7designs</a>
+        |
+        <a href="http://www.arbutusphotography.com">Arbutus Photography</a>
+        |
+        <a href="http://www.opensourcetemplates.org">Opensourcetemplates</a>
+        |
+        <a href="#">Contact us</a>
+      </div>
+    </div>
+    <!-- /page-->
+    <div class="footer2">
+      &nbsp;
+    </div>
+
+  </body>
+</html>
+

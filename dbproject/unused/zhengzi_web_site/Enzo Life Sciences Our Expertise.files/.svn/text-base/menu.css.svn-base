@@ -1,0 +1,102 @@
+#rgaccordmenu {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 180px; BACKGROUND-COLOR: #ebebeb; BORDER-RIGHT-WIDTH: 0px
+}
+#rgaccordmenu {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; bbackground-color: red
+}
+#rgaccordmenu UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; bbackground-color: red
+}
+#rgaccordmenu LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; bbackground-color: red
+}
+#rgaccordmenu LI {
+	DISPLAY: block; LIST-STYLE-TYPE: none
+}
+#rgaccordmenu LI A {
+	COLOR: #1a1716; TEXT-DECORATION: none
+}
+#rgaccordmenu .toggle {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 31px; FONT-SIZE: 10px; PADDING-BOTTOM: 0px; MARGIN: 0px; CURSOR: pointer; COLOR: #1a1716; LINE-HEIGHT: 10px; PADDING-TOP: 0px; BORDER-BOTTOM: white 1px solid; HEIGHT: 22px; BACKGROUND-COLOR: #d9d8d8; f_height: 26px
+}
+#rgaccordmenu .empty {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 31px; FONT-SIZE: 10px; PADDING-BOTTOM: 0px; MARGIN: 0px; CURSOR: pointer; COLOR: #1a1716; LINE-HEIGHT: 10px; PADDING-TOP: 0px; BORDER-BOTTOM: white 1px solid; HEIGHT: 22px; BACKGROUND-COLOR: #d9d8d8; f_height: 26px
+}
+#rgaccordmenu .empty0 {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 31px; FONT-SIZE: 10px; PADDING-BOTTOM: 0px; MARGIN: 0px; CURSOR: pointer; COLOR: #1a1716; LINE-HEIGHT: 10px; PADDING-TOP: 0px; BORDER-BOTTOM: white 1px solid; HEIGHT: 22px; BACKGROUND-COLOR: #d9d8d8; f_height: 26px
+}
+#rgaccordmenu .empty1 {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 31px; FONT-SIZE: 10px; PADDING-BOTTOM: 0px; MARGIN: 0px; CURSOR: pointer; COLOR: #1a1716; LINE-HEIGHT: 10px; PADDING-TOP: 0px; BORDER-BOTTOM: white 1px solid; HEIGHT: 22px; BACKGROUND-COLOR: #d9d8d8; f_height: 26px
+}
+#rgaccordmenu .empty {
+	PADDING-LEFT: 0px; BORDER-BOTTOM: white 0px solid; HEIGHT: auto; BACKGROUND-COLOR: #d9d8d8
+}
+#rgaccordmenu .empty0 {
+	PADDING-LEFT: 0px; BORDER-BOTTOM: white 0px solid; HEIGHT: auto; BACKGROUND-COLOR: #d9d8d8
+}
+#rgaccordmenu .empty1 {
+	PADDING-LEFT: 0px; BORDER-BOTTOM: white 0px solid; HEIGHT: auto; BACKGROUND-COLOR: #d9d8d8
+}
+#rgaccordmenu .empty0 {
+	BORDER-BOTTOM: white 1px solid
+}
+#rgaccordmenu .empty1 {
+	PADDING-LEFT: 31px
+}
+#rgaccordmenu .empty1 {
+	BACKGROUND-COLOR: #ec176e
+}
+#rgaccordmenu .empty A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#rgaccordmenu .empty0 A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#rgaccordmenu .empty1 A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#rgaccordmenu .empty0 A {
+	PADDING-LEFT: 31px
+}
+#rgaccordmenu .empty A:hover {
+	DISPLAY: block; BACKGROUND-COLOR: #ec176e
+}
+#rgaccordmenu .empty0 A:hover {
+	DISPLAY: block; BACKGROUND-COLOR: #ec176e
+}
+#rgaccordmenu .empty1 A:hover {
+	DISPLAY: block; BACKGROUND-COLOR: #ec176e
+}
+#rgaccordmenu .toggle {
+	BACKGROUND: url(act.gif) #d9d8d8 no-repeat left bottom
+}
+#rgaccordmenu .act {
+	BACKGROUND: url(act.gif) #d9d8d8 no-repeat left top
+}
+#rgaccordmenu .act3 {
+	COLOR: white; BACKGROUND-COLOR: #ec176e
+}
+#rgaccordmenu .act4 {
+	COLOR: white; BACKGROUND-COLOR: #ec176e
+}
+#rgaccordmenu UL LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 2px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 2px; PADDING-TOP: 0px; HEIGHT: auto; bborder: 1px solid blue
+}
+#rgaccordmenu UL LI A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; COLOR: #333; PADDING-TOP: 0px; BORDER-BOTTOM: #cccbcb 1px solid; BACKGROUND-COLOR: #ebebeb; TEXT-DECORATION: none
+}
+#rgaccordmenu .toggle2 {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 20px; FONT-WEIGHT: bold; PADDING-BOTTOM: 5px; CURSOR: pointer; COLOR: #333; PADDING-TOP: 5px; BORDER-BOTTOM: #cccbcb 1px solid; BACKGROUND-COLOR: #ebebeb
+}
+#rgaccordmenu .act2 {
+	BORDER-BOTTOM: #cccbcb 1px solid; BACKGROUND-COLOR: #ebebeb
+}
+#rgaccordmenu LI UL LI UL LI A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 25px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.open {
+	FONT-WEIGHT: bold; text-decoraton: underline
+}
+.open SPAN {
+	FONT-WEIGHT: bold; text-decoraton: underline
+}

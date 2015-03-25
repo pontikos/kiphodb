@@ -1,0 +1,501 @@
+from django.db import models
+import datetime
+
+# A list that holds all different amino acids for status.
+AMINO_ACID = (
+	('S','Serine'),
+	('T','Threonine'),
+	('Y','Tyrosine'),
+	('X','Unknown')
+)
+
+# A list that holds all different protein types.
+PROTEIN_TYPE = (
+	('K','Kinase'),
+	('P','Phosphatase'),
+	('D', 'Kinase/Phosphatase'),
+	('O','Other')
+)
+
+# A list that holds all different GO term ontologies.
+ONTOLOGY = (
+	('B','Biological Process'),
+	('C','Cellular Component'),
+	('M','Molecular Function'),
+	('U','Unknown'),
+)
+
+# A list that holds all different domain types.
+DOMAIN_TYPE = (
+	('A','Active Site'),
+	('B','Binding Site'),
+	('P','Phosphorylation Site'),
+	('O','Other')
+)
+
+# A list that holds all different organism types.
+ORGANISM_TYPE = (
+	('P','Plant'),
+	('A','Animal'),
+	('U','Unknown')
+)
+
+# A list that holds all different cellularity types.
+CELLULARITY = (
+	('M','Multicellular'),
+	('U','Unicellular'),
+	('X','Unknown')
+)
+
+# A list that holds all different organism domains.
+ORGANISM_DOMAIN = (
+	('A','Archaea'),
+	('B','Bacteria'),
+	('E','Eukarya')
+)
+
+# A list that holds all different reaction types.
+REACTION_TYPE = (
+	('P','Phosphorylation'),
+	('D','Dephosphorylation'),
+	('U','Unknown')
+)
+
+# A list that holds all different reaction effects.
+REACTION_EFFECT = (
+	('A','Activation'),
+	('D','Deactivation'),
+	('U','Unknown')
+)
+
+# A list that holds all different types of evidence for a reaction.
+REACTION_EVIDENCE = (
+	('H','High Throughput Experimental'),
+	('V','In Vivo'),
+	('R','In Vitro'),
+	('S','In Silico'),
+	('U','Unknown')
+)
+
+# A brief description of where the object was found.
+class Source(models.Model):
+	source_id = models.CharField(primary_key=True, max_length=20, help_text="Please insert the source id")
+	url = models.URLField(help_text="Please enter url of source")
+	description = models.TextField(max_length=200, help_text="Please insert a brief desciption of source")
+	class Meta:
+		db_table = 'source'
+		verbose_name = 'Source'
+		verbose_name_plural = 'Sources'
+	def __unicode__(self):
+		return "%s" % self.source_id
+
+# Model for organisms.
+class Organism(models.Model):
+	organism_name = models.CharField(max_length=100, primary_key=True, help_text="Please insert the scientific name of the organism.")
+	taxonomic_id = models.IntegerField(unique=True, null=True, help_text="Please insert the tax id for the organism.")
+	taxonomic_lineage = models.CharField(max_length=500, help_text="Please enter the taxonomic lineage separated by ;.")
+	common_name = models.CharField(max_length=100, help_text="Please insert the common name of the organism.")
+	organism_domain = models.CharField(max_length=1, choices=ORGANISM_DOMAIN, blank=True, default='E', help_text="Please choose the domain that this organism belongs to.")
+	organism_type = models.CharField(max_length=1, choices=ORGANISM_TYPE, blank=True, default='U', help_text="Is the organism a plant or an animal?")
+	cellularity = models.CharField(max_length=1, choices=CELLULARITY, blank=True, default='X', help_text="Is the organism unicellular or multicellular?")
+	comments = models.TextField(blank=True, default="", help_text='You can leave here your comments.')
+	class Meta:
+        	db_table = 'organism'
+		verbose_name = 'Organism'
+		verbose_name_plural = 'Organisms'
+	def __unicode__(self):
+		return str(self.organism_name)
+	def delete(self):
+		Protein.objects.filter(organism_name=self).delete()
+		Pathway.objects.filter(organism_name=self).delete()
+		models.Model.delete(self)
+
+class ProteinManager(models.Manager):
+	def filter(self, *args, **k):
+		if 'gene_name' in k:
+			k['gene_name'] = k['gene_name'].upper()
+		def alt_accs(accession_type):
+			acc = k[accession_type].upper()
+			alt_accessions = [str(x.object_id).upper() for x in ID.objects.filter(external_id=acc)]
+			k['%s__in' % accession_type] = alt_accessions + [acc]
+			del k[accession_type]
+			print k
+		if 'gene_accession_number' in k:
+			alt_accs('gene_accession_number')
+		if 'accession_number' in k:
+			alt_accs('accession_number')
+		return super(ProteinManager, self).filter(*args, **k)
+	def get(self, *args, **k):
+		if 'gene_name' in k:
+			k['gene_name'] = k['gene_name'].upper()
+		def alt_accs(accession_type):
+			acc = k[accession_type].upper()
+			alt_accessions = [str(x.object_id).upper() for x in ID.objects.filter(external_id=acc)]
+			k['%s__in' % accession_type] = alt_accessions + [acc]
+			del k[accession_type]
+			print k
+		if 'gene_accession_number' in k:
+			alt_accs('gene_accession_number')
+		if 'accession_number' in k:
+			alt_accs('accession_number')
+		return super(ProteinManager, self).get(*args, **k)
+
+
+# Model for proteins.
+PROTEIN_NAME_LENGTH = 100
+GENE_ACCESSION_NUMBER_LENGTH = 50
+GENE_NAME_LENGTH = 100
+class Protein(models.Model):
+	objects = ProteinManager()
+	accession_number = models.CharField(max_length=20, primary_key=True, help_text="Here you can insert the Protein's Accession number.")
+	protein_name = models.CharField(max_length=PROTEIN_NAME_LENGTH, blank=False, help_text="Please insert the name of the protein.")
+	protein_type = models.CharField(max_length=1, choices=PROTEIN_TYPE, help_text="Please choose the type of the protein from the drop-down menu.")
+	substrate = models.BooleanField(help_text="Is this protein a substrate or not? Please check the box accordingly.")
+	gene_accession_number = models.CharField(max_length=GENE_ACCESSION_NUMBER_LENGTH, blank=True, null=True, help_text="In this text box you can insert the accession number of the gene that codes for the protein.")
+	gene_name = models.CharField(max_length=GENE_NAME_LENGTH, blank=True, null=True, help_text="Here you can insert the name of the gene that codes for the protein.")
+	ec_number = models.CharField(max_length=100, blank=True, default="", help_text="Please insert in this text box the protein's EC number (EC stands for Enzyme Coefficient).")
+	cog = models.CharField(max_length=100, blank=True, null=True, help_text="Here you can insert the COG number of the protein.")
+	organism_name = models.ForeignKey(Organism, help_text="Please choose one of the available organisms for this protein. If the organism is not on the list, you can create a new entry for it using the plus button.", db_column='organism_name')
+	protein_sequence = models.TextField(blank=True, default="", help_text="Please insert here the amino acid sequence of the protein.")
+	reviewed = models.BooleanField(blank=True, default=False, help_text="Indicate whether the information stored in this record is reviewed or not by checking this box accordingly.")
+	updated = models.DateField(blank=True, default=datetime.date.today(), help_text="When was this record last updated? The default value is today's date.")
+	comments = models.TextField(blank=True, default = "", help_text="You can leave here your comments.")
+	source = models.ForeignKey(Source, help_text='Please insert the source where you found this data.')
+	class Meta:
+		db_table = 'protein'
+		verbose_name = 'Protein'
+		verbose_name_plural = 'Proteins'
+	def __unicode__(self):
+		return str(self.accession_number)
+	def save(self, *args, **k):
+		self.protein_name = str(self.protein_name)[:PROTEIN_NAME_LENGTH]
+		self.gene_accession_number = str(self.gene_accession_number)[:GENE_ACCESSION_NUMBER_LENGTH]
+		self.gene_name = str(self.gene_name)[:GENE_NAME_LENGTH]
+		models.Model.save(self, *args, **k)
+	def delete(self):
+		ID.objects.filter(object_id=self.accession_number).delete()
+		ObjectId_Reference.objects.filter(object_id=self.accession_number).delete()
+		GOTerm_Protein.objects.filter(accession_number=self).delete()
+		Domain_Protein.objects.filter(accession_number=self).delete()
+		PhosphorylationSite.objects.filter(accession_number=self).delete()
+		Reaction.objects.filter(substrate_accession_number=self).delete()
+		models.Model.delete(self)
+
+# Model for Gene Ontology terms.
+class GOTerm(models.Model):
+	go_term = models.CharField(max_length=10, primary_key=True, help_text='Please insert here the actual GO term in the form \"GO:XXXXXXX\".')
+	name = models.CharField(max_length=100, blank=True, default = "", help_text="Please insert the name of the GO term.")
+	ontology = models.CharField(max_length=1, choices=ONTOLOGY, blank=True, default = "U", help_text="Using the drop-down menu, you can choose the ontology this GO term belongs to.")
+	definition = models.TextField(blank=True, default="", help_text="Here you can provide a definition for the GO term.")
+	comments = models.TextField(blank=True, default = "", help_text="You can leave here your comments.")
+	class Meta:
+		db_table = 'go_term'
+		verbose_name = 'GO term'
+		verbose_name_plural = 'GO terms'
+	def __unicode__(self):
+		return self.go_term
+
+# Model for mapping Gene Ontology terms to proteins.
+class GOTerm_Protein(models.Model):
+	accession_number = models.ForeignKey('Protein', help_text='The accession number of a protein (kinase, phosphatase or substrate) that is already stored in the database. If the protein you wish to use does not exist, you can add it using the plus button next to the text field.')
+	go_term = models.ForeignKey('GOTerm', help_text='One of the Gene Ontology terms that is already stored in the database. If the GO term you wish to use does not exist, please create a new record for it using the plus button.')
+	comments = models.TextField(blank=True, default="", help_text='You can leave here your comments.')
+	class Meta:
+		db_table = 'go_term_protein'
+		unique_together = ('accession_number', 'go_term')
+		verbose_name = 'Protein - GO term'
+		verbose_name_plural = 'Proteins - GO terms'
+	def __unicode__(self):
+		return '%s,%s' % (self.accession_number, self.go_term)
+	def save(self, *args, **k):
+		if not GOTerm_Protein.objects.filter(accession_number=self.accession_number, go_term=self.go_term):
+			models.Model.save(self, *args, **k)
+
+# Model for protein domains.
+class Domain(models.Model):
+	pfam_id = models.CharField(max_length=20, primary_key=True, help_text="Please insert here the PFAM ID of the domain.")
+	name = models.CharField(max_length=100, blank=True, default="", help_text="In this text box you can insert the name of the domain.")
+	description = models.TextField(blank=True, default="", help_text="Please provide a brief description of the domain.")
+	comments = models.TextField(blank=True, default="", help_text='You can leave here your comments.')
+	class Meta:
+		db_table = 'domain'
+		verbose_name = 'Domain'
+		verbose_name_plural = 'Domains'
+	def __unicode__(self):
+		return str(self.pfam_id)
+	def delete(self):
+		Domain_Protein.objects.filter(pfam=self).delete()
+		Domain_Domain.objects.filter(pfam_id_1=self).delete()
+		Domain_Domain.objects.filter(pfam_id_2=self).delete()
+		models.Model.delete(self)
+
+
+# Model for mapping domains to proteins.
+class Domain_Protein(models.Model):
+	accession_number = models.ForeignKey(Protein, help_text='The accession number of a protein (kinase, phosphatase or substrate) that is already stored in the database. If the protein you wish to use does not exist, you can add it using the plus button next to the text field.')
+	pfam = models.ForeignKey(Domain, help_text="The PFAM ID of a protein domain that already exists in the database. If you cannot find the PFAM ID you wish to use, then please create a new record using the plus button.")
+	domain_type = models.CharField(max_length=1, choices=DOMAIN_TYPE, blank=True, default='O', help_text="What is the function of the domain in this specific protein. Please choose one of the available descriptions using the drop-down menu.")
+	startpos = models.IntegerField(help_text='Start position of domain in protein.')
+	endpos = models.IntegerField(help_text='End position of domain in protein.')
+	comments = models.TextField(blank=True, default="", help_text='You can leave here your comments.')
+	class Meta:
+		db_table = 'domain_protein'
+		unique_together = ('accession_number', 'pfam', 'startpos', 'endpos')
+		verbose_name = 'Protein - Domain'
+		verbose_name_plural = 'Proteins - Domains'
+	def __unicode__(self):
+		return '%s,%s' % (self.pfam, self.accession_number)
+	def save(self, *args, **k):
+		if not Domain_Protein.objects.filter(accession_number=self.accession_number, pfam=self.pfam, startpos=self.startpos, endpos=self.endpos):
+			models.Model.save(self, *args, **k)
+
+
+# Model for mapping domains to domains.
+class Domain_Domain(models.Model):
+	pfam_id_1 = models.ForeignKey(Domain, related_name='pfam_id_1', help_text="The PFAM ID of a protein domain that already exists in the database. If you cannot find the PFAM ID you wish to use, then please create a new record using the plus button.")
+	pfam_id_2 = models.ForeignKey(Domain, related_name='pfam_id_2', help_text="The PFAM ID of a protein domain that already exists in the database. If you cannot find the PFAM ID you wish to use, then please create a new record using the plus button.")
+	description = models.TextField(blank=True, default="", help_text="Please provide a description of the domain - domain interaction.")
+	comments = models.TextField(blank=True, default="", help_text='You can leave here your comments.')
+	class Meta:
+		db_table = 'domain_domain'
+		unique_together = ('pfam_id_1', 'pfam_id_2')
+		verbose_name = 'Domain - Domain'
+		verbose_name_plural = 'Domains - Domains'
+	def __unicode__(self):
+		return '%s,%s' % (self.pfam_id_1, self.pfam_id_2)
+
+
+# Model for reactions.
+class Reaction(models.Model):
+	reaction_id = models.AutoField(primary_key=True)
+	ki_pho_accession_number = models.ForeignKey(Protein, related_name='ki_pho_accession_number', help_text='The accession number of a protein (kinase or phosphatase) that is already stored in the database. If the protein you wish to use does not exist, you can add it using the plus button next to the text field.')
+	substrate_accession_number = models.ForeignKey(Protein, related_name='substrate_accession_number', help_text='The accession number of a protein (substrate) that is already stored in the database. If the protein you wish to use does not exist, you can add it using the plus button next to the text field.')
+	reaction_type = models.CharField(max_length=1, choices=REACTION_TYPE, blank=True, default='U',  help_text="Please choose the type of the reaction.")
+	reaction_effect = models.CharField(max_length=1, choices=REACTION_EFFECT, blank=True, default='U', help_text="Please choose the effect that this reaction has to the substrate.")
+	reaction_evidence = models.CharField(max_length=1, choices=REACTION_EVIDENCE, blank=True, default='U', help_text="Please choose the quality of evidence for the specific reaction.")
+	reaction_score = models.DecimalField(max_digits=5, decimal_places=4, blank=True, help_text="Please insert the score of the reaction if available.")
+	reaction_description = models.TextField(blank=True, default="", help_text="Please provide a description of the reaction.")
+	reviewed = models.BooleanField(blank=True, default=False, help_text="Indicate whether the information stored in this record is reviewed or not by checking this box accordingly.")
+	updated = models.DateField(blank=True, default=datetime.date.today(), help_text="When was this record last updated? The default value is today's date.")
+	comments = models.TextField(blank=True, default="", help_text='You can leave your comments here.')
+	source = models.ForeignKey(Source, help_text='Please insert the source where you found this data.')
+	class Meta:
+		db_table = 'reaction'
+		unique_together = ('ki_pho_accession_number', 'substrate_accession_number')
+		verbose_name = 'Reaction'
+		verbose_name_plural = 'Reactions'
+	def __unicode__(self):
+		return '%s,%s' % (self.ki_pho_accession_number, self.substrate_accession_number)
+	def delete():
+		ID.objects.filter(object_id='RC%0.6d' % int(self.pathway_id)).delete()
+		ObjectId_Reference.objects.filter(object_id='RC%0.6d' % int(self.pathway_id)).delete()
+		models.Model.delete(self)
+	def save(self, *args, **k):
+		if not Reaction.objects.filter(ki_pho_accession_number=self.ki_pho_accession_number, substrate_accession_number=self.substrate_accession_number):
+			models.Model.save(self, *args, **k)
+		else:
+			self.reaction_id = Reaction.objects.get(ki_pho_accession_number=self.ki_pho_accession_number, substrate_accession_number=self.substrate_accession_number).reaction_id
+
+
+
+# Model for phosphorylation sites.
+class PhosphorylationSite(models.Model):
+	phosphosite_id = models.CharField(max_length=30, primary_key=True, help_text='Phosphosite id with the PS prefix or "accession-amino_acid-position".')
+	accession_number = models.ForeignKey('Protein', help_text="The accession number of the protein where the phosphorylation site resides. The protein should already be stored in the database. If not, you can add it using the plus button next to the text field.")
+	amino_acid = models.CharField(max_length=1, choices=AMINO_ACID, help_text="What is the amino acid that gets phosphorylated. You can select it from the drop-down list.")
+	position = models.IntegerField(help_text="Insert here the position of the amino acid in the sequence.")
+	motif = models.CharField(max_length=100, blank=True, default="", help_text="Please insert the motif where the phosphorylation takes place.")
+	reviewed = models.BooleanField(blank=True, default=False, help_text="Indicate whether the information stored in this record is reviewed or not by checking this box accordingly.")
+	updated = models.DateField(blank=True, default=datetime.date.today(), help_text="When was this record last updated? The default value is today's date.")
+	comments = models.TextField(blank=True, default="", help_text='You can leave your comment here.')
+	source = models.ForeignKey(Source, help_text='Please insert the source where you found this data.')
+	class Meta:
+		db_table = 'phosphorylation_site'
+		unique_together = ('accession_number', 'amino_acid', 'position')
+		verbose_name = 'Phosphorylation site'
+		verbose_name_plural = 'Phosphorylation sites'
+	def __unicode__(self):
+		return '%s,%s,%s' % (self.accession_number, self.amino_acid, self.position)
+	def delete(self):
+		ID.objects.filter(object_id=self.phosphosite_id).delete()
+		ObjectId_Reference.objects.filter(object_id=self.phosphosite_id).delete()
+		models.Model.delete(self)
+	def save(self, *args, **k):
+		if not self.phosphosite_id:
+			self.phosphosite_id = '%s-%s-%s' % (str(self.accession_number).upper(), str(self.amino_acid).upper(), str(self.position))
+		if len(str(self.motif)) > 100:
+			self.motif = str(self.motif)[:100]
+		if not PhosphorylationSite.objects.filter(accession_number=self.accession_number, amino_acid=self.amino_acid, position=self.position):
+			models.Model.save(self, *args, **k)
+
+
+# Model for pathways.
+class Pathway(models.Model):
+	#auto incrementing field.  To get this from object id remove the leading PW
+	pathway_id = models.AutoField(primary_key=True)
+	pathway_name = models.CharField(max_length=100, help_text="Please insert the name of the pathway.")
+	organism_name = models.ForeignKey('Organism', help_text="Please choose one of the available organisms for this pathway. If the organism is not on the list, you can create a new entry for it using the plus button.", db_column='organism_name', to_field='organism_name')
+	description = models.TextField(blank=True, default="", help_text="Please provide a description for the pathway.")
+	reviewed = models.BooleanField(blank=True, default=False, help_text="Indicate whether the information stored in this record is reviewed or not by checking this box accordingly.")
+	updated = models.DateField(blank=True, default=datetime.date.today(), help_text="When was this record last updated? The default value is today's date.")
+	comments = models.TextField(blank=True, default="", help_text='You can leave here your comments.')
+	source = models.ForeignKey(Source, help_text='Please insert the source where you found this data.')
+	class Meta:
+		db_table = 'pathway'
+		unique_together = ('pathway_name','organism_name')
+		verbose_name = 'Pathway'
+		verbose_name_plural = 'Pathways'
+	def __unicode__(self):
+		return str(self.pathway_id)
+	def delete(self):
+		Reaction_Pathway.objects.filter(pathway=self).delete()
+		ID.objects.filter(object_id='PW%0.6d' % int(self.pathway_id)).delete()
+		ObjectId_Reference.objects.filter(object_id='PW%0.6d' % int(self.pathway_id)).delete()
+		models.Model.delete(self)
+	def save(self, *args, **k):
+		if not Pathway.objects.filter(pathway_name=self.pathway_name, organism_name=self.organism_name):
+			models.Model.save(self, *args, **k)
+		else:
+			self.pathway_id = Pathway.objects.get(pathway_name=self.pathway_name, organism_name=self.organism_name).pathway_id
+
+
+# Model for mapping reactions to pathways.
+class Reaction_Pathway(models.Model):
+	reaction = models.ForeignKey('Reaction', help_text="Please choose one of the available reaction ids. If you wish to create a new reaction, you can use the plus button.")
+	pathway = models.ForeignKey('Pathway', help_text="Please choose one of the available pathway ids. If you wish to create a new pathway, you can use the plus button.")
+	reviewed = models.BooleanField(blank=True, default=False, help_text="Indicate whether the information stored in this record is reviewed or not by checking this box accordingly.")
+	updated = models.DateField(blank=True, default=datetime.date.today(), help_text="When was this record last updated? The default value is today's date.")
+	comments = models.TextField(blank=True, default="", help_text='You can leave here your comments.')
+	source = models.ForeignKey(Source, help_text='Please insert the source where you found this data.')
+	class Meta:
+		db_table = 'reaction_pathway'
+		unique_together = ('reaction', 'pathway')
+		verbose_name = 'Reaction - Pathway'
+		verbose_name_plural = 'Reactions - Pathways'
+	def __unicode__(self):
+		return '%s,%s' % (self.reaction, self.pathway)
+	def save(self, *args, **k):
+		if not Reaction_Pathway.objects.filter(reaction=self.reaction, pathway=self.pathway):
+			models.Model.save(self, *args, **k)
+
+
+# Model for trees.
+class Tree(models.Model):
+	tree_id = models.AutoField(primary_key=True)
+	name = models.CharField(max_length=100, help_text="Please insert the name of the tree.")
+	structure = models.TextField(help_text="Use this text box to insert a string of characters that will describe the structure of the tree.")
+	sql_query = models.TextField(help_text="Please insert here the SQL query that generated the tree.")
+	user_name = models.CharField(max_length=50, help_text="Please enter the name of the user who created the tree.")
+	reviewed = models.BooleanField(blank=True, default=False, help_text="Indicate whether the information stored in this record is reviewed or not by checking this box accordingly.")
+	updated = models.DateField(blank=True, default=datetime.date.today(), help_text="When was this record last updated? The default value is today's date.")
+	comments = models.TextField(blank=True, default="", help_text='You can leave here your comments.')
+	class Meta:
+		db_table = 'tree'
+		verbose_name = 'Tree'
+		verbose_name_plural = 'Trees'
+	def __unicode__(self):
+		return self.name
+
+
+# Model for files.
+class File(models.Model):
+	object_id = models.CharField(max_length=8, help_text="Please insert in this text box the 8-character object id that is related to the file you wish to upload.")
+	path_to_file = models.FileField(upload_to='/home/workspace/media/', help_text="Please choose a file to upload.");
+	date = models.DateField(blank=True, default=datetime.date.today(), help_text="When was this file uploaded? The default value is today's date.")
+	comments = models.TextField(blank=True, default="", help_text='You can leave here your comments.')
+	class Meta:
+        	db_table = 'file'
+		unique_together = ('object_id', 'path_to_file')
+		verbose_name = 'File'
+		verbose_name_plural = 'Files'
+	def __unicode__(self):
+		return self.object_id
+
+#Model for genefamilies
+class Genefamily(models.Model):
+        treefam_id = models.CharField(max_length=10, help_text="Please insert in this text box the 8-character object id that is related to the file you wish to upload.")
+        protein_type = models.CharField(max_length=1, choices=PROTEIN_TYPE, help_text="Please choose the type of the protein from the drop-down menu.")
+	gene_id = models.CharField(max_length=100, help_text="Please insert the name of the tree.")
+	gene_name = models.CharField(max_length=100, help_text="Please insert the name of the tree.")
+	class Meta:
+        	db_table = 'genefamily'
+		#unique_together = ('name')
+		verbose_name = 'Genefamily'
+		verbose_name_plural = 'Gene Families'
+	def __unicode__(self):
+		return self.treefam_id
+
+# Model for references.
+class Reference(models.Model):
+	reference_id = models.CharField(primary_key=True, max_length=500, help_text="Please provide the reference as a PUBMED id or a DOI id.")
+	title = models.CharField(max_length=500, help_text="Please provide the title of the publication.")
+	authors = models.TextField(help_text="Please insert the names of the authors.")
+	location = models.TextField(help_text="Please provide the source of this publication.")
+	comments = models.TextField(blank=True, default="", help_text='You can leave here your comments.')
+	class Meta:
+		db_table = 'reference'
+		unique_together = ('reference_id', 'title')
+		verbose_name = 'Reference'
+		verbose_name_plural = 'References'
+	def __unicode__(self):
+		return self.reference_id
+	def delete(self):
+		ObjectId_Reference.objects.filter(reference=this).delete()
+		models.Model.delete(self)
+	def save(self, *args, **k):
+		object_id = None
+		if 'object_id' in k:
+			object_id = k['object_id']
+			del k['object_id']
+		models.Model.save(self, *args, **k)
+		if object_id:
+			ObjectId_Reference(object_id=object_id, reference=self).save(*args, **k)
+
+class ObjectId_Reference(models.Model):
+	object_id = models.CharField(max_length=20, help_text="Please insert in this text box the 8-character object id that is related to the reference.")
+	reference = models.ForeignKey(Reference, help_text="Please insert reference to publication")
+	class Meta:
+		db_table = 'objectid_reference'
+		unique_together = ('object_id', 'reference')
+		verbose_name = 'ObjectId - Reference'
+		verbose_name_plural = 'ObjectIds - References'
+	def __unicode__(self):
+		return "%s,%s" % (self.object_id, self.reference)
+	def delete(self):
+		models.Model.delete(self)
+		#if this is the last one then delete the reference from Reference
+		if ObjectId_Reference.objects.filter(reference=this.reference):
+			Reference.objects.filter(reference=this.reference).delete()
+	def save(self, *args, **k):
+		if not ObjectId_Reference.objects.filter(object_id=self.object_id, reference=self.reference):
+			models.Model.save(self, *args, **k)
+
+# Model for external IDs.
+class ID(models.Model):
+	object_id = models.CharField(max_length=20, help_text="Please insert in this text box the 8-character object id that is related to the external id.")
+	external_id = models.CharField(max_length=150, help_text="Please provide here the external id.")
+	comments = models.TextField(blank=True, default="", help_text='You can leave here your comments.')
+	source = models.ForeignKey(Source, help_text="In this text box you can indicate the source of the external id.")
+	class Meta:
+		db_table = 'id'
+		unique_together = ('object_id', 'external_id', 'source')
+		verbose_name = 'ID'
+		verbose_name_plural = 'IDs'
+	def __unicode__(self):
+		return self.object_id
+	def save(self, *args, **k):
+		if not ID.objects.filter(object_id = self.object_id, external_id=self.external_id, source=self.source):
+			models.Model.save(self, *args, **k)
+
+def protein_reactions_by_pathway(pathway_id):
+	if pathway_id:
+		pathways = Pathway.objects.filter(pathway_id=pathway_id)
+	else:
+		pathways = Pathway.objects.all()
+	for pathway in pathways:
+		reactions = [x.reaction for x in Reaction_Pathway.objects.filter(pathway=pathway)]
+		print pathway
+		print reactions
+		print
+		yield (pathway, reactions)
+

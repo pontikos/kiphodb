@@ -1,0 +1,137 @@
+{% include "header.html" %}
+{% load kipho_filters %}
+
+			<div class="main">
+				<div class="bluebox">
+					{% if error %}
+						<h1>ERROR!</h1><br/>
+						The following error occurred:
+						<i>{{error}}</i>
+					{% else %}
+						<h1>Reaction Information</h1><br/>
+						<h2>Reaction ID</h2>
+						{{reaction_id}}<br/><br/>
+						<h2>Kinase/Phosphatase</h2>
+						<i>Accession Number: </i> <a href="protein?accession_number='{{ki_pho.accession_number}}'">{{ki_pho.accession_number}}</a><br/>
+						<i>Name: </i> {{ki_pho.protein_name}}<br/>
+						<i>Type: </i> {{ki_pho.protein_type|protein_type}}<br/>
+						<i>Gene Accession Number: </i> {{ki_pho.gene_accession_number}}<br/>
+						<i>Gene Name: </i>{{ki_pho.gene_name}}<br/>
+						<i>EC Number: </i>{{ki_pho.ec_number}}<br/>
+						<i>Organism: </i><a href="organism?organism_name='{{ ki_pho.organism_name }}'">{{ki_pho.organism_name}}</a><br/><br/>
+						<h2>Substrate</h2>
+						<i>Accession Number: </i> <a href="protein?protein_name={{substrate.accession_number}}">{{substrate.accession_number}}</a><br/>
+						<i>Name: </i> {{substrate.protein_name}}<br/>
+						<i>Type: </i> {{substrate.protein_type|protein_type}}<br/>
+						<i>Gene Accession Number: </i> {{substrate.gene_accession_number}}<br/>
+						<i>Gene Name: </i>{{substrate.gene_name}}<br/>
+						<i>EC Number: </i>{{substrate.ec_number}}<br/>
+						<i>Organism: </i><a href="organism?organism_name='{{substrate.organism_name}}'">{{substrate.organism_name}}</a><br/><br/>
+						<h2>Reaction Type</h2>
+						{%ifequal reaction.reaction_type 'P'%}
+						Phosphorylation
+						{%endifequal%}
+						{%ifequal reaction.reaction_type 'D'%}
+						Dephosphorylation
+						{%endifequal%}
+						{%ifequal reaction.reaction_type 'U'%}
+						Unknown
+						{%endifequal%}<br/><br/>
+						<h2>Reaction Effect</h2>
+						{%ifequal reaction.reaction_effect 'A'%}
+						Activation
+						{%endifequal%}
+						{%ifequal reaction.reaction_effect 'D'%}
+						Deactivation
+						{%endifequal%}
+						{%ifequal reaction.reaction_effect 'U'%}
+						Unknown
+						{%endifequal%}<br/><br/>
+						<h2>Reaction Evidence</h2>
+						{%ifequal reaction.reaction_evidence 'H'%}
+						High Throughput Experimental
+						{%endifequal%}
+						{%ifequal reaction.reaction_evidence 'V'%}
+						In Vivo
+						{%endifequal%}
+						{%ifequal reaction.reaction_evidence 'R'%}
+						In Vitro
+						{%endifequal%}
+						{%ifequal reaction.reaction_evidence 'S'%}
+						In Silico
+						{%endifequal%}
+						{%ifequal reaction.reaction_evidence 'U'%}
+						Unknown
+						{%endifequal%}<br/><br/>
+						<h2>Score</h2>
+						{{reaction.reaction_score}}<br/><br/>
+						<h2>Description</h2>
+						{{reaction.reaction_description}}<br/><br/>
+						<h2>Reviewed</h2>
+						{%if reaction.reviewed%}
+						Yes.
+						{%else%}
+						No.
+						{%endif%}<br/><br/>
+						<h2>Updated</h2>
+						{{reaction.updated}}<br/><br/>
+						<h2>Comments</h2>
+						{%if not reaction.comments%}
+						No Comments
+						{%else%}
+						{{reaction.comments}}
+						{%endif%}<br/><br/>
+						<h2>Source</h2>
+                                          {% if reac_source_ids %}
+                                               	{% for r in reac_source_ids|hash:reaction.reaction_id %}
+                                               		{% if not r|hasID_reac %}
+                                               			{{reaction.source}}<br/>
+				              		{% else %}
+									<a href="{{reaction.source|source:r}}">{{reaction.source}}</a><br/>
+                                               		{%endif%}
+							{%endfor%}
+	                                    {% else %}
+        						{{reaction.source}}<br/>
+                                           {% endif %}<br/>
+
+                                         {%if pathways%}
+                                         		<h2>Appears in Pathways:</h2>
+							{%for path_id, path in pathways%}
+								<a href="pathway?pathway_id={{path.pathway_id}}">{{path_id}}</a><br/>
+                                                {%endfor%}
+						{%endif%}
+
+						<!--Are there any references? If yes, display them in a table.-->
+						{% if references %}
+						<h2>References</h2>
+						{% for reference in references %}
+						<a href="reference?reference_id={{reference.reference_id}}">{{reference.reference_id}}</a><br/>
+						{% endfor %}
+						{% endif %} <br/>
+
+						<!--Are there any external ids? If yes, display them.-->
+						{%if external_ids%}
+						<h2>External IDs</h2>
+						{%for id in external_ids%}
+						"{{id.external_id}}" from {{id.source}}<br/>
+						{%endfor%}<br/>
+						{%endif%}
+
+						<!--Are there any files? if yes. display them.-->
+						{%if files%}
+						<h2>Files</h2>
+						{%for file in files%}
+						{{file.url}}<br/>
+						{%endfor%}<br/>
+						{%endif%}
+
+					{% endif %}
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+			</div>
+		</div>
+
+		{% include "footer.html" %}
+	

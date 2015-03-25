@@ -1,0 +1,642 @@
+				<div class="bluebox">
+					<h1>Advanced Search</h1><br>
+					<p>Please select the appropriate... (Write a proper explanation and description here)</p><br/>
+					<form name="advancedSearch" method="post" action="advancedsearch.html">
+					<dl id="content">
+						<dt><font size="4"><b>Protein</b></font></dt>
+						<dd>
+						<table border="0" align="center" width="670">
+							<tr>
+								<th>Display</th>
+								<th>Field</th>
+								<th>Filter</th>
+								<th>NOT</th>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.protein.accession_number"></td>
+								<td align="center">Accession Number</td>
+								<td align="center"><input type="text" name="filter.protein.accession_number" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.protein.accession_number"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.protein.protein_name"></td>
+								<td align="center">Protein Name</td>
+								<td align="center"><input type="text" name="filter.protein.protein_name" size="40"></td>
+								<td align="center"><input type="checkbox" name="not.protein.protein_name"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.protein.protein_type"></td>
+								<td align="center">Protein Type</td>
+								<td align="center">
+									<select name="filter.protein.protein_type" selected="">
+										<option value=""> </option>
+										<option value="K">Kinase</option>
+										<option value="P">Phosphatase</option>
+										<option value="O">Other</option>
+									</select>
+								</td>
+								<td align="center"><input type="checkbox" name="not.protein.protein_type"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display.protein.substrate"></td>
+								<td align="center">Substrate</td>
+								<td align="center">
+									<select name="filter-Protein-substrate" selected="">
+										<option value=""> </option>
+										<option value="1">Yes</option>
+										<option value="0">No</option>
+									</select>
+								</td>
+								<td align="center"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Protein-gene_accession_number"></td>
+								<td align="center">Gene Accession Number</td>
+								<td align="center"><input type="text" name="filter-Protein-gene_accession_number" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Protein-gene_accession_number"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Protein-gene_name"></td>
+								<td align="center">Gene Name</td>
+								<td align="center"><input type="text" name="filter-Protein-gene_name" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Protein-gene_name"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Protein-ec_number"></td>
+								<td align="center">EC Number</td>
+								<td align="center"><input type="text" name="filter-Protein-ec_number" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Protein-ec_number"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Protein-cog"></td>
+								<td align="center">COG</td>
+								<td align="center"><input type="text" name="filter-Protein-cog" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Protein-cog"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Protein-organism_name"></td>
+								<td align="center">Organism name</td>
+								<td align="center"><input type="text" name="filter-Protein-organism_name" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Protein-organism_name"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Protein-protein_sequence"></td>
+								<td align="center">Protein Sequence</td>
+								<td align="center"><input type="text" name="filter-Protein-protein_sequence" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Protein-protein_sequence"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Protein-reviewed"></td>
+								<td align="center">Reviewed</td>
+								<td align="center">
+									<select name="filter-Protein-reviewed" selected="">
+										<option value=""> </option>
+										<option value="1">Yes</option>
+										<option value="0">No</option>
+									</select>
+								</td>
+								<td align="center"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Protein-updated"></td>
+								<td align="center">Updated</td>
+								<td align="center"></td>
+								<td align="center"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Protein-comments"></td>
+								<td align="center">Comments</td>
+								<td align="center"><input type="text" name="filter-Protein-comments" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Protein-comments"></td>
+							</tr>
+						</table><br/>
+						</dd><br/>
+						<dt><font size="4"><b>Reaction</b></font></dt>
+						<dd>
+						<table border="0" align="center" width="670">
+							<tr>
+								<th>Display</th>
+								<th>Field</th>
+								<th>Filter</th>
+								<th>NOT</th>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Reaction-reaction_id"></td>
+								<td align="center">Reaction ID</td>
+								<td align="center"><input type="text" name="filter-Reaction-reaction_id" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Reaction-reaction_id"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Reaction-ki_pho_accession_number"></td>
+								<td align="center">Kinase/Phosphatase Accession</td>
+								<td align="center"><input type="text" name="filter-Reaction-ki_pho_accession_number" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Reaction-ki_pho_accession_number"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Reaction-substrate_accession_number"></td>
+								<td align="center">Substrate Accession</td>
+								<td align="center"><input type="text" name="filter-Reaction-substrate_accession_number" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Reaction-substrate_accession_number"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Reaction-reaction_type"></td>
+								<td align="center">Reaction Type</td>
+								<td align="center">
+									<select name="filter-Reaction-reaction_type" selected="">
+										<option value=""> </option>
+										<option value="P">Phosphorylation</option>
+										<option value="D">Dephosphorylation</option>
+										<option value="U">Unknown</option>
+									</select>
+								</td>
+								<td align="center"><input type="checkbox" name="not-Reaction-reaction_type"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Reaction-reaction_effect"></td>
+								<td align="center">Reaction Effect</td>
+								<td align="center">
+									<select name="filter-Reaction-reaction_effect" selected="">
+										<option value=""> </option>
+										<option value="A">Activation</option>
+										<option value="D">Deactivation</option>
+										<option value="U">Unknown</option>
+									</select>
+								</td>
+								<td align="center"><input type="checkbox" name="not-Reaction-reaction_effect"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Reaction-reaction_evidence"></td>
+								<td align="center">Reaction Evidence</td>
+								<td align="center">
+									<select name="filter-Reaction-reaction_evidence" selected="">
+										<option value=""> </option>
+										<option value="H">High Throughput Experimental</option>
+										<option value="V">In Vivo</option>
+										<option value="R">In Vitro</option>
+										<option value="S">In Silico</option>
+										<option value="U">Unknown</option>
+									</select>
+								</td>
+								<td align="center"><input type="checkbox" name="not-Reaction-reaction_evidence"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Reaction-reaction_score"></td>
+								<td align="center">Reaction Score</td>
+								<td align="center"><input type="text" name="filter-Reaction-reaction_score" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Reaction-reaction_score"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Reaction-reaction_description"></td>
+								<td align="center">Reaction Description</td>
+								<td align="center"><input type="text" name="filter-Reaction-reaction_description" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Reaction-reaction_description"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Reaction-reviewed"></td>
+								<td align="center">Reviewed</td>
+								<td align="center">
+									<select name="filter-Reaction-reviewed" selected="">
+										<option value=""> </option>
+										<option value="1">Yes</option>
+										<option value="0">No</option>
+									</select>
+								</td>
+								<td align="center"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Reaction-updated"></td>
+								<td align="center">Updated</td>
+								<td align="center"></td>
+								<td align="center"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Reaction-comments"></td>
+								<td align="center">Comments</td>
+								<td align="center"><input type="text" name="filter-Reaction-comments" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Reaction-comments"></td>
+							</tr>
+						</table>
+						</dd><br/>
+						<dt><font size="4"><b>Pathway</b></font></dt>
+						<dd>
+						<table border="0" align="center" width="670">
+							<tr>
+								<th>Display</th>
+								<th>Field</th>
+								<th>Filter</th>
+								<th>NOT</th>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Pathway-pathway_id"></td>
+								<td align="center">Pathway ID</td>
+								<td align="center"><input type="text" name="filter-Pathway-pathway_id" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Pathway-pathway_id"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Pathway-pathway_name"></td>
+								<td align="center">Pathway Name</td>
+								<td align="center"><input type="text" name="filter-Pathway-pathway_name" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Pathway-pathway_name"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Pathway-organism_name"></td>
+								<td align="center">Organism Name</td>
+								<td align="center"><input type="text" name="filter-Pathway-organism_name" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Pathway-organism_name"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Pathway-desription"></td>
+								<td align="center">Description</td>
+								<td align="center"><input type="text" name="filter-Pathway-description" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Pathway-description"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Pathway-reviewed"></td>
+								<td align="center">Reviewed</td>
+								<td align="center">
+									<select name="filter-Pathway-reviewed" selected="">
+										<option value=""> </option>
+										<option value="1">Yes</option>
+										<option value="0">No</option>
+									</select>
+								</td>
+								<td align="center"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Pathway-updated"></td>
+								<td align="center">Updated</td>
+								<td align="center"></td>
+								<td align="center"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Pathway-comments"></td>
+								<td align="center">Comments</td>
+								<td align="center"><input type="text" name="filter-Pathway-comments" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Pathway-comments"></td>
+							</tr>
+						</table>
+						</dd><br/>
+						<dt><font size="4"><b>Phosphorylation Site</b></font></dt>
+						<dd>
+						<table border="0" align="center" width="670">
+							<tr>
+								<th>Display</th>
+								<th>Field</th>
+								<th>Filter</th>
+								<th>NOT</th>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Phosphorylation_site-site_id"></td>
+								<td align="center">Phosphorylation Site ID</td>
+								<td align="center"><input type="text" name="filter-Phosphorylation_site-site_id" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Phosphorylation_site-site_id"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Phosphorylation_site-accession_number"></td>
+								<td align="center">Protein Accession Number</td>
+								<td align="center"><input type="text" name="filter-Phosphorylation_site-accession_number" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Phosphorylation_site-accession_number"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Phosphorylation_site-amino_acid"></td>
+								<td align="center">Amino Acid</td>
+								<td align="center">
+									<select name="filter-Phosphorylation_site-amino_acid" selected="">
+										<option value=""> </option>
+										<option value="S">Serine</option>
+										<option value="T">Threonine</option>
+										<option value="Y">Tyrosine</option>
+										<option value="X">Unknown</option>
+									</select>
+								</td>
+								<td align="center"><input type="checkbox" name="not-Phosphorylation_site-amino_acid"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Phosphorylation_site-position"></td>
+								<td align="center">Position</td>
+								<td align="center"><input type="text" name="filter-Phosphorylation_site-position" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Phosphorylation_site-position"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Phosphorylation_site-motif"></td>
+								<td align="center">Motif</td>
+								<td align="center"><input type="text" name="filter-Phosphorylation_site-motif" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Phosphorylation_site-motif"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Phosphorylation_site-reviewed"></td>
+								<td align="center">Reviewed</td>
+								<td align="center">
+									<select name="filter-Phosphorylation_site-reviewed" selected="">
+										<option value=""> </option>
+										<option value="1">Yes</option>
+										<option value="0">No</option>
+									</select>
+								</td>
+								<td align="center"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Phosphorylation_site-updated"></td>
+								<td align="center">Updated</td>
+								<td align="center"></td>
+								<td align="center"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Phosphorylation_site-comments"></td>
+								<td align="center">Comments</td>
+								<td align="center"><input type="text" name="filter-Phosphorylation_site-comments" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Phosphorylation_site-comments"></td>
+							</tr>
+						</table>
+						</dd><br/>
+						<dt><font size="4"><b>Domain</b></font></dt>
+						<dd>
+						<table border="0" align="center" width="670">
+							<tr>
+								<th>Display</th>
+								<th>Field</th>
+								<th>Filter</th>
+								<th>NOT</th>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Domain-pfam_id"></td>
+								<td align="center">PFAM ID</td>
+								<td align="center"><input type="text" name="filter-Domain-pfam_id" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Domain-pfam_id"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Domain-name"></td>
+								<td align="center">Domain Name</td>
+								<td align="center"><input type="text" name="filter-Domain-name" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Domain-name"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Domain-description"></td>
+								<td align="center">Description</td>
+								<td align="center"><input type="text" name="filter-Domain-description" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Domain-description"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Domain-comments"></td>
+								<td align="center">Comments</td>
+								<td align="center"><input type="text" name="filter-Domain-comments" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Domain-comments"></td>
+							</tr>
+						</table>
+						</dd><br/>
+						<dt><font size="4"><b>GO Term</b></font></dt>
+						<dd>
+						<table border="0" align="center" width="670">
+							<tr>
+								<th>Display</th>
+								<th>Field</th>
+								<th>Filter</th>
+								<th>NOT</th>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-GO_term-go_term"></td>
+								<td align="center">GO Term</td>
+								<td align="center"><input type="text" name="filter-GO_term-go_term" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-GO_term-go_term"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-GO_term-name"></td>
+								<td align="center">Name</td>
+								<td align="center"><input type="text" name="filter-GO_term-name" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-GO_term-name"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-GO_term-ontology"></td>
+								<td align="center">Amino Acid</td>
+								<td align="center">
+									<select name="filter-GO_term-ontology" selected="">
+										<option value=""> </option>
+										<option value="B">Biological Process</option>
+										<option value="C">Cellular Component</option>
+										<option value="M">Molecular Function</option>
+										<option value="U">Unknown</option>
+									</select>
+								</td>
+								<td align="center"><input type="checkbox" name="not-GO_term-ontology"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-GO_term-definition"></td>
+								<td align="center">Definition</td>
+								<td align="center"><input type="text" name="filter-GO_term-definition" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-GO_term-definition"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-GO_term-comments"></td>
+								<td align="center">Comments</td>
+								<td align="center"><input type="text" name="filter-GO_term-comments" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-GO_term-comments"></td>
+							</tr>
+						</table>
+						</dd><br/>
+						<dt><font size="4"><b>Organism</b></font></dt>
+						<dd>
+						<table border="0" align="center" width="670">
+							<tr>
+								<th>Display</th>
+								<th>Field</th>
+								<th>Filter</th>
+								<th>NOT</th>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Organism-organism_name"></td>
+								<td align="center">Organism Name</td>
+								<td align="center"><input type="text" name="filter-Organism-organism_name" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Organism-organism_name"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Organism-taxonomic_id"></td>
+								<td align="center">Taxonomic ID</td>
+								<td align="center"><input type="text" name="filter-Organism-taxonomic_id" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Organism-taxonomic_id"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Organism-taxonomic_lineage"></td>
+								<td align="center">Taxonomic Lineage</td>
+								<td align="center"><input type="text" name="filter-Organism-taxonomic_lineage" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Organism-taxonomic_lineage"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Organism-common_name"></td>
+								<td align="center">Common Name</td>
+								<td align="center"><input type="text" name="filter-Organism-common_name" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Organism-common_name"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Organism-organism_domain"></td>
+								<td align="center">Organism Domain</td>
+								<td align="center">
+									<select name="filter-Organism-organism_domain" selected="">
+										<option value=""> </option>
+										<option value="A">Archaea</option>
+										<option value="B">Bacteria</option>
+										<option value="E">Eukarya</option>
+									</select>
+								</td>
+								<td align="center"><input type="checkbox" name="not-Organism-organism_domain"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Organism-organism_type"></td>
+								<td align="center">Organism Type</td>
+								<td align="center">
+									<select name="filter-Organism-organism_type" selected="">
+										<option value=""> </option>
+										<option value="P">Plant</option>
+										<option value="A">Animal</option>
+										<option value="U">Unknown</option>
+									</select>
+								</td>
+								<td align="center"><input type="checkbox" name="not-Organism-organism_type"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Organism-cellularity"></td>
+								<td align="center">Cellularity</td>
+								<td align="center">
+									<select name="filter-Organism-cellularity" selected="">
+										<option value=""> </option>
+										<option value="M">Multicellular</option>
+										<option value="U">Unicellular</option>
+										<option value="X">Unknown</option>
+									</select>
+								</td>
+								<td align="center"><input type="checkbox" name="not-Organism-cellularity"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Organism-comments"></td>
+								<td align="center">Comments</td>
+								<td align="center"><input type="text" name="filter-Organism-comments" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Organism-comments"></td>
+							</tr>
+						</table>
+						</dd><br/>
+						<dt><font size="4"><b>Tree</b></font></dt>
+						<dd>
+						<table border="0" align="center" width="670">
+							<tr>
+								<th>Display</th>
+								<th>Field</th>
+								<th>Filter</th>
+								<th>NOT</th>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Tree-tree_id"></td>
+								<td align="center">Tree ID</td>
+								<td align="center"><input type="text" name="filter-Tree-tree_id" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Tree-tree_id"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Tree-name"></td>
+								<td align="center">Name</td>
+								<td align="center"><input type="text" name="filter-Tree-name" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Tree-name"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Tree-structure"></td>
+								<td align="center">Structure</td>
+								<td align="center"><input type="text" name="filter-Tree-structure" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Tree-structure"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Tree-sql_query"></td>
+								<td align="center">SQL Query</td>
+								<td align="center"><input type="text" name="filter-Tree-sql_query" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Tree-sql_query"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Tree-reviewed"></td>
+								<td align="center">Reviewed</td>
+								<td align="center"><input type="checkbox" name="filter-Tree-reviewed"></td>
+								<td align="center"><input type="checkbox" name="not-Tree-reviewed"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Tree-updated"></td>
+								<td align="center">Updated</td>
+								<td align="center"></td>
+								<td align="center"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Tree-comments"></td>
+								<td align="center">Comments</td>
+								<td align="center"><input type="text" name="filter-Tree-comments" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Tree-comments"></td>
+							</tr>
+						</table>
+						</dd><br/>
+						<dt><font size="4"><b>Reference</b></font></dt>
+						<dd>
+						<table border="0" align="center" width="670">
+							<tr>
+								<th>Display</th>
+								<th>Field</th>
+								<th>Filter</th>
+								<th>NOT</th>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Reference-reference_id"></td>
+								<td align="center">Reference ID</td>
+								<td align="center"><input type="text" name="filter-Reference-reference_id" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Reference-reference_id"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Reference-title"></td>
+								<td align="center">Title</td>
+								<td align="center"><input type="text" name="filter-Reference-title" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Reference-title"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Reference-authors"></td>
+								<td align="center">Authors</td>
+								<td align="center"><input type="text" name="filter-Reference-authors" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Reference-authors"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Reference-location"></td>
+								<td align="center">Location</td>
+								<td align="center"><input type="text" name="filter-Reference-location" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Reference-location"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Reference-comments"></td>
+								<td align="center">Comments</td>
+								<td align="center"><input type="text" name="filter-Reference-comments" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Reference-comments"></td>
+							</tr>
+						</table>
+						</dd><br/>
+						<dt><font size="4"><b>Source</b></font></dt>
+						<dd>
+						<table border="0" align="center" width="670">
+							<tr>
+								<th>Display</th>
+								<th>Field</th>
+								<th>Filter</th>
+								<th>NOT</th>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Source-source_id"></td>
+								<td align="center">Source ID</td>
+								<td align="center"><input type="text" name="filter-Source-source_id" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Source-source_id"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Source-url"></td>
+								<td align="center">Source URL</td>
+								<td align="center"><input type="text" name="filter-Source-url" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Source-url"></td>
+							</tr>
+							<tr>
+								<td align="center"><input type="checkbox" name="display-Source-description"></td>
+								<td align="center">Description</td>
+								<td align="center"><input type="text" name="filter-Source-description" size="40"></td>
+								<td align="center"><input type="checkbox" name="not-Source-description"></td>
+							</tr>
+						</table>
+						</dd><br/>
+					</dl><br/>
+					<input type="submit" value="Advanced Search">
+					</form>
+				</div>

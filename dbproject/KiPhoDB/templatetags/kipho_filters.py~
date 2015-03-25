@@ -1,0 +1,21 @@
+from django.template.defaultfilters import stringfilter
+from django import template
+
+register = template.Library()
+
+@register.filter(name='amino_acid')
+@register.filter(name='protein_type')
+@register.filter(name='ontology')
+@register.filter(name='amino_acid')
+@register.filter(name='amino_acid')
+
+@register.filter(name='reaction_type')
+@stringfilter
+def amino_acid(a):
+	return dict({'S':'Ser','T':'Thr','Y':'Tyr','X':'Unk'}).get(a, '')
+def protein_type(pt):
+	return dict({'K':'Kinase','P':'Phosphatase','D':'Kinase/Phosphatase','O':'Other'}).get(pt, '')
+def ontology(o):
+	return dict({'B':'Biochemical Process','C':'Cellular Component','M':'Molecular Function','U':'Unknown'}).get(o, '')
+def reaction_type(t):
+	return dict({'P':'phosphorylates', 'D':'dephosphorylates', 'U':'unknown reaction',}).get(t, '')

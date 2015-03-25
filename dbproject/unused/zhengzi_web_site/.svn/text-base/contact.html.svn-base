@@ -1,0 +1,375 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" >
+<html  lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="en" />
+    <meta http-equiv="imagetoolbar" content="no" />
+    <meta name="keywords" content="kinase phosphatase" />
+    <meta name="description" content="This is a kinase phosphatase database." />
+    <meta name="author" content="" />
+    <meta name="robots" content="all, follow" />
+    <meta name="googlebot" content="index, follow, snippet, archive" />
+    <link rel="stylesheet" href="./stylesheets/screen.css" type="text/css"  media="screen, projection" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>KiPhoDB-Kinase Phosphatase Database--Contact</title>
+    <style type="text/css">
+<!--
+#Layer1 {
+	position:absolute;
+	width:491px;
+	height:10px;
+	z-index:1;
+	left: 183px;
+	top: 2px;
+	background-color: #EEF7FF;
+}
+#Layer2 {
+	position:absolute;
+	width:548px;
+	height:381px;
+	z-index:2;
+	left: 207px;
+	top: 24px;
+}
+#Layer3 {
+	position:absolute;
+	width:199px;
+	height:406px;
+	z-index:1;
+	left: 2px;
+	top: -1px;
+	background-color: #EAEAEA;
+}
+#Layer4 {
+	position:absolute;
+	width:129px;
+	height:75px;
+	z-index:1;
+	left: 2px;
+	top: 234px;
+}
+#Layer5 {
+	position:absolute;
+	width:176px;
+	height:173px;
+	z-index:1;
+	left: 145px;
+	top: 297px;
+	background-color: #F0FFFF;
+}
+#Layer6 {
+	position:absolute;
+	width:501px;
+	height:361px;
+	z-index:2;
+	left: 196px;
+	top: -86px;
+}
+#Layer7 {
+	position:absolute;
+	width:239px;
+	height:185px;
+	z-index:2;
+	left: 306px;
+	top: 57px;
+	background-color: #FFFFFF;
+}
+#Layer8 {
+	position:absolute;
+	width:166px;
+	height:98px;
+	z-index:1;
+	left: 166px;
+	top: 89px;
+}
+#Layer9 {
+	position:absolute;
+	width:160px;
+	height:84px;
+	z-index:2;
+	left: 353px;
+	top: 10px;
+}
+.STYLE29 {
+	font-family: Raavi;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000039;
+}
+#Layer10 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:2;
+	left: 397px;
+	top: 240px;
+}
+#Layer11 {
+	position:absolute;
+	width:76px;
+	height:31px;
+	z-index:2;
+	left: 0px;
+	top: -32px;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	color: #ECE9D8;
+}
+a:active {
+	text-decoration: none;
+}
+a {
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.STYLE31 {
+	color: #000000;
+	font-weight: bold;
+}
+.STYLE32 {
+	font-size: 11px;
+	font-weight: normal;
+	color: #002F5E;
+}
+.STYLE35 {color: #003264}
+#Layer12 {
+	position:absolute;
+	width:216px;
+	height:203px;
+	z-index:3;
+	left: 228px;
+	top: 360px;
+}
+#Layer13 {
+	position:absolute;
+	width:255px;
+	height:210px;
+	z-index:2;
+	left: 314px;
+	top: 299px;
+}
+.STYLE36 {
+	color: #666666;
+	font-weight: bold;
+}
+.STYLE38 {color: #FF9900}
+-->
+    </style>
+    <script type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v6.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+//-->
+    </script>
+</head>
+  <body>
+  <div class="page">
+      <h3 class="header">
+        <a href="./index.html" title="Home"><img src="images/Header2.jpg" width="688" height="148" /></a></h3>
+      <ul class="topmenu">
+        <li><a href="Help.html" title="help">Help</a><a href="Admin.html" title="Admin">Admin</a></li>       
+        <li>
+        <a href="Database.html" title="Database">Database</a></li>
+        <li>
+        <a href="News.html" title="News">News</a></li>
+      </ul>
+    <div class="main">
+      <div class="bluebox">
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p><a href="#" class="big"></a>
+          </p>
+        <div class="right">
+<div id="Layer4">
+              <form action="Search-Results.209+M505abfa3346.0.html" 
+method="post" enctype="multipart/form-data" name="searchform" id="searchform">
+                <p><img src="images/Search_index.gif" width="73" height="29" /></p>
+                <table cellspacing="0" cellpadding="0" width="91%">
+                  <tbody>
+                    <tr>
+                      <td width="90%"><table cellspacing="0" cellpadding="0" width="168">
+                          <tbody>
+                            <tr>
+                              <td 
+          style="BORDER-RIGHT: #0072ba 1px solid; BORDER-TOP: #0072ba 1px solid; BORDER-LEFT: #0072ba 1px solid; BORDER-BOTTOM: #0072ba 1px solid" 
+          valign="top" width="129"><label>
+                                <input name="textfield" type="text" size="20" maxlength="100" />
+                              </label></td>
+                              <td width="37" valign="center" bgcolor="#0072ba"><input id="searchgo" type="image" 
+            src="images/go.gif" 
+        name="submit" /></td>
+                            </tr>
+                          </tbody>
+                      </table></td>
+                      <td width="10%"><div id="search-links"><a class="link1" title="Advanced Search" 
+      href="http://www.enzolifesciences.com/Advanced-Search.213+M505abfa3346.0.html"></a></div></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </form>
+        </div>
+            <h1 class="greybox-background">&nbsp;</h1>
+            <div class="bluebox" id="Layer1">
+              <h1 align="left" class="STYLE29"> <a href="index.html" class="STYLE29" title="Home">KiPhoDB</a>
+                <label></label>
+-- Contact </h1>
+        </div>
+        <p><a href="#" class="small1"></a></p>
+        <p>&nbsp;</p>
+        <div class="bluebox" id="Layer7">
+              <table width="250" border="0">
+                <tr bgcolor="#ECFFFF">
+                  <td><p class="STYLE31">Email</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td><p class="STYLE31"><a href="mailto:phosphatome-kinome@googlegroups.com" class="STYLE32">phosphatome-kinome@googlegroups.com</a></p>
+                  <p class="STYLE31">&nbsp;</p></td>
+                </tr>
+                <tr bgcolor="#E8FFFF">
+                  <td><span class="STYLE31">Postal Address</span></td>
+                </tr>
+                <tr>
+                  <td><p class="STYLE35">Biochemistry Building<br />
+                    Department of Biological Sciences<br />
+                    Imperial College London <br />
+                    South Kensington<br />
+                  London SW7 2AZ</p>
+                  <p class="STYLE35">&nbsp;</p></td>
+                </tr>
+                <tr bgcolor="#E8FFFF">
+                  <td height="18"><span class="STYLE31">Telephone</span></td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+              </table>
+          </div>
+            </div>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+      </div>
+        <!-- /bluebox-->
+		
+	    <div id="Layer5">
+	      <p><a href="Documentation.html" class="navigation" title="Documentation">Documentation</a></p>
+	      <div id="Layer11"><img src="images/Links_index.gif" width="72" height="30" /></div>
+	      <table width="175" border="1" bordercolor="#999999">
+            <tr>
+              <td width="182">&nbsp;</td>
+            </tr>
+          </table>
+	      <p class="navigation"><a href="Publication.html" class="navigation" title="Publication">Publication</a></p>
+	      <table width="175" border="1" bordercolor="#999999">
+            <tr>
+              <td width="182" bordercolor="#999999">&nbsp;</td>
+            </tr>
+          </table>
+	      <p><a href="Submission.html" class="navigation" title="Submission">Submission</a></p>
+	      <table width="175" border="1" bordercolor="#999999">
+            <tr>
+              <td width="182">&nbsp;</td>
+            </tr>
+          </table>
+	      <p><a href="People.html" class="navigation" title="People">People</a></p>
+	      <table width="175" border="1" bordercolor="#999999">
+            <tr>
+              <td width="182">&nbsp;</td>
+            </tr>
+          </table>
+	      <p><a href="contact.html" class="navigation STYLE38" title="Contact">Contact</a></p>
+	      <table width="175" border="1" bordercolor="#999999">
+            <tr>
+              <td width="182">&nbsp;</td>
+            </tr>
+          </table>
+      </div>
+	    <!-- /bluebox-->
+        <!-- /photos-->
+    </div>
+    <!-- /main-->
+      <div class="footer1">
+        © 2009
+        Database Project 
+        |
+        Kinase Phosphotase Database </a>
+        |
+        <a href="http://www3.imperial.ac.uk/">Imperial College London</a>
+        |
+        <a href="contact.html">Contact us</a>      </div>
+  </div>
+    <!-- /page-->
+    <div class="footer2">
+      &nbsp;
+    </div>
+
+  </body>
+</html>
+

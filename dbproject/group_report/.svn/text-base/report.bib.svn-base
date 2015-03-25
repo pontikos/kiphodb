@@ -1,0 +1,340 @@
+@book{introphosphorylation,
+	title={{Protein Phosphorylation, Parts A and B}},
+	author={{John N. Abelson, Melvin I. Simon, Tony Hunter, Bartholomew M. Sefton}},
+	publisher={Academic Press},
+	month={September},
+	year={1991},
+}
+
+@article{phosphorylation_origins,
+  title={{The origins of protein phosphorylation}},
+  author={Cohen, P.},
+  journal={Nature cell biology},
+  volume={4},
+  pages={E127--E130},
+  year={2002}
+}
+
+@article{kinomics,
+  title={{Kinomics: methods for deciphering the kinome}},
+  author={Johnson, S.A. and Hunter, T.},
+  journal={Nature Methods},
+  volume={2},
+  pages={17--25},
+  year={2005}
+}
+
+@article{phosphoELM,
+  title={{Phospho. ELM: a database of phosphorylation sites update 2008}},
+  author={Diella, F. and Gould, C.M. and Chica, C. and Via, A. and Gibson, T.J.},
+  journal={Nucleic Acids Research},
+  year={2007},
+  publisher={Oxford Univ Press}
+}
+
+@misc{p53tumorsuppressor,
+  title={{The p53 tumor suppressor network is a key responder to microenvironmental components of chronic inflammatory stress}},
+  author={Staib, F. and Robles, A.I. and Varticovski, L. and Wang, X.W. and Zeeberg, B.R. and Sirotin, M. and Zhurkin, V.B. and Hofseth, L.J. and Hussain, S.P. and Weinstein, J.N. and others},
+  journal={Cancer research},
+  volume={65},
+  number={22},
+  pages={10255--10264},
+  year={2005},
+  publisher={AACR}
+}
+
+@article{kinome,
+  title={{The protein kinase complement of the human genome}},
+  author={Manning, G. and Whyte, DB and Martinez, R. and Hunter, T. and Sudarsanam, S.},
+  journal={Science},
+  volume={298},
+  number={5600},
+  pages={1912--1934}, 
+  year={2002}
+}
+
+@article{kinaseinhibitor,
+  title={{A quantitative analysis of kinase inhibitor selectivity}},
+  author={Karaman, M.W. and Herrgard, S. and Treiber, D.K. and Gallant, P. and Atteridge, C.E. and Campbell, B.T. and Chan, K.W. and Ciceri, P. and Davis, M.I. and Edeen, P.T. and others},
+  year={2008},
+  publisher={Nature Publishing Group}
+}
+
+@article{arena2005gak,
+  title={{Genetic analysis of the kinome and phosphatome in cancer}},
+  author={Arena, S. and Benvenuti, S. and Bardelli, A.},
+  journal={Cellular and Molecular Life Sciences (CMLS)},
+  volume={62},
+  number={18},
+  pages={2092--2099},
+  year={2005},
+  publisher={Springer}
+}
+
+@article{networKIN,
+  title={{Systematic discovery of in vivo phosphorylation networks}},
+  author={Linding, R. and Jensen, L.J. and Ostheimer, G.J. and van Vugt, M.A.T.M. and J{\o}rgensen, C. and Miron, I.M. and Diella, F. and Colwill, K. and Taylor, L. and Elder, K. and others},
+  journal={Cell},
+  volume={129},
+  number={7},
+  pages={1415--1426},
+  year={2007},
+  publisher={Elsevier}
+}
+
+@article{gps,
+  title={{GPS: a novel group-based phosphorylation predicting and scoring method}},
+  author={Zhou, F.F. and Xue, Y. and Chen, G.L. and Yao, X.},
+  journal={Biochemical and Biophysical Research Communications},
+  volume={325},
+  number={4},
+  pages={1443--1448},
+  year={2004},
+  publisher={Elsevier}
+}
+
+@article{rlims-p,
+  title={{Literature mining and database annotation of protein phosphorylation using a rule-based system}},
+  author={Hu, ZZ and Narayanaswamy, M. and Ravikumar, KE and Vijay-Shanker, K. and Wu, CH},
+  journal={Bioinformatics},
+  volume={21},
+  number={11},
+  pages={2759--2765},
+  year={2005},
+  publisher={Oxford Univ Press}
+}
+
+@article{phosphoregdb,
+  title={{PhosphoregDB: the tissue and sub-cellular distribution of mammalian protein kinases and phosphatases}},
+  author={Forrest, AR and Taylor, D.F. and Fink, J.L. and Gongora, M.M. and Flegg, C. and Teasdale, R.D. and Suzuki, H. and Kanamori, M. and Kai, C. and Hayashizaki, Y. and others},
+  journal={BMC bioinformatics},
+  volume={7},
+  number={1},
+  pages={82},
+  year={2006},
+  publisher={URI http://www. biomedcentral. com/bmcbioinformatics/}
+}
+
+@article{pseudokinases,
+  title={{Emerging roles of pseudokinases}},
+  author={Boudeau, J. and Miranda-Saavedra, D. and Barton, G.J. and Alessi, D.R.},
+  journal={Trends in Cell Biology},
+  volume={16},
+  number={9},
+  pages={443--452},
+  year={2006},
+  publisher={Elsevier}
+}
+
+@article{MINT,
+  title={{MINT: the Molecular INTeraction database}},
+  author={Chatr-aryamontri, A. and Ceol, A. and Palazzi, L.M. and Nardelli, G. and Schneider, M.V. and Castagnoli, L. and Cesareni, G.},
+  journal={Nucleic acids research},
+  volume={35},
+  number={Database issue},
+  pages={D572},
+  year={2007},
+  publisher={Oxford Univ Press}
+}
+
+@article{PHOSIDA,
+  title={{PHOSIDA (phosphorylation site database): management, structural and evolutionary investigation, and prediction of phosphosites}},
+  author={Gnad, F. and Ren, S. and Cox, J. and Olsen, J. and Macek, B. and Oroshi, M. and Mann, M.},
+  journal={Genome Biology},
+  volume={8},
+  number={11},
+  pages={R250},
+  year={2007}
+}
+
+@article{phosphabase,
+  title={{PhosphaBase: an ontology-driven database resource for protein phosphatases, Proteins (Band 58), Nr. 2}},
+  author={Wolstencroft, KJ and Stevens, R. and Tabernero, L. and Brass, A.},
+  journal={URL: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi},
+  pages={290--4},
+  year={2005}
+}
+
+@article{hendriks2008ptp,
+  title={{Protein tyrosine phosphatases: functional inferences from mouse models and human diseases}},
+  author={Hendriks, W.J.A.J. and Elson, A. and Harroch, S. and Stoker, A.W.},
+  journal={FEBS Journal},
+  volume={275},
+  number={5},
+  pages={816--830},
+  year={2008},
+  publisher={Blackwell Publishing Ltd}
+}
+
+@article{PhyloWidget,
+  title={{PhyloWidget: web-based visualizations for the tree of life.}},
+  author={Jordan G.E. and Piel W.H.},
+  journal={Bioinformatics},
+  volume={24},
+  number={14},
+  pages={1641--1642},
+  year={2008},
+}
+
+@article{PhosphoPoint,
+  title={{PhosphoPOINT: A comprehensive human kinase interactome and phospho-protein database}},
+  author={Yang, C.Y. and Chang, C.H. and Yu, Y.L. and Lin, T.C. and Lee, S.A. and Yen, C.C. and Yang, J.M. and Lai, J.M. and Hong, Y.R. and Tseng, T.L. and Chao, K.M. and Huang C.Y.},
+  journal={Bioinformatics},
+  volume={24},
+  number={16}
+  pages={i14--i20},
+  year={2008},
+}
+
+@article{Reactome,
+  title={{Reactome knowledgebase of human biological pathways and processes}},
+  author={Matthews L and  Gopinath G and   Gillespie M and   Caudy M and   Croft D and  de Bono B and  Garapati P and  Hemish J and   Hermjakob H and   Jassal B and   Kanapin A and   Lewis S and   Mahajan S and   May B and   Schmidt E and  Vastrik I and   Wu G and   Birney E and  Stein L and   D'Eustachio P},
+  journal={Nucleic Acids Res.},
+  volume={37},
+  pages={D619-D622},
+  year={2009},
+}
+
+@article{KEGG,
+  title={{KEGG for linking genomes to life and the environment}},
+  author={Kanehisa M. and   Araki M.and   Goto S.and   Hattori M.and   Hirakawa M.and   Itoh M.and   Katayama T.and   Kawashima S.and   Okuda S.and   Tokimatsu T.and Yamanishi , Y.},
+  journal={Nucleic Acids Res.},
+  volume={36},
+  pages={D480-D484},
+  year={2008},
+}
+
+@article{NCI,
+  title={{PID: The Pathway Interaction Database}},
+  author={{Carl F. Schaefer and  Kira Anthony and   Shiva Krupa and   Jeffrey Buchoff and   Matthew Day and   Timo Hannay and Kenneth H. Buetow}},
+  journal={Nucleic Acids Res.},
+  volume={37},
+  pages={D674-D679},
+  year={2009},
+}
+
+@article{PANTHER,
+  title={{PANTHER: a library of protein families and subfamilies indexed by function}},
+  author={Paul D. Thomas and   Michael J. Campbell and   Anish Kejariwal and   Huaiyu Mi and   Brian Karlak and   Robin Daverman and   Karen Diemer and   Anushya Muruganujan and   Apurva Narechania},
+  journal={Genome Res.}
+  volume={13},
+  pages={2129-2141},
+  year={2003},
+}
+
+@article{aquaporin,
+  title={{Structural mechanism of plant aquaporin gating.}},
+  author={Törnroth-Horsefield, S. and Wang, Y. and Hedfalk, K. and Johanson, U. and Karlsson, M. and Tajkhorshid, E. and Neutze, R. and Kjellbom, P.},
+  journal={Nature},
+  volume={439(7077)},
+  pages={688-94},
+  year={2006},
+}
+
+@article{kinase_evolution,
+  title={{Evolution of protein kinase signaling from yeast to man.}},
+  author={Manning, G. and Plowman, G.D. and Hunter, T. and Sudarsanam, S.},
+  journal={Trends Biochem Sci},
+  volume={27},
+  number={10},
+  pages={514--20},
+  year={2002},
+  publisher={Elsevier},
+}
+
+@article{nuclear_phosphatases,
+  title={{Emerging roles of nuclear protein phosphatases.}},
+  author={Moorhead, G.B. and Trinkle-Mulcahy, L. and Ulke-Lemée, A.},
+  journal={Nat Rev Mol Cell Biol.},
+  volume={8},
+  number={3},
+  pages={234--44},
+  year={2007},
+  publisher={Nature}
+}
+
+@article{tyrosine_phosphatases,
+  title={{Protein tyrosine phosphatases: from genes, to function, to disease}},
+  author={Tonks, N. K.},
+  journal={Nat Rev Mol Cell Biol.},
+  volume={7},
+  number={11},
+  pages={833--46},
+  year={2006},
+  publisher={Nature}
+}
+
+@article{biomart,
+	title={{BioMart- biological queries made easy}},
+	author={Smedley, D. and Haider, S. and Ballester, B. and Holland, R. and London, D. and Thorisson, G. and Kasprzyk, A.},
+	journal={BMC genomics},
+	volume={10},
+	number={1},
+	pages={22},
+	year={2009}
+}
+
+@article{treefam1,
+	title={{TreeFam: 2008 Update.}},
+	author={Ruan J, Li H, Chen Z, Coghlan A, Coin LJ, Guo Y, Hérich?JK, Hu Y, Kristiansen K, Li R, Liu T, Moses A, Qin J, Vang S, Vilella AJ, Ureta-Vidal A, Bolund L, Wang J, Durbin R.},
+	journal={Nucleic Acids Research},
+	volume={36},
+	pages={735--40},
+	year={2008}
+	publisher={Oxford University Press}
+}
+
+@article{treefam2,
+  title={{TreeFam: a curated database of phylogenetic trees of animal gene families.}},
+  author={Li H, Coghlan A, Ruan J, Coin LJ, Hérich?JK, Osmotherly L, Li R, Liu T, Zhang Z, Bolund L, Wong GK, Zheng W, Dehal P, Wang J, Durbin R.},
+  journal={Nucleic Acids Research},
+  volume={34},
+  pages={572--80},
+  year={2006},
+  publisher={Oxford University Press}
+}
+
+@article{phosphosite,
+  title={{PhosphoSite: a bioinformatics resource dedicated to physiological protein phosphorylation}},
+  author={Hornbeck, P.V. and Chabra, I. and Kornhauser, J.M. and Skrzypek, E. and Zhang, B.},
+  journal={Proteomics},
+  volume={4},
+  number={6},
+  year={2004},
+  publisher={WILEY-VCH Verlag Weinheim}
+}
+
+@article{uniprot,
+  title={{The universal protein resource (UniProt)}},
+  author={Bairoch, A. and Apweiler, R. and Wu, C.H. and Barker, W.C. and Boeckmann, B. and Ferro, S. and Gasteiger, E. and Huang, H. and Lopez, R. and Magrane, M. and others},
+  journal={Nucleic Acids Research},
+  volume={33},
+  number={Database Issue},
+  pages={D154},
+  year={2005},
+  publisher={Oxford Univ Press}
+}
+
+@article{go,
+  title={{Gene ontology: Tool for the unification of biology. The Gene Ontology Consortium.}},
+  author={Ashburner, M. and Ball, CA and Blake, JA and Botstein, D. and Butler, H. and Cherry, JM and Davis, AP and Dolinski, K. and Dwight, SS and Eppig, JT and others},
+  journal={Nature genetics},
+  volume={25},
+  number={1},
+  pages={25},
+  year={2000},
+  publisher={BioOne}
+}
+
+
+@article{uniref,
+  title={{UniRef: comprehensive and non-redundant UniProt reference clusters}},
+  author={Suzek, B.E. and Huang, H. and McGarvey, P. and Mazumder, R. and Wu, C.H.},
+  journal={Bioinformatics},
+  volume={23},
+  number={10},
+  pages={1282},
+  year={2007},
+  publisher={Oxford Univ Press}
+}
+

@@ -1,0 +1,78 @@
+{% include "header.html" %}
+
+                                 <div class="main">
+				<div class="bluebox">
+					<h1><a name="Immune signalling pathways"><font color="#888888">Browse Immune Signalling Pathways</font></a></h1><br/>
+					<p>In this section you can browse or perform a search in the various Immune signalling Pathways</p><br/>
+
+
+<p><b><a href='ipathway11?pathway_id__in=["11"]'>T Cell Receptor</a><a href='ipathway11?pathway_id__in=["11"]&substrate_type__in=["Cs"]'>   (Common substrates)</a></p>
+
+</b></p><br/>
+<p><b><a href='ipathway12?pathway_id__in=["12"]'>B Cell Receptor</a><a href='ipathway12?pathway_id__in=["12"]&substrate_type__in=["Cs"]'>  (Common substrates)</a></p>
+
+</b></p><br/>
+<p><b><a href='ipathway13?pathway_id__in=["13"]'>IL-1</a><a href='ipathway13?pathway_id__in=["13"]&substrate_type__in=["Cs"]'>  (Common substrates)<a></p>
+
+
+</b></p><br/>
+<p><b><a href='ipathway14?pathway_id__in=["14"]'>IL-2 </a><a href='ipathway14?pathway_id__in=["14"]&substrate_type__in=["Cs"]'>  (Common substrates)</a></p>
+
+</b></p><br/>
+<p><b><a href='ipathway15?pathway_id__in=["15"]'>IL-3</a><a href='ipathway15?pathway_id__in=["15"]&substrate_type__in=["Cs"]'>  (Common substrates) </a></p>
+
+
+</b></p><br/>
+<p><b><a href='ipathway16?pathway_id__in=["16"]'>IL-4</a><a href='ipathway16?pathway_id__in=["16"]&substrate_type__in=["Cs"]'>  (Common substrates)</a></p>
+
+
+
+</b></p><br/>
+<p><b><a href='ipathway17?pathway_id__in=["17"]'>IL-5</a><a href='ipathway17?pathway_id__in=["17"]&substrate_type__in=["Cs"]'>  (Common substrates)</a></p>
+
+
+
+</b></p><br/>
+<p><b><a href='ipathway18?pathway_id__in=["18"]'>IL-6</a><a href='ipathway18?pathway_id__in=["18"]&substrate_type__in=["Cs"]'>  ( Common substrates)</a></p>
+
+
+</b></p><br/>
+<p><b><a href='ipathway19?pathway_id__in=["19"]'>IL-7</a><a href='ipathway19?pathway_id__in=["19"]&substrate_type__in=["Cs"]'>  (Common substrates)</a></p>
+
+
+</b></p><br/>
+<p><b><a href='ipathway20?pathway_id__in=["20"]'>IL-9</a><a href='ipathway20?pathway_id__in=["20"]&substrate_type__in=["Cs"]'>  (Common substrates)</a></p>
+
+
+
+</b></p><br/>
+
+
+
+
+
+<br/>
+
+
+
+
+
+
+					<p><b>Search for a Gene Family</b></p><br/>
+					<form name="searchFamilies" method="post" action="results.html">
+						<input type="text" name="searchString" onfocus="if (this.value=='Enter a keyword or accession number...') {this.value=''}" value="Enter a keyword or accession number..." size="40">
+						<input type="submit" value="GO"><br/><br/>
+						<table border="0" align="center" width="670">
+							<tr>
+								<td><input type="checkbox" name="search" value="genename"/> Keyword</td>
+								<td><input type="checkbox" name="search" value="gene"/> Gene Name</td>
+								<td><input type="checkbox" name="search" value="treefam_id"/> Treefam ID</td>
+							</tr>
+						</table>
+					</form><br/>
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+
+{% include "footer.html" %}

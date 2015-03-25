@@ -1,0 +1,59 @@
+{% include "header.html" %}
+
+			<div class="main">
+				<div class="bluebox">
+					{% if error %}
+						<h1>ERROR!</h1><br/>
+						The following error occurred:
+						<i>{{error}}</i>
+					{% else %}
+						<h1>Reference Information</h1><br/>
+						<h2>PUBMED ID</h2>
+						{{reference.reference_id}}<br/><br/><br/>
+						<h2>Title</h2>
+						{{reference.title}}<br/><br/><br/>
+						<h2>Authors</h2>
+						{{reference.authors}}<br/><br/><br/>
+						<h2>Location</h2>
+						{{reference.location}}<br/><br/><br/>
+						<h2>Comments</h2>
+						{%if not reference.comments%}
+						No Comments
+						{%else%}
+						{{reference.comments}}
+						{%endif%}<br/><br/><br/>
+						<h2>Links</h2>
+						This reference is linked to the following database objects:<br/><br/>
+						{%for protein in proteins%}
+						<a href="protein?accession_number={{protein.accession_number}}">{{protein}}</a><br/>
+						{%endfor%}
+						{%for site in phosphorylation_sites%}
+						<a href="phosphorylation_site/{{site}}">{{site}}</a><br/>
+						{%endfor%}
+						{%for domain in domains%}
+						<a href="../domain/{{domain}}">{{domain}}</a><br/>
+						{%endfor%}
+						{%for pathway in pathways%}
+						<a href="../pathway/{{pathway}}">{{pathway}}</a><br/>
+						{%endfor%}
+						{%for reaction in reactionss%}
+						<a href="../reaction/{{reaction}}">{{reaction}}</a><br/>
+						{%endfor%}
+						{%for tree in trees%}
+						<a href="../tree/{{tree}}">{{tree}}</a><br/>
+						{%endfor%}
+						{%for go_term in go_terms%}
+						<a href="../go_term/{{go_term}}">{{go_term}}</a><br/>
+						{%endfor%}
+						<br/><br/>
+					{% endif %}
+
+					<div class="cleaner">
+						&nbsp;
+					</div>
+				</div>
+			</div>
+		</div>
+
+{% include "footer.html" %}
+
